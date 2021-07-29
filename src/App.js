@@ -14,7 +14,7 @@ const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 // const Resume = lazy(() => 'https://docs.google.com/file/d/1qqonJSXekYe2KGUkvk_soJ_LYcY7PCx5/preview');
-const Stats = lazy(() => import('./pages/Stats'));
+const College = lazy(() => import('./pages/College'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -23,7 +23,7 @@ const App = () => (
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
-        <Route path="/stats" component={Stats} />
+        <Route path="/college" component={College} />
         <Route path="/contact" component={Contact} />
         <Route
           path="/resume"

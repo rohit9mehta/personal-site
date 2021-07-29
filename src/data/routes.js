@@ -16,10 +16,10 @@ const routes = [
     label: 'Projects',
     path: '/projects',
   },
-  {
-    label: 'Stats',
-    path: '/stats',
-  },
+  // {
+  //   label: 'College',
+  //   path: '/college',
+  // },
   {
     label: 'Contact',
     path: '/contact',
