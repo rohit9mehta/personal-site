@@ -13,7 +13,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
-const Resume = lazy(() => import('./pages/Resume'));
+// const Resume = lazy(() => 'https://docs.google.com/file/d/1qqonJSXekYe2KGUkvk_soJ_LYcY7PCx5/preview');
 const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
@@ -25,7 +25,15 @@ const App = () => (
         <Route path="/projects" component={Projects} />
         <Route path="/stats" component={Stats} />
         <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Route
+          path="/resume"
+          component={
+            () => {
+              window.location.replace('https://docs.google.com/file/d/1qqonJSXekYe2KGUkvk_soJ_LYcY7PCx5/preview');
+              return null;
+            }
+          }
+        />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
