@@ -491,7 +491,16 @@
   "blue-beagle-coffee--santa-rosa-ca": {
     "name": "Blue Beagle Coffee",
     "city": "Santa Rosa, CA",
-    "address": "Larkfield Shopping Center, Santa Rosa, CA 95403"
+    "address": "Larkfield Shopping Center, Santa Rosa, CA 95403",
+    "lat": 38.4404925,
+    "lng": -122.7141049,
+    "precision": "city",
+    "locality": "Santa Rosa",
+    "region": "California",
+    "country": "United States",
+    "countryCode": "us",
+    "source": "nominatim",
+    "checked": "2026-10-21"
   },
   "blue-bottle-coffee--berkeley-ca": {
     "name": "Blue Bottle Coffee",
@@ -616,7 +625,19 @@
   "browntown-roastery-cafe--jamshedpur-india": {
     "name": "Browntown Roastery Cafe",
     "city": "Jamshedpur, India",
-    "address": "Bistupur, Jamshedpur"
+    "address": "Bistupur, Jamshedpur",
+    "lat": 22.7971927,
+    "lng": 86.1768457,
+    "precision": "address",
+    "street": "Inner Circle Road",
+    "postcode": "831001",
+    "locality": "Jamshedpur",
+    "region": "Jharkhand",
+    "country": "India",
+    "countryCode": "in",
+    "osm": "way/1172777268",
+    "source": "nominatim",
+    "checked": "2026-10-21"
   },
   "cafe-angolo--san-francisco-ca": {
     "name": "Cafe Angolo",
@@ -3228,7 +3249,16 @@
   "sams-general-store--calistoga-ca": {
     "name": "Sam’s General Store",
     "city": "Calistoga, CA",
-    "address": "Wappo Avenue, Calistoga, CA 94515"
+    "address": "Wappo Avenue, Calistoga, CA 94515",
+    "lat": 38.5787966,
+    "lng": -122.579705,
+    "precision": "city",
+    "locality": "Calistoga",
+    "region": "California",
+    "country": "United States",
+    "countryCode": "us",
+    "source": "nominatim",
+    "checked": "2026-10-21"
   },
   "sanaa-cafe--san-francisco-ca": {
     "name": "Sana’a Cafe",
@@ -3645,7 +3675,19 @@
   "the-coffee-den--mumbai-india": {
     "name": "The Coffee Den",
     "city": "Mumbai, India",
-    "address": "Kalbadevi, Mumbai"
+    "address": "Kalbadevi, Mumbai",
+    "lat": 18.9492575,
+    "lng": 72.8279382,
+    "precision": "address",
+    "postcode": "400002",
+    "neighborhood": "Kalbadevi",
+    "locality": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "in",
+    "osm": "node/620427148",
+    "source": "nominatim",
+    "checked": "2026-10-21"
   },
   "the-coffee-movement--san-francisco-ca": {
     "name": "The Coffee Movement",
