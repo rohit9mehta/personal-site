@@ -132,6 +132,11 @@
   opacity: 0.22;
 }
 
+/* The catch-all "under 6" bar sits a little apart from the rest. */
+.histo__bar--below {
+  margin-right: 6px;
+}
+
 .histo__axis {
   display: flex;
   justify-content: space-between;

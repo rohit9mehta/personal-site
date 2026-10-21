@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import type { Shop } from '../../../lib/dataset.ts';
-import { histogram } from '../model.ts';
+import { histogram, type Bucket } from '../model.ts';
 import { formatScore, scoreColor } from '../score.ts';
 
 interface Props {
@@ -9,24 +9,23 @@ interface Props {
   onMinScore: (min: number | null) => void;
 }
 
-const STEP = 0.5;
-
 /** Score distribution that doubles as a "this good or better" filter. */
 export function Histogram({ shops, minScore, onMinScore }: Props) {
-  const buckets = useMemo(() => histogram(shops, STEP), [shops]);
+  const buckets = useMemo(() => histogram(shops), [shops]);
   const [hover, setHover] = useState<number | null>(null);
   if (buckets.length < 2) return null;
   const peak = Math.max(...buckets.map((b) => b.count));
   const hovered = hover === null ? null : buckets[hover];
-  const first = buckets[0]!.from;
-  const last = buckets[buckets.length - 1]!.from;
+  const first = buckets[0]!;
+  const last = buckets[buckets.length - 1]!;
+  const cafes = (n: number) => `${n} ${n === 1 ? 'café' : 'cafés'}`;
+  const range = (b: Bucket) => (b.below ? `Under ${formatScore(b.to)}` : `${formatScore(b.from)}–${formatScore(b.to)}`);
 
   let caption: string;
   if (hovered) {
-    caption = `${formatScore(hovered.from)}–${formatScore(hovered.from + STEP)}: ${hovered.count} ${hovered.count === 1 ? 'café' : 'cafés'}`;
+    caption = `${range(hovered)}: ${cafes(hovered.count)}`;
   } else if (minScore !== null) {
-    const n = shops.filter((s) => s.score >= minScore).length;
-    caption = `${n} rated ${formatScore(minScore)} or higher`;
+    caption = `${cafes(shops.filter((s) => s.score >= minScore).length)} rated ${formatScore(minScore)} or higher`;
   } else {
     caption = 'Pick a bar to see only scores that high or higher';
   }
@@ -44,15 +43,19 @@ export function Histogram({ shops, minScore, onMinScore }: Props) {
       >
         {buckets.map((b, i) => {
           const active = minScore === null || b.from >= minScore;
-          const pressed = minScore === b.from;
+          const pressed = !b.below && minScore === b.from;
           return (
             <button
               key={b.from}
               type="button"
-              className={`histo__bar${active ? '' : ' is-muted'}`}
+              className={`histo__bar${active ? '' : ' is-muted'}${b.below ? ' histo__bar--below' : ''}`}
               aria-pressed={pressed}
-              aria-label={`${formatScore(b.from)} and up (${b.count} at ${formatScore(b.from)}–${formatScore(b.from + STEP)})`}
-              onClick={() => onMinScore(pressed ? null : b.from)}
+              aria-label={
+                b.below
+                  ? `${range(b)}: ${cafes(b.count)}. Show every score`
+                  : `${formatScore(b.from)} and up (${cafes(b.count)} at ${range(b)})`
+              }
+              onClick={() => onMinScore(b.below || pressed ? null : b.from)}
               onMouseEnter={() => setHover(i)}
               onFocus={() => setHover(i)}
               onBlur={() => setHover(null)}
@@ -61,7 +64,7 @@ export function Histogram({ shops, minScore, onMinScore }: Props) {
                 className="histo__fill"
                 style={{
                   height: b.count ? `${Math.max(6, (b.count / peak) * 100)}%` : '2px',
-                  background: b.count ? scoreColor(b.from) : 'var(--rule)',
+                  background: b.count ? scoreColor(b.below ? 0 : b.from) : 'var(--rule)',
                 }}
               />
             </button>
@@ -69,8 +72,8 @@ export function Histogram({ shops, minScore, onMinScore }: Props) {
         })}
       </div>
       <div className="histo__axis" aria-hidden="true">
-        <span>{formatScore(first)}</span>
-        <span>{formatScore(last + STEP)}</span>
+        <span>{first.below ? `< ${formatScore(first.to)}` : formatScore(first.from)}</span>
+        <span>{formatScore(last.to)}</span>
       </div>
     </figure>
   );

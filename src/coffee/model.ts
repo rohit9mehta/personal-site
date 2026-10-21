@@ -114,16 +114,34 @@ export function computeStats(shops: Shop[]): Stats {
   };
 }
 
-/** Histogram buckets of width `step` covering every score present. */
-export function histogram(shops: Shop[], step = 0.5): { from: number; count: number }[] {
+export interface Bucket {
+  /** Lower edge; the first bucket may instead collect everything below `floor`. */
+  from: number;
+  to: number;
+  count: number;
+  /** True for the catch-all "under <floor>" bucket. */
+  below?: true;
+}
+
+/**
+ * Histogram of scores in buckets of width `step`. Scores under `floor` share
+ * one leading bucket, so a few very low outliers don't squash the rest.
+ */
+export function histogram(shops: Shop[], step = 0.25, floor = 6): Bucket[] {
   if (!shops.length) return [];
   const scores = shops.map((s) => s.score);
-  const lo = Math.floor(Math.min(...scores) / step) * step;
-  const hi = Math.floor(Math.max(...scores) / step) * step;
-  const buckets: { from: number; count: number }[] = [];
-  for (let from = lo; from <= hi + 1e-9; from += step) buckets.push({ from: Math.round(from * 100) / 100, count: 0 });
+  const min = Math.min(...scores);
+  const lo = Math.max(floor, Math.floor(min / step) * step);
+  const hi = Math.floor(Math.max(...scores, lo) / step) * step;
+  const buckets: Bucket[] = [];
+  if (min < lo) buckets.push({ from: 0, to: lo, count: 0, below: true });
+  for (let from = lo; from <= hi + 1e-9; from += step) {
+    const edge = Math.round(from * 100) / 100;
+    buckets.push({ from: edge, to: Math.round((edge + step) * 100) / 100, count: 0 });
+  }
+  const offset = buckets[0]?.below ? 1 : 0;
   for (const score of scores) {
-    const i = Math.min(buckets.length - 1, Math.floor((score - lo) / step + 1e-9));
+    const i = score < lo ? 0 : Math.min(buckets.length - 1, offset + Math.floor((score - lo) / step + 1e-9));
     buckets[i]!.count++;
   }
   return buckets;
