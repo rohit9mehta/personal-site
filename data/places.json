@@ -69,54 +69,22 @@
   "aldens-coffee--new-york-ny": {
     "name": "Alden’s Coffee",
     "city": "New York, NY",
-    "lat": 40.7127281,
-    "lng": -74.0060152,
-    "precision": "city",
-    "locality": "New York",
-    "region": "New York",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "8 Spring Street, New York, NY 10012"
   },
   "almare-gelato-italiano--berkeley-ca": {
     "name": "Almare Gelato Italiano",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2170 Shattuck Avenue, Berkeley, CA 94704"
   },
   "always-awake-coffee--san-francisco-ca": {
     "name": "Always Awake Coffee",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "611 Post Street, San Francisco, CA 94109"
   },
   "amp-coffee--los-angeles-ca": {
     "name": "Amp Coffee",
     "city": "Los Angeles, CA",
-    "lat": 34.0536923,
-    "lng": -118.2427676,
-    "precision": "city",
-    "locality": "Los Angeles",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "5259 Lankershim Boulevard, North Hollywood, CA 91601"
   },
   "amped-coffee-company--anthem-az": {
     "name": "Amped Coffee Company",
@@ -218,15 +186,7 @@
   "aroma-cafe--san-rafael-ca": {
     "name": "Aroma Cafe",
     "city": "San Rafael, CA",
-    "lat": 37.9747795,
-    "lng": -122.5316686,
-    "precision": "city",
-    "locality": "San Rafael",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1122 4th Street, San Rafael, CA 94901"
   },
   "aroma-roasters--santa-rosa-ca": {
     "name": "A’Roma Roasters",
@@ -244,18 +204,10 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
-  "arvici--new-york-ny": {
-    "name": "Arvici",
+  "arvaci-coffee--new-york-ny": {
+    "name": "Arvaci Coffee",
     "city": "New York, NY",
-    "lat": 40.7127281,
-    "lng": -74.0060152,
-    "precision": "city",
-    "locality": "New York",
-    "region": "New York",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "340 West 37th Street, New York, NY 10018"
   },
   "avid-coffee--santa-rosa-ca": {
     "name": "Avid Coffee",
@@ -310,15 +262,7 @@
   "backzeit-bakery--zermatt-switzerland": {
     "name": "Backzeit Bakery",
     "city": "Zermatt, Switzerland",
-    "lat": 46.0212076,
-    "lng": 7.749254,
-    "precision": "city",
-    "locality": "Zermatt",
-    "region": "Valais/Wallis",
-    "country": "Switzerland",
-    "countryCode": "ch",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Riedstrasse 9, 3920 Zermatt"
   },
   "bad-ass-coffee--santa-rosa-ca": {
     "name": "Bad Ass Coffee",
@@ -361,15 +305,7 @@
   "bartavelle-cafe--berkeley-ca": {
     "name": "Bartavelle Cafe",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1621 San Pablo Avenue, Berkeley, CA 94702"
   },
   "bazaar-cafe--san-francisco-ca": {
     "name": "Bazaar Cafe",
@@ -441,15 +377,7 @@
   "blue-beagle-coffee--santa-rosa-ca": {
     "name": "Blue Beagle Coffee",
     "city": "Santa Rosa, CA",
-    "lat": 38.4404925,
-    "lng": -122.7141049,
-    "precision": "city",
-    "locality": "Santa Rosa",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "540 Larkfield Center, Santa Rosa, CA 95403"
   },
   "blue-bottle-coffee--berkeley-ca": {
     "name": "Blue Bottle Coffee",
@@ -539,41 +467,17 @@
   "brew-coffee-and-brewhouse--santa-rosa-ca": {
     "name": "Brew Coffee and Brewhouse",
     "city": "Santa Rosa, CA",
-    "lat": 38.4404925,
-    "lng": -122.7141049,
-    "precision": "city",
-    "locality": "Santa Rosa",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "555 Healdsburg Avenue, Santa Rosa, CA 95401"
   },
   "brewed-awakening--berkeley-ca": {
     "name": "Brewed Awakening",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1807 Euclid Avenue, Berkeley, CA 94709"
   },
   "browntown-roastery-cafe--jamshedpur-india": {
     "name": "Browntown Roastery Cafe",
     "city": "Jamshedpur, India",
-    "lat": 22.8015194,
-    "lng": 86.2029579,
-    "precision": "city",
-    "locality": "Jamshedpur",
-    "region": "Jharkhand",
-    "country": "India",
-    "countryCode": "in",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "K Road, Bistupur, Jamshedpur 831001"
   },
   "cafe-angolo--san-francisco-ca": {
     "name": "Cafe Angolo",
@@ -611,15 +515,7 @@
   "cafe-blue-door--berkeley-ca": {
     "name": "Cafe Blue Door",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2244 Bancroft Way, Berkeley, CA 94704"
   },
   "cafe-buenos-aires--berkeley-ca": {
     "name": "Cafe Buenos Aires",
@@ -679,15 +575,7 @@
   "cafe-frida-gallery--santa-rosa-ca": {
     "name": "Café Frida Gallery",
     "city": "Santa Rosa, CA",
-    "lat": 38.4404925,
-    "lng": -122.7141049,
-    "precision": "city",
-    "locality": "Santa Rosa",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "300 South A Street, Santa Rosa, CA 95401"
   },
   "cafe-isabella--san-francisco-ca": {
     "name": "Cafe Isabella",
@@ -723,18 +611,10 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
-  "cafe-sebastien--san-francisco-ca": {
-    "name": "Cafe Sebastien",
+  "cafe-sebastian--san-francisco-ca": {
+    "name": "Café Sebastian",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "545 Sansome Street, San Francisco, CA 94111"
   },
   "cafenated-coffee-co--oakland-ca": {
     "name": "Cafenated Coffee Co.",
@@ -806,15 +686,7 @@
   "caffe-retro--fiumicino-italy": {
     "name": "Caffe Retro",
     "city": "Fiumicino, Italy",
-    "lat": 41.7712145,
-    "lng": 12.2278855,
-    "precision": "city",
-    "locality": "Fiumicino",
-    "region": "Lazio",
-    "country": "Italy",
-    "countryCode": "it",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Via Giovanni Cena 12, 00054 Fiumicino"
   },
   "caffe-strada--berkeley-ca": {
     "name": "Caffe Strada",
@@ -853,15 +725,7 @@
   "caffetteria-san-marco--milan-italy": {
     "name": "Caffetteria San Marco",
     "city": "Milan, Italy",
-    "lat": 45.4641943,
-    "lng": 9.1896346,
-    "precision": "city",
-    "locality": "Milan",
-    "region": "Lombardy",
-    "country": "Italy",
-    "countryCode": "it",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Piazza San Marco 1, 20121 Milano"
   },
   "caffino-drive-thru--santa-clara-ca": {
     "name": "Caffino Drive Thru",
@@ -899,41 +763,17 @@
   "cara-vana-coffee-shop--north-hollywood-ca": {
     "name": "Cara Vana Coffee Shop",
     "city": "North Hollywood, CA",
-    "lat": 34.1649502,
-    "lng": -118.374752,
-    "precision": "city",
-    "locality": "Los Angeles",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "5629 Lankershim Boulevard, North Hollywood, CA 91601"
   },
   "carmel-valley-coffee-roasting-company--carmel-ca": {
     "name": "Carmel Valley Coffee Roasting Company",
     "city": "Carmel, CA",
-    "lat": 36.5552656,
-    "lng": -121.923278,
-    "precision": "city",
-    "locality": "Carmel-by-the-Sea",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Ocean Avenue, Carmel-by-the-Sea, CA 93921"
   },
   "cassava-cafe--san-francisco-ca": {
     "name": "Cassava Cafe",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "633 Battery Street, San Francisco, CA 94111"
   },
   "cento-coffee-systeme-d--san-francisco-ca": {
     "name": "Cento Coffee Systeme D",
@@ -1019,15 +859,7 @@
   "coffee-bean-and-tea-leaf--pismo-beach-ca": {
     "name": "Coffee Bean & Tea Leaf",
     "city": "Pismo Beach, CA",
-    "lat": 35.1427436,
-    "lng": -120.641288,
-    "precision": "city",
-    "locality": "Pismo Beach",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "354 Five Cities Drive, Pismo Beach, CA 93449"
   },
   "coffee-bodega--san-francisco-ca": {
     "name": "Coffee Bodega",
@@ -1066,15 +898,7 @@
   "coffee-labs-roasters-inc--tarrytown-ny": {
     "name": "Coffee Labs Roasters Inc",
     "city": "Tarrytown, NY",
-    "lat": 41.0762077,
-    "lng": -73.8587461,
-    "precision": "city",
-    "locality": "Village of Tarrytown",
-    "region": "New York",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "7 Main Street, Tarrytown, NY 10591"
   },
   "coffee-roastery--san-anselmo-ca": {
     "name": "Coffee Roastery",
@@ -1095,15 +919,7 @@
   "coffee-x-bread--berkeley-ca": {
     "name": "Coffee x Bread",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2101 San Pablo Avenue, Berkeley, CA 94702"
   },
   "coffeeshop--san-francisco-ca": {
     "name": "CoffeeShop",
@@ -1141,15 +957,7 @@
   "common-grounds--dubai-uae": {
     "name": "Common Grounds",
     "city": "Dubai, UAE",
-    "lat": 25.2647227,
-    "lng": 55.2924146,
-    "precision": "city",
-    "locality": "Dubai",
-    "region": "Dubai Emirate",
-    "country": "United Arab Emirates",
-    "countryCode": "ae",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Mall of the Emirates, Al Barsha 1, Dubai"
   },
   "coro-coffee-room--berkeley-ca": {
     "name": "CoRo Coffee Room",
@@ -1308,27 +1116,12 @@
   "dive-bar-coffee--sonoma-ca": {
     "name": "Dive Bar Coffee",
     "city": "Sonoma, CA",
-    "lat": 38.5110803,
-    "lng": -122.8473388,
-    "precision": "city",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "18709 Arnold Drive, Sonoma, CA 95476"
   },
   "dr-insomniacs-fine-coffee--novato-ca": {
     "name": "Dr. Insomniac’s Fine Coffee",
     "city": "Novato, CA",
-    "lat": 38.1061979,
-    "lng": -122.5681191,
-    "precision": "city",
-    "locality": "Novato",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "800 Grant Avenue, Novato, CA 94945"
   },
   "east-west-cafe--santa-rosa-ca": {
     "name": "East West Cafe",
@@ -1415,31 +1208,12 @@
   "equator-coffee--larkspur-ca": {
     "name": "Equator Coffee",
     "city": "Larkspur, CA",
-    "lat": 37.9058975,
-    "lng": -122.5484883,
-    "precision": "exact",
-    "street": "Throckmorton Avenue",
-    "postcode": "94941",
-    "locality": "Mill Valley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "osm": "way/544914080",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "240 Magnolia Avenue, Larkspur, CA 94939"
   },
   "espressioso--santa-rosa-ca": {
     "name": "Espressioso",
     "city": "Santa Rosa, CA",
-    "lat": 38.4404925,
-    "lng": -122.7141049,
-    "precision": "city",
-    "locality": "Santa Rosa",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "529 4th Street, Santa Rosa, CA 95401"
   },
   "espresso-stand--san-francisco-ca": {
     "name": "Espresso Stand",
@@ -1541,15 +1315,7 @@
   "fox-and-kit--san-rafael-ca": {
     "name": "Fox & Kit",
     "city": "San Rafael, CA",
-    "lat": 37.9747795,
-    "lng": -122.5316686,
-    "precision": "city",
-    "locality": "San Rafael",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1031 C Street, San Rafael, CA 94901"
   },
   "fresh-brew-coffee--san-francisco-ca": {
     "name": "Fresh Brew Coffee",
@@ -1571,20 +1337,15 @@
   "fsm--berkeley-ca": {
     "name": "FSM",
     "city": "Berkeley, CA",
-    "address": "Moffitt Library",
-    "lat": 37.873349,
-    "lng": -122.2598416,
+    "address": "Moffitt Library, UC Berkeley",
+    "lat": 37.8726,
+    "lng": -122.2609,
     "precision": "address",
-    "street": "University Drive",
-    "postcode": "94720",
-    "neighborhood": "Northside",
-    "locality": "Berkeley",
+    "neighborhood": "UC Berkeley",
     "region": "California",
     "country": "United States",
     "countryCode": "us",
-    "osm": "node/2525093187",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "source": "manual"
   },
   "gadani--berkeley-ca": {
     "name": "Gadani",
@@ -1606,15 +1367,7 @@
   "gallery-cafe--san-francisco-ca": {
     "name": "Gallery Cafe",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1200 Mason Street, San Francisco, CA 94108"
   },
   "gasoline-alley-coffee--new-york-ny": {
     "name": "Gasoline Alley Coffee",
@@ -1670,15 +1423,7 @@
   "goldies-coffee--berkeley-ca": {
     "name": "Goldie’s Coffee",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2495 Bancroft Way, Berkeley, CA 94720"
   },
   "goodthing-coffee--burlingame-ca": {
     "name": "Goodthing Coffee",
@@ -1717,15 +1462,7 @@
   "grand-central-coffee--petaluma-ca": {
     "name": "Grand Central Coffee",
     "city": "Petaluma, CA",
-    "lat": 38.2325829,
-    "lng": -122.636465,
-    "precision": "city",
-    "locality": "Petaluma",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "226 Weller Street, Petaluma, CA 94952"
   },
   "grand-coffee--san-francisco-ca": {
     "name": "Grand Coffee",
@@ -1813,28 +1550,12 @@
   "helia--geneva-switzerland": {
     "name": "Helia",
     "city": "Geneva, Switzerland",
-    "lat": 46.2017559,
-    "lng": 6.1466014,
-    "precision": "city",
-    "locality": "Geneva",
-    "region": "Geneva",
-    "country": "Switzerland",
-    "countryCode": "ch",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Place du Bourg-de-Four 14, 1204 Genève"
   },
   "hidden-coffee-roasters--barcelona-spain": {
     "name": "Hidden Coffee Roasters",
     "city": "Barcelona, Spain",
-    "lat": 41.3825802,
-    "lng": 2.177073,
-    "precision": "city",
-    "locality": "Barcelona",
-    "region": "Catalonia",
-    "country": "Spain",
-    "countryCode": "es",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Carrer dels Canvis Vells 10, 08003 Barcelona"
   },
   "home-coffee-roasters--san-francisco-ca": {
     "name": "Home Coffee Roasters",
@@ -1856,35 +1577,12 @@
   "honey-honey-cafe--san-francisco-ca": {
     "name": "Honey Honey Cafe",
     "city": "San Francisco, CA",
-    "lat": 37.7819876,
-    "lng": -122.4828651,
-    "precision": "exact",
-    "street": "23rd Avenue",
-    "postcode": "94121",
-    "neighborhood": "Seacliff",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "osm": "node/6441733973",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "599 Post Street, San Francisco, CA 94102"
   },
   "illy--san-francisco-ca": {
     "name": "illy",
     "city": "San Francisco, CA",
-    "lat": 37.6128187,
-    "lng": -122.3847671,
-    "precision": "exact",
-    "street": "Departures",
-    "postcode": "94128",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "osm": "relation/15720547",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "220 Montgomery Street, San Francisco, CA 94104"
   },
   "jane-on-larkin--san-francisco-ca": {
     "name": "Jane on Larkin",
@@ -1957,32 +1655,12 @@
   "kamson-coffee--san-rafael-ca": {
     "name": "Kamson Coffee",
     "city": "San Rafael, CA",
-    "lat": 37.9747795,
-    "lng": -122.5316686,
-    "precision": "city",
-    "locality": "San Rafael",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "819 Francisco Boulevard West, San Rafael, CA 94901"
   },
   "kopi-bar--walnut-creek-ca": {
     "name": "Kopi Bar",
     "city": "Walnut Creek, CA",
-    "lat": 37.8707031,
-    "lng": -122.2662223,
-    "precision": "exact",
-    "street": "2155 Center Street",
-    "postcode": "94704",
-    "neighborhood": "Downtown Berkeley",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "osm": "node/13078872137",
-    "source": "photon",
-    "checked": "2026-10-21"
+    "address": "1522 North Main Street, Walnut Creek, CA 94596"
   },
   "ks-coffee--berkeley-ca": {
     "name": "K’s Coffee",
@@ -2055,15 +1733,7 @@
   "la-palmeraie-lounge--calistoga-ca": {
     "name": "La Palmeraie Lounge",
     "city": "Calistoga, CA",
-    "lat": 38.5787966,
-    "lng": -122.579705,
-    "precision": "city",
-    "locality": "Calistoga",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1712 Lincoln Avenue, Calistoga, CA 94515"
   },
   "land-and-water--santa-rosa-ca": {
     "name": "Land and Water",
@@ -2084,15 +1754,7 @@
   "lavazza-coffee-machine--domodossola-italy": {
     "name": "Lavazza Coffee Machine",
     "city": "Domodossola, Italy",
-    "lat": 46.1152451,
-    "lng": 8.2920459,
-    "precision": "city",
-    "locality": "Domodossola",
-    "region": "Piedmont",
-    "country": "Italy",
-    "countryCode": "it",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Piazza Giacomo Matteotti, 28845 Domodossola"
   },
   "le-cafe--mumbai-india": {
     "name": "Le Cafe",
@@ -2131,15 +1793,7 @@
   "lightwave-coffee-and-kitchen--monte-rio-ca": {
     "name": "Lightwave Coffee and Kitchen",
     "city": "Monte Rio, CA",
-    "lat": 38.4649781,
-    "lng": -123.009977,
-    "precision": "city",
-    "locality": "Monte Rio",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "9725 Main Street, Monte Rio, CA 95462"
   },
   "linea-caffe--san-francisco-ca": {
     "name": "Linea Caffe",
@@ -2149,15 +1803,7 @@
   "longway--san-anselmo-ca": {
     "name": "LONGWAY",
     "city": "San Anselmo, CA",
-    "lat": 37.9744323,
-    "lng": -122.561503,
-    "precision": "city",
-    "locality": "San Anselmo",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "641 San Anselmo Avenue, San Anselmo, CA 94960"
   },
   "marin-coffee-roasters--novato-ca": {
     "name": "Marin Coffee Roasters",
@@ -2228,15 +1874,7 @@
   "monoblend-coffee--new-york-ny": {
     "name": "Monoblend Coffee",
     "city": "New York, NY",
-    "lat": 40.7127281,
-    "lng": -74.0060152,
-    "precision": "city",
-    "locality": "New York",
-    "region": "New York",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "142 West 23rd Street, New York, NY 10011"
   },
   "monorail-espresso--seattle-wa": {
     "name": "Monorail Espresso",
@@ -2258,15 +1896,7 @@
   "morethancoffee--barcelona-spain": {
     "name": "MoreThanCoffee",
     "city": "Barcelona, Spain",
-    "lat": 41.3825802,
-    "lng": 2.177073,
-    "precision": "city",
-    "locality": "Barcelona",
-    "region": "Catalonia",
-    "country": "Spain",
-    "countryCode": "es",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Carrer de Tarragona 123, 08014 Barcelona"
   },
   "mother-tongue-coffee--oakland-ca": {
     "name": "Mother Tongue Coffee",
@@ -2288,27 +1918,12 @@
   "motoring-coffee--san-francisco-ca": {
     "name": "Motoring Coffee",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1525 Union Street, San Francisco, CA 94123"
   },
   "moulin--napa-ca": {
     "name": "Moulin",
     "city": "Napa, CA",
-    "lat": 38.4898675,
-    "lng": -122.3218414,
-    "precision": "city",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1321 1st Street, Napa, CA 94559"
   },
   "my-coffee-roastery--berkeley-ca": {
     "name": "MY Coffee Roastery",
@@ -2379,27 +1994,12 @@
   "noor-specialty-coffee--barcelona-spain": {
     "name": "Noor Specialty Coffee",
     "city": "Barcelona, Spain",
-    "lat": 41.3825802,
-    "lng": 2.177073,
-    "precision": "city",
-    "locality": "Barcelona",
-    "region": "Catalonia",
-    "country": "Spain",
-    "countryCode": "es",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Plaça de la Llana 16, 08003 Barcelona"
   },
   "ohm-coffee-roasters--napa-ca": {
     "name": "Ohm Coffee Roasters",
     "city": "Napa, CA",
-    "lat": 38.4898675,
-    "lng": -122.3218414,
-    "precision": "city",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1412 2nd Street, Napa, CA 94559"
   },
   "olive-and-ivy--phoenix-az": {
     "name": "Olive & Ivy",
@@ -2421,41 +2021,17 @@
   "one-plus--berkeley-ca": {
     "name": "One Plus",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2161 Allston Way, Berkeley, CA 94704"
   },
   "osom-coffee-cantine--madrid-spain": {
     "name": "Osom Coffee Cantine",
     "city": "Madrid, Spain",
-    "lat": 40.416782,
-    "lng": -3.703507,
-    "precision": "city",
-    "locality": "Madrid",
-    "region": "Community of Madrid",
-    "country": "Spain",
-    "countryCode": "es",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Calle de Moratín 38, 28014 Madrid"
   },
   "outset-coffee--san-francisco-ca": {
     "name": "Outset Coffee",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "790 Valencia Street, San Francisco, CA 94110"
   },
   "pages-and-sips--geneva-switzerland": {
     "name": "Pages and Sips",
@@ -2510,19 +2086,7 @@
   "peaky-barista--new-york-ny": {
     "name": "Peaky Barista",
     "city": "New York, NY",
-    "lat": 40.790594,
-    "lng": -73.9689247,
-    "precision": "exact",
-    "street": "667 Columbus Avenue",
-    "postcode": "10025",
-    "neighborhood": "Manhattan Community Board 7",
-    "locality": "New York",
-    "region": "New York",
-    "country": "United States",
-    "countryCode": "us",
-    "osm": "node/11820360453",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2680 Broadway, New York, NY 10025"
   },
   "petit-royal--zermatt-switzerland": {
     "name": "Petit Royal",
@@ -2560,15 +2124,7 @@
   "pillowfight-coffee--kenwood-ca": {
     "name": "Pillowfight Coffee",
     "city": "Kenwood, CA",
-    "lat": 38.4138005,
-    "lng": -122.546093,
-    "precision": "city",
-    "locality": "Kenwood",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "8910 Sonoma Highway, Kenwood, CA 95452"
   },
   "pixlcat-coffee--san-francisco-ca": {
     "name": "Pixlcat Coffee",
@@ -2689,15 +2245,7 @@
   "pune-sugar-box--pune-india": {
     "name": "Pune Sugar Box",
     "city": "Pune, India",
-    "lat": 18.5213738,
-    "lng": 73.8545071,
-    "precision": "city",
-    "locality": "Pune",
-    "region": "Maharashtra",
-    "country": "India",
-    "countryCode": "in",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "7 Mangaldas Road, Pune 411001"
   },
   "quail-and-condor--healdsburg-ca": {
     "name": "Quail & Condor",
@@ -2718,15 +2266,7 @@
   "rainier-valley-coffee-co--puyallup-wa": {
     "name": "Rainier Valley Coffee Co",
     "city": "Puyallup, WA",
-    "lat": 47.1849009,
-    "lng": -122.29214,
-    "precision": "city",
-    "locality": "Puyallup",
-    "region": "Washington",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "108 North Meridian, Puyallup, WA 98371"
   },
   "raleys--truckee-ca": {
     "name": "Raley’s",
@@ -2747,15 +2287,7 @@
   "rasa-caffe--berkeley-ca": {
     "name": "Rasa Caffe",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "3140 Martin Luther King Junior Way, Berkeley, CA 94703"
   },
   "red-bay-coffee--san-francisco-ca": {
     "name": "Red Bay Coffee",
@@ -2777,28 +2309,12 @@
   "red-door-coffee--san-francisco-ca": {
     "name": "Red Door Coffee",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "111 Minna Street, San Francisco, CA 94105"
   },
   "red-whale-coffee--san-rafael-ca": {
     "name": "Red Whale Coffee",
     "city": "San Rafael, CA",
-    "lat": 37.9747795,
-    "lng": -122.5316686,
-    "precision": "city",
-    "locality": "San Rafael",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "169 Paul Drive, San Rafael, CA 94903"
   },
   "retrograde-coffee-roasters--sebastopol-ca": {
     "name": "Retrograde Coffee Roasters",
@@ -2853,18 +2369,7 @@
   "roasters-specialty-coffee-house--dubai-uae": {
     "name": "Roasters Specialty Coffee House",
     "city": "Dubai, UAE",
-    "lat": 25.1409525,
-    "lng": 55.2263394,
-    "precision": "exact",
-    "street": "Warehouse 15 Alserkal Avenue",
-    "neighborhood": "Al Quoz Community",
-    "locality": "Dubai",
-    "region": "Dubai",
-    "country": "United Arab Emirates",
-    "countryCode": "ae",
-    "osm": "way/1463956688",
-    "source": "photon",
-    "checked": "2026-10-21"
+    "address": "Al Wasl Road, Jumeirah 2, Dubai"
   },
   "romeos-coffee--berkeley-ca": {
     "name": "Romeo’s Coffee",
@@ -2954,15 +2459,7 @@
   "sams-general-store--calistoga-ca": {
     "name": "Sam’s General Store",
     "city": "Calistoga, CA",
-    "lat": 38.5787966,
-    "lng": -122.579705,
-    "precision": "city",
-    "locality": "Calistoga",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "109 Wappo Avenue, Calistoga, CA 94515"
   },
   "sanaa-cafe--san-francisco-ca": {
     "name": "Sana’a Cafe",
@@ -3034,28 +2531,12 @@
   "scullery--san-francisco-ca": {
     "name": "Scullery",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "687 Geary Street, San Francisco, CA 94102"
   },
   "side-characters--san-francisco-ca": {
     "name": "Side Characters",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2216 Polk Street, San Francisco, CA 94109"
   },
   "simple-pleasures-cafe--san-francisco-ca": {
     "name": "Simple Pleasures Cafe",
@@ -3077,15 +2558,7 @@
   "sisterita--san-francisco-ca": {
     "name": "Sisterita",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "669 Commercial Street, San Francisco, CA 94111"
   },
   "sodoi-coffee-tasting-house--berkeley-ca": {
     "name": "Sodoi Coffee Tasting House",
@@ -3107,28 +2580,12 @@
   "soon-and-soon-souvenir-shop--san-francisco-ca": {
     "name": "Soon & Soon Souvenir Shop",
     "city": "San Francisco, CA",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "precision": "city",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "731 Grant Avenue, San Francisco, CA 94108"
   },
   "soul-rebel-coffee--calistoga-ca": {
     "name": "Soul Rebel Coffee",
     "city": "Calistoga, CA",
-    "lat": 38.5787966,
-    "lng": -122.579705,
-    "precision": "city",
-    "locality": "Calistoga",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2450 Foothill Boulevard, Calistoga, CA 94515"
   },
   "souvenir-coffee--san-francisco-ca": {
     "name": "Souvenir Coffee",
@@ -3218,15 +2675,7 @@
   "sugar-bakery-and-coffeehouse--seattle-wa": {
     "name": "Sugar Bakery and Coffeehouse",
     "city": "Seattle, WA",
-    "lat": 47.6038321,
-    "lng": -122.330062,
-    "precision": "city",
-    "locality": "Seattle",
-    "region": "Washington",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "110 Republican Street, Seattle, WA 98109"
   },
   "syra-coffee--barcelona-spain": {
     "name": "Syra Coffee",
@@ -3281,15 +2730,7 @@
   "the-apple-pie-cafe-and-bakery--ambleside-uk": {
     "name": "The Apple Pie Cafe and Bakery",
     "city": "Ambleside, UK",
-    "lat": 54.431954,
-    "lng": -2.9630528,
-    "precision": "city",
-    "locality": "Ambleside",
-    "region": "England",
-    "country": "United Kingdom",
-    "countryCode": "gb",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Rydal Road, Ambleside LA22 9AN"
   },
   "the-coffee-berry--san-francisco-ca": {
     "name": "The Coffee Berry",
@@ -3311,15 +2752,7 @@
   "the-coffee-builders--phoenix-az": {
     "name": "The Coffee Builders",
     "city": "Phoenix, AZ",
-    "lat": 33.4484367,
-    "lng": -112.074141,
-    "precision": "city",
-    "locality": "Phoenix",
-    "region": "Arizona",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "901 South 7th Street, Phoenix, AZ 85034"
   },
   "the-coffee-club--dubai-uae": {
     "name": "The Coffee Club",
@@ -3340,15 +2773,7 @@
   "the-coffee-den--mumbai-india": {
     "name": "The Coffee Den",
     "city": "Mumbai, India",
-    "lat": 19.054999,
-    "lng": 72.8692035,
-    "precision": "city",
-    "locality": "Mumbai",
-    "region": "Maharashtra",
-    "country": "India",
-    "countryCode": "in",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Vithalwadi, Kalbadevi, Mumbai 400002"
   },
   "the-coffee-movement--san-francisco-ca": {
     "name": "The Coffee Movement",
@@ -3370,32 +2795,18 @@
   "the-crown-royal-coffee-lab--oakland-ca": {
     "name": "The Crown: Royal Coffee Lab",
     "city": "Oakland, CA",
-    "lat": 37.8044557,
-    "lng": -122.271356,
-    "precision": "city",
-    "locality": "Oakland",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2523 Broadway, Oakland, CA 94612"
   },
   "the-cup--san-francisco-ca": {
     "name": "The Cup",
     "city": "San Francisco, CA",
-    "lat": 37.7986234,
-    "lng": -122.4221616,
-    "precision": "exact",
-    "street": "Polk Street",
-    "postcode": "90214",
-    "neighborhood": "Russian Hill",
-    "locality": "San Francisco",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "precision": "city",
     "region": "California",
     "country": "United States",
     "countryCode": "us",
-    "osm": "node/2167144980",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "source": "manual"
   },
   "the-grove--san-francisco-ca": {
     "name": "The Grove",
@@ -3450,28 +2861,12 @@
   "the-mind-coffee--berkeley-ca": {
     "name": "The Mind Coffee",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "1816 Euclid Avenue, Berkeley, CA 94709"
   },
   "the-musical-offering-cafe--berkeley-ca": {
     "name": "The Musical Offering Cafe",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2430 Bancroft Way, Berkeley, CA 94704"
   },
   "the-perch-twitter--san-francisco-ca": {
     "name": "The Perch @ Twitter",
@@ -3663,15 +3058,7 @@
   "uplift-cafe--stateline-nv": {
     "name": "Uplift Cafe",
     "city": "Stateline, NV",
-    "lat": 38.9630669,
-    "lng": -119.939946,
-    "precision": "city",
-    "locality": "Stateline",
-    "region": "Nevada",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "180 Lake Parkway, Stateline, NV 89449"
   },
   "vanilla-gorilla-cafe--new-york-ny": {
     "name": "Vanilla Gorilla Cafe",
@@ -3778,28 +3165,12 @@
   "wildflour-bakery--freestone-ca": {
     "name": "Wildflour Bakery",
     "city": "Freestone, CA",
-    "lat": 38.3724152,
-    "lng": -122.9155516,
-    "precision": "city",
-    "locality": "Freestone",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "140 Bohemian Highway, Freestone, CA 95472"
   },
   "windmill-coffee-house--berkeley-ca": {
     "name": "Windmill Coffee House",
     "city": "Berkeley, CA",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "2131 Durant Avenue, Berkeley, CA 94704"
   },
   "xiloteca--barcelona-spain": {
     "name": "Xiloteca",
@@ -3821,16 +3192,15 @@
   "yalis-at-stanley-hall--berkeley-ca": {
     "name": "Yali’s at Stanley Hall",
     "city": "Berkeley, CA",
-    "address": "Stanley Hall, University of California",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "precision": "city",
-    "locality": "Berkeley",
+    "address": "Stanley Hall, UC Berkeley",
+    "lat": 37.8741,
+    "lng": -122.2563,
+    "precision": "address",
+    "neighborhood": "UC Berkeley",
     "region": "California",
     "country": "United States",
     "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "source": "manual"
   },
   "yalis-at-sutardja-dai--berkeley-ca": {
     "name": "Yali’s at Sutardja Dai",

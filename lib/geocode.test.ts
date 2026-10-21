@@ -26,6 +26,15 @@ describe('nameSimilarity', () => {
   ])('%j does not match %j', (a, b) => expect(nameSimilarity(a, b)).toBeLessThan(0.6));
 });
 
+describe('nameSimilarity (strict)', () => {
+  it('needs most of the found name to match too', () => {
+    expect(nameSimilarity('Café du Clown', 'La Crêpe Rit du Clown')).toBeGreaterThanOrEqual(0.6);
+    expect(nameSimilarity('Café du Clown', 'La Crêpe Rit du Clown', true)).toBeLessThan(0.75);
+    expect(nameSimilarity('Blue Bottle Coffee', 'Blue Bottle Coffee', true)).toBe(1);
+    expect(nameSimilarity('Sightglass', 'Sightglass Coffee Roasters', true)).toBe(1);
+  });
+});
+
 describe('placeQueries', () => {
   it('spells out US states, Canadian provinces and countries', () => {
     expect(placeQueries('San Francisco, CA')).toEqual([

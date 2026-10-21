@@ -96,8 +96,12 @@ function levenshtein(a: string, b: string): number {
   return row[b.length]!;
 }
 
-/** 0–1: how well an OSM name matches the name Rohit wrote down. */
-export function nameSimilarity(wanted: string, found: string): number {
+/**
+ * 0–1: how well an OSM name matches the name Rohit wrote down. `strict` also
+ * requires most of the OSM name to be accounted for, so "Café du Clown" no
+ * longer matches "La Crêpe Rit du Clown".
+ */
+export function nameSimilarity(wanted: string, found: string, strict = false): number {
   const all = tokens(wanted);
   const core = all.filter((t) => !NAME_NOISE.has(t));
   const want = core.length ? core : all;
@@ -105,7 +109,9 @@ export function nameSimilarity(wanted: string, found: string): number {
   const gotCore = gotAll.filter((t) => !NAME_NOISE.has(t));
   const got = new Set(gotCore.length ? gotCore : gotAll);
   if (!want.length || !got.size) return 0;
-  const coverage = want.filter((t) => got.has(t)).length / want.length;
+  const forward = want.filter((t) => got.has(t)).length / want.length;
+  const backward = [...got].filter((t) => want.includes(t)).length / got.size;
+  const coverage = strict ? Math.min(forward, backward) : forward;
   const a = want.join('');
   const b = [...got].join('');
   // Typos and spacing ("Sight Glass" / "Sightglass"); only near-identical counts.
@@ -409,14 +415,19 @@ export class Geocoder {
     };
   }
 
-  private pick(name: string, candidates: Candidate[], near: { lat: number; lng: number; km: number }): GeoHit | null {
+  /** `strict` when a written address already pins the spot: only a clearly matching name may move it. */
+  private pick(
+    name: string,
+    candidates: Candidate[],
+    near: { lat: number; lng: number; km: number; strict?: boolean },
+  ): GeoHit | null {
     let best: { score: number; candidate: Candidate } | null = null;
     for (const c of candidates) {
       if (distanceKm(near.lat, near.lng, c.lat, c.lng) > near.km) continue;
       const bonus = kindBonus(c.kind);
       if (bonus < 0) continue;
-      const similarity = nameSimilarity(name, c.name);
-      if (similarity < 0.6) continue;
+      const similarity = nameSimilarity(name, c.name, near.strict);
+      if (similarity < (near.strict ? 0.75 : 0.6)) continue;
       const score = similarity + bonus + c.importance * 0.1;
       if (!best || score > best.score) best = { score, candidate: c };
     }
@@ -469,7 +480,7 @@ export class Geocoder {
       }
     }
     const near = addressHit
-      ? { lat: addressHit.lat, lng: addressHit.lng, km: 0.5 }
+      ? { lat: addressHit.lat, lng: addressHit.lng, km: 0.5, strict: true }
       : { lat: area.lat, lng: area.lng, km: area.radiusKm };
 
     const free = await this.nominatim('/search', { q: `${name}, ${area.query}`, limit: '10' });
