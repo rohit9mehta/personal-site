@@ -1,0 +1,32 @@
+name: Log a coffee
+description: Add a coffee shop rating to One Sip.
+title: "☕"
+labels: [coffee]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Café
+      placeholder: Sightglass Coffee
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: City
+      placeholder: San Francisco
+    validations:
+      required: true
+  - type: input
+    id: score
+    attributes:
+      label: Score
+      description: Out of 10. Decimals are fine.
+      placeholder: "8.5"
+    validations:
+      required: true
+  - type: input
+    id: note
+    attributes:
+      label: Note
+      description: Optional — what you had, what stood out.

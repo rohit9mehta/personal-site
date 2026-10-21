@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f2ea" />
+    <title>Rohit Mehta</title>
+    <meta name="description" content="Rohit Mehta's personal site." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <main class="home">
+      <header class="home__header">
+        <h1 class="home__name">Rohit Mehta</h1>
+        <nav class="home__links" aria-label="Elsewhere">
+          <a href="https://github.com/rohit9mehta">GitHub</a>
+          <a href="https://www.linkedin.com/in/rohit9mehta">LinkedIn</a>
+        </nav>
+      </header>
+
+      <a class="feature" href="coffee/">
+        <div class="feature__map" id="preview" aria-hidden="true"></div>
+        <div class="feature__body">
+          <p class="feature__kicker">Project</p>
+          <h2 class="feature__title">One Sip</h2>
+          <p class="feature__text" id="summary">Coffee shops around the world, rated out of ten.</p>
+          <span class="feature__cta">Open the map <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </main>
+    <script type="module" src="/src/home/main.ts"></script>
+  </body>
+</html>

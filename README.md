@@ -1,58 +1,85 @@
-# Personal Website
+# romehta — personal site & One Sip
 
-See: [mldangelo.com](https://mldangelo.com).
+My personal site, and **One Sip**: a map of every coffee shop I've rated, out of ten.
 
-My personal website. An [MIT](https://github.com/mldangelo/personal-site/blob/main/LICENSE) licensed, simple, easily modifiable, statically-exportable [React](https://reactjs.org/), [Jamstack](https://jamstack.org/) application that deploys automatically for free using [github pages](https://pages.github.com/). Built using modern javascript, based on [create-react-app](https://github.com/facebook/create-react-app) with [React-Router](https://reactrouter.com/), SCSS, [github actions](https://github.com/features/actions), and many other useful technologies.
+- Site: https://rohit9mehta.github.io/personal-site/
+- One Sip: https://rohit9mehta.github.io/personal-site/coffee/
 
-## Adapting this Project
+## Logging a coffee
 
-Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below and review **detailed notes and a checklist on adapting this project [here](./docs/adapting-guide.md)**. Please feel free to reach out to me by filing an issue or emailing me at [help@mldangelo.com](mailto:help@mldangelo.com) for help configuring your project.
+All the ratings live in one file: [`data/coffee.csv`](data/coffee.csv). Add a line, commit to `main`, and the site
+updates itself in a couple of minutes. No coordinates, no addresses — just:
 
-## Contributing
+```csv
+name,city,score,date,note
+Sightglass Coffee,San Francisco,8.5,2026-10-21,
+```
 
-Contributions are actively encouraged. Please review the [design goals](./docs/design-goals.md), [roadmap](./docs/roadmap.md), and [contributing guidelines](./docs/contributing.md). If you find a bug, please email me, submit a pull request (I'll buy you a coffee as a thank you), or submit an issue.
+- `name`, `city`, `score` (0–10, decimals fine) are required. `date` (YYYY-MM-DD) and `note` are optional — leave
+  them off entirely if you like: `Sightglass Coffee,San Francisco,8.5`
+- If a value contains a comma, wrap it in double quotes: `"Coffee, Etc.","Portland, OR",7`
+- Went back? Add another line with the same name and city. The newest line is the current score; the map shows the
+  history.
 
-## Dependencies
+**Three easy ways to make that commit:**
 
-Tested with: [node](https://nodejs.org/) >= v12 and optional [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for managing node versions.
+1. **On GitHub** (works on a phone): open [`data/coffee.csv`](data/coffee.csv), tap ✏️, add a line at the bottom,
+   _Commit changes_.
+2. **Fill in a form**: [Log a coffee](../../issues/new?template=log-coffee.yml) opens a three-field form; submitting
+   it adds the line, commits, redeploys, and replies with a link to the new pin. (Only works for issues you open.)
+   Bookmark it on your phone's home screen.
+3. **Ask Claude**: "log Sightglass in San Francisco, 8.5" — see [CLAUDE.md](CLAUDE.md).
 
-## Set up
+### What happens after you push
 
-To download the repository and install dependencies, run the following commands:
+The [Deploy workflow](.github/workflows/deploy.yml) checks the CSV (a typo fails the run with the exact line and
+problem), looks up any new café on OpenStreetMap, saves what it found to
+[`data/places.json`](data/places.json), builds the site and publishes it to GitHub Pages. The run's summary page
+lists each newly located café with a map link so you can sanity-check it.
+
+### When a pin is in the wrong place
+
+The lookup uses the café name and city. For chains, or cafés OpenStreetMap doesn't know, it may pick the wrong branch
+or fall back to the city center (shown as a hollow pin, "approximate"). To fix one, find its entry in
+`data/places.json` and either:
+
+- add the street address and delete `lat`/`lng` — the next deploy re-locates it from the address:
+  `"address": "66 Mint St"`; or
+- set `lat`/`lng` yourself (right-click → "What's here?" in Google Maps) and `"source": "manual"`.
+
+To re-try every approximate café (OpenStreetMap keeps improving), run the Deploy workflow by hand from the Actions tab
+with **Retry cafés that are only placed at their city center** ticked.
+
+## Developing
+
+Needs Node 22.18+ (24 recommended).
 
 ```bash
-git clone git://github.com/mldangelo/personal-site.git # replace [mldangelo] with your github username if you fork first.
-cd personal-site
-nvm install # this is optional - make sure you're running >= node 12 with `node --version`
 npm install
+npm run dev                              # http://localhost:5173/ and /coffee/
+COFFEE_DATA=fixtures/sample npm run dev  # with made-up sample data
+npm run check                            # typecheck + lint + tests
+npm run validate                         # check data/coffee.csv
+npm run enrich                           # locate new cafés (needs internet)
+npm run build                            # static site in dist/
 ```
 
-## Running
+### How it's put together
 
-Run the following command to build the react application and serve it with fast refresh:
+- **Vite + React + TypeScript**, two pages: `/` (`index.html`, `src/home`) and `/coffee/` (`coffee/index.html`,
+  `src/coffee`).
+- **Data**: `lib/vite-plugin-coffee.ts` reads the CSV and places file at build time and hands the app a validated
+  dataset (`virtual:coffee-data`), so the published site is fully static.
+- **Map**: [MapLibre GL](https://maplibre.org/) with a custom paper-toned style (`src/coffee/map/style.ts`) on free
+  [OpenFreeMap](https://openfreemap.org/) vector tiles; a bundled Natural Earth outline draws the world instantly.
+  Pins are HTML markers clustered with supercluster (`src/coffee/map/markers.ts`).
+- **Geocoding**: `lib/geocode.ts` — Nominatim, then Photon, checked against the city's location and the café's name.
+  Results are cached in `data/places.json`, so each café is looked up once.
+- Scores are colored on a single latte→espresso ramp (`src/coffee/score.ts`), checked for contrast against the map.
 
-```bash
-npm start
-```
+### One-time setup
 
-Your web browser should automatically open to `<ip>:<port>:<path>` default: [http://localhost:3000/](http://localhost:3000/).
+GitHub Pages must be set to deploy from Actions: **Settings → Pages → Build and deployment → Source: GitHub
+Actions**. To use a custom domain, add it on that page; the build picks up the new base path automatically.
 
-## Deploying
-
-### Deploying to Github Pages
-
-1. Modify the environmental variables and git remote url in [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml).
-2. Modify `homepage` in `package.json` to point to where you plan to host your site. If you do not plan on using a custom domain name, it should look like `https://[your-gh-username].github.io/[repository-name - default:personal-site]/`
-3. If you plan on using a custom domain, modify `public/CNAME`. If you don't, delete `public/CNAME`.
-
-Make a commit to `main` and push your changes. That's it.
-
-### Static Export
-
-To statically export the site without deploying to github pages, delete or disable `.github/workflows/github-pages.yml` and run `npm run predeploy`. This generates a static export of the website as `personal-site/build/`. Copy this and self-host or deploy to a CDN.
-
-## Acknowledgements
-
-* Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
-* Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-* [@notrueblood](https://github.com/notrueblood)[<sup>[1]</sup>](https://github.com/mldangelo/personal-site/pull/218) and [@sjhsieh](https://github.com/sjhsieh)[<sup>[2]</sup>](https://github.com/mldangelo/personal-site/issues/168) for keeping my ego in check.
+The 2021 version of this site (a React template) is kept in [`legacy/`](legacy) for reference.

@@ -1,0 +1,80 @@
+# Every push to main: check the ratings, locate any new coffee shops (and save
+# their locations back to the repo), build the site and publish it to Pages.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      retry_approx:
+        description: Retry cafés that are only placed at their city center
+        type: boolean
+        default: false
+  workflow_call:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # Always the newest main, including locations saved by earlier runs.
+          ref: main
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check data/coffee.csv
+        run: npm run validate
+
+      - name: Locate new coffee shops
+        run: npm run enrich -- --prune ${{ inputs.retry_approx && '--retry-approx' || '' }}
+
+      - name: Save locations
+        run: |
+          if [ -n "$(git status --porcelain data/places.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/places.json
+            git commit -m "Locate new coffee shops"
+            git push origin HEAD:main
+          fi
+
+      - name: Typecheck, lint, test
+        run: npm run check
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        run: npm run build
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}coffee/
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

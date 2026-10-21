@@ -1,0 +1,11 @@
+dist
+legacy
+node_modules
+package-lock.json
+data/places.json
+fixtures/sample/places.json
+data/coffee.csv
+fixtures/sample/coffee.csv
+.github
+README.md
+CLAUDE.md
