@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { Shop } from '../../../lib/dataset.ts';
+import { placeLine } from './ShopList.tsx';
 import { SCORE_STEPS, SCORE_THRESHOLDS, formatScore, scoreColor, stepColor } from '../score.ts';
 
 interface Props {
@@ -63,7 +64,7 @@ export function ShopDetail({ shop, total, tiedWith, onClose }: Props) {
   const country = shop.country && !shop.city.toLowerCase().includes(shop.country.toLowerCase()) ? shop.country : null;
   const place = shop.multiLocation
     ? 'Rated across its locations'
-    : [shop.neighborhood, shop.city, country].filter(Boolean).join(' · ');
+    : [placeLine(shop), country].filter(Boolean).join(' · ');
 
   const share = async () => {
     const url = window.location.href;

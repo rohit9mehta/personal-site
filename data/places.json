@@ -356,15 +356,7 @@
   "barnum-roma--rome-italy": {
     "name": "Barnum Roma",
     "city": "Rome, Italy",
-    "lat": 41.8933203,
-    "lng": 12.4829321,
-    "precision": "city",
-    "locality": "Rome",
-    "region": "Lazio",
-    "country": "Italy",
-    "countryCode": "it",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Via del Pellegrino 87"
   },
   "bartavelle-cafe--berkeley-ca": {
     "name": "Bartavelle Cafe",
@@ -682,19 +674,7 @@
   "cafe-du-clown--paris-france": {
     "name": "Café du Clown",
     "city": "Paris, France",
-    "lat": 48.852403,
-    "lng": 2.3336126,
-    "precision": "exact",
-    "street": "Rue des Canettes",
-    "postcode": "75006",
-    "neighborhood": "Paris",
-    "locality": "Paris",
-    "region": "Île-de-France",
-    "country": "France",
-    "countryCode": "fr",
-    "osm": "node/9765386730",
-    "source": "photon",
-    "checked": "2026-10-21"
+    "address": "6 Rue Lobineau"
   },
   "cafe-frida-gallery--santa-rosa-ca": {
     "name": "Café Frida Gallery",
@@ -1270,22 +1250,10 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
-  "de-koffie-schenkerij--amsterdam-netherlands": {
-    "name": "de koffie schenkerij",
+  "de-koffieschenkerij--amsterdam-netherlands": {
+    "name": "De Koffieschenkerij",
     "city": "Amsterdam, Netherlands",
-    "lat": 52.3612868,
-    "lng": 4.8991751,
-    "precision": "exact",
-    "street": "Utrechtsestraat 130",
-    "postcode": "1017 VT",
-    "neighborhood": "Centrum",
-    "locality": "Amsterdam",
-    "region": "North Holland",
-    "country": "Netherlands",
-    "countryCode": "nl",
-    "osm": "node/2086266380",
-    "source": "photon",
-    "checked": "2026-10-21"
+    "address": "Oudekerksplein 27"
   },
   "delah-coffee--san-francisco-ca": {
     "name": "Delah Coffee",
@@ -2176,19 +2144,7 @@
   "linea-caffe--san-francisco-ca": {
     "name": "Linea Caffe",
     "city": "San Francisco, CA",
-    "lat": 37.7636615,
-    "lng": -122.3951406,
-    "precision": "exact",
-    "street": "1125 Mariposa Street",
-    "postcode": "94107",
-    "neighborhood": "Dogpatch",
-    "locality": "San Francisco",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "osm": "way/267277641",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "3417 18th Street"
   },
   "longway--san-anselmo-ca": {
     "name": "LONGWAY",
@@ -2860,8 +2816,8 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
-  "reve--new-york-ny": {
-    "name": "Réve",
+  "reve-coffee--new-york-ny": {
+    "name": "Rêve Coffee",
     "city": "New York, NY",
     "lat": 40.7444041,
     "lng": -73.9937144,
@@ -2927,8 +2883,8 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
-  "rosterie-kaffee-und-bar--bern-switzerland": {
-    "name": "Rösterie Kaffee Und Bar",
+  "rosterei-kaffee-und-bar--bern-switzerland": {
+    "name": "Rösterei Kaffee und Bar",
     "city": "Bern, Switzerland",
     "lat": 46.953513,
     "lng": 7.4326204,

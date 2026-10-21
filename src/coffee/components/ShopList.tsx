@@ -12,9 +12,12 @@ interface Props {
   onHover: (id: string | null) => void;
 }
 
+/** "Mission · San Francisco, CA" — skipping a neighborhood the city already names. */
 export function placeLine(shop: Shop): string {
   if (shop.multiLocation) return 'Multiple locations';
-  return [shop.neighborhood, shop.city].filter(Boolean).join(' · ');
+  const town = shop.city.split(',')[0]!.trim().toLowerCase();
+  const hood = shop.neighborhood && shop.neighborhood.toLowerCase() !== town ? shop.neighborhood : undefined;
+  return [hood, shop.city].filter(Boolean).join(' · ');
 }
 
 const Row = memo(function Row({
