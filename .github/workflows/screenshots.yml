@@ -28,6 +28,11 @@ jobs:
           npx vite preview --port 4173 --strictPort &
           sleep 3
           node scripts/dev/screenshot.ts http://localhost:4173/ shots /usr/bin/google-chrome
+      - name: Geocoder smoke test against live OpenStreetMap
+        run: |
+          mkdir -p /tmp/geo && cp fixtures/geocode-smoke/coffee.csv /tmp/geo/
+          COFFEE_DATA=/tmp/geo npm run enrich 2>&1 | tee shots/geocode.txt
+          cp /tmp/geo/places.json shots/geocode-places.json
       - name: Publish
         run: |
           cd shots
