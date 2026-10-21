@@ -170,17 +170,19 @@ export class MarkerLayer {
     el.type = 'button';
     el.className = 'pin';
     el.tabIndex = -1;
-    el.setAttribute('aria-label', `${shop.name}, ${formatScore(shop.score)} out of 10`);
     el.style.setProperty('--pin-color', scoreColor(shop.score));
     el.style.setProperty('--pin-ink', scoreInk(shop.score));
     if (shop.precision === 'city') el.classList.add('pin--approx');
     const score = document.createElement('span');
     score.className = 'pin__score';
     score.textContent = formatScore(shop.score);
+    const outOf = document.createElement('span');
+    outOf.className = 'visually-hidden';
+    outOf.textContent = ' out of 10: ';
     const label = document.createElement('span');
     label.className = 'pin__label';
     label.textContent = shop.name;
-    el.append(score, label);
+    el.append(score, outOf, label);
     el.addEventListener('click', (e) => {
       e.stopPropagation();
       this.handlers.onSelect(id);

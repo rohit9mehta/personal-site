@@ -683,14 +683,20 @@
 }
 
 /* MapLibre's own chrome, toned down to match. */
-.maplibregl-ctrl-attrib.maplibregl-compact {
+.map .maplibregl-ctrl-attrib.maplibregl-compact {
   background: color-mix(in srgb, var(--card) 85%, transparent);
   color: var(--ink-3);
   font-size: 11px;
 }
 
-.maplibregl-ctrl-attrib a {
+.map .maplibregl-ctrl-attrib a {
   color: var(--ink-2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .map .maplibregl-ctrl-attrib-button {
+    filter: invert(1);
+  }
 }
 
 .map .maplibregl-ctrl-bottom-right {
@@ -1279,7 +1285,7 @@
 
   .switch__count {
     font-size: 12px;
-    opacity: 0.6;
+    opacity: 0.75;
     font-variant-numeric: tabular-nums;
   }
 
@@ -1289,8 +1295,10 @@
   }
 
   .legend {
-    bottom: calc(76px + env(safe-area-inset-bottom));
+    top: calc(var(--map-top, 0px) + 12px);
+    bottom: auto;
     left: 12px;
+    padding: 6px 10px;
   }
 
   .map__controls {
