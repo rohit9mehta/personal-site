@@ -11,7 +11,7 @@ function basePath(): string {
 }
 
 // Absolute URL of the published site, for link previews (og:image needs one).
-const siteUrl = (process.env.SITE_URL ?? 'https://rohit9mehta.github.io/personal-site').replace(/\/$/, '');
+const siteUrl = (process.env.SITE_URL || 'https://rohit9mehta.github.io/personal-site').replace(/\/$/, '');
 
 export default defineConfig({
   base: basePath(),
