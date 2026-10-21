@@ -795,7 +795,20 @@
   "cafe-lyria--new-york-ny": {
     "name": "Café Lyria",
     "city": "New York, NY",
-    "address": "166 Crosby Street"
+    "address": "166 Crosby Street",
+    "lat": 40.725889,
+    "lng": -73.9954623,
+    "precision": "exact",
+    "street": "166 Crosby Street",
+    "postcode": "10012",
+    "neighborhood": "NoHo",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/12055618255",
+    "source": "nominatim",
+    "checked": "2026-10-21"
   },
   "cafe-reveille--san-francisco-ca": {
     "name": "Cafe Reveille",
