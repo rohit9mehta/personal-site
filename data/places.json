@@ -792,6 +792,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "cafe-lyria--new-york-ny": {
+    "name": "Café Lyria",
+    "city": "New York, NY",
+    "address": "166 Crosby Street"
+  },
   "cafe-reveille--san-francisco-ca": {
     "name": "Cafe Reveille",
     "city": "San Francisco, CA",
