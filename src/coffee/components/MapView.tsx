@@ -1,16 +1,10 @@
-import {
-  AttributionControl,
-  LngLatBounds,
-  Map as MapLibreMap,
-  Marker,
-  setWorkerUrl,
-  type GeoJSONSource,
-} from 'maplibre-gl';
+import { AttributionControl, Map as MapLibreMap, Marker, setWorkerUrl, type GeoJSONSource } from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { useEffect, useRef, useState } from 'react';
 import type { Shop } from '../../../lib/dataset.ts';
 import { prefersReducedMotion } from '../hooks.ts';
+import { boundsOf, densestWindow, pointsOf } from '../map/geometry.ts';
 import { MarkerLayer } from '../map/markers.ts';
 import { buildMapStyle } from '../map/style.ts';
 import type { Bounds } from '../model.ts';
@@ -40,45 +34,26 @@ interface Props {
 
 const SELECT_ZOOM = 14.5;
 
-/**
- * Bounds around the cafés. Longitudes wrap, so when going the other way round
- * the globe is much tighter (California + Japan, say) the bounds cross the
- * antimeridian instead of spanning Europe and the Atlantic.
- */
-export function boundsOf(shops: Shop[]): LngLatBounds | null {
-  const located = shops.filter((s) => s.lat !== undefined && s.lng !== undefined);
-  if (!located.length) return null;
-  const lngs = located.map((s) => s.lng!).sort((a, b) => a - b);
-  const lats = located.map((s) => s.lat!);
-  let west = lngs[0]!;
-  let east = lngs[lngs.length - 1]!;
-  let widestGap = 0;
-  let gapEnd = -1;
-  for (let i = 1; i < lngs.length; i++) {
-    const gap = lngs[i]! - lngs[i - 1]!;
-    if (gap > widestGap) {
-      widestGap = gap;
-      gapEnd = i;
-    }
-  }
-  const naiveSpan = east - west;
-  if (gapEnd > 0 && 360 - widestGap < naiveSpan * 0.75) {
-    west = lngs[gapEnd]!;
-    east = lngs[gapEnd - 1]! + 360;
-  }
-  return new LngLatBounds([west, Math.min(...lats)], [east, Math.max(...lats)]);
-}
-
 function frame(map: MapLibreMap, shops: Shop[], padding: Padding, animate: boolean) {
-  const bounds = boundsOf(shops);
+  let points = pointsOf(shops);
+  let bounds = boundsOf(points);
   if (!bounds) return;
-  const ne = bounds.getNorthEast();
-  const sw = bounds.getSouthWest();
+  const canvas = map.getCanvas();
+  const extra = canvas.clientWidth < 600 ? 28 : 56;
+  // The map can't zoom out past the point where the world fills the screen's
+  // height; on a phone that hides whole continents. Frame where most cafés are.
+  const usableWidth = canvas.clientWidth - padding.left - padding.right - 2 * extra;
+  const floorZoom = Math.max(map.getMinZoom(), Math.log2(canvas.clientHeight / 512));
+  const widestSpan = (usableWidth / (512 * 2 ** floorZoom)) * 360;
+  if (bounds[1][0] - bounds[0][0] > widestSpan) {
+    points = densestWindow(points, widestSpan);
+    bounds = boundsOf(points)!;
+  }
+  const [[west, south], [east, north]] = bounds;
   const animation = { animate: animate && !prefersReducedMotion(), duration: 1400, essential: false };
-  if (Math.abs(ne.lat - sw.lat) < 1e-4 && Math.abs(ne.lng - sw.lng) < 1e-4) {
-    map.flyTo({ center: bounds.getCenter(), zoom: SELECT_ZOOM, padding, ...animation });
+  if (north - south < 1e-4 && east - west < 1e-4) {
+    map.flyTo({ center: [west, south], zoom: SELECT_ZOOM, padding, ...animation });
   } else {
-    const extra = map.getCanvas().clientWidth < 600 ? 28 : 56;
     map.fitBounds(bounds, {
       padding: {
         top: padding.top + extra,
@@ -110,7 +85,7 @@ export function MapView({ shops, selectedId, hoveredId, fitKey, padding, onSelec
 
   useEffect(() => {
     const container = containerRef.current!;
-    const initial = boundsOf(latest.current.shops);
+    const initial = boundsOf(pointsOf(latest.current.shops));
     const map = new MapLibreMap({
       container,
       style: buildMapStyle(),
@@ -128,6 +103,7 @@ export function MapView({ shops, selectedId, hoveredId, fitKey, padding, onSelec
     map.keyboard.disableRotation();
     map.addControl(new AttributionControl({ compact: true }), 'bottom-right');
     mapRef.current = map;
+    if (import.meta.env.DEV) (window as unknown as { map: MapLibreMap }).map = map;
 
     const layer = new MarkerLayer(map, {
       onSelect: (id) => latest.current.onSelect(id),

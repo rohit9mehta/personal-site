@@ -71,11 +71,14 @@ export function App({ dataset }: { dataset: Dataset }) {
   const fitKey = `${debouncedQuery.trim().toLowerCase()}|${minScore ?? ''}`;
   const filtered = useMemo(() => filterShops(all, { query, minScore }), [all, query, minScore]);
   // On desktop the list follows the map once you move it yourself.
-  const activeArea = isDesktop && area?.key === fitKey ? area.bounds : null;
-  const listed = useMemo(
-    () => sortShops(activeArea ? filtered.filter((s) => inBounds(s, activeArea)) : filtered, sort),
-    [filtered, activeArea, sort],
+  const movedArea = isDesktop && area?.key === fitKey ? area.bounds : null;
+  const inArea = useMemo(
+    () => (movedArea ? filtered.filter((s) => inBounds(s, movedArea)) : filtered),
+    [filtered, movedArea],
   );
+  // Only call it an area filter when it actually hides something.
+  const activeArea = movedArea && inArea.length < filtered.length ? movedArea : null;
+  const listed = useMemo(() => sortShops(inArea, sort), [inArea, sort]);
   const stats = useMemo(() => computeStats(all), [all]);
   const sortKeys = useMemo(
     () => (Object.keys(SORT_LABELS) as SortKey[]).filter((k) => k !== 'recent' || hasDates(all)),

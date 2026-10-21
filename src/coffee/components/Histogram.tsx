@@ -28,7 +28,7 @@ export function Histogram({ shops, minScore, onMinScore }: Props) {
     const n = shops.filter((s) => s.score >= minScore).length;
     caption = `${n} rated ${formatScore(minScore)} or higher`;
   } else {
-    caption = 'Tap a bar to show only scores that high or higher';
+    caption = 'Pick a bar to see only scores that high or higher';
   }
 
   return (

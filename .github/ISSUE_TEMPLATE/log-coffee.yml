@@ -1,7 +1,6 @@
 name: Log a coffee
 description: Add a coffee shop rating to One Sip.
 title: "☕"
-labels: [coffee]
 body:
   - type: input
     id: name
