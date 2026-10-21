@@ -28,6 +28,13 @@ describe('search', () => {
       'Caffe Trieste',
     ]);
   });
+
+  it('prefers the words together, so a city search finds that city', () => {
+    const kamson = shop('Kamson Coffee', 'San Rafael, CA', 9.2, { address: '819 Francisco Boulevard West' });
+    const all = [...shops, kamson];
+    expect(filterShops(all, { query: 'san francisco', minScore: null }).map((s) => s.name)).toEqual(['Caffe Trieste']);
+    expect(filterShops(all, { query: 'trieste beach', minScore: null }).map((s) => s.name)).toEqual(['Caffe Trieste']);
+  });
 });
 
 describe('sortShops', () => {

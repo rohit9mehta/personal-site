@@ -49,8 +49,21 @@ export interface Filters {
 }
 
 export function filterShops(shops: Shop[], { query, minScore }: Filters): Shop[] {
+  const scored = shops.filter((s) => minScore === null || s.score >= minScore);
   const tokens = tokenize(query);
-  return shops.filter((s) => (minScore === null || s.score >= minScore) && matchesQuery(s, tokens));
+  if (tokens.length > 1) {
+    // "san francisco" should mean the city, not any café with "San" in one
+    // field and "Francisco" in another; fall back to loose matching if no
+    // café has the words together.
+    const phrase = tokens.join(' ');
+    const together = scored.filter((s) =>
+      haystack(s)
+        .replace(/[^\p{L}\p{N}.]+/gu, ' ')
+        .includes(phrase),
+    );
+    if (together.length) return together;
+  }
+  return scored.filter((s) => matchesQuery(s, tokens));
 }
 
 export interface Bounds {
