@@ -37,6 +37,8 @@ interface Area {
   bbox: [number, number, number, number];
   /** How far from the center a café may be, in km. */
   radiusKm: number;
+  /** The reading of the city that was found, for follow-up searches. */
+  query: string;
   /** Locality, region and country of the city itself. */
   fields: Pick<GeoHit, 'locality' | 'region' | 'country' | 'countryCode'>;
 }
@@ -141,11 +143,125 @@ const FOOD_KINDS = new Set([
   'amenity:pub',
 ]);
 
+// OSM classes that are never a café: roads, places, borders, landforms…
+const NOT_A_VENUE = /^(highway|place|boundary|natural|waterway|landuse|railway|route|aerialway|power|man_made):/;
+
 function kindBonus(kind: string): number {
   if (CAFE_KINDS.has(kind)) return 0.3;
   if (FOOD_KINDS.has(kind)) return 0.1;
-  if (kind.startsWith('shop:') || kind.startsWith('amenity:') || kind.startsWith('craft:')) return 0;
-  return -1; // roads, places, buildings…
+  // Hotels, shops, offices and the like can all serve coffee.
+  return NOT_A_VENUE.test(kind) ? -1 : 0;
+}
+
+const US_STATES: Record<string, string> = {
+  AL: 'Alabama',
+  AK: 'Alaska',
+  AZ: 'Arizona',
+  AR: 'Arkansas',
+  CA: 'California',
+  CO: 'Colorado',
+  CT: 'Connecticut',
+  DE: 'Delaware',
+  DC: 'District of Columbia',
+  FL: 'Florida',
+  GA: 'Georgia',
+  HI: 'Hawaii',
+  ID: 'Idaho',
+  IL: 'Illinois',
+  IN: 'Indiana',
+  IA: 'Iowa',
+  KS: 'Kansas',
+  KY: 'Kentucky',
+  LA: 'Louisiana',
+  ME: 'Maine',
+  MD: 'Maryland',
+  MA: 'Massachusetts',
+  MI: 'Michigan',
+  MN: 'Minnesota',
+  MS: 'Mississippi',
+  MO: 'Missouri',
+  MT: 'Montana',
+  NE: 'Nebraska',
+  NV: 'Nevada',
+  NH: 'New Hampshire',
+  NJ: 'New Jersey',
+  NM: 'New Mexico',
+  NY: 'New York',
+  NC: 'North Carolina',
+  ND: 'North Dakota',
+  OH: 'Ohio',
+  OK: 'Oklahoma',
+  OR: 'Oregon',
+  PA: 'Pennsylvania',
+  RI: 'Rhode Island',
+  SC: 'South Carolina',
+  SD: 'South Dakota',
+  TN: 'Tennessee',
+  TX: 'Texas',
+  UT: 'Utah',
+  VT: 'Vermont',
+  VA: 'Virginia',
+  WA: 'Washington',
+  WV: 'West Virginia',
+  WI: 'Wisconsin',
+  WY: 'Wyoming',
+};
+
+const REGIONS: Record<string, string> = {
+  BC: 'British Columbia, Canada',
+  ON: 'Ontario, Canada',
+  QC: 'Quebec, Canada',
+  AB: 'Alberta, Canada',
+  UK: 'United Kingdom',
+  GB: 'United Kingdom',
+  UAE: 'United Arab Emirates',
+  AE: 'United Arab Emirates',
+  FR: 'France',
+  IT: 'Italy',
+  ES: 'Spain',
+  DE: 'Germany',
+  CH: 'Switzerland',
+  NL: 'Netherlands',
+  BE: 'Belgium',
+  PT: 'Portugal',
+  AT: 'Austria',
+  DK: 'Denmark',
+  SE: 'Sweden',
+  NO: 'Norway',
+  IE: 'Ireland',
+  GR: 'Greece',
+  MX: 'Mexico',
+  JP: 'Japan',
+  KR: 'South Korea',
+  AU: 'Australia',
+  NZ: 'New Zealand',
+  SG: 'Singapore',
+  TH: 'Thailand',
+  VN: 'Vietnam',
+  ID: 'Indonesia',
+  TR: 'Turkey',
+  BR: 'Brazil',
+  AR: 'Argentina',
+  CO: 'Colombia',
+};
+
+/**
+ * Ways to read a written location, most likely first:
+ * "San Francisco, CA" → "San Francisco, California, United States";
+ * "Paris, FR" → "Paris, France". Some codes are both a US state and a country
+ * ("Mumbai, IN"), so every reading is offered and the first that exists wins.
+ */
+export function placeQueries(city: string): string[] {
+  const trimmed = city.trim();
+  const m = /^(.*?),\s*([A-Za-z]{2,3})$/.exec(trimmed);
+  if (!m) return [trimmed];
+  const code = m[2]!.toUpperCase();
+  const readings = [
+    US_STATES[code] && `${m[1]}, ${US_STATES[code]}, United States`,
+    REGIONS[code] && `${m[1]}, ${REGIONS[code]}`,
+    trimmed,
+  ].filter((q): q is string => Boolean(q));
+  return [...new Set(readings)];
 }
 
 function street(road?: string, number?: string, countryCode?: string): string | undefined {
@@ -267,9 +383,16 @@ export class Geocoder {
   }
 
   private async findArea(city: string): Promise<Area | null> {
-    let results = await this.nominatim('/search', { q: city, featureType: 'settlement', limit: '1' });
-    if (!results.length) results = await this.nominatim('/search', { q: city, limit: '1' });
-    const r = results[0];
+    let r: NominatimResult | undefined;
+    let query = city;
+    for (const q of placeQueries(city)) {
+      [r] = await this.nominatim('/search', { q, featureType: 'settlement', limit: '1' });
+      if (!r) [r] = await this.nominatim('/search', { q, limit: '1' });
+      if (r) {
+        query = q;
+        break;
+      }
+    }
     if (!r) return null;
     const lat = Number(r.lat);
     const lng = Number(r.lon);
@@ -281,6 +404,7 @@ export class Geocoder {
       lng,
       bbox: bb,
       radiusKm: Math.min(80, Math.max(25, halfDiagonal + 10)),
+      query,
       fields: prune({ locality, region, country, countryCode }),
     };
   }
@@ -335,7 +459,8 @@ export class Geocoder {
     // A written address pins down which branch of a chain it was.
     let addressHit: GeoHit | null = null;
     if (hint.address) {
-      const q = hint.address.toLowerCase().includes(city.toLowerCase()) ? hint.address : `${hint.address}, ${city}`;
+      const town = area.query.split(',')[0]!.toLowerCase();
+      const q = hint.address.toLowerCase().includes(town) ? hint.address : `${hint.address}, ${area.query}`;
       const [r] = await this.nominatim('/search', { q, limit: '1' });
       if (r && distanceKm(area.lat, area.lng, Number(r.lat), Number(r.lon)) <= area.radiusKm) {
         addressHit = fromNominatim(r, 'address');
@@ -347,7 +472,7 @@ export class Geocoder {
       ? { lat: addressHit.lat, lng: addressHit.lng, km: 0.5 }
       : { lat: area.lat, lng: area.lng, km: area.radiusKm };
 
-    const free = await this.nominatim('/search', { q: `${name}, ${city}`, limit: '10' });
+    const free = await this.nominatim('/search', { q: `${name}, ${area.query}`, limit: '10' });
     let hit = this.pick(name, this.nominatimCandidates(free), near);
 
     if (!hit) {

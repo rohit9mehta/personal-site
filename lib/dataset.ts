@@ -79,6 +79,8 @@ export interface Shop {
   country?: string;
   countryCode?: string;
   osm?: string;
+  /** Rated as a chain across many locations; has no map position. */
+  multiLocation?: true;
 }
 
 export interface Dataset {
@@ -104,6 +106,14 @@ export function slugify(input: string): string {
     hash = Math.imul(hash, 0x01000193) >>> 0;
   }
   return `x${hash.toString(36)}`;
+}
+
+/**
+ * A rating for a chain as a whole ("Starbucks", city "Multiple locations")
+ * rather than one shop: listed and counted, but not put on the map.
+ */
+export function isMultiLocation(city: string): boolean {
+  return /^(multiple|multiple locations|various|various locations|everywhere|chain)$/i.test(city.trim());
 }
 
 /** Stable id for a café: the same name in the same city is the same place. */
@@ -254,7 +264,9 @@ export function buildDataset(
     const note = [...visitsRows].reverse().find((r) => r.note)?.note;
     if (note) shop.note = note;
     if (latest.date) shop.date = latest.date;
-    if (place && typeof place.lat === 'number' && typeof place.lng === 'number') {
+    if (isMultiLocation(latest.city)) {
+      shop.multiLocation = true;
+    } else if (place && typeof place.lat === 'number' && typeof place.lng === 'number') {
       shop.lat = place.lat;
       shop.lng = place.lng;
       shop.precision = place.precision ?? 'exact';

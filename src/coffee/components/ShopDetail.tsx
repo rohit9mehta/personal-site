@@ -19,7 +19,8 @@ export function formatVisitDate(date: string): string {
 }
 
 function mapsLinks(shop: Shop): { google: string; apple: string } {
-  const query = [shop.name, shop.address, shop.city].filter(Boolean).join(', ');
+  // A chain has no one address: search for the nearest instead.
+  const query = shop.multiLocation ? shop.name : [shop.name, shop.address, shop.city].filter(Boolean).join(', ');
   const google = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
   const apple =
     shop.lat !== undefined && shop.lng !== undefined && shop.precision !== 'city'
@@ -60,7 +61,9 @@ export function ShopDetail({ shop, total, tiedWith, onClose }: Props) {
   const [shared, setShared] = useState(false);
   const { google, apple } = mapsLinks(shop);
   const country = shop.country && !shop.city.toLowerCase().includes(shop.country.toLowerCase()) ? shop.country : null;
-  const place = [shop.neighborhood, shop.city, country].filter(Boolean).join(' · ');
+  const place = shop.multiLocation
+    ? 'Rated across its locations'
+    : [shop.neighborhood, shop.city, country].filter(Boolean).join(' · ');
 
   const share = async () => {
     const url = window.location.href;

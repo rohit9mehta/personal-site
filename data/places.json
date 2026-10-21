@@ -1,1 +1,27 @@
-{}
+{
+  "fsm--berkeley-ca": {
+    "name": "FSM",
+    "city": "Berkeley, CA",
+    "address": "Moffitt Library"
+  },
+  "google-sf--san-francisco-ca": {
+    "name": "Google SF",
+    "city": "San Francisco, CA",
+    "address": "345 Spear Street"
+  },
+  "the-perch-twitter--san-francisco-ca": {
+    "name": "The Perch @ Twitter",
+    "city": "San Francisco, CA",
+    "address": "1355 Market Street"
+  },
+  "yalis-at-stanley-hall--berkeley-ca": {
+    "name": "Yali’s at Stanley Hall",
+    "city": "Berkeley, CA",
+    "address": "Stanley Hall, University of California"
+  },
+  "yalis-at-sutardja-dai--berkeley-ca": {
+    "name": "Yali’s at Sutardja Dai",
+    "city": "Berkeley, CA",
+    "address": "Sutardja Dai Hall"
+  }
+}

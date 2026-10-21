@@ -4,6 +4,7 @@ import {
   distanceKm,
   fromNominatim,
   nameSimilarity,
+  placeQueries,
   type NominatimResult,
   type PhotonFeature,
 } from './geocode.ts';
@@ -23,6 +24,23 @@ describe('nameSimilarity', () => {
     ['Saint Frank', 'Sightglass Coffee'],
     ['Four Barrel', 'Barrel House'],
   ])('%j does not match %j', (a, b) => expect(nameSimilarity(a, b)).toBeLessThan(0.6));
+});
+
+describe('placeQueries', () => {
+  it('spells out US states, Canadian provinces and countries', () => {
+    expect(placeQueries('San Francisco, CA')).toEqual([
+      'San Francisco, California, United States',
+      'San Francisco, CA',
+    ]);
+    expect(placeQueries('Vancouver, BC')).toEqual(['Vancouver, British Columbia, Canada', 'Vancouver, BC']);
+    expect(placeQueries('Paris, FR')).toEqual(['Paris, France', 'Paris, FR']);
+    expect(placeQueries('Monaco')).toEqual(['Monaco']);
+  });
+
+  it('offers both readings of codes that are a state and a country', () => {
+    expect(placeQueries('Mumbai, IN')).toEqual(['Mumbai, Indiana, United States', 'Mumbai, IN']);
+    expect(placeQueries('Bogotá, CO')).toEqual(['Bogotá, Colorado, United States', 'Bogotá, Colombia', 'Bogotá, CO']);
+  });
 });
 
 describe('distanceKm', () => {
@@ -168,6 +186,30 @@ describe('Geocoder.place', () => {
       address: '66 Mint St',
     });
     expect(hit).toMatchObject({ osm: 'node/2', precision: 'exact' });
+  });
+
+  it('falls through to another reading of the city', async () => {
+    const delhi: NominatimResult = {
+      ...SF,
+      lat: '28.61',
+      lon: '77.21',
+      boundingbox: ['28.4', '28.9', '76.8', '77.4'],
+      address: { city: 'New Delhi', country: 'India', country_code: 'in' },
+    };
+    const { fetchJson, calls } = fakeFetch({ 'New Delhi, IN|': [delhi] });
+    const hit = await new Geocoder({ fetchJson, ...quiet }).place('Diggin', 'New Delhi, IN');
+    expect(hit).toMatchObject({ precision: 'city', countryCode: 'in' });
+    expect(calls[0]).toContain('Indiana');
+  });
+
+  it('accepts venues that are not cafés, but never roads or places', async () => {
+    const hotel = { ...SIGHTGLASS, category: 'tourism', type: 'hotel', name: 'Grand-Hôtel du Cap-Ferrat', osm_id: 77 };
+    const { fetchJson } = fakeFetch({
+      'San Francisco|': [SF],
+      'Grand-Hotel du Cap-Ferrat Cafe, San Francisco|': [hotel],
+    });
+    const hit = await new Geocoder({ fetchJson, ...quiet }).place('Grand-Hotel du Cap-Ferrat Cafe', 'San Francisco');
+    expect(hit).toMatchObject({ osm: 'node/77', precision: 'exact' });
   });
 
   it('returns null when the city cannot be found', async () => {

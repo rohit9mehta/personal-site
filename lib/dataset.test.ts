@@ -160,6 +160,13 @@ describe('buildDataset', () => {
     expect(fuglen.precision).toBe('exact');
   });
 
+  it('keeps chains rated across locations off the map without flagging them', () => {
+    const { dataset, unlocated } = buildDataset('name,city,score\nStarbucks,Multiple,7.3\n', {});
+    expect(dataset.shops[0]).toMatchObject({ name: 'Starbucks', multiLocation: true });
+    expect(dataset.shops[0]?.lat).toBeUndefined();
+    expect(unlocated).toEqual([]);
+  });
+
   it('lists cafés that have no coordinates yet', () => {
     const { unlocated, dataset } = buildDataset(csv, places);
     expect(unlocated).toEqual(['Unknown Spot (Nowhere)']);

@@ -5,7 +5,7 @@
 //   npm run enrich -- --prune         drop places no longer in the CSV
 //   npm run enrich -- --dry-run       look up, but don't write anything
 
-import { parseRatings, placeKey, type PlaceInfo } from '../lib/dataset.ts';
+import { isMultiLocation, parseRatings, placeKey, type PlaceInfo } from '../lib/dataset.ts';
 import { Geocoder, httpFetchJson, type GeoHit } from '../lib/geocode.ts';
 import { PLACES_PATH, displayPath, jobSummary, readPlaces, readRatingsText, writePlaces } from '../lib/files.ts';
 
@@ -22,7 +22,9 @@ if (issues.length) {
 
 const places = readPlaces();
 const wanted = new Map<string, { name: string; city: string }>();
-for (const row of rows) wanted.set(placeKey(row.name, row.city), { name: row.name, city: row.city });
+for (const row of rows) {
+  if (!isMultiLocation(row.city)) wanted.set(placeKey(row.name, row.city), { name: row.name, city: row.city });
+}
 
 const todo = [...wanted].filter(([key]) => {
   const place = places[key];

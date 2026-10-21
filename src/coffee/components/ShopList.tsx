@@ -13,6 +13,7 @@ interface Props {
 }
 
 export function placeLine(shop: Shop): string {
+  if (shop.multiLocation) return 'Multiple locations';
   return [shop.neighborhood, shop.city].filter(Boolean).join(' · ');
 }
 
@@ -53,7 +54,7 @@ const Row = memo(function Row({
           <span className="row__name">{shop.name}</span>
           <span className="row__meta">
             {placeLine(shop)}
-            {shop.lat === undefined && <span className="row__flag"> · not on map yet</span>}
+            {shop.lat === undefined && !shop.multiLocation && <span className="row__flag"> · not on map yet</span>}
           </span>
         </span>
         <span className="row__score">

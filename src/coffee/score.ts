@@ -5,10 +5,12 @@
 // steps, faintest step >= 2:1). The hex values live in src/shared/base.css as
 // --score-0 … --score-5, with matching text colors --score-ink-0 … 5.
 
-export const SCORE_THRESHOLDS = [5, 6, 7, 8, 9] as const;
+// Band edges follow where scores actually fall (median ~7.8), so the map isn't
+// one color: under 7, 7–7.5, 7.5–8, 8–8.5, 8.5–9, 9 and up.
+export const SCORE_THRESHOLDS = [7, 7.5, 8, 8.5, 9] as const;
 export const SCORE_STEPS = [0, 1, 2, 3, 4, 5] as const;
 
-/** 0 (lowest band) to 5 (9 and up). */
+/** 0 (under 7) to 5 (9 and up). */
 export function scoreStep(score: number): number {
   let step = 0;
   for (const t of SCORE_THRESHOLDS) if (score >= t) step++;

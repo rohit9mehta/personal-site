@@ -108,7 +108,7 @@ export function cityKey(shop: Shop): string {
 export function computeStats(shops: Shop[]): Stats {
   return {
     count: shops.length,
-    cities: new Set(shops.map(cityKey)).size,
+    cities: new Set(shops.filter((s) => !s.multiLocation).map(cityKey)).size,
     countries: new Set(shops.map((s) => s.countryCode).filter(Boolean)).size,
     median: median(shops.map((s) => s.score)),
   };

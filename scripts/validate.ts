@@ -19,6 +19,11 @@ if (issues.length) {
 const { shops } = dataset;
 const visits = shops.reduce((n, s) => n + s.visits.length, 0);
 const approximate = shops.filter((s) => s.precision === 'city').length;
+const chains = shops.filter((s) => s.multiLocation).length;
 console.log(`✓ ${file}: ${shops.length} cafés, ${visits} ratings`);
+if (chains) console.log(`  ${chains} rated as chains (no single location)`);
 if (approximate) console.log(`  ${approximate} placed at their city center (exact spot unknown)`);
-if (unlocated.length) console.log(`  ${unlocated.length} not on the map yet: ${unlocated.join(', ')}`);
+if (unlocated.length) {
+  const some = unlocated.slice(0, 8).join(', ');
+  console.log(`  ${unlocated.length} not on the map yet: ${some}${unlocated.length > 8 ? ', …' : ''}`);
+}
