@@ -506,7 +506,7 @@
 }
 
 .button--primary:hover {
-  background: #39322b;
+  background: color-mix(in srgb, var(--ink) 85%, var(--paper));
 }
 
 .button--quiet {
@@ -559,7 +559,7 @@
 
 .map .map__canvas,
 .map--loading {
-  background: #cdd9dc;
+  background: var(--map-water);
 }
 
 .map__controls {
@@ -645,9 +645,9 @@
   gap: 10px;
   padding: 8px 12px;
   border-radius: 10px;
-  background: rgb(255 253 248 / 0.92);
+  background: color-mix(in srgb, var(--card) 92%, transparent);
   box-shadow:
-    0 0 0 1px rgb(30 26 22 / 0.08),
+    0 0 0 1px color-mix(in srgb, var(--ink) 8%, transparent),
     var(--shadow-1);
   font-size: 11.5px;
   color: var(--ink-2);
@@ -684,7 +684,7 @@
 
 /* MapLibre's own chrome, toned down to match. */
 .maplibregl-ctrl-attrib.maplibregl-compact {
-  background: rgb(255 253 248 / 0.85);
+  background: color-mix(in srgb, var(--card) 85%, transparent);
   color: var(--ink-3);
   font-size: 11px;
 }
@@ -693,7 +693,7 @@
   color: var(--ink-2);
 }
 
-.maplibregl-ctrl-bottom-right {
+.map .maplibregl-ctrl-bottom-right {
   bottom: var(--map-bottom, 0px);
 }
 
@@ -821,7 +821,7 @@
   font-variant-numeric: tabular-nums;
   box-shadow:
     inset 0 0 0 1.5px var(--ink),
-    0 0 0 3px rgb(255 253 248 / 0.55),
+    0 0 0 3px color-mix(in srgb, var(--card) 55%, transparent),
     0 3px 10px rgb(30 26 22 / 0.22);
   cursor: pointer;
   transition: transform 0.18s var(--ease);
@@ -843,8 +843,8 @@
   border-radius: 999px;
   background: var(--focus);
   box-shadow:
-    0 0 0 3px #fff,
-    0 0 0 9px rgb(45 91 122 / 0.18);
+    0 0 0 3px var(--card),
+    0 0 0 9px color-mix(in srgb, var(--focus) 22%, transparent);
 }
 
 /* ---------- Detail ---------- */

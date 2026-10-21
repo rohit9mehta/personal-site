@@ -5,7 +5,7 @@
 
 import type { ExpressionSpecification, StyleSpecification } from 'maplibre-gl';
 
-export const MAP_COLORS = {
+const LIGHT = {
   water: '#cdd9dc',
   waterLabel: '#6f8891',
   land: '#f2eee6',
@@ -26,9 +26,34 @@ export const MAP_COLORS = {
   label: '#6e665e',
   labelFaint: '#9b9187',
   halo: '#f2eee6',
-} as const;
+};
 
-const C = MAP_COLORS;
+const DARK: typeof LIGHT = {
+  water: '#18232a',
+  waterLabel: '#6c8590',
+  land: '#201b17',
+  park: '#232720',
+  wood: '#22261f',
+  building: '#2a241f',
+  buildingLine: '#312a24',
+  roadMajor: '#3b332c',
+  roadMajorCasing: '#2a241f',
+  roadMinor: '#332c26',
+  roadMinorCasing: '#2a241f',
+  motorway: '#4a3d30',
+  motorwayCasing: '#2f2821',
+  rail: '#3a332c',
+  border: '#5b5148',
+  borderState: '#3f372f',
+  labelStrong: '#e2d8cb',
+  label: '#ab9f91',
+  labelFaint: '#7f7569',
+  halo: '#201b17',
+};
+
+export type MapTheme = 'light' | 'dark';
+export const MAP_COLORS: Record<MapTheme, typeof LIGHT> = { light: LIGHT, dark: DARK };
+
 const FONT_REGULAR = ['Noto Sans Regular'];
 const FONT_BOLD = ['Noto Sans Bold'];
 const FONT_ITALIC = ['Noto Sans Italic'];
@@ -49,10 +74,11 @@ function roadWidth(stops: [number, number][]): ExpressionSpecification {
 const MAJOR = ['primary', 'secondary'];
 const MINOR = ['tertiary', 'minor'];
 
-export function buildMapStyle(): StyleSpecification {
+export function buildMapStyle(theme: MapTheme = 'light'): StyleSpecification {
+  const C = MAP_COLORS[theme];
   return {
     version: 8,
-    name: 'One Sip Paper',
+    name: `One Sip ${theme}`,
     glyphs: 'https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf',
     sources: {
       openmaptiles: { type: 'vector', url: 'https://tiles.openfreemap.org/planet' },

@@ -59,7 +59,7 @@
 
 .feature__map {
   aspect-ratio: 2.4;
-  background: #cdd9dc;
+  background: var(--map-water);
 }
 
 .feature__map svg {
@@ -69,7 +69,7 @@
 }
 
 .feature__land {
-  fill: #f2eee6;
+  fill: var(--map-land);
 }
 
 .feature__body {

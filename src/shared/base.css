@@ -1,7 +1,7 @@
 /* Shared tokens for every page: warm paper, espresso ink. */
 
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
   --paper: #f6f2ea;
   --paper-sunk: #eee8dd;
   --card: #fffdf8;
@@ -11,6 +11,22 @@
   --rule: #e4dccf;
   --rule-strong: #cfc4b4;
   --focus: #2d5b7a;
+  --map-water: #cdd9dc;
+  --map-land: #f2eee6;
+
+  /* Score ramp: latte → espresso (see src/coffee/score.ts). */
+  --score-0: #d79974;
+  --score-1: #c37b4e;
+  --score-2: #aa602e;
+  --score-3: #8d4917;
+  --score-4: #6d3509;
+  --score-5: #4d2304;
+  --score-ink-0: #1e1a16;
+  --score-ink-1: #1e1a16;
+  --score-ink-2: #fffaf2;
+  --score-ink-3: #fffaf2;
+  --score-ink-4: #fffaf2;
+  --score-ink-5: #fffaf2;
 
   --serif: 'Newsreader Variable', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
   --sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -18,6 +34,39 @@
   --shadow-1: 0 1px 2px rgb(30 26 22 / 0.06), 0 1px 1px rgb(30 26 22 / 0.04);
   --shadow-2: 0 18px 40px -18px rgb(30 26 22 / 0.35), 0 3px 8px rgb(30 26 22 / 0.07);
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #171310;
+    --paper-sunk: #221c17;
+    --card: #201a15;
+    --ink: #f1e9dd;
+    --ink-2: #c4b8a8;
+    --ink-3: #94897b;
+    --rule: #2e2620;
+    --rule-strong: #43392f;
+    --focus: #8cb4d1;
+    --map-water: #18232a;
+    --map-land: #201b17;
+
+    /* Dim → crema, so the best cups are the brightest. */
+    --score-0: #7a502e;
+    --score-1: #9c6436;
+    --score-2: #be7a43;
+    --score-3: #dc9359;
+    --score-4: #f4b07c;
+    --score-5: #ffcda3;
+    --score-ink-0: #fffaf2;
+    --score-ink-1: #fffaf2;
+    --score-ink-2: #1e1a16;
+    --score-ink-3: #1e1a16;
+    --score-ink-4: #1e1a16;
+    --score-ink-5: #1e1a16;
+
+    --shadow-1: 0 1px 2px rgb(0 0 0 / 0.3);
+    --shadow-2: 0 18px 40px -18px rgb(0 0 0 / 0.7), 0 3px 8px rgb(0 0 0 / 0.3);
+  }
 }
 
 *,

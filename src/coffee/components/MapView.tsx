@@ -1,14 +1,15 @@
 import { AttributionControl, Map as MapLibreMap, Marker, setWorkerUrl, type GeoJSONSource } from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import type { FeatureCollection } from 'geojson';
 import { useEffect, useRef, useState } from 'react';
 import type { Shop } from '../../../lib/dataset.ts';
 import { prefersReducedMotion } from '../hooks.ts';
 import { boundsOf, densestWindow, pointsOf } from '../map/geometry.ts';
 import { MarkerLayer } from '../map/markers.ts';
-import { buildMapStyle } from '../map/style.ts';
+import { buildMapStyle, type MapTheme } from '../map/style.ts';
 import type { Bounds } from '../model.ts';
-import { SCORE_COLORS, SCORE_THRESHOLDS } from '../score.ts';
+import { SCORE_STEPS, SCORE_THRESHOLDS, stepColor } from '../score.ts';
 
 setWorkerUrl(workerUrl);
 
@@ -21,6 +22,7 @@ export interface Padding {
 
 interface Props {
   shops: Shop[];
+  theme: MapTheme;
   selectedId: string | null;
   hoveredId: string | null;
   /** Changes whenever the filters change; the map then frames the results. */
@@ -67,20 +69,31 @@ function frame(map: MapLibreMap, shops: Shop[], padding: Padding, animate: boole
   }
 }
 
-export function MapView({ shops, selectedId, hoveredId, fitKey, padding, onSelect, onHover, onAreaChange }: Props) {
+export function MapView({
+  shops,
+  theme,
+  selectedId,
+  hoveredId,
+  fitKey,
+  padding,
+  onSelect,
+  onHover,
+  onAreaChange,
+}: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const layerRef = useRef<MarkerLayer | null>(null);
   const meRef = useRef<Marker | null>(null);
+  const landRef = useRef<FeatureCollection | null>(null);
   /** Once the user (or a search) has moved the map, stop auto-framing it. */
   const settled = useRef(false);
   const [locating, setLocating] = useState(false);
   const [locateError, setLocateError] = useState<string | null>(null);
 
   // Keep the latest props reachable from long-lived map listeners.
-  const latest = useRef({ shops, padding, onSelect, onHover, onAreaChange });
+  const latest = useRef({ shops, theme, padding, onSelect, onHover, onAreaChange });
   useEffect(() => {
-    latest.current = { shops, padding, onSelect, onHover, onAreaChange };
+    latest.current = { shops, theme, padding, onSelect, onHover, onAreaChange };
   });
 
   useEffect(() => {
@@ -88,7 +101,7 @@ export function MapView({ shops, selectedId, hoveredId, fitKey, padding, onSelec
     const initial = boundsOf(pointsOf(latest.current.shops));
     const map = new MapLibreMap({
       container,
-      style: buildMapStyle(),
+      style: buildMapStyle(latest.current.theme),
       ...(initial
         ? { bounds: initial, fitBoundsOptions: { padding: 56, maxZoom: 12 } }
         : { center: [-30, 30], zoom: 1.4 }),
@@ -123,16 +136,17 @@ export function MapView({ shops, selectedId, hoveredId, fitKey, padding, onSelec
       latest.current.onAreaChange({ west: b.getWest(), south: b.getSouth(), east: b.getEast(), north: b.getNorth() });
     });
 
-    // The world outline is a separate chunk; draw it as soon as it arrives.
+    // The world outline is a separate chunk; draw it as soon as it arrives,
+    // and again whenever the style is swapped (light/dark).
     let cancelled = false;
+    const applyLand = () => {
+      if (landRef.current) map.getSource<GeoJSONSource>('world-land')?.setData(landRef.current);
+    };
+    map.on('style.load', applyLand);
     void import('virtual:world-land').then(({ default: land }) => {
-      const apply = () => {
-        if (cancelled) return;
-        const source = map.getSource<GeoJSONSource>('world-land');
-        if (source) source.setData(land);
-        else map.once('styledata', apply);
-      };
-      apply();
+      if (cancelled) return;
+      landRef.current = land;
+      applyLand();
     });
 
     return () => {
@@ -147,6 +161,14 @@ export function MapView({ shops, selectedId, hoveredId, fitKey, padding, onSelec
   useEffect(() => {
     layerRef.current?.setShops(shops);
   }, [shops]);
+
+  const styledTheme = useRef(theme);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || styledTheme.current === theme) return;
+    styledTheme.current = theme;
+    map.setStyle(buildMapStyle(theme), { diff: false });
+  }, [theme]);
 
   useEffect(() => {
     layerRef.current?.setHovered(hoveredId);
@@ -295,12 +317,12 @@ export function MapView({ shops, selectedId, hoveredId, fitKey, padding, onSelec
       <div className="legend" aria-hidden="true">
         <span>Score</span>
         <div className="legend__ramp">
-          {SCORE_COLORS.map((color, i) => (
-            <span key={color} className="legend__step">
-              <i style={{ background: color }} />
+          {SCORE_STEPS.map((i) => (
+            <span key={i} className="legend__step">
+              <i style={{ background: stepColor(i) }} />
               {i === 0
                 ? `<${SCORE_THRESHOLDS[0]}`
-                : i === SCORE_COLORS.length - 1
+                : i === SCORE_STEPS.length - 1
                   ? `${SCORE_THRESHOLDS[i - 1]}+`
                   : SCORE_THRESHOLDS[i - 1]}
             </span>

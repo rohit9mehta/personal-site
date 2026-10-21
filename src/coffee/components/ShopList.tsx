@@ -1,4 +1,4 @@
-import { Fragment, memo, useEffect, useRef } from 'react';
+import { Fragment, memo, useEffect, useRef, type KeyboardEvent } from 'react';
 import type { Shop } from '../../../lib/dataset.ts';
 import { cityKey, median } from '../model.ts';
 import { formatScore, scoreColor } from '../score.ts';
@@ -65,10 +65,20 @@ const Row = memo(function Row({
   );
 });
 
+/** Up/down arrows move between rows. */
+function onArrowKeys(e: KeyboardEvent<HTMLElement>) {
+  if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+  const rows = [...e.currentTarget.querySelectorAll<HTMLButtonElement>('.row')];
+  const index = rows.indexOf(document.activeElement as HTMLButtonElement);
+  if (index === -1) return;
+  e.preventDefault();
+  rows[Math.max(0, Math.min(rows.length - 1, index + (e.key === 'ArrowDown' ? 1 : -1)))]?.focus();
+}
+
 export function ShopList({ shops, groupByCity, selectedId, hoveredId, onSelect, onHover }: Props) {
   if (!groupByCity) {
     return (
-      <ol className="list">
+      <ol className="list" onKeyDown={onArrowKeys}>
         {shops.map((shop) => (
           <Row
             key={shop.id}
@@ -91,7 +101,7 @@ export function ShopList({ shops, groupByCity, selectedId, hoveredId, onSelect, 
     else groups.push({ key, city: shop.city, country: shop.country, shops: [shop] });
   }
   return (
-    <div className="list list--grouped">
+    <div className="list list--grouped" onKeyDown={onArrowKeys}>
       {groups.map((group) => (
         <Fragment key={group.key}>
           <h3 className="group">

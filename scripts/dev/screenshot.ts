@@ -20,9 +20,15 @@ async function shot(page: Page, name: string, settle = 1500) {
   console.log(`saved ${name}.png`);
 }
 
-async function open(viewport: { width: number; height: number }, path: string, mobile = false) {
+async function open(
+  viewport: { width: number; height: number },
+  path: string,
+  mobile = false,
+  colorScheme: 'light' | 'dark' = 'light',
+) {
   const context = await browser.newContext({
     viewport,
+    colorScheme,
     deviceScaleFactor: 2,
     isMobile: mobile,
     hasTouch: mobile,
@@ -69,6 +75,20 @@ await shot(page, 'home-desktop', 1500);
 await page.context().close();
 page = await open(phone, '', true);
 await shot(page, 'home-phone', 1500);
+await page.context().close();
+
+page = await open(desktop, 'coffee/?q=san+francisco', false, 'dark');
+await shot(page, 'dark-desktop-sf', 3000);
+await page.locator('.row').first().click();
+await shot(page, 'dark-desktop-selected', 2500);
+await page.context().close();
+page = await open(phone, 'coffee/', true, 'dark');
+await shot(page, 'dark-phone-map', 3000);
+await page.getByRole('button', { name: /^List/ }).click();
+await shot(page, 'dark-phone-list', 800);
+await page.context().close();
+page = await open(phone, '', true, 'dark');
+await shot(page, 'dark-home-phone', 1500);
 await page.context().close();
 
 await browser.close();

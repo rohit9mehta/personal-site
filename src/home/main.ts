@@ -39,7 +39,7 @@ if (preview) {
     c.setAttribute('cx', x(shop.lng).toFixed(2));
     c.setAttribute('cy', y(shop.lat).toFixed(2));
     c.setAttribute('r', '1.7');
-    c.setAttribute('fill', scoreColor(shop.score));
+    c.style.fill = scoreColor(shop.score);
     dots.append(c);
   }
   svg.append(dots);

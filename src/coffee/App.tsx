@@ -63,6 +63,7 @@ export function App({ dataset }: { dataset: Dataset }) {
   const [view, setView] = useState<View>(initial.view);
   const [area, setArea] = useState<{ key: string; bounds: Bounds } | null>(null);
   const isDesktop = useMediaQuery('(min-width: 900px)');
+  const theme = useMediaQuery('(prefers-color-scheme: dark)') ? 'dark' : 'light';
   const searchRef = useRef<HTMLInputElement>(null);
   const [topbarRef, topbarHeight] = useHeight<HTMLDivElement>();
   const [sheetRef, sheetHeight] = useHeight<HTMLDivElement>();
@@ -238,6 +239,7 @@ export function App({ dataset }: { dataset: Dataset }) {
         <Suspense fallback={<div className="map map--loading" aria-hidden="true" />}>
           <MapView
             shops={filtered}
+            theme={theme}
             selectedId={selectedId}
             hoveredId={hoveredId}
             fitKey={fitKey}

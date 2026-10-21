@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { Shop } from '../../../lib/dataset.ts';
-import { SCORE_COLORS, SCORE_THRESHOLDS, formatScore, scoreColor } from '../score.ts';
+import { SCORE_STEPS, SCORE_THRESHOLDS, formatScore, scoreColor, stepColor } from '../score.ts';
 
 interface Props {
   shop: Shop;
@@ -34,11 +34,15 @@ function Gauge({ score }: { score: number }) {
   return (
     <div className="gauge" aria-hidden="true">
       <div className="gauge__track">
-        {SCORE_COLORS.map((color, i) => (
+        {SCORE_STEPS.map((i) => (
           <span
-            key={color}
+            key={i}
             className="gauge__band"
-            style={{ left: `${edges[i]! * 10}%`, width: `${(edges[i + 1]! - edges[i]!) * 10}%`, background: color }}
+            style={{
+              left: `${edges[i]! * 10}%`,
+              width: `${(edges[i + 1]! - edges[i]!) * 10}%`,
+              background: stepColor(i),
+            }}
           />
         ))}
         <span className="gauge__mark" style={{ left: `${score * 10}%`, borderColor: scoreColor(score) }} />
