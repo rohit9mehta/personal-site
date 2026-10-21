@@ -25,6 +25,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      pages: ${{ steps.pages.outcome == 'success' }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -59,19 +61,30 @@ jobs:
 
       - id: pages
         uses: actions/configure-pages@v5
+        continue-on-error: true
+
+      - name: GitHub Pages is not switched on yet
+        if: steps.pages.outcome != 'success'
+        run: |
+          msg="GitHub Pages isn't enabled for this repo, so the site was built but not published. Turn it on once: Settings → Pages → Build and deployment → Source: GitHub Actions. Then re-run this workflow."
+          echo "::warning::$msg"
+          echo "### ⚠️ Not published" >> "$GITHUB_STEP_SUMMARY"
+          echo "$msg" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+          BASE_PATH: ${{ steps.pages.outputs.base_path || format('/{0}', github.event.repository.name) }}/
           SITE_URL: ${{ steps.pages.outputs.base_url }}
 
-      - uses: actions/upload-pages-artifact@v3
+      - if: steps.pages.outcome == 'success'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
   deploy:
     needs: build
+    if: needs.build.outputs.pages == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

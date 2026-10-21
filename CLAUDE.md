@@ -25,3 +25,4 @@ picture.
 - The sandbox usually can't reach map tiles or geocoders; `node scripts/dev/screenshot.ts` still renders the
   bundled world outline and pins. `COFFEE_DATA=fixtures/sample` swaps in sample data.
 - Data flow: `data/coffee.csv` + `data/places.json` → `lib/dataset.ts` (`buildDataset`) → `virtual:coffee-data`.
+- `scripts/dev/import-sheet.ts` converts rows pasted from the original Google Sheet into `data/coffee.csv`.

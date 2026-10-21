@@ -36,7 +36,8 @@ interface Props {
 
 const SELECT_ZOOM = 14.5;
 
-function frame(map: MapLibreMap, shops: Shop[], padding: Padding, animate: boolean) {
+/** Fits the map to the cafés. `eventData` rides along on the move events. */
+function frame(map: MapLibreMap, shops: Shop[], padding: Padding, animate: boolean, eventData?: object) {
   let points = pointsOf(shops);
   let bounds = boundsOf(points);
   if (!bounds) return;
@@ -54,18 +55,22 @@ function frame(map: MapLibreMap, shops: Shop[], padding: Padding, animate: boole
   const [[west, south], [east, north]] = bounds;
   const animation = { animate: animate && !prefersReducedMotion(), duration: 1400, essential: false };
   if (north - south < 1e-4 && east - west < 1e-4) {
-    map.flyTo({ center: [west, south], zoom: SELECT_ZOOM, padding, ...animation });
+    map.flyTo({ center: [west, south], zoom: SELECT_ZOOM, padding, ...animation }, eventData);
   } else {
-    map.fitBounds(bounds, {
-      padding: {
-        top: padding.top + extra,
-        bottom: padding.bottom + extra,
-        left: padding.left + extra,
-        right: padding.right + extra,
+    map.fitBounds(
+      bounds,
+      {
+        padding: {
+          top: padding.top + extra,
+          bottom: padding.bottom + extra,
+          left: padding.left + extra,
+          right: padding.right + extra,
+        },
+        maxZoom: 13.5,
+        ...animation,
       },
-      maxZoom: 13.5,
-      ...animation,
-    });
+      eventData,
+    );
   }
 }
 
@@ -230,7 +235,8 @@ export function MapView({
 
   const showAll = () => {
     const map = mapRef.current;
-    if (map) frame(map, latest.current.shops, latest.current.padding, true);
+    // Counts as a map move, so a list following the map shows everything again.
+    if (map) frame(map, latest.current.shops, latest.current.padding, true, { userAction: true });
   };
 
   const locate = () => {

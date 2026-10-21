@@ -76,6 +76,7 @@ npm run build                            # static site in dist/
 - **Geocoding**: `lib/geocode.ts` — Nominatim, then Photon, checked against the city's location and the café's name.
   Results are cached in `data/places.json`, so each café is looked up once.
 - Scores are colored on a single latte→espresso ramp (`src/coffee/score.ts`), checked for contrast against the map.
+  There's a dark theme too (it follows the phone/computer setting), where the ramp runs dim→crema instead.
 
 ### One-time setup
 
