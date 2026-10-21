@@ -270,8 +270,10 @@ export function placeQueries(city: string): string[] {
   return [...new Set(readings)];
 }
 
-function street(road?: string, number?: string, countryCode?: string): string | undefined {
+function street(road?: string, houseNumber?: string, countryCode?: string): string | undefined {
   if (!road) return undefined;
+  // OSM sometimes lists every number on a building: "2160;2168;2170".
+  const number = houseNumber?.split(/[;,]/)[0]?.trim();
   if (!number) return road;
   return countryCode && NUMBER_AFTER_STREET.has(countryCode) ? `${road} ${number}` : `${number} ${road}`;
 }

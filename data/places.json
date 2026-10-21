@@ -91,7 +91,7 @@
     "lat": 37.8697574,
     "lng": -122.2684651,
     "precision": "address",
-    "street": "2160;2168;2170;2172;2174;2176;2180 Shattuck Avenue",
+    "street": "2160 Shattuck Avenue",
     "postcode": "94704",
     "neighborhood": "Downtown Berkeley",
     "locality": "Berkeley",
@@ -109,7 +109,7 @@
     "lat": 37.7876593,
     "lng": -122.4120028,
     "precision": "address",
-    "street": "611;613;615 Post Street",
+    "street": "611 Post Street",
     "postcode": "94108",
     "neighborhood": "Lower Nob Hill",
     "locality": "San Francisco",
@@ -491,16 +491,7 @@
   "blue-beagle-coffee--santa-rosa-ca": {
     "name": "Blue Beagle Coffee",
     "city": "Santa Rosa, CA",
-    "address": "540 Larkfield Center, Santa Rosa, CA 95403",
-    "lat": 38.4404925,
-    "lng": -122.7141049,
-    "precision": "city",
-    "locality": "Santa Rosa",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Larkfield Shopping Center, Santa Rosa, CA 95403"
   },
   "blue-bottle-coffee--berkeley-ca": {
     "name": "Blue Bottle Coffee",
@@ -611,7 +602,7 @@
     "lat": 37.8758506,
     "lng": -122.2601015,
     "precision": "address",
-    "street": "1801;1803;1805;1807 Euclid Avenue",
+    "street": "1801 Euclid Avenue",
     "postcode": "94709",
     "neighborhood": "Northside",
     "locality": "Berkeley",
@@ -625,16 +616,7 @@
   "browntown-roastery-cafe--jamshedpur-india": {
     "name": "Browntown Roastery Cafe",
     "city": "Jamshedpur, India",
-    "address": "K Road, Bistupur, Jamshedpur 831001",
-    "lat": 22.8015194,
-    "lng": 86.2029579,
-    "precision": "city",
-    "locality": "Jamshedpur",
-    "region": "Jharkhand",
-    "country": "India",
-    "countryCode": "in",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Bistupur, Jamshedpur"
   },
   "cafe-angolo--san-francisco-ca": {
     "name": "Cafe Angolo",
@@ -1035,7 +1017,7 @@
     "lat": 37.7971338,
     "lng": -122.4010869,
     "precision": "address",
-    "street": "617;625;633 Battery Street",
+    "street": "617 Battery Street",
     "postcode": "94111",
     "neighborhood": "Telegraph Hill",
     "locality": "San Francisco",
@@ -1765,7 +1747,7 @@
     "lat": 37.7947441,
     "lng": -122.411237,
     "precision": "address",
-    "street": "1200;1202;1204;1206;1208 Mason Street",
+    "street": "1200 Mason Street",
     "postcode": "94133",
     "neighborhood": "Russian Hill",
     "locality": "San Francisco",
@@ -3246,16 +3228,7 @@
   "sams-general-store--calistoga-ca": {
     "name": "Sam’s General Store",
     "city": "Calistoga, CA",
-    "address": "109 Wappo Avenue, Calistoga, CA 94515",
-    "lat": 38.5787966,
-    "lng": -122.579705,
-    "precision": "city",
-    "locality": "Calistoga",
-    "region": "California",
-    "country": "United States",
-    "countryCode": "us",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Wappo Avenue, Calistoga, CA 94515"
   },
   "sanaa-cafe--san-francisco-ca": {
     "name": "Sana’a Cafe",
@@ -3331,7 +3304,7 @@
     "lat": 37.7864199,
     "lng": -122.4145469,
     "precision": "address",
-    "street": "679;681;683;685;687;689 Geary Street",
+    "street": "679 Geary Street",
     "postcode": "94102",
     "neighborhood": "Lower Nob Hill",
     "locality": "San Francisco",
@@ -3349,7 +3322,7 @@
     "lat": 37.797172,
     "lng": -122.4217904,
     "precision": "address",
-    "street": "2208;2210;2212;2214;2216 Polk Street",
+    "street": "2208 Polk Street",
     "postcode": "94109",
     "neighborhood": "Russian Hill",
     "locality": "San Francisco",
@@ -3672,16 +3645,7 @@
   "the-coffee-den--mumbai-india": {
     "name": "The Coffee Den",
     "city": "Mumbai, India",
-    "address": "Vithalwadi, Kalbadevi, Mumbai 400002",
-    "lat": 19.054999,
-    "lng": 72.8692035,
-    "precision": "city",
-    "locality": "Mumbai",
-    "region": "Maharashtra",
-    "country": "India",
-    "countryCode": "in",
-    "source": "nominatim",
-    "checked": "2026-10-21"
+    "address": "Kalbadevi, Mumbai"
   },
   "the-coffee-movement--san-francisco-ca": {
     "name": "The Coffee Movement",

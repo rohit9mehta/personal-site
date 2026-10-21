@@ -226,11 +226,14 @@ export function parseRatings(text: string): { rows: RatingRow[]; issues: DataIss
   return { rows, issues };
 }
 
-/** Street-level address line for display, e.g. "270 7th Street". */
+/**
+ * Street-level address line for display, e.g. "270 7th Street". A written
+ * address wins; only its first part is shown, since the city is shown anyway.
+ */
 export function displayAddress(place: PlaceInfo | undefined): string | undefined {
   if (!place) return undefined;
-  if (place.address) return place.address;
-  return place.street || undefined;
+  if (place.address) return place.address.split(',')[0]!.trim();
+  return place.street?.replace(/^(\d[\w-]*)[;,][^ ]*/, '$1') || undefined;
 }
 
 export function buildDataset(

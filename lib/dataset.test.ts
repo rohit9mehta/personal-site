@@ -156,7 +156,7 @@ describe('buildDataset', () => {
 
   it('prefers a hand-written address and defaults precision to exact', () => {
     const fuglen = buildDataset(csv, places).dataset.shops.find((s) => s.name === 'Fuglen')!;
-    expect(fuglen.address).toBe('1-16-11 Tomigaya, Shibuya');
+    expect(fuglen.address).toBe('1-16-11 Tomigaya');
     expect(fuglen.precision).toBe('exact');
   });
 
