@@ -3989,6 +3989,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "tiny-dancer-coffee--new-york-ny": {
+    "name": "Tiny Dancer Coffee",
+    "city": "New York, NY",
+    "address": "210 West 50th Street"
+  },
   "togokaffeehaus--wengen-switzerland": {
     "name": "ToGoKaffeeHaus",
     "city": "Wengen, Switzerland",
