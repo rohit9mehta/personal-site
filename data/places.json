@@ -3992,7 +3992,20 @@
   "tiny-dancer-coffee--new-york-ny": {
     "name": "Tiny Dancer Coffee",
     "city": "New York, NY",
-    "address": "210 West 50th Street"
+    "address": "210 West 50th Street",
+    "lat": 40.7614927,
+    "lng": -73.9844598,
+    "precision": "address",
+    "street": "210 West 50th Street",
+    "postcode": "10019",
+    "neighborhood": "Theater District",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/2717323778",
+    "source": "nominatim",
+    "checked": "2026-10-24"
   },
   "togokaffeehaus--wengen-switzerland": {
     "name": "ToGoKaffeeHaus",
