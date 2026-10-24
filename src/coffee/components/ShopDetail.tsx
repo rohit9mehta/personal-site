@@ -61,7 +61,11 @@ function Gauge({ score }: { score: number }) {
 export function ShopDetail({ shop, total, tiedWith, onClose }: Props) {
   const [shared, setShared] = useState(false);
   const { google, apple } = mapsLinks(shop);
-  const country = shop.country && !shop.city.toLowerCase().includes(shop.country.toLowerCase()) ? shop.country : null;
+  // "Oakland, CA" and "Paris, France" already say where they are; only a bare city name gets its country.
+  const country =
+    shop.country && !shop.city.includes(',') && !shop.city.toLowerCase().includes(shop.country.toLowerCase())
+      ? shop.country
+      : null;
   const place = shop.multiLocation
     ? 'Rated across its locations'
     : [placeLine(shop), country].filter(Boolean).join(' · ');

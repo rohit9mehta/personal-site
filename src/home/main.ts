@@ -3,10 +3,11 @@ import '@fontsource-variable/newsreader/opsz.css';
 import '../shared/base.css';
 import './home.css';
 import dataset from 'virtual:coffee-data';
+import { computeStats } from '../coffee/model.ts';
 import { scoreColor } from '../coffee/score.ts';
 
 const { shops } = dataset;
-const cities = new Set(shops.map((s) => `${s.city.toLowerCase()}|${s.countryCode ?? ''}`)).size;
+const { cities } = computeStats(shops);
 const best = shops[0];
 
 const summary = document.getElementById('summary');
@@ -51,6 +52,8 @@ if (preview) {
       const g = f.geometry;
       const polygons = g.type === 'Polygon' ? [g.coordinates] : g.type === 'MultiPolygon' ? g.coordinates : [];
       for (const polygon of polygons) {
+        // Antarctica would only peek in as slivers along the bottom edge.
+        if (polygon[0]?.every(([, lat]) => lat! < -56)) continue;
         for (const ring of polygon) {
           d +=
             ring.map(([lng, lat], i) => `${i ? 'L' : 'M'}${x(lng!).toFixed(1)} ${y(lat!).toFixed(1)}`).join('') + 'Z';

@@ -42,14 +42,22 @@ function frame(map: MapLibreMap, shops: Shop[], padding: Padding, animate: boole
   let bounds = boundsOf(points);
   if (!bounds) return;
   const canvas = map.getCanvas();
-  const extra = canvas.clientWidth < 600 ? 28 : 56;
+  const extra = canvas.clientWidth < 600 ? 36 : 56;
+  // Always clear of the zoom buttons (top right) and, on phones, the legend (top left).
+  const inset = {
+    top: padding.top + 56,
+    right: padding.right + 56,
+    bottom: padding.bottom + extra,
+    left: padding.left + extra,
+  };
   // The map can't zoom out past the point where the world fills the screen's
-  // height; on a phone that hides whole continents. Frame where most cafés are.
-  const usableWidth = canvas.clientWidth - padding.left - padding.right - 2 * extra;
-  const floorZoom = Math.max(map.getMinZoom(), Math.log2(canvas.clientHeight / 512));
-  const widestSpan = (usableWidth / (512 * 2 ** floorZoom)) * 360;
-  if (bounds[1][0] - bounds[0][0] > widestSpan) {
-    points = densestWindow(points, widestSpan);
+  // height, and at that zoom it can't pan north either. When the cafés don't
+  // fit across the screen even then (a phone), frame where most of them are,
+  // zoomed in enough to center them instead of pinning them to the top edge.
+  const spanAt = (worldPx: number) => ((canvas.clientWidth - inset.left - inset.right) / worldPx) * 360;
+  const floorWorld = Math.max(512 * 2 ** map.getMinZoom(), canvas.clientHeight);
+  if (bounds[1][0] - bounds[0][0] > spanAt(floorWorld)) {
+    points = densestWindow(points, spanAt(1.5 * floorWorld));
     bounds = boundsOf(points)!;
   }
   const [[west, south], [east, north]] = bounds;
@@ -60,12 +68,7 @@ function frame(map: MapLibreMap, shops: Shop[], padding: Padding, animate: boole
     map.fitBounds(
       bounds,
       {
-        padding: {
-          top: padding.top + extra,
-          bottom: padding.bottom + extra,
-          left: padding.left + extra,
-          right: padding.right + extra,
-        },
+        padding: inset,
         maxZoom: 13.5,
         ...animation,
       },
@@ -210,12 +213,12 @@ export function MapView({
     if (!position) return;
     const point = map.project(position);
     const canvas = map.getCanvas();
-    const margin = 40;
+    // Room for the name label above the pin, which is up to 220px wide.
     const visible =
-      point.x > padding.left + margin &&
-      point.x < canvas.clientWidth - padding.right - margin &&
-      point.y > padding.top + margin &&
-      point.y < canvas.clientHeight - padding.bottom - margin;
+      point.x > padding.left + 120 &&
+      point.x < canvas.clientWidth - padding.right - 120 &&
+      point.y > padding.top + 80 &&
+      point.y < canvas.clientHeight - padding.bottom - 40;
     if (visible && map.getZoom() >= 12) return;
     map.flyTo({
       center: position,
