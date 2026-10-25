@@ -2397,6 +2397,23 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "maman--new-york-ny": {
+    "name": "Maman",
+    "city": "New York, NY",
+    "lat": 40.7841143,
+    "lng": -73.9773689,
+    "precision": "exact",
+    "street": "429 Amsterdam Avenue",
+    "postcode": "10024",
+    "neighborhood": "Manhattan Community Board 7",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/14121311834",
+    "source": "nominatim",
+    "checked": "2026-10-25"
+  },
   "marin-coffee-roasters--novato-ca": {
     "name": "Marin Coffee Roasters",
     "city": "Novato, CA",
