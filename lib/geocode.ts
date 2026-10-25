@@ -270,6 +270,15 @@ export function placeQueries(city: string): string[] {
   return [...new Set(readings)];
 }
 
+// Administrative areas OSM files under neighbourhood or suburb, which read
+// badly as a neighborhood ("Manhattan Community Board 7").
+const ADMIN_AREA = /\bcommunity board\b/i;
+
+/** The first of the candidates that names an actual neighborhood. */
+function neighborhood(...names: (string | undefined)[]): string | undefined {
+  return names.find((name) => name && !ADMIN_AREA.test(name));
+}
+
 function street(road?: string, houseNumber?: string, countryCode?: string): string | undefined {
   if (!road) return undefined;
   // OSM sometimes lists every number on a building: "2160;2168;2170".
@@ -288,7 +297,7 @@ export function fromNominatim(r: NominatimResult, precision: Precision): GeoHit 
     source: 'nominatim',
     street: street(a.road ?? a.pedestrian ?? a.footway ?? a.square, a.house_number, countryCode),
     postcode: a.postcode,
-    neighborhood: a.neighbourhood ?? a.suburb ?? a.quarter ?? a.city_district ?? a.borough,
+    neighborhood: neighborhood(a.neighbourhood, a.suburb, a.quarter, a.city_district, a.borough),
     locality: a.city ?? a.town ?? a.village ?? a.municipality ?? a.hamlet,
     region: a.state ?? a.province ?? a.region,
     country: a.country,
@@ -311,7 +320,7 @@ export function fromPhoton(f: PhotonFeature, precision: Precision): GeoHit {
     source: 'photon',
     street: street(str('street'), str('housenumber'), countryCode),
     postcode: str('postcode'),
-    neighborhood: str('district') ?? str('locality'),
+    neighborhood: neighborhood(str('district'), str('locality')),
     locality: str('city'),
     region: str('state'),
     country: str('country'),

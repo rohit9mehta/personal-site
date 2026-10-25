@@ -70,6 +70,12 @@ describe('fromNominatim', () => {
         .street,
     ).toBe('Grüners gate 1');
   });
+
+  it('skips administrative areas when picking the neighborhood', () => {
+    const base = { lat: '1', lon: '2', osm_type: 'node', osm_id: 7 };
+    const address = { suburb: 'Manhattan Community Board 7', borough: 'Manhattan', country_code: 'us' };
+    expect(fromNominatim({ ...base, address }, 'exact').neighborhood).toBe('Manhattan');
+  });
 });
 
 const SF: NominatimResult = {
