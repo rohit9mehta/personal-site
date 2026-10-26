@@ -2756,6 +2756,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "outside-in--new-york-ny": {
+    "name": "Outside In",
+    "city": "New York, NY",
+    "address": "31 Crosby Street"
+  },
   "pages-and-sips--geneva-switzerland": {
     "name": "Pages and Sips",
     "city": "Geneva, Switzerland",
