@@ -1438,7 +1438,20 @@
   "devocion--new-york-ny": {
     "name": "Devoción",
     "city": "New York, NY",
-    "address": "25 East 20th Street"
+    "address": "25 East 20th Street",
+    "lat": 40.7390428,
+    "lng": -73.9891661,
+    "precision": "exact",
+    "street": "25 East 20th Street",
+    "postcode": "10010",
+    "neighborhood": "Flatiron District",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/9270151458",
+    "source": "nominatim",
+    "checked": "2026-10-26"
   },
   "diggin--new-delhi-india": {
     "name": "Diggin",
