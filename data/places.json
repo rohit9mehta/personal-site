@@ -1438,7 +1438,20 @@
   "devocion--new-york-ny": {
     "name": "Devoción",
     "city": "New York, NY",
-    "address": "25 East 20th Street"
+    "address": "25 East 20th Street",
+    "lat": 40.7435347,
+    "lng": -73.9888798,
+    "precision": "exact",
+    "street": "1134 Broadway",
+    "postcode": "10010",
+    "neighborhood": "NoMad",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/2706908812",
+    "source": "nominatim",
+    "checked": "2026-10-26"
   },
   "diggin--new-delhi-india": {
     "name": "Diggin",
@@ -2388,7 +2401,20 @@
   "maman--new-york-ny": {
     "name": "Maman",
     "city": "New York, NY",
-    "address": "3 West 18th Street"
+    "address": "3 West 18th Street",
+    "lat": 40.7389472,
+    "lng": -73.9923405,
+    "precision": "address",
+    "street": "3 West 18th Street",
+    "postcode": "10011",
+    "neighborhood": "Chelsea District",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/264645729",
+    "source": "nominatim",
+    "checked": "2026-10-26"
   },
   "marin-coffee-roasters--novato-ca": {
     "name": "Marin Coffee Roasters",
