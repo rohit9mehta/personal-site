@@ -2759,7 +2759,20 @@
   "outside-in--new-york-ny": {
     "name": "Outside In",
     "city": "New York, NY",
-    "address": "31 Crosby Street"
+    "address": "31 Crosby Street",
+    "lat": 40.720743,
+    "lng": -73.9993465,
+    "precision": "address",
+    "street": "31 Crosby Street",
+    "postcode": "10013",
+    "neighborhood": "Little Italy",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/247892565",
+    "source": "nominatim",
+    "checked": "2026-10-26"
   },
   "pages-and-sips--geneva-switzerland": {
     "name": "Pages and Sips",
