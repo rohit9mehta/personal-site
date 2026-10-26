@@ -490,8 +490,10 @@ export class Geocoder {
         this.log(`  address "${hint.address}" not found near ${city}`);
       }
     }
+    // With an address, only the café at it will do: a namesake a few blocks
+    // away is another branch, or a stale OSM entry.
     const near = addressHit
-      ? { lat: addressHit.lat, lng: addressHit.lng, km: 0.5, strict: true }
+      ? { lat: addressHit.lat, lng: addressHit.lng, km: 0.2, strict: true }
       : { lat: area.lat, lng: area.lng, km: area.radiusKm };
 
     const free = await this.nominatim('/search', { q: `${name}, ${area.query}`, limit: '10' });

@@ -203,6 +203,28 @@ describe('Geocoder.place', () => {
     expect(hit).toMatchObject({ osm: 'node/2', precision: 'exact' });
   });
 
+  it('keeps the written address over a namesake a few blocks away', async () => {
+    const address = {
+      ...SIGHTGLASS,
+      lat: '37.7826',
+      lon: '-122.4078',
+      category: 'place',
+      type: 'house',
+      name: undefined,
+    };
+    const blocksAway = { ...SIGHTGLASS, name: 'Blue Bottle Coffee', lat: '37.7860', lon: '-122.4078', osm_id: 4 };
+    const { fetchJson } = fakeFetch({
+      'San Francisco|': [SF],
+      '66 Mint St, San Francisco|': [address],
+      'Blue Bottle Coffee, San Francisco|': [blocksAway],
+      'Blue Bottle Coffee|1': [blocksAway],
+    });
+    const hit = await new Geocoder({ fetchJson, ...quiet }).place('Blue Bottle Coffee', 'San Francisco', {
+      address: '66 Mint St',
+    });
+    expect(hit).toMatchObject({ lat: 37.7826, precision: 'address' });
+  });
+
   it('falls through to another reading of the city', async () => {
     const delhi: NominatimResult = {
       ...SF,
