@@ -66,6 +66,11 @@ export interface Shop {
   score: number;
   /** 1 = best. Ties share a rank. */
   rank: number;
+  /**
+   * Line of the latest rating in data/coffee.csv, which is in the order cafés
+   * were rated. Unset for the early rows whose order isn't known.
+   */
+  logged?: number;
   /** Oldest first. */
   visits: Visit[];
   note?: string;
@@ -120,6 +125,13 @@ export function isMultiLocation(city: string): boolean {
 export function placeKey(name: string, city: string): string {
   return `${slugify(name)}--${slugify(city)}`;
 }
+
+/**
+ * Ratings were first kept in a spreadsheet that got sorted by score before
+ * this café was added, so the rows above its first rating say nothing about
+ * when those cafés were rated. From it on, the file is in the order of rating.
+ */
+const FIRST_IN_ORDER = placeKey('Pixlcat Coffee', 'San Francisco, CA');
 
 const SCORE_RE = /^(\d{1,2}(?:\.\d{1,2})?|\.\d{1,2})(?:\s*\/\s*10)?$/;
 
@@ -250,6 +262,7 @@ export function buildDataset(
     else byKey.set(key, [row]);
   }
 
+  const inOrderFrom = rows.find((row) => placeKey(row.name, row.city) === FIRST_IN_ORDER)?.line ?? 0;
   const shops: Shop[] = [];
   const unlocated: string[] = [];
   for (const [id, visitsRows] of byKey) {
@@ -267,6 +280,7 @@ export function buildDataset(
     const note = [...visitsRows].reverse().find((r) => r.note)?.note;
     if (note) shop.note = note;
     if (latest.date) shop.date = latest.date;
+    if (latest.line >= inOrderFrom) shop.logged = latest.line;
     if (isMultiLocation(latest.city)) {
       shop.multiLocation = true;
     } else if (place && typeof place.lat === 'number' && typeof place.lng === 'number') {

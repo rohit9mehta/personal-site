@@ -167,6 +167,25 @@ describe('buildDataset', () => {
     expect(unlocated).toEqual([]);
   });
 
+  it('records where each café last appears in the log', () => {
+    const { dataset } = buildDataset(csv, places);
+    const logged = Object.fromEntries(dataset.shops.map((s) => [s.name, s.logged]));
+    expect(logged).toEqual({ Fuglen: 4, 'sightglass coffee': 5, Ritual: 3, 'Unknown Spot': 6 });
+  });
+
+  it('leaves the rows from the score-sorted spreadsheet out of the log order', () => {
+    const log = [
+      'name,city,score',
+      'Best,Oakland,9',
+      'Worst,Oakland,6',
+      'Pixlcat Coffee,"San Francisco, CA",7.6',
+      'Newest,Oakland,8',
+      'Worst,Oakland,6.5',
+    ].join('\n');
+    const logged = Object.fromEntries(buildDataset(log, {}).dataset.shops.map((s) => [s.name, s.logged]));
+    expect(logged).toEqual({ Best: undefined, 'Pixlcat Coffee': 4, Newest: 5, Worst: 6 });
+  });
+
   it('lists cafés that have no coordinates yet', () => {
     const { unlocated, dataset } = buildDataset(csv, places);
     expect(unlocated).toEqual(['Unknown Spot (Nowhere)']);

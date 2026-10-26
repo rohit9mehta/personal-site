@@ -10,7 +10,7 @@ import {
   SORT_LABELS,
   computeStats,
   filterShops,
-  hasDates,
+  hasRecency,
   inBounds,
   sortShops,
   type Bounds,
@@ -82,7 +82,7 @@ export function App({ dataset }: { dataset: Dataset }) {
   const listed = useMemo(() => sortShops(inArea, sort), [inArea, sort]);
   const stats = useMemo(() => computeStats(all), [all]);
   const sortKeys = useMemo(
-    () => (Object.keys(SORT_LABELS) as SortKey[]).filter((k) => k !== 'recent' || hasDates(all)),
+    () => (Object.keys(SORT_LABELS) as SortKey[]).filter((k) => k !== 'recent' || hasRecency(all)),
     [all],
   );
   const selected = selectedId ? (byId.get(selectedId) ?? null) : null;

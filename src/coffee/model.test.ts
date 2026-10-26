@@ -49,6 +49,16 @@ describe('sortShops', () => {
     ]);
     expect(sortShops(shops, 'city')[0]?.city).toBe('Multiple locations');
   });
+
+  it('puts the latest logged first and cafés of unknown order last, best first', () => {
+    const log = [
+      shop('Old good', 'X', 9),
+      shop('Old bad', 'X', 6),
+      shop('First logged', 'X', 7, { logged: 10 }),
+      shop('Last logged', 'X', 8, { logged: 12 }),
+    ];
+    expect(sortShops(log, 'recent').map((s) => s.name)).toEqual(['Last logged', 'First logged', 'Old good', 'Old bad']);
+  });
 });
 
 describe('computeStats', () => {

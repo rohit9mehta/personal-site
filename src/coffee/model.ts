@@ -96,7 +96,8 @@ export function sortShops(shops: Shop[], key: SortKey): Shop[] {
         (a, b) => a.city.localeCompare(b.city, undefined, { sensitivity: 'base' }) || b.score - a.score || byName(a, b),
       );
     case 'recent':
-      return list.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || b.score - a.score || byName(a, b));
+      // Latest rated first; cafés from before the log kept its order come last, best first.
+      return list.sort((a, b) => (b.logged ?? 0) - (a.logged ?? 0) || b.score - a.score || byName(a, b));
   }
 }
 
@@ -160,6 +161,7 @@ export function histogram(shops: Shop[], step = 0.25, floor = 6): Bucket[] {
   return buckets;
 }
 
-export function hasDates(shops: Shop[]): boolean {
-  return shops.some((s) => s.date);
+/** Whether "Most recent" means anything: some café's place in the log is known. */
+export function hasRecency(shops: Shop[]): boolean {
+  return shops.some((s) => s.logged);
 }
