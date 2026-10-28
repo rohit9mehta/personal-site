@@ -1702,7 +1702,20 @@
   "foreigner--new-york-ny": {
     "name": "Foreigner",
     "city": "New York, NY",
-    "address": "31 Bond Street"
+    "address": "31 Bond Street",
+    "lat": 40.7261184,
+    "lng": -73.9936052,
+    "precision": "address",
+    "street": "31 Bond Street",
+    "postcode": "10012",
+    "neighborhood": "NoHo",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/247839569",
+    "source": "nominatim",
+    "checked": "2026-10-28"
   },
   "four-barrel-coffee--san-francisco-ca": {
     "name": "Four Barrel Coffee",
@@ -2081,7 +2094,20 @@
   "hungry-ghost-coffee--new-york-ny": {
     "name": "Hungry Ghost Coffee",
     "city": "New York, NY",
-    "address": "165 Church Street"
+    "address": "165 Church Street",
+    "lat": 40.7150577,
+    "lng": -74.0076117,
+    "precision": "address",
+    "street": "165 Church Street",
+    "postcode": "10007",
+    "neighborhood": "Tribeca",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/8333736457",
+    "source": "nominatim",
+    "checked": "2026-10-28"
   },
   "illy--san-francisco-ca": {
     "name": "illy",
