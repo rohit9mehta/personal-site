@@ -2078,6 +2078,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "hungry-ghost-coffee--new-york-ny": {
+    "name": "Hungry Ghost Coffee",
+    "city": "New York, NY",
+    "address": "165 Church Street"
+  },
   "illy--san-francisco-ca": {
     "name": "illy",
     "city": "San Francisco, CA",
