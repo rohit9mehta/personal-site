@@ -1699,6 +1699,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "foreigner--new-york-ny": {
+    "name": "Foreigner",
+    "city": "New York, NY",
+    "address": "31 Bond Street"
+  },
   "four-barrel-coffee--san-francisco-ca": {
     "name": "Four Barrel Coffee",
     "city": "San Francisco, CA",
