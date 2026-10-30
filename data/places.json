@@ -3415,6 +3415,11 @@
     "source": "photon",
     "checked": "2026-10-21"
   },
+  "sawada-coffee--new-york-ny": {
+    "name": "Sawada Coffee",
+    "city": "New York, NY",
+    "address": "33 Cortlandt Alley"
+  },
   "scullery--san-francisco-ca": {
     "name": "Scullery",
     "city": "San Francisco, CA",
