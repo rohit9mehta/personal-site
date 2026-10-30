@@ -3418,7 +3418,20 @@
   "sawada-coffee--new-york-ny": {
     "name": "Sawada Coffee",
     "city": "New York, NY",
-    "address": "33 Cortlandt Alley"
+    "address": "33 Cortlandt Alley",
+    "lat": 40.7180129,
+    "lng": -74.0019883,
+    "precision": "exact",
+    "street": "33 Cortlandt Alley",
+    "postcode": "10013",
+    "neighborhood": "Little Italy",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/6919152919",
+    "source": "nominatim",
+    "checked": "2026-10-30"
   },
   "scullery--san-francisco-ca": {
     "name": "Scullery",
