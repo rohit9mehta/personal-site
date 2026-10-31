@@ -4152,7 +4152,20 @@
   "urban-backyard--new-york-ny": {
     "name": "Urban Backyard",
     "city": "New York, NY",
-    "address": "161 6th Avenue, Manhattan, NY 10013"
+    "address": "161 6th Avenue, Manhattan, NY 10013",
+    "lat": 40.7252719,
+    "lng": -74.0040154,
+    "precision": "address",
+    "street": "161 6th Avenue",
+    "postcode": "10013",
+    "neighborhood": "Hudson Square",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/845994219",
+    "source": "nominatim",
+    "checked": "2026-10-31"
   },
   "vanilla-gorilla-cafe--new-york-ny": {
     "name": "Vanilla Gorilla Cafe",
