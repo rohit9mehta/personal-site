@@ -4152,7 +4152,20 @@
   "urban-backyard--new-york-ny": {
     "name": "Urban Backyard",
     "city": "New York, NY",
-    "address": "161 6th Avenue"
+    "address": "161 6th Avenue",
+    "lat": 40.6770862,
+    "lng": -73.9765589,
+    "precision": "address",
+    "street": "161 6th Avenue",
+    "postcode": "11217",
+    "neighborhood": "Park Slope",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/250442698",
+    "source": "nominatim",
+    "checked": "2026-10-31"
   },
   "vanilla-gorilla-cafe--new-york-ny": {
     "name": "Vanilla Gorilla Cafe",
