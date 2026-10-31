@@ -4149,6 +4149,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "urban-backyard--new-york-ny": {
+    "name": "Urban Backyard",
+    "city": "New York, NY",
+    "address": "161 6th Avenue"
+  },
   "vanilla-gorilla-cafe--new-york-ny": {
     "name": "Vanilla Gorilla Cafe",
     "city": "New York, NY",
