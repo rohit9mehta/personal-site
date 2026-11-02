@@ -2127,6 +2127,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "jakes-at-the-knick--new-york-ny": {
+    "name": "Jake’s at The Knick",
+    "city": "New York, NY",
+    "address": "6 Times Square"
+  },
   "jane-on-larkin--san-francisco-ca": {
     "name": "Jane on Larkin",
     "city": "San Francisco, CA",
