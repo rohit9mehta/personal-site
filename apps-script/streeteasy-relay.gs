@@ -13,8 +13,8 @@ const REPO = 'rohit9mehta/personal-site';
 const QUERY = 'from:(streeteasy.com) newer_than:4d';
 /** Give up on an email after this many tries (the scan reads each one only once). */
 const MAX_TRIES = 3;
-/** Emails per request to GitHub. */
-const BATCH = 4;
+/** GitHub takes up to 64 KB of payload per request; stay well under. */
+const MAX_PAYLOAD = 48000;
 
 /** Run this once by hand: it checks the setup and schedules `relay` every 10 minutes. */
 function setup() {
@@ -47,8 +47,7 @@ function relay() {
     }
   }
 
-  for (let i = 0; i < pending.length; i += BATCH) {
-    const batch = pending.slice(i, i + BATCH);
+  for (const batch of batches_(pending)) {
     const res = UrlFetchApp.fetch(`https://api.github.com/repos/${REPO}/dispatches`, {
       method: 'post',
       contentType: 'application/json',
@@ -72,6 +71,25 @@ function relay() {
   props.setProperty('tries', JSON.stringify(tries));
   if (pending.length) console.log(`Sent ${pending.length} alert email(s) to GitHub.`);
   return pending.length;
+}
+
+/** Groups emails into requests small enough for GitHub. */
+function batches_(emails) {
+  const out = [];
+  let current = [];
+  let size = 0;
+  for (const e of emails) {
+    const n = JSON.stringify(e).length;
+    if (current.length && size + n > MAX_PAYLOAD) {
+      out.push(current);
+      current = [];
+      size = 0;
+    }
+    current.push(e);
+    size += n;
+  }
+  if (current.length) out.push(current);
+  return out;
 }
 
 function token_() {
@@ -105,5 +123,5 @@ function tidy_(text) {
     .replace(/(https?:\/\/(?:www\.)?streeteasy\.com\/[^\s>?]*)\?[^\s>]*/g, '$1')
     .replace(/[\w.+-]+@[\w-]+\.[\w.]+/g, '')
     .replace(/\n{3,}/g, '\n\n')
-    .slice(0, 60000);
+    .slice(0, 40000);
 }
