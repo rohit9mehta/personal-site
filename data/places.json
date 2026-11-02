@@ -66,6 +66,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "a-frame-cafe--new-york-ny": {
+    "name": "A-Frame Cafe",
+    "city": "New York, NY",
+    "address": "114 Crosby Street"
+  },
   "aldens-coffee--new-york-ny": {
     "name": "Alden’s Coffee",
     "city": "New York, NY",
