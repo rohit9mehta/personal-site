@@ -19,3 +19,17 @@ jobs:
       - run: npm run validate
       - run: npm run check
       - run: npm run build
+
+  city-data:
+    # The apartment scan relies on NYC GeoSearch and NYC Open Data. This looks up
+    # one well-known building to show they still answer the way it expects. It
+    # never blocks a merge: a slow city server isn't a broken build.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - name: Look up one building's city records
+        run: node scripts/apartments/check.ts "515 West 38th Street"
