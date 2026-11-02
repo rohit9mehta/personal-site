@@ -1,7 +1,7 @@
 # Notes for Claude
 
-Rohit's personal site plus **One Sip**, a map of coffee shops he has rated out of 10. See README.md for the full
-picture.
+Rohit's personal site plus **One Sip**, a map of coffee shops he has rated out of 10, and **Shortlist**
+(`/apartments/`), his apartment hunt. See README.md for the full picture.
 
 ## Logging a coffee (the most common request)
 
@@ -26,3 +26,16 @@ picture.
   bundled world outline and pins. `COFFEE_DATA=fixtures/sample` swaps in sample data.
 - Data flow: `data/coffee.csv` + `data/places.json` → `lib/dataset.ts` (`buildDataset`) → `virtual:coffee-data`.
 - `scripts/dev/import-sheet.ts` converts rows pasted from the original Google Sheet into `data/coffee.csv`.
+
+## Shortlist (apartments)
+
+- Listings arrive only through StreetEasy's own saved-search alert emails (Gmail → `apps-script/streeteasy-relay.gs` →
+  `repository_dispatch` → `scripts/apartments/scan.ts`). Don't add scraping of StreetEasy or Openigloo: both block
+  automated access.
+- Never commit his personal addresses (office, partner's place) or settings: they live in the browser only. Sample
+  places in dev scripts are public landmarks.
+- Scan output is `scan.json` on the `apartments-data` branch (written by the workflow; never merge it into `main`).
+- Logic shared by the scan and the page is in `lib/apartments/` (tests next to it); the alert email fixtures are real
+  2023 StreetEasy emails with personal details removed.
+- `node scripts/apartments/check.ts "<address>"` shows what the city has on a building (needs internet; the sandbox
+  usually can't reach NYC Open Data, so verify with the workflow's address input instead).

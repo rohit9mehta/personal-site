@@ -6,3 +6,4 @@ shots
 .env
 .eslintcache
 .DS_Store
+.apartments-data

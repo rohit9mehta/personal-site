@@ -9,3 +9,5 @@ fixtures/sample/coffee.csv
 .github
 README.md
 CLAUDE.md
+src/apartments/subway.json
+fixtures/apartments/scan.json

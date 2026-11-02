@@ -21,6 +21,8 @@
     "check": "npm run typecheck && npm run lint && npm run test",
     "validate": "node scripts/validate.ts",
     "enrich": "node scripts/enrich.ts",
+    "apartments:check": "node scripts/apartments/check.ts",
+    "apartments:subway": "node scripts/apartments/build-subway.ts",
     "format": "prettier --write ."
   },
   "dependencies": {

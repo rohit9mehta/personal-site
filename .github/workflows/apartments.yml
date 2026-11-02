@@ -1,0 +1,78 @@
+# The apartment scan (see scripts/apartments/scan.ts). The Gmail relay
+# (apps-script/) sends new StreetEasy alert emails here as a repository_dispatch;
+# every few hours it also re-checks city records. Results go to scan.json on the
+# apartments-data branch, which the site reads directly — no redeploy needed.
+name: Apartments
+
+on:
+  repository_dispatch:
+    types: [streeteasy-alert]
+  workflow_dispatch:
+    inputs:
+      address:
+        description: Only check this address (e.g. 212 East 29th Street) and show what the city has on it; saves nothing
+        required: false
+        type: string
+  schedule:
+    - cron: '23 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apartments
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Check one address
+        if: inputs.address != ''
+        run: node scripts/apartments/check.ts
+        env:
+          ADDRESS: ${{ inputs.address }}
+          SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
+
+      - name: Check out the scan data
+        if: inputs.address == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$remote" apartments-data > /dev/null; then
+            git clone --quiet --depth 1 --branch apartments-data "$remote" .apartments-data
+          else
+            git init --quiet -b apartments-data .apartments-data
+            git -C .apartments-data remote add origin "$remote"
+            cp scripts/apartments/data-branch-readme.md .apartments-data/README.md
+          fi
+
+      - name: Read alerts, locate buildings, check city records
+        if: inputs.address == ''
+        run: node scripts/apartments/scan.ts --data .apartments-data
+        env:
+          SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
+
+      - name: Save
+        if: inputs.address == ''
+        working-directory: .apartments-data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit --quiet -m "Scan $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push --quiet origin HEAD:apartments-data

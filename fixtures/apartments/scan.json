@@ -1,0 +1,621 @@
+{
+ "version": 1,
+ "updatedAt": "2026-11-02T14:46:00.000Z",
+ "listings": [
+  {
+   "id": "5101",
+   "url": "https://streeteasy.com/rental/5101",
+   "address": "245 East 35th Street",
+   "unit": "4C",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "price": 3295,
+   "beds": 1,
+   "baths": 1,
+   "broker": "Owner",
+   "updates": [],
+   "firstSeen": "2026-11-02T12:00:00.000Z",
+   "lastSeen": "2026-11-02T12:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-11-02",
+     "price": 3295
+    }
+   ],
+   "building": "245 e 35 st",
+   "noFee": true,
+   "sqft": 560
+  },
+  {
+   "id": "5102",
+   "url": "https://streeteasy.com/rental/5102",
+   "address": "37 West 17th Street",
+   "unit": "5R",
+   "neighborhood": "Flatiron",
+   "kind": "Rental Unit",
+   "price": 3650,
+   "beds": 0,
+   "baths": 1,
+   "broker": "Corcoran",
+   "updates": [],
+   "firstSeen": "2026-11-02T08:00:00.000Z",
+   "lastSeen": "2026-11-02T08:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-11-02",
+     "price": 3650
+    }
+   ],
+   "building": "37 w 17 st",
+   "sqft": 480
+  },
+  {
+   "id": "5103",
+   "url": "https://streeteasy.com/rental/5103",
+   "address": "150 Thompson Street",
+   "unit": "2",
+   "neighborhood": "SoHo",
+   "kind": "Rental Unit",
+   "price": 3450,
+   "beds": 1,
+   "baths": 1,
+   "broker": "Douglas Elliman",
+   "updates": [],
+   "firstSeen": "2026-11-01T19:00:00.000Z",
+   "lastSeen": "2026-11-01T19:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-11-01",
+     "price": 3450
+    }
+   ],
+   "building": "150 thompson st"
+  },
+  {
+   "id": "5104",
+   "url": "https://streeteasy.com/rental/5104",
+   "address": "310 West 20th Street",
+   "unit": "3F",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "price": 3195,
+   "beds": 1,
+   "baths": 1,
+   "broker": "Compass",
+   "updates": [],
+   "firstSeen": "2026-11-01T13:00:00.000Z",
+   "lastSeen": "2026-11-01T13:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-11-01",
+     "price": 3195
+    }
+   ],
+   "building": "310 w 20 st",
+   "sqft": 540
+  },
+  {
+   "id": "5105",
+   "url": "https://streeteasy.com/rental/5105",
+   "address": "21 Spring Street",
+   "unit": "5",
+   "neighborhood": "Nolita",
+   "kind": "Rental Unit",
+   "price": 3400,
+   "beds": 1,
+   "baths": 1,
+   "broker": "Nolita Group",
+   "updates": [],
+   "firstSeen": "2026-11-01T09:00:00.000Z",
+   "lastSeen": "2026-11-01T09:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-11-01",
+     "price": 3400
+    }
+   ],
+   "building": "21 spring st",
+   "noFee": true
+  },
+  {
+   "id": "5106",
+   "url": "https://streeteasy.com/rental/5106",
+   "address": "333 East 46th Street",
+   "unit": "12D",
+   "neighborhood": "Midtown East",
+   "kind": "Rental Unit",
+   "price": 3300,
+   "beds": 1,
+   "baths": 1,
+   "broker": "Glenwood",
+   "updates": [],
+   "firstSeen": "2026-10-31T22:00:00.000Z",
+   "lastSeen": "2026-10-31T22:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-10-31",
+     "price": 3300
+    }
+   ],
+   "building": "333 e 46 st",
+   "noFee": true,
+   "sqft": 610
+  },
+  {
+   "id": "5107",
+   "url": "https://streeteasy.com/rental/5107",
+   "address": "25 Bond Street",
+   "unit": "3",
+   "neighborhood": "NoHo",
+   "kind": "Rental Unit",
+   "price": 6800,
+   "beds": 2,
+   "baths": 2,
+   "broker": "Sotheby's",
+   "updates": [],
+   "firstSeen": "2026-10-31T13:00:00.000Z",
+   "lastSeen": "2026-10-31T13:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-10-31",
+     "price": 6800
+    }
+   ],
+   "building": "25 bond st",
+   "sqft": 1100
+  },
+  {
+   "id": "5108",
+   "url": "https://streeteasy.com/rental/5108",
+   "address": "101 West 15th Street",
+   "unit": "4E",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "price": 6450,
+   "beds": 2,
+   "baths": 1,
+   "broker": "Corcoran",
+   "updates": [],
+   "firstSeen": "2026-10-31T03:00:00.000Z",
+   "lastSeen": "2026-10-31T03:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-10-31",
+     "price": 6450
+    }
+   ],
+   "building": "101 w 15 st",
+   "sqft": 900
+  },
+  {
+   "id": "5109",
+   "url": "https://streeteasy.com/rental/5109",
+   "address": "7 East 14th Street",
+   "unit": "812",
+   "neighborhood": "Greenwich Village",
+   "kind": "Rental Unit",
+   "price": 3500,
+   "beds": 1,
+   "baths": 1,
+   "broker": "Owner",
+   "updates": [],
+   "firstSeen": "2026-11-02T14:00:00.000Z",
+   "lastSeen": "2026-11-02T14:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-11-02",
+     "price": 3500
+    }
+   ],
+   "building": "7 e 14 st",
+   "noFee": true
+  },
+  {
+   "id": "5110",
+   "url": "https://streeteasy.com/rental/5110",
+   "address": "236 East 3rd Street",
+   "unit": "4",
+   "neighborhood": "East Village",
+   "kind": "Rental Unit",
+   "price": 3100,
+   "beds": 1,
+   "baths": 1,
+   "broker": "Real New York",
+   "updates": [],
+   "firstSeen": "2026-10-30T17:00:00.000Z",
+   "lastSeen": "2026-10-30T17:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-10-30",
+     "price": 3100
+    }
+   ],
+   "building": "236 e 3 st"
+  },
+  {
+   "id": "5111",
+   "url": "https://streeteasy.com/rental/5111",
+   "address": "412 West 46th Street",
+   "unit": "2B",
+   "neighborhood": "Hell's Kitchen",
+   "kind": "Rental Unit",
+   "price": 2950,
+   "beds": 0,
+   "baths": 1,
+   "broker": "Bohemia",
+   "updates": [],
+   "firstSeen": "2026-10-30T07:00:00.000Z",
+   "lastSeen": "2026-10-30T07:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-10-30",
+     "price": 2950
+    }
+   ],
+   "building": "412 w 46 st",
+   "suggested": true
+  },
+  {
+   "id": "5112",
+   "url": "https://streeteasy.com/rental/5112",
+   "address": "140 East 28th Street",
+   "unit": "6B",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "price": 3350,
+   "beds": 1,
+   "baths": 1,
+   "broker": "Owner",
+   "updates": [
+    "Price Drop: $100"
+   ],
+   "firstSeen": "2026-11-02T03:00:00.000Z",
+   "lastSeen": "2026-11-02T03:00:00.000Z",
+   "prices": [
+    {
+     "date": "2026-10-29",
+     "price": 3450
+    },
+    {
+     "date": "2026-11-02",
+     "price": 3350
+    }
+   ],
+   "building": "140 e 28 st",
+   "noFee": true,
+   "sqft": 590
+  }
+ ],
+ "buildings": {
+  "245 e 35 st": {
+   "address": "245 East 35th Street",
+   "geo": {
+    "lat": 40.7457,
+    "lng": -73.9758,
+    "label": "245 EAST 35TH STREET, Manhattan, New York, NY, USA",
+    "bbl": "1000000000",
+    "bin": "1000000",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "245",
+    "street": "East 35th Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-02T12:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": []
+   }
+  },
+  "37 w 17 st": {
+   "address": "37 West 17th Street",
+   "geo": {
+    "lat": 40.7385,
+    "lng": -73.9939,
+    "label": "37 WEST 17TH STREET, Manhattan, New York, NY, USA",
+    "bbl": "1001001000",
+    "bin": "1000001",
+    "neighborhood": "Flatiron",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "37",
+    "street": "West 17th Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-02T08:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": []
+   }
+  },
+  "150 thompson st": {
+   "address": "150 Thompson Street",
+   "geo": {
+    "lat": 40.7266,
+    "lng": -74.0,
+    "label": "150 THOMPSON STREET, Manhattan, New York, NY, USA",
+    "bbl": "1002002000",
+    "bin": "1000002",
+    "neighborhood": "SoHo",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "150",
+    "street": "Thompson Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-01T19:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Complaint: Mice",
+      "apartment": "2",
+      "status": "Close"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-02-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Complaint: Mice",
+      "apartment": "4",
+      "status": "Close"
+     },
+     {
+      "source": "311",
+      "date": "2025-11-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     }
+    ]
+   }
+  },
+  "310 w 20 st": {
+   "address": "310 West 20th Street",
+   "geo": {
+    "lat": 40.744,
+    "lng": -74.0011,
+    "label": "310 WEST 20TH STREET, Manhattan, New York, NY, USA",
+    "bbl": "1003003000",
+    "bin": "1000003",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "310",
+    "street": "West 20th Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-01T13:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": []
+   }
+  },
+  "21 spring st": {
+   "address": "21 Spring Street",
+   "geo": {
+    "lat": 40.7212,
+    "lng": -73.9947,
+    "label": "21 SPRING STREET, Manhattan, New York, NY, USA",
+    "bbl": "1004004000",
+    "bin": "1000004",
+    "neighborhood": "Nolita",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "21",
+    "street": "Spring Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-01T09:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-06-11",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Abate the nuisance consisting of roaches in the entire apartment",
+      "apartment": "3",
+      "status": "Open"
+     }
+    ]
+   }
+  },
+  "333 e 46 st": {
+   "address": "333 East 46th Street",
+   "geo": {
+    "lat": 40.7525,
+    "lng": -73.9693,
+    "label": "333 EAST 46TH STREET, Manhattan, New York, NY, USA",
+    "bbl": "1005005000",
+    "bin": "1000005",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "333",
+    "street": "East 46th Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-10-31T22:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": []
+   }
+  },
+  "25 bond st": {
+   "address": "25 Bond Street",
+   "geo": {
+    "lat": 40.7266,
+    "lng": -73.9932,
+    "label": "25 BOND STREET, Manhattan, New York, NY, USA",
+    "bbl": "1006006000",
+    "bin": "1000006",
+    "neighborhood": "NoHo",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "25",
+    "street": "Bond Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-10-31T13:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": []
+   }
+  },
+  "101 w 15 st": {
+   "address": "101 West 15th Street",
+   "geo": {
+    "lat": 40.7377,
+    "lng": -73.9967,
+    "label": "101 WEST 15TH STREET, Manhattan, New York, NY, USA",
+    "bbl": "1007007000",
+    "bin": "1000007",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "101",
+    "street": "West 15th Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-10-31T03:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2025-12-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 2 of 48 apartments that year"
+     }
+    ]
+   }
+  },
+  "7 e 14 st": {
+   "address": "7 East 14th Street",
+   "geo": {
+    "lat": 40.7356,
+    "lng": -73.9939,
+    "label": "7 EAST 14TH STREET, Manhattan, New York, NY, USA",
+    "bbl": "1008008000",
+    "bin": "1000008",
+    "neighborhood": "Greenwich Village",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "7",
+    "street": "East 14th Street",
+    "source": "geosearch"
+   }
+  },
+  "236 e 3 st": {
+   "address": "236 East 3rd Street",
+   "geo": {
+    "lat": 40.7219,
+    "lng": -73.9809,
+    "label": "236 EAST 3RD STREET, Manhattan, New York, NY, USA",
+    "bbl": "1009009000",
+    "bin": "1000009",
+    "neighborhood": "East Village",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "236",
+    "street": "East 3rd Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-10-30T17:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": []
+   }
+  },
+  "412 w 46 st": {
+   "address": "412 West 46th Street",
+   "geo": {
+    "lat": 40.7612,
+    "lng": -73.9918,
+    "label": "412 WEST 46TH STREET, Manhattan, New York, NY, USA",
+    "bbl": "1010010000",
+    "bin": "1000010",
+    "neighborhood": "Hell's Kitchen",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "412",
+    "street": "West 46th Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-10-30T07:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": []
+   }
+  },
+  "140 e 28 st": {
+   "address": "140 East 28th Street",
+   "geo": {
+    "lat": 40.7426,
+    "lng": -73.9822,
+    "label": "140 EAST 28TH STREET, Manhattan, New York, NY, USA",
+    "bbl": "1011011000",
+    "bin": "1000011",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "140",
+    "street": "East 28th Street",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-02T03:02:00.000Z",
+    "since": "2021-11-02",
+    "errors": {},
+    "records": []
+   }
+  }
+ },
+ "emails": [
+  {
+   "id": "sample-0",
+   "date": "2026-11-02T14:00:00.000Z",
+   "found": 4
+  },
+  {
+   "id": "sample-1",
+   "date": "2026-11-02T03:00:00.000Z",
+   "found": 4
+  },
+  {
+   "id": "sample-2",
+   "date": "2026-11-01T13:00:00.000Z",
+   "found": 4
+  },
+  {
+   "id": "sample-3",
+   "date": "2026-10-31T13:00:00.000Z",
+   "found": 4
+  }
+ ]
+}

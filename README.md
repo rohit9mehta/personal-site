@@ -1,9 +1,11 @@
 # romehta — personal site & One Sip
 
-My personal site, and **One Sip**: a map of every coffee shop I've rated, out of ten.
+My personal site, **One Sip** (a map of every coffee shop I've rated, out of ten), and **Shortlist** (my apartment
+hunt).
 
 - Site: https://rohit9mehta.github.io/personal-site/
 - One Sip: https://rohit9mehta.github.io/personal-site/coffee/
+- Shortlist: https://rohit9mehta.github.io/personal-site/apartments/ (unlisted)
 
 ## Logging a coffee
 
@@ -50,6 +52,48 @@ or fall back to the city center (shown as a hollow pin, "approximate"). To fix o
 To re-try every approximate café (OpenStreetMap keeps improving), run the Deploy workflow by hand from the Actions tab
 with **Retry cafés that are only placed at their city center** ticked.
 
+## Shortlist: the apartment hunt
+
+New StreetEasy listings, each checked the way I'd check it by hand before asking for a tour: does it fit my filters,
+how long is the subway-or-walk trip (no buses) to the places I go, has the city recorded mice, rats, roaches or bedbugs
+in the building, and what do Openigloo's reviews say. Only the ones that pass everything make the shortlist.
+
+```
+StreetEasy saved-search alert emails
+  → Gmail → Apps Script relay (apps-script/, runs every 10 min in my Google account)
+  → Apartments workflow (.github/workflows/apartments.yml, repository_dispatch)
+      scripts/apartments/scan.ts: parse listings, locate buildings (NYC GeoSearch),
+      pull pest records (NYC Open Data), keep history
+  → scan.json on the apartments-data branch
+  → /apartments/ reads it straight from raw.githubusercontent.com and, in the browser,
+    applies the filters, works out commutes and the pest rules, and keeps my Openigloo notes
+```
+
+- **Why email alerts:** StreetEasy blocks automated access, and its saved-search alerts are the supported way to hear
+  about new listings. They arrive up to three times a day per search; the relay picks them up within ten minutes. For
+  a listing spotted in the app, _Check a listing_ on the page runs every check on the spot.
+- **Pest records** (`lib/apartments/records.ts`), by the building's BBL: HPD violations and tenant complaints,
+  landlords' yearly bedbug reports, Health Department rat inspections, 311 rodent calls. Refreshed weekly. How far back
+  to look, how many records rule a building out, and which pests count are settings on the page.
+- **Commutes** (`lib/apartments/transit.ts`): walk + subway only, from the MTA's timetable
+  (`src/apartments/subway.json`, built by `node scripts/apartments/build-subway.ts`; rebuild when the schedule changes,
+  a few times a year). Weekday-rush and evening/weekend frequencies; times assume you leave in time for the train, like
+  Google Maps, with transfer waits included.
+- **Openigloo** has no public API, so each listing links to its building's page there and keeps your verdict (no pests
+  / pests).
+- **Privacy:** the places I commute to, my filters and verdicts live in my browser (Settings → _Copy setup link_
+  moves them to another device). The scan data on `apartments-data` is public, like the rest of this repo: StreetEasy
+  listings and city records.
+- **Setup:** [apps-script/README.md](apps-script/README.md).
+
+```bash
+VITE_APARTMENTS_SAMPLE=1 npm run dev                       # /apartments/ with made-up sample data
+node scripts/apartments/check.ts "212 East 29th Street"    # what the city has on one building
+node scripts/apartments/scan.ts --data /tmp/scan --email lib/apartments/fixtures/alert-a.txt
+```
+
+The Apartments workflow can also be run by hand from the Actions tab with an address, to check one building.
+
 ## Developing
 
 Needs Node 22.18+ (24 recommended).
@@ -66,8 +110,8 @@ npm run build                            # static site in dist/
 
 ### How it's put together
 
-- **Vite + React + TypeScript**, two pages: `/` (`index.html`, `src/home`) and `/coffee/` (`coffee/index.html`,
-  `src/coffee`).
+- **Vite + React + TypeScript**, three pages: `/` (`index.html`, `src/home`), `/coffee/` (`coffee/index.html`,
+  `src/coffee`) and `/apartments/` (`apartments/index.html`, `src/apartments`, shared logic in `lib/apartments`).
 - **Data**: `lib/vite-plugin-coffee.ts` reads the CSV and places file at build time and hands the app a validated
   dataset (`virtual:coffee-data`), so the published site is fully static.
 - **Map**: [MapLibre GL](https://maplibre.org/) with a custom paper-toned style (`src/coffee/map/style.ts`) on free
