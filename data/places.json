@@ -3401,6 +3401,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "sant-ambroeus--new-york-ny": {
+    "name": "Sant Ambroeus",
+    "city": "New York, NY",
+    "address": "265 Lafayette Street"
+  },
   "santeustachio-il-caffe--rome-italy": {
     "name": "Sant’Eustachio Il Caffè",
     "city": "Rome, Italy",
