@@ -74,7 +74,11 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: ${{ steps.pages.outputs.base_path || format('/{0}', github.event.repository.name) }}/
+          # base_path is "/personal-site" on github.io and "" on a custom domain.
+          # format() keeps the empty one from falling through to the default.
+          BASE_PATH: >-
+            ${{ steps.pages.outcome == 'success' && format('{0}/', steps.pages.outputs.base_path)
+            || format('/{0}/', github.event.repository.name) }}
           SITE_URL: ${{ steps.pages.outputs.base_url }}
 
       - if: steps.pages.outcome == 'success'

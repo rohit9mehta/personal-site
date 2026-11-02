@@ -125,6 +125,7 @@ npm run build                            # static site in dist/
 ### One-time setup
 
 GitHub Pages must be set to deploy from Actions: **Settings → Pages → Build and deployment → Source: GitHub
-Actions**. To use a custom domain, add it on that page; the build picks up the new base path automatically.
+Actions**. To use a custom domain, point its DNS at GitHub Pages, add it on that page, then re-run the Deploy
+workflow: the base path is baked in at build time, and the build picks up the new one automatically.
 
 The 2021 version of this site (a React template) is kept in [`legacy/`](legacy) for reference.
