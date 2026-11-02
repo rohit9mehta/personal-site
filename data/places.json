@@ -3404,7 +3404,20 @@
   "sant-ambroeus--new-york-ny": {
     "name": "Sant Ambroeus",
     "city": "New York, NY",
-    "address": "265 Lafayette Street"
+    "address": "265 Lafayette Street",
+    "lat": 40.723302,
+    "lng": -73.9965416,
+    "precision": "exact",
+    "street": "265 Lafayette Street",
+    "postcode": "10012",
+    "neighborhood": "Little Italy",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/9332464948",
+    "source": "nominatim",
+    "checked": "2026-11-02"
   },
   "santeustachio-il-caffe--rome-italy": {
     "name": "Sant’Eustachio Il Caffè",
