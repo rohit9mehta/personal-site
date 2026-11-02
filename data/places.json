@@ -69,7 +69,20 @@
   "a-frame-cafe--new-york-ny": {
     "name": "A-Frame Cafe",
     "city": "New York, NY",
-    "address": "114 Crosby Street"
+    "address": "114 Crosby Street",
+    "lat": 40.7242875,
+    "lng": -73.9967926,
+    "precision": "exact",
+    "street": "Crosby Street",
+    "postcode": "10012",
+    "neighborhood": "Little Italy",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/14063046604",
+    "source": "nominatim",
+    "checked": "2026-11-02"
   },
   "aldens-coffee--new-york-ny": {
     "name": "Alden’s Coffee",
@@ -2135,7 +2148,20 @@
   "jakes-at-the-knick--new-york-ny": {
     "name": "Jake’s at The Knick",
     "city": "New York, NY",
-    "address": "6 Times Square"
+    "address": "6 Times Square",
+    "lat": 40.7552496,
+    "lng": -73.9859797,
+    "precision": "address",
+    "street": "6 Times Square",
+    "postcode": "10036",
+    "neighborhood": "Manhattan",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/265302168",
+    "source": "nominatim",
+    "checked": "2026-11-02"
   },
   "jane-on-larkin--san-francisco-ca": {
     "name": "Jane on Larkin",
