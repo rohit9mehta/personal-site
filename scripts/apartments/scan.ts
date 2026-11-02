@@ -107,7 +107,11 @@ async function main() {
     if (!building || lookups >= MAX_LOOKUPS) continue;
     const needsGeo = !building.geo && !building.geoError;
     const stale = !building.records || now.getTime() - Date.parse(building.records.checkedAt) > RECHECK_DAYS * DAY;
-    const failed = building.records && Object.keys(building.records.errors).length > 0;
+    // A source that didn't answer gets another try the next day, not every run.
+    const failed =
+      !!building.records &&
+      Object.keys(building.records.errors).length > 0 &&
+      now.getTime() - Date.parse(building.records.checkedAt) > DAY;
     if (!needsGeo && !stale && !failed) continue;
     lookups++;
     if (needsGeo) {
