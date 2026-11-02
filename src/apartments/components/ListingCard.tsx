@@ -252,7 +252,7 @@ export function ListingCard({
                 </a>
               )}
               <a href={openiglooSearchUrl(listing.address)} target="_blank" rel="noreferrer">
-                Find on Openigloo ↗
+                Search Openigloo ↗
               </a>
             </p>
           </section>

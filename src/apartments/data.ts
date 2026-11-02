@@ -42,19 +42,27 @@ export async function fetchScan(): Promise<ScanResult> {
   return { data: (await res.json()) as ScanData, exists: true };
 }
 
+/** StreetEasy building links end in the city: "…-new_york", "…-brooklyn", "…-long_island_city". */
+const PLACE_SUFFIX = /-(new_york|brooklyn|queens|bronx|staten_island|[a-z]+(?:_[a-z]+)+)$/;
 const BOROUGHS: Record<string, string> = {
   new_york: 'Manhattan',
-  manhattan: 'Manhattan',
   brooklyn: 'Brooklyn',
   queens: 'Queens',
   bronx: 'Bronx',
   staten_island: 'Staten Island',
+  long_island_city: 'Queens',
 };
 
+export interface ListingLink {
+  id: string;
+  url: string;
+  address?: string;
+  unit?: string;
+  borough?: string;
+}
+
 /** What a StreetEasy link says about a listing. Building links spell out the address. */
-export function readListingUrl(
-  raw: string,
-): { id: string; url: string; address?: string; unit?: string; borough?: string } | null {
+export function readListingUrl(raw: string): ListingLink | null {
   let u: URL;
   try {
     u = new URL(raw.trim());
@@ -64,28 +72,28 @@ export function readListingUrl(
   if (!/(^|\.)streeteasy\.com$/.test(u.hostname)) return null;
   const rental = u.pathname.match(/^\/rental\/(\d+)/);
   if (rental) return { id: rental[1]!, url: `https://streeteasy.com/rental/${rental[1]}` };
-  const building = u.pathname.match(/^\/building\/([a-z0-9-]+?)(?:_([a-z_]+))?\/([a-z0-9-]+)\/?$/i);
-  if (building) {
-    const [, slug, place, unit] = building;
-    const address = slug!
-      .split('-')
-      .map((w) => (/^\d/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1)))
-      .join(' ');
-    return {
-      id: `${slug}${place ? `_${place}` : ''}/${unit}`,
-      url: `https://streeteasy.com/building/${slug}${place ? `_${place}` : ''}/${unit}`,
-      address,
-      unit: unit!.toUpperCase(),
-      borough: BOROUGHS[place ?? ''] ?? 'Manhattan',
-    };
-  }
-  return null;
+  const building = u.pathname.match(/^\/building\/([a-z0-9_-]+)\/([a-z0-9-]+)\/?$/i);
+  if (!building) return null;
+  const [, path, unit] = building as unknown as [string, string, string];
+  const place = path.match(PLACE_SUFFIX)?.[1];
+  const words = (place ? path.slice(0, -place.length - 1) : path).split('-');
+  // Named buildings ("the-eugene") have no street address in the link.
+  const address = /^\d/.test(words[0] ?? '')
+    ? words.map((w) => (/^\d/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1))).join(' ')
+    : undefined;
+  return {
+    id: `${path}/${unit}`,
+    url: `https://streeteasy.com/building/${path}/${unit}`,
+    unit: unit.toUpperCase(),
+    ...(address ? { address } : {}),
+    ...(place && BOROUGHS[place] ? { borough: BOROUGHS[place] } : {}),
+  };
 }
 
 /** Locates a building and pulls its city records, in the browser. */
-export async function checkBuilding(address: string, borough = 'Manhattan'): Promise<Building> {
+export async function checkBuilding(address: string, borough?: string): Promise<Building> {
   const building: Building = { address };
-  const geo = await locate(geocodeQuery(address, borough), fetchJson);
+  const geo = await locate(borough ? geocodeQuery(address, borough) : `${address}, New York, NY`, fetchJson);
   if (!geo) return { ...building, geoError: 'address not found' };
   building.geo = geo;
   if (geo.bbl) building.records = await fetchPestRecords(geo.bbl, fetchJson);

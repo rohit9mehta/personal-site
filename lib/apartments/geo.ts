@@ -112,26 +112,23 @@ export async function suggest(textQuery: string, fetchJson: FetchJson): Promise<
 
 // --- Links -------------------------------------------------------------------
 
-const slug = (s: string) =>
-  s
-    .toLowerCase()
-    .replace(/\b(\d+)(st|nd|rd|th)\b/g, '$1')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
+/** "515 West 38th Street" → "515 West 38 Street", the way Openigloo and the city write it. */
+const plainAddress = (address: string) => address.replace(/\b(\d+)(st|nd|rd|th)\b/gi, '$1');
 
-/** The building's page on Openigloo (tenant reviews), when we know its ids. */
+/**
+ * The building's page on Openigloo (tenant reviews). Openigloo has no public
+ * API or address search link, and its page ids don't always match the city's
+ * building number, so this asks DuckDuckGo for the first Openigloo result
+ * for the address, which lands on the building's page.
+ */
 export function openiglooUrl(geo: BuildingGeo | undefined, address: string): string {
-  if (geo?.bin && geo.bbl) {
-    const borough = slug(geo.borough ?? 'manhattan');
-    const parts = [borough, geo.neighborhood, geo.houseNumber ?? houseNumber(address), geo.street, geo.zip];
-    return `https://www.openigloo.com/building/nyc/${geo.bin}-${geo.bbl}/${slug(parts.filter(Boolean).join(' '))}`;
-  }
-  return openiglooSearchUrl(address);
+  const q = ['!ducky', 'site:openigloo.com/building', plainAddress(address), geo?.zip].filter(Boolean).join(' ');
+  return `https://duckduckgo.com/?q=${encodeURIComponent(q)}`;
 }
 
-/** A web search for the building on Openigloo, for when the direct link misses. */
+/** A plain web search, for when the first result isn't the right building. */
 export function openiglooSearchUrl(address: string): string {
-  return `https://www.google.com/search?q=${encodeURIComponent(`site:openigloo.com "${address}"`)}`;
+  return `https://www.google.com/search?q=${encodeURIComponent(`openigloo ${plainAddress(address)}`)}`;
 }
 
 /** JustFix's Who Owns What: landlord, violations, complaints and evictions in one place. */

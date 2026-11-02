@@ -357,9 +357,9 @@
       "kinds": [
        "rodents"
       ],
-      "text": "Complaint: Mice",
+      "text": "Mice",
       "apartment": "2",
-      "status": "Close"
+      "status": "Closed"
      },
      {
       "source": "hpd-complaint",
@@ -367,9 +367,9 @@
       "kinds": [
        "rodents"
       ],
-      "text": "Complaint: Mice",
+      "text": "Mice",
       "apartment": "4",
-      "status": "Close"
+      "status": "Closed"
      },
      {
       "source": "311",
@@ -377,7 +377,7 @@
       "kinds": [
        "rodents"
       ],
-      "text": "311: Mouse Sighting",
+      "text": "Mouse Sighting",
       "status": "Closed"
      }
     ]

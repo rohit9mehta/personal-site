@@ -84,7 +84,8 @@ describe('fetchPestRecords', () => {
       ['hpd-complaint', '2025-08-01', 'rodents'],
       ['bedbugs', '2024-12-01', 'bedbugs'],
     ]);
-    expect(result.records[0]).toMatchObject({ apartment: '2', status: 'Close' });
+    expect(result.records[0]).toMatchObject({ apartment: '2', status: 'Closed' });
+    expect(result.records[1]).toMatchObject({ text: 'Mice', apartment: '5C', status: 'Closed' });
     expect(result.records[2]!.text).toBe('Landlord reported bedbugs in 2 of 40 apartments that year');
     expect(result.errors).toEqual({ '311': 'HTTP 503' });
   });
@@ -155,8 +156,8 @@ describe('geo', () => {
   it('reads coordinates and the building ids', () => {
     const g = fromGeoSearch({ features: [feature('515')] }, '515 West 38th Street, Manhattan, NY');
     expect(g).toMatchObject({ lat: 40.75693, lng: -73.99419, bbl: '1007107501', bin: '1090727', zip: '10018' });
-    expect(openiglooUrl(g!, '515 West 38th Street')).toBe(
-      'https://www.openigloo.com/building/nyc/1090727-1007107501/manhattan-chelsea-515-west-38-street-10018',
+    expect(decodeURIComponent(openiglooUrl(g!, '515 West 38th Street'))).toBe(
+      'https://duckduckgo.com/?q=!ducky site:openigloo.com/building 515 West 38 Street 10018',
     );
   });
 

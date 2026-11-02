@@ -91,6 +91,9 @@ function field(row: Row, ...patterns: RegExp[]): string {
 
 const titleCase = (s: string) => s.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
 
+/** "CLOSE" → "Closed", "OPEN" → "Open". */
+const statusText = (s: string) => (/^close$/i.test(s.trim()) ? 'Closed' : titleCase(s.trim()));
+
 /** "§ 27-2018 ADM CODE ABATE THE NUISANCE CONSISTING OF MICE IN THE ENTIRE APARTMENT…" → readable. */
 export function tidyViolation(text: string): string {
   const t = text
@@ -130,7 +133,7 @@ async function hpdViolations(f: FetchJson, bbl: string, since: string) {
       kinds,
       text: tidyViolation(text),
       ...(str(r.apartment) ? { apartment: str(r.apartment) } : {}),
-      ...(status ? { status: titleCase(status) } : {}),
+      ...(status ? { status: statusText(status) } : {}),
     });
   }
   return { records, buildingId };
@@ -165,9 +168,9 @@ async function hpdComplaints(f: FetchJson, bbl: string, since: string) {
       source: 'hpd-complaint',
       date,
       kinds,
-      text: `Complaint: ${code ? titleCase(code) : 'pests'}`,
+      text: code && !/^other$/i.test(code) ? titleCase(code) : 'Pests (other)',
       ...(apartment && !/^bldg$/i.test(apartment) ? { apartment } : {}),
-      ...(status ? { status: titleCase(status) } : {}),
+      ...(status ? { status: statusText(status) } : {}),
     });
   }
   return records;
