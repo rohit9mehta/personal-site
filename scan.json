@@ -1,7 +1,3639 @@
 {
  "version": 1,
- "updatedAt": "2026-11-03T19:40:32.289Z",
- "listings": [],
- "buildings": {},
- "emails": []
+ "updatedAt": "2026-11-03T21:40:29.480Z",
+ "listings": [
+  {
+   "id": "5196324",
+   "url": "https://streeteasy.com/rental/5196324",
+   "address": "515 2nd Avenue and 9 more updates  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏",
+   "price": 4500,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:13.000Z",
+   "lastSeen": "2026-11-03T21:32:13.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 4500
+    }
+   ],
+   "building": "515 2 ave and 9 more updates",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Hills, NY 11375)"
+  },
+  {
+   "id": "5196250",
+   "url": "https://streeteasy.com/rental/5196250",
+   "address": "223 Mott Street",
+   "price": 5500,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:13.000Z",
+   "lastSeen": "2026-11-03T21:32:13.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 5500
+    }
+   ],
+   "building": "223 mott st",
+   "unit": "14",
+   "neighborhood": "Nolita",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "REAL New York",
+   "suggested": false
+  },
+  {
+   "id": "5195935",
+   "url": "https://streeteasy.com/rental/5195935",
+   "address": "519 2nd Avenue",
+   "price": 4850,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:13.000Z",
+   "lastSeen": "2026-11-03T21:32:13.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 4850
+    }
+   ],
+   "building": "519 2 ave",
+   "unit": "4E",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Compass"
+  },
+  {
+   "id": "5196161",
+   "url": "https://streeteasy.com/rental/5196161",
+   "address": "239 Park Avenue South",
+   "price": 6395,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:13.000Z",
+   "lastSeen": "2026-11-03T21:32:13.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 6395
+    }
+   ],
+   "building": "239 park ave s",
+   "unit": "3C",
+   "neighborhood": "Gramercy Park",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Douglas Elliman"
+  },
+  {
+   "id": "5195531",
+   "url": "https://streeteasy.com/rental/5195531",
+   "address": "250 East 40th Street",
+   "price": 6000,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-03T21:32:13.000Z",
+   "lastSeen": "2026-11-03T21:32:13.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 6000
+    }
+   ],
+   "building": "250 e 40 st",
+   "unit": "19B",
+   "neighborhood": "Murray Hill",
+   "kind": "Condo",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 1002,
+   "broker": "Highline Residential"
+  },
+  {
+   "id": "5196305",
+   "url": "https://streeteasy.com/rental/5196305",
+   "address": "215 Madison Avenue and 9 more updates  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏",
+   "price": 3750,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:14.000Z",
+   "lastSeen": "2026-11-03T21:32:14.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 3750
+    }
+   ],
+   "building": "215 madison ave and 9 more updates",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Douglas Elliman"
+  },
+  {
+   "id": "5195973",
+   "url": "https://streeteasy.com/rental/5195973",
+   "address": "339 East 57th Street",
+   "price": 3000,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:14.000Z",
+   "lastSeen": "2026-11-03T21:32:14.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 3000
+    }
+   ],
+   "building": "339 e 57 st",
+   "unit": "4A",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Corcoran"
+  },
+  {
+   "id": "5195918",
+   "url": "https://streeteasy.com/rental/5195918",
+   "address": "10 East 28th Street",
+   "price": 3650,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:14.000Z",
+   "lastSeen": "2026-11-03T21:32:14.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 3650
+    }
+   ],
+   "building": "10 e 28 st",
+   "unit": "3C",
+   "neighborhood": "NoMad",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Bond New York"
+  },
+  {
+   "id": "5192030",
+   "url": "https://streeteasy.com/rental/5192030",
+   "address": "225 East 47th Street",
+   "price": 3000,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:14.000Z",
+   "lastSeen": "2026-11-03T21:32:14.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 3000
+    }
+   ],
+   "building": "225 e 47 st",
+   "unit": "3E",
+   "neighborhood": "Turtle Bay",
+   "kind": "Coop",
+   "beds": 0,
+   "baths": 1,
+   "broker": "SERHANT."
+  },
+  {
+   "id": "5182170",
+   "url": "https://streeteasy.com/rental/5182170",
+   "address": "240 East 46th Street",
+   "price": 3350,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-03T21:32:14.000Z",
+   "lastSeen": "2026-11-03T21:32:14.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 3350
+    }
+   ],
+   "building": "240 e 46 st",
+   "unit": "8A",
+   "neighborhood": "Turtle Bay",
+   "kind": "Condo",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Compass"
+  },
+  {
+   "id": "5195981",
+   "url": "https://streeteasy.com/rental/5195981",
+   "address": "71 Thompson Street",
+   "price": 4500,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:12.000Z",
+   "lastSeen": "2026-11-03T21:32:12.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 4500
+    }
+   ],
+   "building": "71 thompson st",
+   "unit": "5C",
+   "neighborhood": "Soho",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "11561)"
+  },
+  {
+   "id": "5194792",
+   "url": "https://streeteasy.com/rental/5194792",
+   "address": "262 East 2nd Street",
+   "price": 4895,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:12.000Z",
+   "lastSeen": "2026-11-03T21:32:12.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 4895
+    }
+   ],
+   "building": "262 e 2 st",
+   "unit": "3C",
+   "neighborhood": "East Village",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "City Connections Realty"
+  },
+  {
+   "id": "5183353",
+   "url": "https://streeteasy.com/rental/5183353",
+   "address": "332 East 6th Street",
+   "price": 5495,
+   "updates": [],
+   "firstSeen": "2026-11-03T21:32:12.000Z",
+   "lastSeen": "2026-11-03T21:32:12.000Z",
+   "prices": [
+    {
+     "date": "2026-11-03",
+     "price": 5495
+    }
+   ],
+   "building": "332 e 6 st",
+   "unit": "4",
+   "neighborhood": "East Village",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "REAL New York"
+  }
+ ],
+ "buildings": {
+  "515 2 ave and 9 more updates": {
+   "address": "515 2nd Avenue and 9 more updates  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏",
+   "geo": {
+    "lng": -73.978564,
+    "lat": 40.741527,
+    "label": "515 2 AVENUE, New York, NY, USA",
+    "bbl": "1009097501",
+    "bin": "1019900",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "515",
+    "street": "2 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "1437"
+   }
+  },
+  "223 mott st": {
+   "address": "223 Mott Street",
+   "geo": {
+    "lng": -73.995424,
+    "lat": 40.722378,
+    "label": "223 MOTT STREET, New York, NY, USA",
+    "bbl": "1004940028",
+    "bin": "1007499",
+    "neighborhood": "Nolita",
+    "borough": "Manhattan",
+    "zip": "10012",
+    "houseNumber": "223",
+    "street": "MOTT STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-21",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "14",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "9",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-07",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "5",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "5",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-07",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-07",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "9",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-07",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "9",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "9",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-22",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "16",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-11",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "14",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-02",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 13 of 18 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-25",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "11",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-19",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "11",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-12-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 9 of 18 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-11-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "15",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-10-03",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "7",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-06-27",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "11",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-06-24",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "17",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-06-24",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "17",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-06-24",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "17",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-01-03",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 4 of 18 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2022-12-27",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 3 of 18 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2021-12-17",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 4 of 18 apartments that year"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "519 2 ave": {
+   "address": "519 2nd Avenue",
+   "geo": {
+    "lng": -73.978523,
+    "lat": 40.741665,
+    "label": "519 2 AVENUE, New York, NY, USA",
+    "bbl": "1009090034",
+    "bin": "1019902",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "519",
+    "street": "2 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [],
+    "errors": {}
+   }
+  },
+  "239 park ave s": {
+   "address": "239 Park Avenue South",
+   "geo": {
+    "lng": -73.987684,
+    "lat": 40.737847,
+    "label": "239 PARK AVENUE SOUTH, New York, NY, USA",
+    "bbl": "1008750003",
+    "bin": "1017907",
+    "neighborhood": "Gramercy",
+    "borough": "Manhattan",
+    "zip": "10003",
+    "houseNumber": "239",
+    "street": "PARK AVENUE SOUTH",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "26559"
+   }
+  },
+  "250 e 40 st": {
+   "address": "250 East 40th Street",
+   "geo": {
+    "lng": -73.973596,
+    "lat": 40.748504,
+    "label": "250 EAST 40 STREET, New York, NY, USA",
+    "bbl": "1009207501",
+    "bin": "1076162",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "250",
+    "street": "EAST 40 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2023-12-20",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 36 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13637"
+   }
+  },
+  "215 madison ave and 9 more updates": {
+   "address": "215 Madison Avenue and 9 more updates  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏",
+   "geo": {
+    "lng": -73.98184,
+    "lat": 40.7488,
+    "label": "215 MADISON AVENUE, New York, NY, USA",
+    "bbl": "1008650053",
+    "bin": "1017129",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "215",
+    "street": "MADISON AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "24840"
+   }
+  },
+  "339 e 57 st": {
+   "address": "339 East 57th Street",
+   "geo": {
+    "lng": -73.963499,
+    "lat": 40.758791,
+    "label": "339 EAST 57 STREET, New York, NY, USA",
+    "bbl": "1013500019",
+    "bin": "1040002",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "339",
+    "street": "EAST 57 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2024-12-31",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 36 apartments that year"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "10 e 28 st": {
+   "address": "10 East 28th Street",
+   "geo": {
+    "lng": -73.986548,
+    "lat": 40.744004,
+    "label": "10 EAST 28 STREET, New York, NY, USA",
+    "bbl": "1008570066",
+    "bin": "1016894",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "10",
+    "street": "EAST 28 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-30",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "328",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-17",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-10-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the 1st room from north",
+      "apartment": "819",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-10-08",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from north",
+      "apartment": "819",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-05",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "819",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-04",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "11FLOO",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-09-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "608",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-12",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "LAUNDR",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-08-31",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "1003",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-08-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the room",
+      "apartment": "901",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-08-22",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at 1st compactor closet from north, 8th story",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-20",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "1003",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-07-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "234",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-06-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-06-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "932",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-22",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "1104",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "1029",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-05-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the 1st room from east",
+      "apartment": "819",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "other"
+      ],
+      "text": "566 (b) 27-2021.4 hmc: abate the nuisance consisting of pests. evidence of flies in the 1st room from east",
+      "apartment": "819",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "819",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-24",
+      "kinds": [
+       "other"
+      ],
+      "text": "Fleas",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "1003",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1003",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "1104",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-03-30",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "328",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-03-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-03-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "913",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-03-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "913",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-03-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-03-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-03-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice at cellar",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-03-04",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the room",
+      "apartment": "213",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-03-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "213",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-03-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "213",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-03-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice",
+      "apartment": "819",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-02-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "819",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-01-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "615",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-01-21",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "808",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-12-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "213",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-12-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "213",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-12-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-02",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 2 of 415 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-11-18",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "517",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-05",
+      "kinds": [
+       "other"
+      ],
+      "text": "Fleas",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-05",
+      "kinds": [
+       "other"
+      ],
+      "text": "Fleas",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-10-01",
+      "kinds": [
+       "other"
+      ],
+      "text": "566 (b) 27-2021.4 hmc: abate the nuisance consisting of pests. evidence of flies. at basement",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-01",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-09-25",
+      "kinds": [
+       "other"
+      ],
+      "text": "566 (b) 27-2021.4 hmc: abate the nuisance consisting of pests. evidence of flies at basement",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-09-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "234",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-22",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "BASEME",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "234",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-07",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "LAUNDR",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-02",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1108",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "234",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-20",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "328",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "189",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "234",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice",
+      "apartment": "1023",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-02",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "827",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice",
+      "apartment": "327",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice at cellar",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-02",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "507",
+      "status": "Open"
+     },
+     {
+      "source": "311",
+      "date": "2025-04-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-04-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "1103",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-03-19",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "328",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-03-17",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "3283RD",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-03-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3283RD",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-02-06",
+      "kinds": [
+       "other"
+      ],
+      "text": "566 (b) 27-2021.4 hmc: abate the nuisance consisting of pests. evidence of flies in the 1st room from east",
+      "apartment": "819",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-02-04",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "808",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-02-03",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "328",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-31",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-31",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-30",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "819",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "922",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-24",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-24",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-01-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "606",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "11THFO",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-12-29",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-12-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-12-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-12-22",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "328",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-12-03",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 3 of 415 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-11-27",
+      "kinds": [
+       "other"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of vermin flies in the 1st room from east",
+      "apartment": "819",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-11-18",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "819",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-11-18",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "819",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-11-12",
+      "kinds": [
+       "other"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of vermin flies at public hall, 8th story",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-11-08",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at public hall, 9th story",
+      "status": "Open"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-11-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 3 of 415 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-11-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-11-01",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-11-01",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-10-01",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "327",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-10-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice",
+      "apartment": "327",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-10-01",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "1023",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-09-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "812",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-09-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "737",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-09-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "827",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-09-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "507",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-09-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "926",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-09-03",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "APT315",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-08-05",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 415 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-07-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the room",
+      "apartment": "221",
+      "status": "Open"
+     },
+     {
+      "source": "311",
+      "date": "2024-06-18",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-06-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "221",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-05-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice at basement",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-05-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-05-16",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "919",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-03-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "11FLGA",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-03-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-01-22",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-01-20",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of bedbugs in the 2nd room from east at south",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-01-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice at basement",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-01-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "4F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-01-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-11-02",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 415 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-07-25",
+      "kinds": [
+       "other"
+      ],
+      "text": "Fleas",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-06-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-06-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the 1st room from north",
+      "apartment": "327",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-06-09",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from north",
+      "apartment": "327",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-06-09",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from east",
+      "apartment": "818",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-06-05",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-05-12",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-05-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-05-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-04-27",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "907",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-04-12",
+      "kinds": [
+       "other"
+      ],
+      "text": "Fleas",
+      "apartment": "907",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-04-12",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "907",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-31",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "410",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-03-25",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-03-23",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 11 of 415 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-03-23",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 11 of 415 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "other"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of vermin flies at compactor closet, 6th story",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-03-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-02-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-02-01",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "COMMON",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-12-31",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "928",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "928",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-18",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "315",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-16",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "818",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "818",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "608",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-12-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "305",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-12-13",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "305",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-12-13",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "727",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "535",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "311",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-11-29",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "327",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-11-29",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "217",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-11-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "535",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-26",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "311",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-11-09",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "818",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-08",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-08",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "818",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-01",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "818",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-10-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "311",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-11",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-11",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-08",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-08",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "311",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-08-13",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "ELEVAT",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-08-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-08-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "615",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-08-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "328",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-08-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "615",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-08-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "1120",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-08-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-07-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "328",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-07-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "818",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-07-25",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "818",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-07-13",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "338",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-07-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the room",
+      "apartment": "833",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-07-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the room",
+      "apartment": "327",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-07-08",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "337",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-04-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the 1st room from east",
+      "apartment": "818",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-04-12",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "328",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-04-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-01-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "818",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-01-20",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "928",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-01-19",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "615",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-01-19",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "928",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-01-06",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "615",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2022-01-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 5 of 415 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2021-12-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2021-12-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2021-12-16",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "928",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2021-12-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "928",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2021-12-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "928",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "12812"
+   }
+  },
+  "225 e 47 st": {
+   "address": "225 East 47th Street",
+   "geo": {
+    "lng": -73.970973,
+    "lat": 40.753681,
+    "label": "225 EAST 47 STREET, New York, NY, USA",
+    "bbl": "1013210011",
+    "bin": "1037987",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "225",
+    "street": "EAST 47 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13827"
+   }
+  },
+  "240 e 46 st": {
+   "address": "240 East 46th Street",
+   "geo": {
+    "lng": -73.97115,
+    "lat": 40.752484,
+    "label": "240 EAST 46 STREET, New York, NY, USA",
+    "bbl": "1013197501",
+    "bin": "1071617",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "240",
+    "street": "EAST 46 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-05-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2021-11-22",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9L",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13788"
+   }
+  },
+  "71 thompson st": {
+   "address": "71 Thompson Street",
+   "geo": {
+    "lng": -74.003237,
+    "lat": 40.724533,
+    "label": "71 THOMPSON STREET, New York, NY, USA",
+    "bbl": "1004890031",
+    "bin": "1007363",
+    "neighborhood": "SoHo",
+    "borough": "Manhattan",
+    "zip": "10012",
+    "houseNumber": "71",
+    "street": "THOMPSON STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5C",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-08-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2026-07-29",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-07-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-07-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-07-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2026-06-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-05-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2026-05-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-05-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-05-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-04-18",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-03-23",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5C",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-07-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-07-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-06-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-06-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-06-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2025-05-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-08-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-07-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-07-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2024-07-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-06-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-06-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-06-22",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-06-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-06-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-05-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-05-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-05-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-04-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-08-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-08-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "262 e 2 st": {
+   "address": "262 East 2nd Street",
+   "geo": {
+    "lng": -73.980777,
+    "lat": 40.721062,
+    "label": "262 EAST 2 STREET, New York, NY, USA",
+    "bbl": "1003720001",
+    "bin": "1004352",
+    "neighborhood": "East Village",
+    "borough": "Manhattan",
+    "zip": "10009",
+    "houseNumber": "262",
+    "street": "EAST 2 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2026-03-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-02-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-09-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-08-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-09-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-08-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-08-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-02-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2021-11-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "6532"
+   }
+  },
+  "332 e 6 st": {
+   "address": "332 East 6th Street",
+   "geo": {
+    "lng": -73.987103,
+    "lat": 40.726624,
+    "label": "332 EAST 6 STREET, New York, NY, USA",
+    "bbl": "1004470022",
+    "bin": "1006238",
+    "neighborhood": "East Village",
+    "borough": "Manhattan",
+    "zip": "10003",
+    "houseNumber": "332",
+    "street": "EAST 6 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-03T21:40:29.480Z",
+    "since": "2021-11-03",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2026-09-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-04-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-03-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-03-31",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "8",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-03-31",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "8",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-02-03",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 12 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-05-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "11",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-02-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entrance",
+      "apartment": "11",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-02-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "10",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-10-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "11",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-09-15",
+      "kinds": [
+       "other"
+      ],
+      "text": "Fleas",
+      "apartment": "8",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-09-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "8",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-04-18",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "8",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-04-18",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "8",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-04-16",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "8",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-04-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "8",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-04-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "10937"
+   }
+  }
+ },
+ "emails": [
+  {
+   "id": "1a1a353b1daa0478",
+   "date": "2026-11-03T21:32:13.000Z",
+   "found": 5
+  },
+  {
+   "id": "1a1a353b5435f13a",
+   "date": "2026-11-03T21:32:14.000Z",
+   "found": 5
+  },
+  {
+   "id": "1a1a353b10c9d6f6",
+   "date": "2026-11-03T21:32:12.000Z",
+   "found": 4
+  },
+  {
+   "id": "1a1a352afa19fa36",
+   "date": "2026-11-03T21:31:06.000Z",
+   "found": 4
+  }
+ ]
 }
