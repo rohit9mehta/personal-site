@@ -35,7 +35,7 @@ try {
 
   const score = formatScore(coffee.score);
   const site = (process.env.SITE_URL ?? '').replace(/\/?$/, '/');
-  const link = `${site}coffee/?shop=${placeKey(coffee.name, coffee.city)}`;
+  const link = `${site}onesip/?shop=${placeKey(coffee.name, coffee.city)}`;
   const visit = previous.length
     ? ` That's your ${ordinal(previous.length + 1)} visit (last time: ${formatScore(previous[previous.length - 1]!)}).`
     : '';

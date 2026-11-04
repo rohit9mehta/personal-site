@@ -26,7 +26,7 @@ export default defineConfig({
     rolldownOptions: {
       input: {
         home: resolve(import.meta.dirname, 'index.html'),
-        coffee: resolve(import.meta.dirname, 'coffee/index.html'),
+        onesip: resolve(import.meta.dirname, 'onesip/index.html'),
         apartments: resolve(import.meta.dirname, 'apartments/index.html'),
       },
     },

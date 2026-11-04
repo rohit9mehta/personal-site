@@ -4,7 +4,7 @@ My personal site, **One Sip** (a map of every coffee shop I've rated, out of ten
 hunt).
 
 - Site: https://rohit9mehta.github.io/personal-site/
-- One Sip: https://rohit9mehta.github.io/personal-site/coffee/
+- One Sip: https://rohit9mehta.github.io/personal-site/onesip/
 - Shortlist: https://rohit9mehta.github.io/personal-site/apartments/ (unlisted)
 
 ## Logging a coffee
@@ -100,7 +100,7 @@ Needs Node 22.18+ (24 recommended).
 
 ```bash
 npm install
-npm run dev                              # http://localhost:5173/ and /coffee/
+npm run dev                              # http://localhost:5173/ and /onesip/
 COFFEE_DATA=fixtures/sample npm run dev  # with made-up sample data
 npm run check                            # typecheck + lint + tests
 npm run validate                         # check data/coffee.csv
@@ -110,8 +110,9 @@ npm run build                            # static site in dist/
 
 ### How it's put together
 
-- **Vite + React + TypeScript**, three pages: `/` (`index.html`, `src/home`), `/coffee/` (`coffee/index.html`,
-  `src/coffee`) and `/apartments/` (`apartments/index.html`, `src/apartments`, shared logic in `lib/apartments`).
+- **Vite + React + TypeScript**, three pages: `/` (`index.html`, `src/home`), `/onesip/` (`onesip/index.html`,
+  `src/coffee`; the old `/coffee/` address redirects there from `public/coffee/`) and `/apartments/`
+  (`apartments/index.html`, `src/apartments`, shared logic in `lib/apartments`).
 - **Data**: `lib/vite-plugin-coffee.ts` reads the CSV and places file at build time and hands the app a validated
   dataset (`virtual:coffee-data`), so the published site is fully static.
 - **Map**: [MapLibre GL](https://maplibre.org/) with a custom paper-toned style (`src/coffee/map/style.ts`) on free

@@ -92,7 +92,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}coffee/
+      url: ${{ steps.deployment.outputs.page_url }}onesip/
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4

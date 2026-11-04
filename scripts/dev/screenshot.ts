@@ -46,7 +46,7 @@ async function open(
 const desktop = { width: 1440, height: 900 };
 const phone = { width: 390, height: 844 };
 
-let page = await open(desktop, 'coffee/');
+let page = await open(desktop, 'onesip/');
 await shot(page, 'desktop-world', 3000);
 await page.locator('.row').first().click();
 await shot(page, 'desktop-selected', 2500);
@@ -56,13 +56,13 @@ await shot(page, 'desktop-street', 1500);
 await page.getByRole('button', { name: 'Close', exact: true }).click();
 for (let i = 0; i < 4; i++) await page.getByRole('button', { name: 'Zoom out', exact: true }).click();
 await shot(page, 'desktop-region', 1500);
-await page.goto(new URL('coffee/?q=san+francisco', base).href);
+await page.goto(new URL('onesip/?q=san+francisco', base).href);
 await shot(page, 'desktop-search-sf', 3000);
-await page.goto(new URL('coffee/?sort=city&min=8', base).href);
+await page.goto(new URL('onesip/?sort=city&min=8', base).href);
 await shot(page, 'desktop-grouped-min8', 2500);
 await page.context().close();
 
-page = await open(phone, 'coffee/', true);
+page = await open(phone, 'onesip/', true);
 await shot(page, 'phone-map', 3000);
 await page.getByRole('button', { name: /^List/ }).click();
 await shot(page, 'phone-list', 800);
@@ -77,12 +77,12 @@ page = await open(phone, '', true);
 await shot(page, 'home-phone', 1500);
 await page.context().close();
 
-page = await open(desktop, 'coffee/?q=san+francisco', false, 'dark');
+page = await open(desktop, 'onesip/?q=san+francisco', false, 'dark');
 await shot(page, 'dark-desktop-sf', 3000);
 await page.locator('.row').first().click();
 await shot(page, 'dark-desktop-selected', 2500);
 await page.context().close();
-page = await open(phone, 'coffee/', true, 'dark');
+page = await open(phone, 'onesip/', true, 'dark');
 await shot(page, 'dark-phone-map', 3000);
 await page.getByRole('button', { name: /^List/ }).click();
 await shot(page, 'dark-phone-list', 800);
