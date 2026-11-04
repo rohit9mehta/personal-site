@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-03T23:00:04.760Z",
+ "updatedAt": "2026-11-04T01:10:11.259Z",
  "listings": [
   {
    "id": "5196324",
@@ -291,6 +291,70 @@
    "beds": 2,
    "baths": 1,
    "broker": "REAL New York"
+  },
+  {
+   "id": "5186499",
+   "url": "https://streeteasy.com/rental/5186499",
+   "address": "115 Mulberry Street",
+   "price": 7495,
+   "updates": [],
+   "firstSeen": "2026-11-04T01:03:09.000Z",
+   "lastSeen": "2026-11-04T01:03:09.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 7495
+    }
+   ],
+   "building": "115 mulberry st",
+   "unit": "4",
+   "neighborhood": "Little Italy",
+   "kind": "Rental unit",
+   "baths": 2,
+   "broker": "Listed by Centennial Properties NY"
+  },
+  {
+   "id": "5190217",
+   "url": "https://streeteasy.com/rental/5190217",
+   "address": "188 6th Avenue",
+   "price": 8550,
+   "updates": [],
+   "firstSeen": "2026-11-04T01:03:09.000Z",
+   "lastSeen": "2026-11-04T01:03:09.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 8550
+    }
+   ],
+   "building": "188 6 ave",
+   "unit": "5S",
+   "neighborhood": "Soho",
+   "kind": "Rental unit",
+   "baths": 2,
+   "broker": "Listed by Monday Morning Management LLC"
+  },
+  {
+   "id": "5070768",
+   "url": "https://streeteasy.com/rental/5070768",
+   "address": "106 Fulton Street",
+   "price": 7250,
+   "updates": [],
+   "firstSeen": "2026-11-04T01:03:09.000Z",
+   "lastSeen": "2026-11-04T01:03:09.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 7250
+    }
+   ],
+   "building": "106 fulton st",
+   "unit": "14F",
+   "neighborhood": "Fulton/Seaport",
+   "kind": "Rental unit",
+   "baths": 1,
+   "sqft": 1200,
+   "broker": "Listed by Compass"
   }
  ],
  "buildings": {
@@ -3612,6 +3676,411 @@
     "errors": {},
     "hpdBuildingId": "10937"
    }
+  },
+  "115 mulberry st": {
+   "address": "115 Mulberry Street",
+   "geo": {
+    "lng": -73.998435,
+    "lat": 40.717697,
+    "label": "115 MULBERRY STREET, New York, NY, USA",
+    "bbl": "1002060022",
+    "bin": "1079550",
+    "neighborhood": "Little Italy",
+    "borough": "Manhattan",
+    "zip": "10013",
+    "houseNumber": "115",
+    "street": "MULBERRY STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T01:10:11.259Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2026-04-29",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "6F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-02-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "6F",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-02-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-01-24",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-11-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "567 (c) § 27-2017, 27-2017.1, 27-2017.4, 27-2017.5, 27-2017.8, 27-2019, 27-2021 hmc: abate the nuisance consisting of evidence of rats and all underlying causes creating the pest infestations, by using integrated pest management (ipm), eliminate all burrow entry and passageways, pest nests, holes, gaps or cracks in walls, ceilings, floors, fixing leaks and managing garbage in public areas. evidence found at rats at trash area and all yards yard, 1st story",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-10-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "5R",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "5R",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-09-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-29",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5R",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-23",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "6F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-23",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "6F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-23",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4F",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-06-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-02-16",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "2F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-02-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2F",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-06-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-01-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-12-04",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-06-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2022-12-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 13 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "25780"
+   }
+  },
+  "188 6 ave": {
+   "address": "188 6th Avenue",
+   "geo": {
+    "lng": -74.003379,
+    "lat": 40.726212,
+    "label": "188 6 AVENUE, New York, NY, USA",
+    "bbl": "1005040011",
+    "bin": "1077753",
+    "neighborhood": "SoHo",
+    "borough": "Manhattan",
+    "zip": "10013",
+    "houseNumber": "188",
+    "street": "6 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T01:10:11.259Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-02-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-01-18",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-08-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-07-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2023-06-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-06-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-03-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "803859"
+   }
+  },
+  "106 fulton st": {
+   "address": "106 Fulton Street",
+   "geo": {
+    "lng": -74.007067,
+    "lat": 40.709561,
+    "label": "106 FULTON STREET, New York, NY, USA",
+    "bbl": "1000780020",
+    "bin": "1001195",
+    "neighborhood": "Financial District",
+    "borough": "Manhattan",
+    "zip": "10038",
+    "houseNumber": "106",
+    "street": "FULTON STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T01:10:11.259Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2025-11-09",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4C",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "hpd-violation": "The operation was aborted due to timeout"
+    }
+   }
   }
  },
  "emails": [
@@ -3639,6 +4108,11 @@
    "id": "1a1a3a030c28ba4e",
    "date": "2026-11-03T22:55:46.000Z",
    "found": 1
+  },
+  {
+   "id": "1a1a414d0298afe4",
+   "date": "2026-11-04T01:03:09.000Z",
+   "found": 3
   }
  ]
 }
