@@ -3101,7 +3101,20 @@
   "pura-vida--new-york-ny": {
     "name": "Pura Vida",
     "city": "New York, NY",
-    "address": "98 Kenmare Street"
+    "address": "98 Kenmare Street",
+    "lat": 40.721174,
+    "lng": -73.9968474,
+    "precision": "address",
+    "street": "98 Kenmare Street",
+    "postcode": "10012",
+    "neighborhood": "Little Italy",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/5669892",
+    "source": "nominatim",
+    "checked": "2026-11-04"
   },
   "quail-and-condor--healdsburg-ca": {
     "name": "Quail & Condor",
