@@ -226,17 +226,26 @@ function SearchEditor({
 interface Props {
   saved: Saved;
   scan: ScanResult | null;
+  /** Open scrolled to how listings get here. */
+  showSource?: boolean;
   onChange: (settings: Settings) => void;
   onClose: () => void;
 }
 
-export function SettingsPanel({ saved, scan, onChange, onClose }: Props) {
+export function SettingsPanel({ saved, scan, showSource, onChange, onClose }: Props) {
   const { settings } = saved;
   const [copied, setCopied] = useState(false);
   const panel = useRef<HTMLDivElement>(null);
+  const source = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    panel.current?.focus();
+    panel.current?.focus({ preventScroll: true });
+    if (showSource) source.current?.scrollIntoView({ block: 'start' });
+    // Only on opening.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose();
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -390,7 +399,7 @@ export function SettingsPanel({ saved, scan, onChange, onClose }: Props) {
           </button>
         </section>
 
-        <section className="drawer__section">
+        <section className="drawer__section" ref={source}>
           <h3>Getting listings here</h3>
           <SetupGuide scan={scan} searches={settings.searches} />
         </section>

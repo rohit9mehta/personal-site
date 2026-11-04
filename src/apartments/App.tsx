@@ -14,7 +14,7 @@ import { AddListing } from './components/AddListing.tsx';
 import { ListingCard } from './components/ListingCard.tsx';
 import { placeCoords, SettingsPanel } from './components/Settings.tsx';
 import { SetupGuide } from './components/SetupGuide.tsx';
-import { fetchScan, type ScanResult } from './data.ts';
+import { fetchScan, latestAlert, type ScanResult } from './data.ts';
 import { ago, plural } from './format.ts';
 import { applySetup, readSetupHash, useSaved, type Mark } from './state.ts';
 import subway from './subway.json';
@@ -41,6 +41,7 @@ export function App() {
   const [openId, setOpenId] = useState<string | null>(null);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [settingsAtSource, setSettingsAtSource] = useState(false);
   const [adding, setAdding] = useState(false);
   const [mapOnPhone, setMapOnPhone] = useState(false);
   const isDesktop = useMediaQuery('(min-width: 980px)');
@@ -190,6 +191,19 @@ export function App() {
   const hasPlaces = settings.places.some((p) => p.lat !== undefined);
   const shortlistCount = groups.ready.length + groups.check.length;
   const nothingYet = !items.length;
+  const latest = latestAlert(scan);
+  // First time this browser has opened the page (incognito, a new laptop…).
+  const firstVisit = !lastVisit;
+
+  /** Where listings come from: the guide on the page, or in Settings once there are listings. */
+  const showSource = () => {
+    if (nothingYet) {
+      document.getElementById('listings-guide')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+    setSettingsAtSource(true);
+    setSettingsOpen(true);
+  };
 
   const card = (i: Item) => (
     <ListingCard
@@ -241,13 +255,17 @@ export function App() {
           </dl>
           <div className="toolbar">
             <span className="toolbar__note">
-              {scanError
-                ? scanError
-                : scan?.exists
-                  ? `Last scan ${ago(scan.data.updatedAt)}`
-                  : scan
-                    ? 'Waiting for the first scan'
-                    : 'Loading…'}
+              {scanError ? (
+                scanError
+              ) : !scan ? (
+                'Loading…'
+              ) : !scan.exists ? (
+                'Waiting for the first scan'
+              ) : (
+                <button type="button" className="link-button" onClick={showSource}>
+                  {latest ? `StreetEasy alerts connected · last one ${ago(latest)}` : 'No StreetEasy alerts yet'}
+                </button>
+              )}
             </span>
             <span className="toolbar__actions">
               <button type="button" className="button" onClick={() => setAdding((a) => !a)}>
@@ -262,12 +280,20 @@ export function App() {
 
         {adding && <AddListing onAdd={addManual} onClose={() => setAdding(false)} />}
 
-        {!hasPlaces && (
+        {!hasPlaces && !nothingYet && (
           <div className="notice">
-            <p>
-              <strong>Add the places you commute to</strong> — your office, your partner’s — and every listing gets
-              door-to-door subway and walking times.
-            </p>
+            {firstVisit && latest ? (
+              <p>
+                <strong>New browser? There’s nothing to connect.</strong> Listings come in on their own, the same
+                everywhere. Only your places, filters and notes are kept per browser: add the places you commute to, or
+                bring them over with the setup link from a device that has them.
+              </p>
+            ) : (
+              <p>
+                <strong>Add the places you commute to</strong> — your office, your partner’s — and every listing gets
+                door-to-door subway and walking times.
+              </p>
+            )}
             <button type="button" className="button button--primary" onClick={() => setSettingsOpen(true)}>
               Add places
             </button>
@@ -277,7 +303,7 @@ export function App() {
         {nothingYet ? (
           <section className="empty-card">
             <h2>No listings yet</h2>
-            <SetupGuide scan={scan} searches={settings.searches} />
+            <SetupGuide scan={scan} searches={settings.searches} id="listings-guide" />
           </section>
         ) : (
           <>
@@ -382,7 +408,16 @@ export function App() {
       )}
 
       {settingsOpen && (
-        <SettingsPanel saved={saved} scan={scan} onChange={setSettings} onClose={() => setSettingsOpen(false)} />
+        <SettingsPanel
+          saved={saved}
+          scan={scan}
+          showSource={settingsAtSource}
+          onChange={setSettings}
+          onClose={() => {
+            setSettingsOpen(false);
+            setSettingsAtSource(false);
+          }}
+        />
       )}
     </div>
   );

@@ -23,6 +23,13 @@ export interface ScanResult {
   exists: boolean;
 }
 
+/** When the newest StreetEasy alert email reached the scan; none means the Gmail relay hasn't sent one yet. */
+export function latestAlert(scan: ScanResult | null): string | undefined {
+  let latest: string | undefined;
+  for (const e of scan?.data.emails ?? []) if (!latest || e.date > latest) latest = e.date;
+  return latest;
+}
+
 export async function fetchScan(): Promise<ScanResult> {
   if (import.meta.env.VITE_APARTMENTS_SAMPLE) {
     const sample = structuredClone(
