@@ -27,6 +27,14 @@ Rohit's personal site plus **One Sip**, a map of coffee shops he has rated out o
 - Data flow: `data/coffee.csv` + `data/places.json` → `lib/dataset.ts` (`buildDataset`) → `virtual:coffee-data`.
 - `scripts/dev/import-sheet.ts` converts rows pasted from the original Google Sheet into `data/coffee.csv`.
 
+## Homepage
+
+- Plain TypeScript in `src/home` (no React), styles in `src/home/home.css` with its own `--k-*` tokens for both themes
+  (`[data-brew='chai'|'coffee']` plus the system setting). Keep it to the existing palette and the four typefaces.
+- The intro in `index.html` (comment `INTRO`) is Rohit's to write. Don't write it for him; when he sends the text, put it
+  in and drop the `is-draft` class and the "draft" note.
+- `public/og-home.png` is a 1200×630 render of the hero; re-render it if the hero changes a lot.
+
 ## Shortlist (apartments)
 
 - Listings arrive only through StreetEasy's own saved-search alert emails (Gmail → `apps-script/streeteasy-relay.gs` →

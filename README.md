@@ -5,7 +5,7 @@ hunt).
 
 - Site: https://rohit9mehta.github.io/personal-site/
 - One Sip: https://rohit9mehta.github.io/personal-site/onesip/
-- Shortlist: https://rohit9mehta.github.io/personal-site/apartments/ (unlisted)
+- Shortlist: https://rohit9mehta.github.io/personal-site/apartments/ (linked from the homepage, kept out of search engines)
 
 ## Logging a coffee
 
@@ -110,6 +110,11 @@ npm run build                            # static site in dist/
 
 ### How it's put together
 
+- **The homepage** (`index.html`, `src/home`) is plain TypeScript, no React. Its look, "Kadak", borrows from Indian
+  print ephemera (block prints, hand-painted shop signs) set on a Swiss grid: Rozha One for the name in both scripts,
+  Kalam for margin notes, two themes (chai is light, coffee is dark; the switch overrides the system setting). Click
+  the hero to press a block-print motif (`src/home/motifs.ts`, `press.ts`). The city list, "last sip" and One Sip
+  numbers come from the coffee data (`sips.ts`). The intro is a placeholder in `index.html`, marked `INTRO`.
 - **Vite + React + TypeScript**, three pages: `/` (`index.html`, `src/home`), `/onesip/` (`onesip/index.html`,
   `src/coffee`; the old `/coffee/` address redirects there from `public/coffee/`) and `/apartments/`
   (`apartments/index.html`, `src/apartments`, shared logic in `lib/apartments`).

@@ -1,67 +1,88 @@
+import '@fontsource/rozha-one';
+import '@fontsource/kalam/400.css';
 import '@fontsource-variable/inter/opsz.css';
 import '@fontsource-variable/newsreader/opsz.css';
+import '@fontsource-variable/newsreader/opsz-italic.css';
 import '../shared/base.css';
 import './home.css';
 import dataset from 'virtual:coffee-data';
 import { computeStats } from '../coffee/model.ts';
-import { scoreColor } from '../coffee/score.ts';
+import { formatScore } from '../coffee/score.ts';
+import { setupBrew } from './brew.ts';
+import { startClocks } from './clocks.ts';
+import { installSprite, setupPress } from './press.ts';
+import { cityLabel, cityTally, lastSip } from './sips.ts';
+import { fillTicker } from './ticker.ts';
+
+const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T | null;
+const base = import.meta.env.BASE_URL;
+const onesip = (params?: Record<string, string>) =>
+  `${base}onesip/${params ? `?${new URLSearchParams(params).toString()}` : ''}`;
+const plural = (n: number, one: string, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
+
+installSprite();
+
+const ticker = $('ticker');
+if (ticker) fillTicker(ticker);
+
+const brew = $<HTMLButtonElement>('brew');
+if (brew) setupBrew(brew);
+
+const hero = $('hero');
+if (hero) setupPress(hero);
+
+const clocks = $('clocks');
+if (clocks) startClocks(clocks);
+
+// --- The coffee numbers ------------------------------------------------------
 
 const { shops } = dataset;
-const { cities } = computeStats(shops);
-const best = shops[0];
+const stats = computeStats(shops);
 
-const summary = document.getElementById('summary');
-if (summary && shops.length) {
-  summary.textContent =
-    `${shops.length} coffee shops in ${cities} ${cities === 1 ? 'city' : 'cities'}, rated out of ten.` +
-    (best ? ` Top of the list: ${best.name}, ${best.city}.` : '');
+const sip = lastSip(shops);
+const sipLine = $('last-sip');
+if (sip && sipLine) {
+  const link = document.createElement('a');
+  link.href = onesip({ shop: sip.id });
+  link.innerHTML = '<span class="top__sip-label">Last sip</span> ';
+  link.append(
+    `${sip.name}, ${sip.multiLocation ? 'all over' : cityLabel(sip.city)} `,
+    Object.assign(document.createElement('b'), { textContent: formatScore(sip.score) }),
+  );
+  sipLine.append(link);
+  sipLine.hidden = false;
 }
 
-// A tiny equirectangular world with every café on it.
-const W = 360;
-const H = 150;
-const TOP = 80;
-const x = (lng: number) => lng + 180;
-const y = (lat: number) => TOP - lat;
+const desc = $('onesip-desc');
+if (desc && shops.length) {
+  desc.textContent = `${plural(stats.count, 'café')} in ${plural(stats.cities, 'city', 'cities')}, rated out of ten.`;
+}
 
-const preview = document.getElementById('preview');
-if (preview) {
-  const svgNS = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(svgNS, 'svg');
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  svg.setAttribute('preserveAspectRatio', 'xMidYMid slice');
-  const landGroup = document.createElementNS(svgNS, 'g');
-  landGroup.setAttribute('class', 'feature__land');
-  svg.append(landGroup);
-  const dots = document.createElementNS(svgNS, 'g');
-  for (const shop of [...shops].reverse()) {
-    if (shop.lat === undefined || shop.lng === undefined) continue;
-    const c = document.createElementNS(svgNS, 'circle');
-    c.setAttribute('cx', x(shop.lng).toFixed(2));
-    c.setAttribute('cy', y(shop.lat).toFixed(2));
-    c.setAttribute('r', '1.7');
-    c.style.fill = scoreColor(shop.score);
-    dots.append(c);
-  }
-  svg.append(dots);
-  preview.append(svg);
+const cities = cityTally(shops);
+const dek = $('cities-dek');
+if (dek && cities.length) {
+  dek.textContent =
+    `${plural(stats.count, 'café')}, ${plural(stats.cities, 'city', 'cities')}` +
+    (stats.countries ? `, ${plural(stats.countries, 'country', 'countries')}` : '') +
+    '. The more cups, the bigger the name.';
+}
 
-  void import('virtual:world-land').then(({ default: land }) => {
-    let d = '';
-    for (const f of land.features) {
-      const g = f.geometry;
-      const polygons = g.type === 'Polygon' ? [g.coordinates] : g.type === 'MultiPolygon' ? g.coordinates : [];
-      for (const polygon of polygons) {
-        // Antarctica would only peek in as slivers along the bottom edge.
-        if (polygon[0]?.every(([, lat]) => lat! < -56)) continue;
-        for (const ring of polygon) {
-          d +=
-            ring.map(([lng, lat], i) => `${i ? 'L' : 'M'}${x(lng!).toFixed(1)} ${y(lat!).toFixed(1)}`).join('') + 'Z';
-        }
-      }
+const cloud = $('cities-cloud');
+if (cloud && cities.length) {
+  cloud.replaceChildren();
+  cities.forEach((city, i) => {
+    const a = document.createElement('a');
+    a.className = 'city';
+    a.href = onesip({ q: city.label });
+    a.style.setProperty('--w', city.weight.toFixed(3));
+    a.title = `${plural(city.count, 'café')} · best: ${city.best.name} (${formatScore(city.best.score)})`;
+    a.append(city.label);
+    if (city.count > 1) {
+      const count = document.createElement('sup');
+      count.textContent = String(city.count);
+      a.append(count);
     }
-    const path = document.createElementNS(svgNS, 'path');
-    path.setAttribute('d', d);
-    landGroup.append(path);
+    if (i) cloud.append(' ');
+    cloud.append(a);
   });
 }
