@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-04T19:55:42.323Z",
+ "updatedAt": "2026-11-04T20:10:06.784Z",
  "listings": [
   {
    "id": "5196324",
@@ -693,6 +693,83 @@
    "baths": 1,
    "broker": "Bond New York",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5081049",
+   "url": "https://streeteasy.com/rental/5081049",
+   "address": "109 East 29th Street",
+   "price": 6200,
+   "updates": [
+    "Price Drop: $100"
+   ],
+   "firstSeen": "2026-11-04T20:03:50.000Z",
+   "lastSeen": "2026-11-04T20:03:50.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 6200
+    }
+   ],
+   "building": "109 e 29 st",
+   "unit": "3B",
+   "neighborhood": "NoMad",
+   "kind": "Rental unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Starts New York Realty LLC"
+  },
+  {
+   "id": "5151413",
+   "url": "https://streeteasy.com/rental/5151413",
+   "address": "510 2nd Avenue",
+   "price": 6052,
+   "updates": [
+    "Price Drop: $103"
+   ],
+   "firstSeen": "2026-11-04T20:03:50.000Z",
+   "lastSeen": "2026-11-04T20:03:50.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 6052
+    }
+   ],
+   "building": "510 2 ave",
+   "unit": "14A",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental unit",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 683,
+   "broker": "Beam Living",
+   "suggested": true
+  },
+  {
+   "id": "5146399",
+   "url": "https://streeteasy.com/rental/5146399",
+   "address": "510 2nd Avenue",
+   "price": 6357,
+   "updates": [
+    "Price Drop: $103"
+   ],
+   "firstSeen": "2026-11-04T20:03:50.000Z",
+   "lastSeen": "2026-11-04T20:03:50.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 6357
+    }
+   ],
+   "building": "510 2 ave",
+   "unit": "10C",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental unit",
+   "noFee": true,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 762,
+   "broker": "Beam Living",
+   "suggested": true
   }
  ],
  "buildings": {
@@ -6195,6 +6272,225 @@
     ],
     "errors": {}
    }
+  },
+  "109 e 29 st": {
+   "address": "109 East 29th Street",
+   "geo": {
+    "lng": -73.982789,
+    "lat": 40.74383,
+    "label": "109 EAST 29 STREET, New York, NY, USA",
+    "bbl": "1008850010",
+    "bin": "1018242",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "109",
+    "street": "EAST 29 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T20:10:06.784Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "3B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "12863"
+   }
+  },
+  "510 2 ave": {
+   "address": "510 2nd Avenue",
+   "geo": {
+    "lng": -73.977625,
+    "lat": 40.740979,
+    "label": "510 2 AVENUE, New York, NY, USA",
+    "bbl": "1009340001",
+    "bin": "1082735",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "510",
+    "street": "2 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T20:10:06.784Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-25",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "14B",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-08-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-06-05",
+      "kinds": [
+       "other"
+      ],
+      "text": "Termites",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-23",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-19",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "19F",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-18",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2025-12-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-06-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "9D",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-11-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2021-12-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "823865"
+   }
   }
  },
  "emails": [
@@ -6267,6 +6563,11 @@
    "id": "1a1a766a24675659",
    "date": "2026-11-04T16:31:20.000Z",
    "found": 6
+  },
+  {
+   "id": "1a1a8292728b22ef",
+   "date": "2026-11-04T20:03:50.000Z",
+   "found": 3
   }
  ]
 }
