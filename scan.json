@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-04T21:40:18.384Z",
+ "updatedAt": "2026-11-04T21:50:10.917Z",
  "listings": [
   {
    "id": "5196324",
@@ -412,9 +412,11 @@
    "url": "https://streeteasy.com/rental/5195295",
    "address": "330 East 38th Street",
    "price": 6150,
-   "updates": [],
+   "updates": [
+    "Open House"
+   ],
    "firstSeen": "2026-11-04T03:34:16.000Z",
-   "lastSeen": "2026-11-04T03:34:16.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -427,7 +429,10 @@
    "beds": 2,
    "baths": 1,
    "sqft": 903,
-   "broker": "Douglas Elliman"
+   "broker": "Douglas Elliman",
+   "suggested": false,
+   "unit": "49J",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   },
   {
    "id": "5195995",
@@ -652,7 +657,7 @@
    "price": 5685,
    "updates": [],
    "firstSeen": "2026-11-04T15:36:59.000Z",
-   "lastSeen": "2026-11-04T15:36:59.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -667,7 +672,8 @@
    "baths": 1,
    "sqft": 875,
    "broker": "LyvWell Apartments NYC",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5185784",
@@ -700,10 +706,10 @@
    "address": "109 East 29th Street",
    "price": 6200,
    "updates": [
-    "Price Drop: $100"
+    "Open House"
    ],
    "firstSeen": "2026-11-04T20:03:50.000Z",
-   "lastSeen": "2026-11-04T20:03:50.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -716,7 +722,9 @@
    "kind": "Rental unit",
    "beds": 2,
    "baths": 1,
-   "broker": "Starts New York Realty LLC"
+   "broker": "Starts New York Realty LLC",
+   "suggested": false,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   },
   {
    "id": "5151413",
@@ -770,6 +778,297 @@
    "sqft": 762,
    "broker": "Beam Living",
    "suggested": true
+  },
+  {
+   "id": "5196511",
+   "url": "https://streeteasy.com/rental/5196511",
+   "address": "104 Fleet Place",
+   "price": 6225,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-04T21:40:16.000Z",
+   "lastSeen": "2026-11-04T21:40:16.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 6225
+    }
+   ],
+   "building": "104 fleet pl",
+   "unit": "30U",
+   "neighborhood": "Downtown Brooklyn",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "REAL New York",
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5195465",
+   "url": "https://streeteasy.com/rental/5195465",
+   "address": "261 East 10th Street",
+   "price": 4200,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-04T21:40:16.000Z",
+   "lastSeen": "2026-11-04T21:40:16.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 4200
+    }
+   ],
+   "building": "261 e 10 st",
+   "unit": "10",
+   "neighborhood": "East Village",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "KNOCKKNOCK LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5193378",
+   "url": "https://streeteasy.com/rental/5193378",
+   "address": "60 Avenue B",
+   "price": 5495,
+   "updates": [],
+   "firstSeen": "2026-11-04T21:40:16.000Z",
+   "lastSeen": "2026-11-04T21:40:16.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 5495
+    }
+   ],
+   "building": "60 ave b",
+   "unit": "2C",
+   "neighborhood": "East Village",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Tahari Realty LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197314",
+   "url": "https://streeteasy.com/rental/5197314",
+   "address": "635 West 42nd Street",
+   "price": 4600,
+   "updates": [],
+   "firstSeen": "2026-11-04T21:40:16.000Z",
+   "lastSeen": "2026-11-04T21:40:16.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 4600
+    }
+   ],
+   "building": "635 w 42 st",
+   "unit": "18J",
+   "neighborhood": "Hell's Kitchen",
+   "kind": "Condo",
+   "beds": 2,
+   "baths": 1,
+   "broker": "River2River Realty",
+   "suggested": true,
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197292",
+   "url": "https://streeteasy.com/rental/5197292",
+   "address": "150 West 47th Street",
+   "price": 2950,
+   "updates": [],
+   "firstSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 2950
+    }
+   ],
+   "building": "150 w 47 st",
+   "unit": "10D",
+   "neighborhood": "Midtown",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Douglas Elliman",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197267",
+   "url": "https://streeteasy.com/rental/5197267",
+   "address": "335 East 27th Street",
+   "price": 3597,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 3597
+    }
+   ],
+   "building": "335 e 27 st",
+   "unit": "7C",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Rose Associates, Inc",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197265",
+   "url": "https://streeteasy.com/rental/5197265",
+   "address": "340 East 49th Street",
+   "price": 2950,
+   "updates": [],
+   "firstSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 2950
+    }
+   ],
+   "building": "340 e 49 st",
+   "unit": "4B",
+   "neighborhood": "Turtle Bay",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "E Hudson Properties",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197155",
+   "url": "https://streeteasy.com/rental/5197155",
+   "address": "335 East 27th Street",
+   "price": 3548,
+   "updates": [
+    "Open House  Price Drop: $170"
+   ],
+   "firstSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 3548
+    }
+   ],
+   "building": "335 e 27 st",
+   "unit": "3D",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Rose Associates, Inc",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197171",
+   "url": "https://streeteasy.com/rental/5197171",
+   "address": "335 East 27th Street",
+   "price": 3664,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 3664
+    }
+   ],
+   "building": "335 e 27 st",
+   "unit": "6A",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Rose Associates, Inc",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5194690",
+   "url": "https://streeteasy.com/rental/5194690",
+   "address": "230 East 44th Street",
+   "price": 5400,
+   "updates": [],
+   "firstSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 5400
+    }
+   ],
+   "building": "230 e 44 st",
+   "unit": "11C",
+   "neighborhood": "Turtle Bay",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Dalan Rentals",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5195184",
+   "url": "https://streeteasy.com/rental/5195184",
+   "address": "183 Thompson Street",
+   "price": 4995,
+   "updates": [
+    "Price Drop: $205"
+   ],
+   "firstSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 4995
+    }
+   ],
+   "building": "183 thompson st",
+   "unit": "C6",
+   "neighborhood": "Greenwich Village",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Landmark Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197313",
+   "url": "https://streeteasy.com/rental/5197313",
+   "address": "520 2nd Avenue",
+   "price": 6427,
+   "updates": [],
+   "firstSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 6427
+    }
+   ],
+   "building": "520 2 ave",
+   "unit": "18D",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 799,
+   "broker": "Beam Living",
+   "suggested": true,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -6491,6 +6790,1041 @@
     "errors": {},
     "hpdBuildingId": "823865"
    }
+  },
+  "261 e 10 st": {
+   "address": "261 East 10th Street",
+   "geo": {
+    "lng": -73.983356,
+    "lat": 40.728545,
+    "label": "261 EAST 10 STREET, New York, NY, USA",
+    "bbl": "1004380047",
+    "bin": "1005959",
+    "neighborhood": "East Village",
+    "borough": "Manhattan",
+    "zip": "10009",
+    "houseNumber": "261",
+    "street": "EAST 10 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [],
+    "errors": {}
+   }
+  },
+  "60 ave b": {
+   "address": "60 Avenue B",
+   "geo": {
+    "lng": -73.982583,
+    "lat": 40.723597,
+    "label": "60 AVENUE B, New York, NY, USA",
+    "bbl": "1004000038",
+    "bin": "1005027",
+    "neighborhood": "East Village",
+    "borough": "Manhattan",
+    "zip": "10009",
+    "houseNumber": "60",
+    "street": "AVENUE B",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "311",
+      "date": "2026-04-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-11-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "3C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-11-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of rodents rats yard, 1st story",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-11-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-10-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2022-09-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-06-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-06-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-05-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "6493"
+   }
+  },
+  "635 w 42 st": {
+   "address": "635 West 42nd Street",
+   "geo": {
+    "lng": -73.999764,
+    "lat": 40.761808,
+    "label": "635 WEST 42 STREET, New York, NY, USA",
+    "bbl": "1010907501",
+    "bin": "1087539",
+    "neighborhood": "Midtown West",
+    "borough": "Manhattan",
+    "zip": "10036",
+    "houseNumber": "635",
+    "street": "WEST 42 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2025-07-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-05-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2025-04-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-08-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-30",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-09-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-08-19",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "3B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-09",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "880540"
+   }
+  },
+  "150 w 47 st": {
+   "address": "150 West 47th Street",
+   "geo": {
+    "lng": -73.983817,
+    "lat": 40.758636,
+    "label": "150 WEST 47 STREET, New York, NY, USA",
+    "bbl": "1009990054",
+    "bin": "1022671",
+    "neighborhood": "Midtown West",
+    "borough": "Manhattan",
+    "zip": "10036",
+    "houseNumber": "150",
+    "street": "WEST 47 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2025-05-05",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 103 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "311": "The operation was aborted due to timeout"
+    },
+    "hpdBuildingId": "33420"
+   }
+  },
+  "335 e 27 st": {
+   "address": "335 East 27th Street",
+   "geo": {
+    "lng": -73.977415,
+    "lat": 40.739877,
+    "label": "335 EAST 27 STREET, New York, NY, USA",
+    "bbl": "1009337501",
+    "bin": "1084666",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "335",
+    "street": "EAST 27 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "311",
+      "date": "2025-09-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-10-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-31",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "949027"
+   }
+  },
+  "340 e 49 st": {
+   "address": "340 East 49th Street",
+   "geo": {
+    "lng": -73.967501,
+    "lat": 40.753383,
+    "label": "340 EAST 49 STREET, New York, NY, USA",
+    "bbl": "1013410033",
+    "bin": "1038926",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "340",
+    "street": "EAST 49 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2022-09-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "1FE",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "230 e 44 st": {
+   "address": "230 East 44th Street",
+   "geo": {
+    "lng": -73.972137,
+    "lat": 40.751283,
+    "label": "230 EAST 44 STREET, New York, NY, USA",
+    "bbl": "1013170030",
+    "bin": "1037565",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "230",
+    "street": "EAST 44 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-23",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "PUBLIC",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "7F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "9H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "9H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "9H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "9L",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 164 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "2D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-05-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "3D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-10-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "2G",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-04-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "11C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-04-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "11C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "14F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "14F",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-03-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "10F",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-03-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2021-12-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "5J",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2021-12-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "5J",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2021-12-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13719"
+   }
+  },
+  "183 thompson st": {
+   "address": "183 Thompson Street",
+   "geo": {
+    "lng": -74.000192,
+    "lat": 40.728165,
+    "label": "183 THOMPSON STREET, New York, NY, USA",
+    "bbl": "1005250016",
+    "bin": "1008249",
+    "neighborhood": "Greenwich Village",
+    "borough": "Manhattan",
+    "zip": "10012",
+    "houseNumber": "183",
+    "street": "THOMPSON STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2025-10-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2025-08-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-08-22",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "D7",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-08-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-07-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-07-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "E8",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-07-09",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "E8",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-29",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "E8",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2025-06-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-05-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-04-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2025-03-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-03-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2025-01-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-12-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-11-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2024-11-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-10-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "E7",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-09-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "F6",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-08-18",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "F5",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-04-22",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "D7",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-04-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-03-22",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-02-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-02-19",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "XXXXXX",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-02-18",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2021-12-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "28732"
+   }
+  },
+  "520 2 ave": {
+   "address": "520 2nd Avenue",
+   "geo": {
+    "lng": -73.977859,
+    "lat": 40.741288,
+    "label": "520 2 AVENUE, New York, NY, USA",
+    "bbl": "1009340001",
+    "bin": "1082736",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "520",
+    "street": "2 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T21:50:10.917Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-25",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "14B",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-08-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-06-05",
+      "kinds": [
+       "other"
+      ],
+      "text": "Termites",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-23",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-19",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "19F",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-18",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2025-12-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-06-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "9D",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-12-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2023-11-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2021-12-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "823865"
+   }
   }
  },
  "emails": [
@@ -6573,6 +7907,21 @@
    "id": "1a1a878f26c52b93",
    "date": "2026-11-04T21:30:59.000Z",
    "found": 4
+  },
+  {
+   "id": "1a1a8816ce1d0199",
+   "date": "2026-11-04T21:40:16.000Z",
+   "found": 4
+  },
+  {
+   "id": "1a1a8816b5d5ab9d",
+   "date": "2026-11-04T21:40:15.000Z",
+   "found": 5
+  },
+  {
+   "id": "1a1a8816952ca50e",
+   "date": "2026-11-04T21:40:15.000Z",
+   "found": 7
   }
  ]
 }
