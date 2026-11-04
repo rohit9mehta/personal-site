@@ -122,9 +122,13 @@ export function parseSearchUrl(url: string): SearchCriteria | null {
   const c: SearchCriteria = { areas: [], beds: [] };
   const lead = path.match(/\/(studio|(\d)-bedroom)-apartments-for-rent\//);
   if (lead) c.beds = [lead[1] === 'studio' ? 0 : Number(lead[2])];
-  const params = path.split('/').pop()!.split('|');
+  const params = path.replace(/\/+$/, '').split('/').pop()!.split('|');
   for (const p of params) {
-    const [key, value = ''] = p.split(/:(.*)/s);
+    const m = p.match(/^([a-z_]+)(:|<=|>=|<|>)(.*)$/s);
+    if (!m) continue;
+    const [, key, op, raw] = m as unknown as [string, string, string, string];
+    // Newer links compare instead of using a colon: "price<=7000" is "price:-7000", "beds>=1" is "beds:>=1".
+    const value = op === ':' ? raw : key === 'price' ? (op.startsWith('<') ? `-${raw}` : `${raw}-`) : op + raw;
     if (key === 'area') c.areas = value.split(',').map(Number).filter(Number.isFinite);
     if (key === 'price') {
       const [lo, hi] = value.split('-');
@@ -169,6 +173,8 @@ export interface EmailListing {
   broker?: string;
   /** "Open House", "Price Increase: $195"… */
   updates: string[];
+  /** StreetEasy says it's rented (in the saved-listings email). */
+  offMarket?: boolean;
   section: 'new' | 'updated' | 'suggested' | 'other';
   /** The saved search it was sent for. */
   search?: string;
@@ -182,7 +188,31 @@ export interface ParsedEmail {
 
 const LISTING_URL =
   /https?:\/\/(?:www\.)?streeteasy\.com\/(rental\/(\d+)|building\/[a-z0-9-]+(?:_[a-z_]+)?\/[a-z0-9-]+)[^\s>)"]*/i;
-const SEARCH_URL = /https?:\/\/(?:www\.)?streeteasy\.com\/[a-z0-9-]*for-rent\/[^\s>)"]*area:[^\s>)"]*/i;
+/** Since 2026 the search part of the link comes percent-encoded: "area%3A107%2C113%7Cbeds%3A2…". */
+const SEARCH_URL = /https?:\/\/(?:www\.)?streeteasy\.com\/[a-z0-9-]*for-rent\/[^\s>)"]*area(?::|%3A)[^\s>)"]*/i;
+
+/**
+ * The invisible padding after an email's preview line ("515 2nd Avenue and 9 more
+ * updates" + figure spaces and combining grapheme joiners), so it can't pass for text.
+ */
+const INVISIBLE = /\u034f|[\u00ad\u200b-\u200d\u2060\ufeff]/g;
+
+/** The email's preview line ("…and 9 more updates"), cut from an address an older parser kept. */
+export function tidyAddress(address: string): string {
+  return address
+    .replace(INVISIBLE, '')
+    .replace(/\s+and \d+ more updates?\b.*$/is, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/** The sections a listing can come in. */
+function sectionOf(line: string): EmailListing['section'] | null {
+  if (/^new$/i.test(line) || /new to market/i.test(line)) return 'new';
+  if (/^updated$/i.test(line) || /homes? with changes/i.test(line)) return 'updated';
+  if (/^because you (searched|viewed|saved)|^these homes match your/i.test(line)) return 'suggested';
+  return null;
+}
 
 function cleanUrl(raw: string): string {
   const u = new URL(raw);
@@ -214,7 +244,7 @@ function parseWithoutLinks(lines: string[], searches: ParsedEmail['searches']): 
   const out: EmailListing[] = [];
   let section: EmailListing['section'] = 'other';
   let block: string[] | null = null;
-  const search = searches.find((s) => s.label)?.url;
+  const search = (searches.find((s) => s.label) ?? searches[0])?.url;
   const flush = () => {
     if (!block) return;
     const facts = readBlock(block, '');
@@ -233,13 +263,7 @@ function parseWithoutLinks(lines: string[], searches: ParsedEmail['searches']): 
   };
   for (const raw of lines) {
     const line = raw.trim();
-    const next = /^new$|new to market/i.test(line)
-      ? 'new'
-      : /^updated$|homes? with changes/i.test(line)
-        ? 'updated'
-        : /^because you (searched|viewed|saved)/i.test(line)
-          ? 'suggested'
-          : null;
+    const next = sectionOf(line);
     if (next) {
       flush();
       section = next;
@@ -279,10 +303,18 @@ function readBlock(lines: string[], tail: string): Omit<EmailListing, 'id' | 'ur
       inUpdates = false;
       continue;
     }
+    if (/^(rented|off[- ]market|no longer available)$/i.test(line)) {
+      out.offMarket = true;
+      continue;
+    }
+    if (/^no fee$/i.test(line)) {
+      out.noFee = true;
+      continue;
+    }
     if (
       !out.address &&
       (m = line.match(/^(\d[\dA-Za-z-]*\s+[^$#]+?)(?:\s*#\s*(\S+))?$/)) &&
-      !/\b(beds?|baths?|ft²|sq\.?\s*ft|open houses?|homes?)\b/i.test(line)
+      !/\b(beds?|baths?|ft²|sq\.?\s*ft|open houses?|homes?)\b|\band \d+ more\b/i.test(line)
     ) {
       out.address = m[1]!.trim();
       if (m[2]) out.unit = m[2].toUpperCase();
@@ -293,8 +325,13 @@ function readBlock(lines: string[], tail: string): Omit<EmailListing, 'id' | 'ur
       if (/no fee/i.test(m[2]!)) out.noFee = true;
       continue;
     }
+    if ((m = line.match(/^↓\s*(\$[\d,]+)$/))) {
+      out.updates.push(`Price Drop: ${m[1]}`);
+      continue;
+    }
     let matched = false;
-    if ((m = line.match(/^(\d+(?:\.\d+)?)\s+beds?\b/i))) {
+    // "2 Beds", or "3 bd|2 Baths" in the saved-listings email.
+    if ((m = line.match(/^(\d+(?:\.\d+)?)\s*(?:beds?|bd)\b/i))) {
       out.beds = Number(m[1]);
       matched = true;
     } else if (/^studio\b/i.test(line)) {
@@ -318,10 +355,13 @@ function readBlock(lines: string[], tail: string): Omit<EmailListing, 'id' | 'ur
       continue;
     }
     if (/^(video|open house|\d+ open houses|virtual tour|3d tour|floor ?plan)s?(\s|$)/i.test(line)) continue;
-    if (/^(new|updated)$|homes? (new to market|with changes)|^because you/i.test(line)) continue;
+    if (sectionOf(line)) continue;
     if (out.address) leftovers.push(line);
   }
-  const broker = (tail.trim() || leftovers.at(-1) || '').replace(/\s*\(.*\)\s*$/, '').trim();
+  const broker = (tail.trim() || leftovers.at(-1) || '')
+    .replace(/^listed by\s+/i, '')
+    .replace(/\s*\(.*\)\s*$/, '')
+    .trim();
   if (broker && broker !== out.address) out.broker = broker;
   return out;
 }
@@ -331,7 +371,7 @@ function readBlock(lines: string[], tail: string): Omit<EmailListing, 'id' | 'ur
  * moving around: each listing is the text between one listing link and the next.
  */
 export function parseAlertEmail(text: string): ParsedEmail {
-  const lines = text.replace(/\r\n?/g, '\n').split('\n');
+  const lines = text.replace(/\r\n?/g, '\n').replace(INVISIBLE, '').split('\n');
   const listings = new Map<string, EmailListing>();
   const searches: ParsedEmail['searches'] = [];
   let section: EmailListing['section'] = 'other';
@@ -345,14 +385,14 @@ export function parseAlertEmail(text: string): ParsedEmail {
 
     const searchMatch = trimmed.match(SEARCH_URL);
     if (searchMatch) {
-      const url = searchMatch[0];
-      if (label) {
-        const text = label.join(' ').replace(/\s+/g, ' ').trim();
-        if (!searches.some((s) => s.url === url)) searches.push({ url, label: text });
-        search = url;
-      } else if (!searches.some((s) => s.url === url)) {
-        searches.push({ url });
-      }
+      // The same search shows up again as "See all homes", with a trailing slash and tracking.
+      const url = searchMatch[0].replace(/[?#].*$/, '').replace(/\/+$/, '');
+      const text = label?.join(' ').replace(/\s+/g, ' ').trim();
+      const known = searches.find((s) => s.url === url);
+      if (!known) searches.push({ url, ...(text ? { label: text } : {}) });
+      else if (text && !known.label) known.label = text;
+      // Newer emails have no "For Rent: …" sentence; the link alone says which search it is.
+      search = url;
       label = null;
       block = [];
       continue;
@@ -366,9 +406,8 @@ export function parseAlertEmail(text: string): ParsedEmail {
       continue;
     }
 
-    if (/^new$/i.test(trimmed) || /new to market/i.test(trimmed)) section = 'new';
-    else if (/^updated$/i.test(trimmed) || /homes? with changes/i.test(trimmed)) section = 'updated';
-    else if (/^because you (searched|viewed|saved)/i.test(trimmed)) section = 'suggested';
+    const next = sectionOf(trimmed);
+    if (next) section = next;
     else if (/^see all homes/i.test(trimmed) || /you get this saved search email/i.test(trimmed)) section = 'other';
 
     const m = trimmed.match(LISTING_URL);

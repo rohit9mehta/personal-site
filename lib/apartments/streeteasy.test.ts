@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { areaNames, inAreas, parseAlertEmail, parseSearchUrl, searchUrl } from './streeteasy.ts';
+import { areaNames, inAreas, parseAlertEmail, parseSearchUrl, searchUrl, tidyAddress } from './streeteasy.ts';
 
 const fixture = (name: string) => readFileSync(resolve(import.meta.dirname, 'fixtures', name), 'utf8');
 
@@ -106,6 +106,61 @@ describe('parseAlertEmail', () => {
   });
 });
 
+describe('parseAlertEmail, 2026 layout', () => {
+  const alert = parseAlertEmail(fixture('alert-2026-search.txt'));
+  const saved = parseAlertEmail(fixture('alert-2026-saved.txt'));
+  const SEARCH =
+    'https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen';
+
+  it("doesn't take the preview line for the first listing's address", () => {
+    expect(alert.listings.map((l) => [l.address, l.unit])).toEqual([
+      ['215 Madison Avenue', '6D'],
+      ['339 East 57th Street', '4A'],
+      ['10 East 28th Street', '3C'],
+      ['225 East 47th Street', '3E'],
+      ['240 East 46th Street', '8A'],
+    ]);
+    expect(alert.listings[0]).toMatchObject({ beds: 1, baths: 1, price: 3750, broker: 'Douglas Elliman' });
+    expect(alert.listings.map((l) => l.section)).toEqual(['new', 'new', 'new', 'new', 'updated']);
+  });
+
+  it('reads the percent-encoded saved-search link', () => {
+    expect(alert.searches).toEqual([{ url: SEARCH }]);
+    expect(alert.listings.every((l) => l.search === SEARCH)).toBe(true);
+    expect(parseSearchUrl(SEARCH)).toEqual({
+      areas: [107, 113, 115, 116, 118, 120, 123, 158, 159, 162],
+      beds: [0, 1, 2, 3, 4],
+      maxPrice: 3750,
+    });
+  });
+
+  it('reads the saved-listings email: rented, "3 bd", suggestions', () => {
+    expect(saved.listings[0]).toMatchObject({
+      id: '5186499',
+      address: '115 Mulberry Street',
+      unit: '4',
+      beds: 3,
+      baths: 2,
+      broker: 'Centennial Properties NY',
+      offMarket: true,
+    });
+    expect(saved.listings.slice(1).map((l) => [l.id, l.section])).toEqual([
+      ['5190217', 'suggested'],
+      ['5070768', 'suggested'],
+    ]);
+    expect(saved.listings[1]).toMatchObject({ noFee: true, beds: 3 });
+    expect(saved.listings[2]).toMatchObject({ sqft: 1200, updates: ['Price Drop: $250'], broker: 'Compass' });
+    expect(saved.listings[2]!.offMarket).toBeUndefined();
+  });
+
+  it('cuts the preview line out of an address an older parser kept', () => {
+    const padding = ' \u2007\u034f'.repeat(3);
+    expect(tidyAddress(`515 2nd Avenue and 9 more updates${padding}`)).toBe('515 2nd Avenue');
+    expect(tidyAddress('420 E 54th Street and 1 more update')).toBe('420 E 54th Street');
+    expect(tidyAddress('212 East 29th Street')).toBe('212 East 29th Street');
+  });
+});
+
 describe('search links', () => {
   it('builds a StreetEasy search for a filter', () => {
     const url = searchUrl({ areas: [115, 158], beds: [0, 1], maxPrice: 3675 });
@@ -120,6 +175,14 @@ describe('search links', () => {
       'https://streeteasy.com/2-bedroom-apartments-for-rent/nyc/status:open%7Cprice:-5500%7Carea:103,107,162%7Camenities:washer_dryer',
     );
     expect(c).toEqual({ areas: [103, 107, 162], beds: [2], maxPrice: 5500 });
+  });
+
+  it('reads newer links that compare rather than use a colon', () => {
+    expect(parseSearchUrl('https://streeteasy.com/for-rent/nyc/area:107|beds<=1|price>=2000|status:open/')).toEqual({
+      areas: [107],
+      beds: [0, 1],
+      minPrice: 2000,
+    });
   });
 
   it('covers bedroom ranges', () => {

@@ -6,6 +6,7 @@ import {
   buildingKey,
   evaluate,
   mergeListings,
+  repairListings,
   type Building,
   type CommuteFn,
   type Settings,
@@ -57,9 +58,35 @@ describe('mergeListings', () => {
     });
   });
 
+  it('fills in what an earlier email left out, and notes when it is rented', () => {
+    const data = structuredClone(EMPTY_SCAN);
+    mergeListings(data, [email({ unit: undefined, beds: undefined })], '2026-11-01T10:00:00Z');
+    mergeListings(data, [email({ unit: '7', beds: 2, offMarket: true })], '2026-11-02T10:00:00Z');
+    expect(data.listings[0]).toMatchObject({ unit: '7', beds: 2, offMarket: true });
+    // Facts it already has stay put.
+    mergeListings(data, [email({ beds: 3 })], '2026-11-03T10:00:00Z');
+    expect(data.listings[0]!.beds).toBe(2);
+  });
+
   it('skips listings it could not read', () => {
     const data = structuredClone(EMPTY_SCAN);
     expect(mergeListings(data, [email({ address: undefined })], '2026-11-01T10:00:00Z')).toEqual([]);
+  });
+});
+
+describe('repairListings', () => {
+  it("re-files listings whose address was the email's preview line", () => {
+    const data = structuredClone(EMPTY_SCAN);
+    const junk = `420 E 54th Street and 3 more updates${' \u2007\u034f'.repeat(4)}`;
+    mergeListings(data, [email({ id: '1', address: junk, unit: undefined })], '2026-11-01T10:00:00Z');
+    mergeListings(data, [email({ id: '2', address: '420 E 54th Street', unit: '508' })], '2026-11-01T10:00:00Z');
+    expect(repairListings(data)).toBe(1);
+    expect(data.listings.map((l) => [l.address, l.building])).toEqual([
+      ['420 E 54th Street', '420 e 54 st'],
+      ['420 E 54th Street', '420 e 54 st'],
+    ]);
+    expect(data.buildings['420 e 54 st']).toBeDefined();
+    expect(repairListings(data)).toBe(0);
   });
 });
 
@@ -125,6 +152,12 @@ describe('evaluate', () => {
       '1 pest record with the city in 2 yr',
       'Openigloo reviews mention pests',
     ]);
+  });
+
+  it('takes a rented listing off the shortlist', () => {
+    const e = evaluate({ ...listing, offMarket: true }, building, settings, fast, 'clean', NOW);
+    expect(e.status).toBe('out');
+    expect(e.reasons).toEqual(['Rented, says StreetEasy']);
   });
 
   it('marks prices in the stretch zone', () => {

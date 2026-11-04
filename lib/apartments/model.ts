@@ -8,7 +8,7 @@
 
 import type { BuildingGeo } from './geo.ts';
 import { DEFAULT_PEST_RULES, judgePests, type BuildingRecords, type PestRules, type PestVerdict } from './records.ts';
-import { AREAS, inAreas, parseSearchUrl, type EmailListing } from './streeteasy.ts';
+import { AREAS, inAreas, parseSearchUrl, tidyAddress, type EmailListing } from './streeteasy.ts';
 import type { LatLng, ProfileId, Trip } from './transit.ts';
 
 // --- Scan data -----------------------------------------------------------------
@@ -30,6 +30,8 @@ export interface Listing {
   updates: string[];
   /** Came as a "Because you searched for…" suggestion rather than a match. */
   suggested?: boolean;
+  /** StreetEasy says it's rented. */
+  offMarket?: boolean;
   /** The StreetEasy saved search that sent it. */
   search?: string;
   /** ISO timestamps. */
@@ -106,7 +108,12 @@ export function mergeListings(data: ScanData, incoming: EmailListing[], seenAt: 
         lastSeen: seenAt > existing.lastSeen ? seenAt : existing.lastSeen,
         ...(e.noFee !== undefined ? { noFee: e.noFee } : {}),
         ...(e.section !== 'suggested' ? { suggested: false } : {}),
+        ...(e.offMarket ? { offMarket: true } : {}),
       });
+      // Fill in what an earlier email left out (or an older parser missed).
+      for (const field of ['unit', 'neighborhood', 'kind', 'beds', 'baths', 'sqft', 'broker', 'search'] as const) {
+        if (existing[field] === undefined && e[field] !== undefined) Object.assign(existing, { [field]: e[field] });
+      }
       continue;
     }
     const listing: Listing = {
@@ -128,6 +135,7 @@ export function mergeListings(data: ScanData, incoming: EmailListing[], seenAt: 
       ...(e.sqft !== undefined ? { sqft: e.sqft } : {}),
       ...(e.broker ? { broker: e.broker } : {}),
       ...(e.section === 'suggested' ? { suggested: true } : {}),
+      ...(e.offMarket ? { offMarket: true } : {}),
       ...(e.search ? { search: e.search } : {}),
     };
     data.listings.push(listing);
@@ -135,6 +143,24 @@ export function mergeListings(data: ScanData, incoming: EmailListing[], seenAt: 
     added.push(listing);
   }
   return added;
+}
+
+/**
+ * Puts right the addresses an older parser misread: it took the email's preview line
+ * ("515 2nd Avenue and 9 more updates" + invisible padding) for the first listing's.
+ * Returns how many it fixed; their buildings get located again under the right name.
+ */
+export function repairListings(data: ScanData): number {
+  let fixed = 0;
+  for (const listing of data.listings) {
+    const address = tidyAddress(listing.address);
+    if (address === listing.address) continue;
+    listing.address = address;
+    listing.building = buildingKey(address);
+    data.buildings[listing.building] ??= { address };
+    fixed++;
+  }
+  return fixed;
 }
 
 // --- Settings ------------------------------------------------------------------
@@ -255,6 +281,7 @@ export function evaluate(
   now = new Date(),
 ): Evaluation {
   const reasons: string[] = [];
+  if (listing.offMarket) reasons.push('Rented, says StreetEasy');
 
   let search: Search | undefined;
   let fewest = Infinity;

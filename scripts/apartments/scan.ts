@@ -18,7 +18,7 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { jobSummary } from '../../lib/files.ts';
 import { locate } from '../../lib/apartments/geo.ts';
-import { EMPTY_SCAN, mergeListings, type ScanData } from '../../lib/apartments/model.ts';
+import { EMPTY_SCAN, mergeListings, repairListings, type ScanData } from '../../lib/apartments/model.ts';
 import { fetchPestRecords } from '../../lib/apartments/records.ts';
 import { geocodeQuery, parseAlertEmail } from '../../lib/apartments/streeteasy.ts';
 import { fetchJson } from './http.ts';
@@ -72,6 +72,12 @@ async function main() {
     : structuredClone(EMPTY_SCAN);
   const now = new Date();
   const summary: string[] = [];
+
+  const repaired = repairListings(data);
+  if (repaired)
+    console.log(
+      `Fixed the address of ${repaired} listing${repaired === 1 ? '' : 's'} read from an email's preview line.`,
+    );
 
   // 1. New emails → listings.
   const seen = new Set(data.emails.map((e) => e.id));
