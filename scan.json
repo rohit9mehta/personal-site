@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-04T06:44:26.743Z",
+ "updatedAt": "2026-11-04T14:10:11.979Z",
  "listings": [
   {
    "id": "5196324",
@@ -498,6 +498,145 @@
    "beds": 2,
    "baths": 1,
    "broker": "Centennial Properties NY"
+  },
+  {
+   "id": "5196564",
+   "url": "https://streeteasy.com/rental/5196564",
+   "address": "1057 Second Avenue and 2 more updates  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏",
+   "price": 3495,
+   "updates": [],
+   "firstSeen": "2026-11-04T14:03:35.000Z",
+   "lastSeen": "2026-11-04T14:03:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 3495
+    }
+   ],
+   "building": "1057 second ave and 2 more updates",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Corcoran"
+  },
+  {
+   "id": "5196110",
+   "url": "https://streeteasy.com/rental/5196110",
+   "address": "321 West 21st Street",
+   "price": 2800,
+   "updates": [],
+   "firstSeen": "2026-11-04T14:03:35.000Z",
+   "lastSeen": "2026-11-04T14:03:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 2800
+    }
+   ],
+   "building": "321 w 21 st",
+   "unit": "1C",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Quality Living Village, Inc."
+  },
+  {
+   "id": "5191451",
+   "url": "https://streeteasy.com/rental/5191451",
+   "address": "521 East 5th Street",
+   "price": 5495,
+   "updates": [],
+   "firstSeen": "2026-11-04T14:03:36.000Z",
+   "lastSeen": "2026-11-04T14:03:36.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 5495
+    }
+   ],
+   "building": "521 e 5 st",
+   "unit": "7C",
+   "neighborhood": "East Village",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "DALLAL"
+  },
+  {
+   "id": "5186529",
+   "url": "https://streeteasy.com/rental/5186529",
+   "address": "420 E 54th Street and 3 more updates  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏",
+   "price": 7075,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-04T14:03:33.000Z",
+   "lastSeen": "2026-11-04T14:03:33.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 7075
+    }
+   ],
+   "building": "420 e 54 st and 3 more updates",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 857,
+   "broker": "Greystar"
+  },
+  {
+   "id": "5167932",
+   "url": "https://streeteasy.com/rental/5167932",
+   "address": "420 E 54th Street",
+   "price": 7075,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-04T14:03:33.000Z",
+   "lastSeen": "2026-11-04T14:03:33.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 7075
+    }
+   ],
+   "building": "420 e 54 st",
+   "unit": "508",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 857,
+   "broker": "Greystar"
+  },
+  {
+   "id": "5167647",
+   "url": "https://streeteasy.com/rental/5167647",
+   "address": "420 E 54th Street",
+   "price": 7060,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-04T14:03:33.000Z",
+   "lastSeen": "2026-11-04T14:03:33.000Z",
+   "prices": [
+    {
+     "date": "2026-11-04",
+     "price": 7060
+    }
+   ],
+   "building": "420 e 54 st",
+   "unit": "701",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 772,
+   "broker": "Greystar"
   }
  ],
  "buildings": {
@@ -4699,6 +4838,446 @@
     "errors": {},
     "hpdBuildingId": "12626"
    }
+  },
+  "1057 second ave and 2 more updates": {
+   "address": "1057 Second Avenue and 2 more updates  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏",
+   "geo": {
+    "lng": -73.966246,
+    "lat": 40.758543,
+    "label": "1057 SECOND AVENUE, New York, NY, USA",
+    "bbl": "1013290026",
+    "bin": "1038585",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "1057",
+    "street": "SECOND AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T14:10:11.979Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-03-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "729"
+   }
+  },
+  "321 w 21 st": {
+   "address": "321 West 21st Street",
+   "geo": {
+    "lng": -74.000441,
+    "lat": 40.744667,
+    "label": "321 WEST 21 STREET, New York, NY, USA",
+    "bbl": "1007450023",
+    "bin": "1013298",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "321",
+    "street": "WEST 21 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T14:10:11.979Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-06-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2021-12-27",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 20 apartments that year"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "31130"
+   }
+  },
+  "521 e 5 st": {
+   "address": "521 East 5th Street",
+   "geo": {
+    "lng": -73.983268,
+    "lat": 40.724567,
+    "label": "521 EAST 5 STREET, New York, NY, USA",
+    "bbl": "1004010053",
+    "bin": "1005073",
+    "neighborhood": "East Village",
+    "borough": "Manhattan",
+    "zip": "10009",
+    "houseNumber": "521",
+    "street": "EAST 5 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T14:10:11.979Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2025-05-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "A0",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-04-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "A0",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-08-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-07-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-02-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2023-01-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-01-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-07-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "10847"
+   }
+  },
+  "420 e 54 st and 3 more updates": {
+   "address": "420 E 54th Street and 3 more updates  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏",
+   "geo": {
+    "lng": -73.963588,
+    "lat": 40.755669,
+    "label": "420 EAST 54 STREET, New York, NY, USA",
+    "bbl": "1013650009",
+    "bin": "1040158",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "420",
+    "street": "EAST 54 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T14:10:11.979Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "207",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1715",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "210",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-24",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "210",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-12-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 412 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-10-30",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 412 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-09-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "203",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-07-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-03-14",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "2110",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-03-02",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "2110",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "14274"
+   }
+  },
+  "420 e 54 st": {
+   "address": "420 E 54th Street",
+   "geo": {
+    "lng": -73.963588,
+    "lat": 40.755669,
+    "label": "420 EAST 54 STREET, New York, NY, USA",
+    "bbl": "1013650009",
+    "bin": "1040158",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "420",
+    "street": "EAST 54 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-04T14:10:11.979Z",
+    "since": "2021-11-04",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "207",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1715",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "210",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-24",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "210",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-12-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 412 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-10-30",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 412 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-09-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "203",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-07-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-03-14",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "2110",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-03-02",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "2110",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "14274"
+   }
   }
  },
  "emails": [
@@ -4746,6 +5325,21 @@
    "id": "1a1a49f2cb5a4593",
    "date": "2026-11-04T03:34:16.000Z",
    "found": 4
+  },
+  {
+   "id": "1a1a6df600b4f173",
+   "date": "2026-11-04T14:03:35.000Z",
+   "found": 2
+  },
+  {
+   "id": "1a1a6df5ef2609ea",
+   "date": "2026-11-04T14:03:36.000Z",
+   "found": 1
+  },
+  {
+   "id": "1a1a6df5d5d3207e",
+   "date": "2026-11-04T14:03:33.000Z",
+   "found": 3
   }
  ]
 }
