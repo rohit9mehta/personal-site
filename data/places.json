@@ -3098,6 +3098,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "pura-vida--new-york-ny": {
+    "name": "Pura Vida",
+    "city": "New York, NY",
+    "address": "98 Kenmare Street"
+  },
   "quail-and-condor--healdsburg-ca": {
     "name": "Quail & Condor",
     "city": "Healdsburg, CA",
