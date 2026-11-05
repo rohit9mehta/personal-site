@@ -1,15 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { formatTime, moodAt, wallTime } from './clocks.ts';
+import { formatTime, utcOffset, wallTime } from './clocks.ts';
 
-describe('moodAt', () => {
-  it('has something for every hour', () => {
-    expect(moodAt(7)).toBe('coffee o’clock');
-    expect(moodAt(12)).toBe('lunch, then coffee');
-    expect(moodAt(15)).toBe('the slump');
-    expect(moodAt(17)).toBe('chai o’clock');
-    expect(moodAt(21)).toBe('one more chai');
-    expect(moodAt(2)).toBe('asleep, ideally');
-    for (let h = 0; h < 24; h++) expect(moodAt(h)).toBeTruthy();
+describe('utcOffset', () => {
+  it('names the offset, including half hours and summer time', () => {
+    expect(utcOffset('America/New_York', new Date('2026-11-04T23:30:00Z'))).toBe('UTC−5');
+    expect(utcOffset('America/New_York', new Date('2026-07-04T12:00:00Z'))).toBe('UTC−4');
+    expect(utcOffset('Asia/Kolkata', new Date('2026-11-04T23:30:00Z'))).toBe('UTC+5:30');
+    expect(utcOffset('UTC', new Date('2026-11-04T23:30:00Z'))).toBe('UTC±0');
   });
 });
 

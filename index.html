@@ -3,181 +3,141 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#f3eadb" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#15100c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e0d0c" media="(prefers-color-scheme: dark)" />
     <title>Rohit Mehta</title>
-    <meta name="description" content="Rohit Mehta’s personal site: chai in one hand, coffee in the other." />
+    <meta name="description" content="Rohit Mehta’s personal site: projects, writing, and where to find him." />
     <meta property="og:title" content="Rohit Mehta" />
-    <meta property="og:description" content="Chai in one hand, coffee in the other." />
+    <meta property="og:description" content="Projects, writing, and where to find me." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="__SITE_URL__/" />
     <meta property="og:image" content="__SITE_URL__/og-home.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="/seal.svg" type="image/svg+xml" />
+    <link rel="icon" href="/dot.svg" type="image/svg+xml" />
     <script>
-      // Chai (light) or coffee (dark): a choice made with the switch wins over the system setting.
+      // Milk (light) or espresso (dark): a choice made with the switch wins over the system setting.
       try {
         var brew = localStorage.getItem('brew');
-        if (brew === 'chai' || brew === 'coffee') document.documentElement.dataset.brew = brew;
+        if (brew === 'milk' || brew === 'espresso') document.documentElement.dataset.brew = brew;
       } catch (e) {}
       document.documentElement.classList.add('js');
     </script>
   </head>
-  <body class="kadak">
+  <body class="desk">
     <a class="skip" href="#hello">Skip to the intro</a>
 
-    <div class="ticker" aria-hidden="true">
-      <div class="ticker__track" id="ticker"></div>
-    </div>
-
     <header class="top">
-      <a class="top__mark" href="./" aria-label="Rohit Mehta, home">
-        <svg viewBox="0 0 40 40" aria-hidden="true"><use href="#buti" /></svg>
-      </a>
-      <p class="top__sip" id="last-sip" hidden></p>
-      <div class="top__end">
-        <button class="brew" id="brew" type="button" aria-label="Switch to coffee (dark theme)">
-          <span class="brew__opt brew__opt--chai">chai</span>
-          <span class="brew__opt brew__opt--coffee">coffee</span>
-        </button>
-        <nav class="top__links" aria-label="Elsewhere">
-          <a href="https://github.com/rohit9mehta">GitHub</a>
-          <a href="https://www.linkedin.com/in/rohit9mehta">LinkedIn</a>
-        </nav>
-      </div>
+      <a class="top__home" href="./"><span class="top__dot" aria-hidden="true"></span>Rohit Mehta</a>
+      <nav class="top__nav" aria-label="Sections">
+        <a href="#hello"><span aria-hidden="true">01</span> Hello</a>
+        <a href="#projects"><span aria-hidden="true">02</span> Projects</a>
+        <a href="#writing"><span aria-hidden="true">03</span> Writing</a>
+        <a href="#elsewhere"><span aria-hidden="true">04</span> Elsewhere</a>
+      </nav>
+      <button class="brew" id="brew" type="button" aria-label="Switch to espresso (dark theme)">
+        <span class="brew__opt brew__opt--milk">milk</span>
+        <span class="brew__opt brew__opt--espresso">espresso</span>
+      </button>
     </header>
 
     <main>
+      <!-- The hero is an artboard: rulers, a grid, your cursor's coordinates, and coffee rings where you click. -->
       <section class="hero" id="hero" aria-labelledby="name">
-        <svg class="press" id="press" aria-hidden="true"></svg>
+        <div class="ruler ruler--x" id="ruler-x" aria-hidden="true"><span class="ruler__mark"></span></div>
+        <div class="ruler ruler--y" id="ruler-y" aria-hidden="true"><span class="ruler__mark"></span></div>
+        <div class="ruler__corner" aria-hidden="true"></div>
 
-        <h1 class="name" id="name">
-          <span class="name__line">Rohit</span>
-          <span class="name__line name__line--2">Mehta<span class="name__dot" aria-hidden="true">.</span></span>
-        </h1>
-        <p class="name__hi" lang="hi" aria-hidden="true">रोहित मेहता</p>
+        <div class="board" id="board">
+          <svg class="rings" id="rings" aria-hidden="true"></svg>
+          <div class="guide guide--x" aria-hidden="true"></div>
+          <div class="guide guide--y" aria-hidden="true"></div>
+          <div class="readout" id="readout" aria-hidden="true"></div>
 
-        <p class="hero__tag">Chai in one hand, coffee in the other.</p>
+          <div class="frame" aria-hidden="true">
+            <span class="frame__name">Home <span class="frame__hint" id="hint">— click anywhere</span></span>
+            <button class="frame__clean" id="clean" type="button" tabindex="-1" hidden>clean up</button>
+            <span class="frame__size" id="size"></span>
+          </div>
 
-        <svg class="seal" viewBox="0 0 200 200" aria-hidden="true">
-          <defs>
-            <path id="seal-path" d="M100 100m-73 0a73 73 0 1 1 146 0a73 73 0 1 1-146 0" />
-          </defs>
-          <circle class="seal__disc" cx="100" cy="100" r="99" />
-          <g class="seal__ring">
-            <text class="seal__text">
-              <textPath href="#seal-path" textLength="458" lengthAdjust="spacing">
-                CHAI • COFFEE • चाय • कॉफ़ी • CHAI • COFFEE • चाय • कॉफ़ी •
-              </textPath>
-            </text>
-          </g>
-          <circle class="seal__inner" cx="100" cy="100" r="54" />
-          <use href="#buti" x="64" y="64" width="72" height="72" class="seal__buti" />
-        </svg>
-
-        <p class="hero__hint note" id="hint">tap anywhere to leave a print</p>
-        <button class="hero__wash note" id="wash" type="button" hidden>wash it off</button>
-        <p class="hero__est">Est. 2021 <span aria-hidden="true">·</span> Re-brewed 2026</p>
-
-        <svg class="hero__border" id="border" aria-hidden="true"></svg>
-      </section>
-
-      <section class="sect intro" id="hello" aria-labelledby="hello-label">
-        <h2 class="label" id="hello-label">
-          <span class="label__num">01</span> Hello <span class="label__hi" lang="hi">नमस्ते</span>
-        </h2>
-        <div class="intro__body">
-          <!--
-            INTRO — Rohit is writing this. Replace the two paragraphs below with the real thing
-            (and drop the "is-draft" class and the note under them when it's done).
-          -->
-          <p class="intro__lede">Hi, I’m Rohit.</p>
-          <p class="intro__text is-draft">
-            This is where a few honest sentences will go: who I am, what I work on, what I care about, and what I’m
-            usually up to on a slow Sunday. I’m writing them myself, at my own pace, probably over chai.
-          </p>
-          <p class="note intro__note">draft — the real words are steeping</p>
+          <h1 class="name" id="name">
+            <span class="name__word">Rohit</span>
+            <span class="name__word">Mehta<span class="name__dot" aria-hidden="true">.</span></span>
+          </h1>
         </div>
       </section>
 
-      <section class="sect counter" id="counter" aria-labelledby="counter-label">
-        <h2 class="label" id="counter-label"><span class="label__num">02</span> On the counter</h2>
-        <ul class="counter__items">
+      <section class="sect intro" id="hello" aria-labelledby="hello-label">
+        <h2 class="label" id="hello-label"><span class="label__num">01</span> Hello</h2>
+        <div class="intro__body">
+          <!--
+            INTRO — Rohit is writing this. Replace the paragraph below with the real thing
+            (and drop the "is-draft" class and the draft note when it's done).
+          -->
+          <p class="intro__lede">Hi, I’m Rohit.</p>
+          <p class="intro__text is-draft">
+            A few sentences about who I am, what I work on and what I care about will go here. I’m writing them myself.
+          </p>
+          <p class="intro__note">Draft — intro coming soon</p>
+        </div>
+      </section>
+
+      <section class="sect projects" id="projects" aria-labelledby="projects-label">
+        <h2 class="label" id="projects-label"><span class="label__num">02</span> Projects</h2>
+        <!-- PROJECTS — one <li> per project; copy a row to add one. Newest first. -->
+        <ol class="index">
           <li>
-            <a class="item item--cup" href="onesip/">
-              <svg class="item__icon" viewBox="0 0 160 160" aria-hidden="true">
+            <a class="row" href="apartments/">
+              <span class="row__num" aria-hidden="true">01</span>
+              <svg class="row__icon icon-plan" viewBox="0 0 160 160" aria-hidden="true">
+                <path class="plan__walls" d="M62 132H26V28h108v104H94" />
+                <path class="plan__inner" d="M26 82h44M98 28v40" />
+                <path class="plan__window" d="M134 56v32" />
+                <g class="plan__door">
+                  <path class="plan__leaf" d="M62 132V100" />
+                  <path class="plan__swing" d="M62 100a32 32 0 0 1 32 32" />
+                </g>
+              </svg>
+              <span class="row__name">Shortlist</span>
+              <span class="row__desc">The apartment hunt: New York listings that pass every check.</span>
+              <span class="row__meta">2026</span>
+              <span class="row__go" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="onesip/">
+              <span class="row__num" aria-hidden="true">02</span>
+              <svg class="row__icon icon-cup" viewBox="0 0 160 160" aria-hidden="true">
                 <g class="cup__steam">
-                  <path d="M64 58c-9-8 9-13 0-21s9-13 0-21" />
-                  <path d="M82 58c-9-8 9-13 0-21s9-13 0-21" />
-                  <path d="M100 58c-9-8 9-13 0-21s9-13 0-21" />
+                  <path d="M64 56c-9-8 9-13 0-21s9-13 0-21" />
+                  <path d="M82 56c-9-8 9-13 0-21s9-13 0-21" />
+                  <path d="M100 56c-9-8 9-13 0-21s9-13 0-21" />
                 </g>
                 <ellipse class="cup__saucer" cx="82" cy="136" rx="60" ry="9" />
                 <path class="cup__handle" d="M120 84h5a15 15 0 0 1 0 30h-11" />
                 <path class="cup__body" d="M38 72h88v14c0 28-19 45-44 45S38 114 38 86z" />
                 <ellipse class="cup__coffee" cx="82" cy="72" rx="44" ry="7" />
               </svg>
-              <span class="item__name">One Sip</span>
-              <span class="item__desc" id="onesip-desc">Coffee shops around the world, rated out of ten.</span>
+              <span class="row__name">One Sip</span>
+              <span class="row__desc">Coffee shops around the world, rated out of ten.</span>
+              <span class="row__meta">2026</span>
+              <span class="row__go" aria-hidden="true">→</span>
             </a>
           </li>
-          <li>
-            <a class="item item--door" href="apartments/">
-              <svg class="item__icon" viewBox="0 0 160 160" aria-hidden="true">
-                <path
-                  class="door__arch"
-                  d="M34 136V70c0-18 14-28 30-36 8-4 14-10 16-20 2 10 8 16 16 20 16 8 30 18 30 36v66z"
-                />
-                <path
-                  class="door__hollow"
-                  d="M50 136V74c0-12 10-20 21-25 4-2 7-6 9-11 2 5 5 9 9 11 11 5 21 13 21 25v62z"
-                />
-                <g class="door__leaf">
-                  <path
-                    d="M50 136V74c0-12 10-20 21-25 4-2 7-6 9-11 2 5 5 9 9 11 11 5 21 13 21 25v62z"
-                    class="door__panel"
-                  />
-                  <circle class="door__knob" cx="98" cy="104" r="4" />
-                </g>
-                <rect class="door__step" x="24" y="136" width="112" height="8" rx="2" />
-              </svg>
-              <span class="item__name">Shortlist</span>
-              <span class="item__desc">The apartment hunt: New York listings that pass every check.</span>
-            </a>
-          </li>
-          <li>
-            <div class="item item--kulhad">
-              <svg class="item__icon" viewBox="0 0 160 160" aria-hidden="true">
-                <g class="cup__steam">
-                  <path d="M70 46c-8-7 8-11 0-18s8-11 0-18" />
-                  <path d="M90 46c-8-7 8-11 0-18s8-11 0-18" />
-                </g>
-                <path class="kulhad__body" d="M44 62h72l-9 70c-1 6-53 6-54 0z" />
-                <rect class="kulhad__rim" x="38" y="54" width="84" height="12" rx="4" />
-                <path class="kulhad__band" d="M50 84h60" />
-              </svg>
-              <span class="item__name">Brewing</span>
-              <span class="item__desc">Something else is on the stove.</span>
-            </div>
-          </li>
-        </ul>
+        </ol>
       </section>
 
-      <section class="sect cities" id="cities" aria-labelledby="cities-label">
-        <h2 class="label" id="cities-label"><span class="label__num">03</span> Sipped in</h2>
-        <div class="cities__body">
-          <p class="cities__dek" id="cities-dek">Every city I’ve rated a coffee in.</p>
-          <p class="cities__cloud" id="cities-cloud"><a href="onesip/">Open the map</a></p>
+      <section class="sect writing" id="writing" aria-labelledby="writing-label">
+        <h2 class="label" id="writing-label"><span class="label__num">03</span> Writing</h2>
+        <!-- WRITING — when there are posts, list them here as rows like Projects. -->
+        <div class="writing__body">
+          <p class="empty">Nothing published yet.</p>
         </div>
       </section>
     </main>
 
-    <svg class="band" aria-hidden="true">
-      <rect width="100%" height="100%" fill="url(#band-pattern)" filter="url(#ink-fine)" />
-    </svg>
-
-    <footer class="sect foot" aria-labelledby="foot-label">
+    <footer class="sect foot" id="elsewhere" aria-labelledby="foot-label">
       <h2 class="label" id="foot-label"><span class="label__num">04</span> Elsewhere</h2>
       <div class="foot__body">
         <ul class="foot__links">
@@ -188,13 +148,10 @@
             <a href="https://www.linkedin.com/in/rohit9mehta">LinkedIn<span aria-hidden="true">↗</span></a>
           </li>
         </ul>
-        <div class="clocks" id="clocks" aria-label="What time it is in a few of my coffee cities"></div>
+        <div class="clocks" id="clocks" role="group" aria-label="Local time in a few cities"></div>
         <div class="foot__base">
-          <p class="bye"><span lang="hi">फिर मिलेंगे</span> <span class="bye__en">see you around.</span></p>
-          <p class="colophon">
-            Set in Rozha One and Kalam, both from Indian Type Foundry, with Newsreader and Inter. Printed by hand, one
-            click at a time.
-          </p>
+          <p class="colophon">Set in Instrument Sans, Instrument Serif and JetBrains Mono. Built with Vite.</p>
+          <p class="colophon">© 2026 Rohit Mehta</p>
         </div>
       </div>
     </footer>

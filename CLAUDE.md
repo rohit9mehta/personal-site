@@ -30,9 +30,12 @@ Rohit's personal site plus **One Sip**, a map of coffee shops he has rated out o
 ## Homepage
 
 - Plain TypeScript in `src/home` (no React), styles in `src/home/home.css` with its own `--k-*` tokens for both themes
-  (`[data-brew='chai'|'coffee']` plus the system setting). Keep it to the existing palette and the four typefaces.
+  (`[data-brew='milk'|'espresso']` plus the system setting). Keep to that palette and the three typefaces (Instrument
+  Sans, Instrument Serif, JetBrains Mono). The look is design/tech; keep copy plain, no taglines or puns.
+- It's an index of everything on the site, not a One Sip page: projects are rows in `index.html` (comment `PROJECTS`,
+  newest first) and posts would go under `WRITING`. Don't put One Sip data or stats on it.
 - The intro in `index.html` (comment `INTRO`) is Rohit's to write. Don't write it for him; when he sends the text, put it
-  in and drop the `is-draft` class and the "draft" note.
+  in and drop the `is-draft` class and the draft note.
 - `public/og-home.png` is a 1200×630 render of the hero; re-render it if the hero changes a lot.
 
 ## Shortlist (apartments)

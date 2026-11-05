@@ -1,5 +1,4 @@
-// The time in a few of the cities I drink coffee in, and what that hour is
-// for.
+// Analog clocks for a few cities, in the footer.
 
 export interface ClockCity {
   name: string;
@@ -13,14 +12,14 @@ export const CLOCK_CITIES: readonly ClockCity[] = [
   { name: 'Paris', zone: 'Europe/Paris' },
 ];
 
-/** What an hour (0–23) of the day is for. */
-export function moodAt(hour: number): string {
-  if (hour >= 5 && hour < 11) return 'coffee o’clock';
-  if (hour >= 11 && hour < 14) return 'lunch, then coffee';
-  if (hour >= 14 && hour < 16) return 'the slump';
-  if (hour >= 16 && hour < 19) return 'chai o’clock';
-  if (hour >= 19 && hour < 23) return 'one more chai';
-  return 'asleep, ideally';
+/** "UTC−5", "UTC+5:30": the zone's offset at that moment. */
+export function utcOffset(zone: string, date: Date): string {
+  const name =
+    new Intl.DateTimeFormat('en-US', { timeZone: zone, timeZoneName: 'shortOffset' })
+      .formatToParts(date)
+      .find((p) => p.type === 'timeZoneName')?.value ?? 'GMT';
+  const offset = name.replace(/^GMT/, '').replace('-', '−');
+  return `UTC${offset === '' || offset === '+0' ? '±0' : offset}`;
 }
 
 /** Hours and minutes on the wall clock in a time zone. */
@@ -80,11 +79,11 @@ export function startClocks(container: HTMLElement): void {
     name.textContent = city.name;
     const time = document.createElement('span');
     time.className = 'clock__time';
-    const mood = document.createElement('span');
-    mood.className = 'clock__mood';
-    el.append(svg, name, time, mood);
+    const zone = document.createElement('span');
+    zone.className = 'clock__zone';
+    el.append(svg, name, time, zone);
     container.append(el);
-    return { city, hour, minute, time, mood };
+    return { city, hour, minute, time, zone };
   });
 
   const tick = () => {
@@ -94,7 +93,7 @@ export function startClocks(container: HTMLElement): void {
       c.hour.setAttribute('transform', `rotate(${(t.hour % 12) * 30 + t.minute / 2} 20 20)`);
       c.minute.setAttribute('transform', `rotate(${t.minute * 6} 20 20)`);
       c.time.textContent = formatTime(t.hour, t.minute);
-      c.mood.textContent = moodAt(t.hour);
+      c.zone.textContent = utcOffset(c.city.zone, now);
     }
   };
   tick();

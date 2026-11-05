@@ -1,22 +1,25 @@
-// Chai (the light theme) or coffee (the dark one). Follows the system setting
-// until the switch is used; the choice is remembered in this browser only.
-// The new brew pours in from the switch, where view transitions exist.
+// Milk (the light theme) or espresso (the dark one). Follows the system
+// setting until the switch is used; the choice is remembered in this browser
+// only. The new one pours in from the switch, where view transitions exist.
 
-export type Brew = 'chai' | 'coffee';
+export type Brew = 'milk' | 'espresso';
 
-const PAPER: Record<Brew, string> = { chai: '#f3eadb', coffee: '#15100c' };
+const PAPER: Record<Brew, string> = { milk: '#f6f5f1', espresso: '#0e0d0c' };
 const dark = matchMedia('(prefers-color-scheme: dark)');
 
 function current(): Brew {
   const chosen = document.documentElement.dataset.brew;
-  if (chosen === 'chai' || chosen === 'coffee') return chosen;
-  return dark.matches ? 'coffee' : 'chai';
+  if (chosen === 'milk' || chosen === 'espresso') return chosen;
+  return dark.matches ? 'espresso' : 'milk';
 }
 
 function label(button: HTMLButtonElement) {
   const brew = current();
   button.dataset.brew = brew;
-  button.setAttribute('aria-label', brew === 'chai' ? 'Switch to coffee (dark theme)' : 'Switch to chai (light theme)');
+  button.setAttribute(
+    'aria-label',
+    brew === 'milk' ? 'Switch to espresso (dark theme)' : 'Switch to milk (light theme)',
+  );
 }
 
 function apply(brew: Brew) {
@@ -37,7 +40,7 @@ export function setupBrew(button: HTMLButtonElement): void {
   if (document.documentElement.dataset.brew) apply(current());
 
   button.addEventListener('click', () => {
-    const next: Brew = current() === 'chai' ? 'coffee' : 'chai';
+    const next: Brew = current() === 'milk' ? 'espresso' : 'milk';
     const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (still || !document.startViewTransition) {
       apply(next);
