@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-05T14:00:13.945Z",
+ "updatedAt": "2026-11-05T15:40:08.341Z",
  "listings": [
   {
    "id": "5196324",
@@ -1049,14 +1049,20 @@
    "id": "5197313",
    "url": "https://streeteasy.com/rental/5197313",
    "address": "520 2nd Avenue",
-   "price": 6427,
-   "updates": [],
+   "price": 6177,
+   "updates": [
+    "Price Drop: $250"
+   ],
    "firstSeen": "2026-11-04T21:40:15.000Z",
-   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-05T15:36:06.000Z",
    "prices": [
     {
      "date": "2026-11-04",
      "price": 6427
+    },
+    {
+     "date": "2026-11-05",
+     "price": 6177
     }
    ],
    "building": "520 2 ave",
@@ -1067,7 +1073,7 @@
    "baths": 1,
    "sqft": 799,
    "broker": "Beam Living",
-   "suggested": true,
+   "suggested": false,
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   },
   {
@@ -1320,7 +1326,7 @@
     "Price Drop: $250"
    ],
    "firstSeen": "2026-11-05T13:56:15.000Z",
-   "lastSeen": "2026-11-05T13:56:15.000Z",
+   "lastSeen": "2026-11-05T15:36:06.000Z",
    "prices": [
     {
      "date": "2026-11-05",
@@ -1335,7 +1341,57 @@
    "baths": 1,
    "sqft": 670,
    "broker": "LV NY REALTY INC",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
+  },
+  {
+   "id": "5197681",
+   "url": "https://streeteasy.com/rental/5197681",
+   "address": "630 1st Avenue",
+   "price": 6250,
+   "updates": [],
+   "firstSeen": "2026-11-05T15:36:06.000Z",
+   "lastSeen": "2026-11-05T15:36:06.000Z",
+   "prices": [
+    {
+     "date": "2026-11-05",
+     "price": 6250
+    }
+   ],
+   "building": "630 1 ave",
+   "unit": "8C",
+   "neighborhood": "Murray Hill",
+   "kind": "Condo",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 1025,
+   "broker": "Corcoran",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197231",
+   "url": "https://streeteasy.com/rental/5197231",
+   "address": "113 West 27th Street",
+   "price": 7000,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-05T15:36:06.000Z",
+   "lastSeen": "2026-11-05T15:36:06.000Z",
+   "prices": [
+    {
+     "date": "2026-11-05",
+     "price": 7000
+    }
+   ],
+   "building": "113 w 27 st",
+   "unit": "3",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Compass",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -9205,6 +9261,172 @@
     ],
     "errors": {}
    }
+  },
+  "630 1 ave": {
+   "address": "630 1st Avenue",
+   "geo": {
+    "lng": -73.971756,
+    "lat": 40.745131,
+    "label": "630 1 AVENUE, New York, NY, USA",
+    "bbl": "1009687501",
+    "bin": "1022060",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "630",
+    "street": "1 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-05T15:40:08.341Z",
+    "since": "2021-11-05",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2025-12-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 4 of 484 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-12-05",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 2 of 486 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2023-11-06",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-02-28",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "4LEVEL",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-02-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-01-21",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "30C",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-01-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "30C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-01-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "30C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-01-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "30C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-01-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "30C",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-01-04",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-01-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "30C",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2021-12-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 486 apartments that year"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "629"
+   }
+  },
+  "113 w 27 st": {
+   "address": "113 West 27th Street",
+   "geo": {
+    "lng": -73.991594,
+    "lat": 40.745927,
+    "label": "113 WEST 27 STREET, New York, NY, USA",
+    "bbl": "1008030028",
+    "bin": "1015069",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "113",
+    "street": "WEST 27 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-05T15:40:08.341Z",
+    "since": "2021-11-05",
+    "records": [],
+    "errors": {}
+   }
   }
  },
  "emails": [
@@ -9317,6 +9539,11 @@
    "id": "1a1abff00171d95f",
    "date": "2026-11-05T13:56:15.000Z",
    "found": 1
+  },
+  {
+   "id": "1a1ac5a63009e9af",
+   "date": "2026-11-05T15:36:06.000Z",
+   "found": 4
   }
  ]
 }
