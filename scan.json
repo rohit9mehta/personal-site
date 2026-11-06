@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-06T07:03:50.997Z",
+ "updatedAt": "2026-11-06T14:00:11.584Z",
  "listings": [
   {
    "id": "5196324",
@@ -2012,6 +2012,79 @@
    "baths": 1,
    "broker": "City Wide Apartments",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5191521",
+   "url": "https://streeteasy.com/rental/5191521",
+   "address": "115 Sullivan Street",
+   "price": 3500,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-06T13:58:09.000Z",
+   "lastSeen": "2026-11-06T13:58:09.000Z",
+   "prices": [
+    {
+     "date": "2026-11-06",
+     "price": 3500
+    }
+   ],
+   "building": "115 sullivan st",
+   "unit": "40218",
+   "neighborhood": "Soho",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Manhattan Skyline",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5180158",
+   "url": "https://streeteasy.com/rental/5180158",
+   "address": "152 East 35th Street",
+   "price": 2980,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-06T13:58:09.000Z",
+   "lastSeen": "2026-11-06T13:58:09.000Z",
+   "prices": [
+    {
+     "date": "2026-11-06",
+     "price": 2980
+    }
+   ],
+   "building": "152 e 35 st",
+   "unit": "5H",
+   "neighborhood": "Murray Hill",
+   "kind": "Coop",
+   "beds": 0,
+   "baths": 1,
+   "broker": "REALTY ONE GROUP CONNECT",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5198763",
+   "url": "https://streeteasy.com/rental/5198763",
+   "address": "119 Baxter Street",
+   "price": 4250,
+   "updates": [],
+   "firstSeen": "2026-11-06T13:58:08.000Z",
+   "lastSeen": "2026-11-06T13:58:08.000Z",
+   "prices": [
+    {
+     "date": "2026-11-06",
+     "price": 4250
+    }
+   ],
+   "building": "119 baxter st",
+   "unit": "9F",
+   "neighborhood": "Chinatown",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 2,
+   "broker": "SUMMIT SLS LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -13434,6 +13507,217 @@
     },
     "hpdBuildingId": "3118"
    }
+  },
+  "115 sullivan st": {
+   "address": "115 Sullivan Street",
+   "geo": {
+    "lng": -74.002582,
+    "lat": 40.726001,
+    "label": "115 SULLIVAN STREET, New York, NY, USA",
+    "bbl": "1005030010",
+    "bin": "1077255",
+    "neighborhood": "SoHo",
+    "borough": "Manhattan",
+    "zip": "10012",
+    "houseNumber": "115",
+    "street": "SULLIVAN STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-06T14:00:11.584Z",
+    "since": "2021-11-06",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-12",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "rat-inspection": "fetch failed"
+    },
+    "hpdBuildingId": "805353"
+   }
+  },
+  "152 e 35 st": {
+   "address": "152 East 35th Street",
+   "geo": {
+    "lng": -73.97847,
+    "lat": 40.746519,
+    "label": "152 EAST 35 STREET, New York, NY, USA",
+    "bbl": "1008900054",
+    "bin": "1018533",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "152",
+    "street": "EAST 35 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-06T14:00:11.584Z",
+    "since": "2021-11-06",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "311": "The operation was aborted due to timeout"
+    },
+    "hpdBuildingId": "13315"
+   }
+  },
+  "119 baxter st": {
+   "address": "119 Baxter Street",
+   "geo": {
+    "lng": -73.998873,
+    "lat": 40.717925,
+    "label": "119 BAXTER STREET, New York, NY, USA",
+    "bbl": "1002060004",
+    "bin": "1079542",
+    "neighborhood": "Little Italy",
+    "borough": "Manhattan",
+    "zip": "10013",
+    "houseNumber": "119",
+    "street": "BAXTER STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-06T14:00:11.584Z",
+    "since": "2021-11-06",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-05-07",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-12",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-09-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2023-09-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-06-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-06-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "bedbugs": "The operation was aborted due to timeout"
+    },
+    "hpdBuildingId": "804096"
+   }
   }
  },
  "emails": [
@@ -13586,6 +13870,16 @@
    "id": "1a1aeed4d9c9997b",
    "date": "2026-11-06T03:35:48.000Z",
    "found": 5
+  },
+  {
+   "id": "1a1b12712636a8e2",
+   "date": "2026-11-06T13:58:09.000Z",
+   "found": 2
+  },
+  {
+   "id": "1a1b127107a6012c",
+   "date": "2026-11-06T13:58:08.000Z",
+   "found": 1
   }
  ]
 }
