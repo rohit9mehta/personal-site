@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-06T15:40:07.835Z",
+ "updatedAt": "2026-11-06T15:50:04.684Z",
  "listings": [
   {
    "id": "5196324",
@@ -2085,6 +2085,31 @@
    "baths": 2,
    "broker": "SUMMIT SLS LLC",
    "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5194994",
+   "url": "https://streeteasy.com/rental/5194994",
+   "address": "210 East 38th Street",
+   "price": 4750,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-06T15:43:41.000Z",
+   "lastSeen": "2026-11-06T15:43:41.000Z",
+   "prices": [
+    {
+     "date": "2026-11-06",
+     "price": 4750
+    }
+   ],
+   "building": "210 e 38 st",
+   "unit": "4E",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Platinum Forbes Global Properties",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -13718,6 +13743,77 @@
     },
     "hpdBuildingId": "804096"
    }
+  },
+  "210 e 38 st": {
+   "address": "210 East 38th Street",
+   "geo": {
+    "lng": -73.975699,
+    "lat": 40.747777,
+    "label": "210 EAST 38 STREET, New York, NY, USA",
+    "bbl": "1009180051",
+    "bin": "1020342",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "210",
+    "street": "EAST 38 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-06T15:50:04.684Z",
+    "since": "2021-11-06",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-08-16",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "4H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-08-01",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13527"
+   }
   }
  },
  "emails": [
@@ -13885,6 +13981,11 @@
    "id": "1a1b17bfe0804186",
    "date": "2026-11-06T15:30:54.000Z",
    "found": 2
+  },
+  {
+   "id": "1a1b187b0813d7f9",
+   "date": "2026-11-06T15:43:41.000Z",
+   "found": 1
   }
  ]
 }
