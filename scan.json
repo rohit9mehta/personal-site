@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-07T14:10:04.247Z",
+ "updatedAt": "2026-11-07T15:40:08.227Z",
  "listings": [
   {
    "id": "5196324",
@@ -604,7 +604,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-04T14:03:33.000Z",
-   "lastSeen": "2026-11-07T14:04:10.000Z",
+   "lastSeen": "2026-11-07T15:33:53.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -2753,7 +2753,7 @@
     "Price Drop: $100 Open House"
    ],
    "firstSeen": "2026-11-07T14:04:10.000Z",
-   "lastSeen": "2026-11-07T14:04:10.000Z",
+   "lastSeen": "2026-11-07T15:33:53.000Z",
    "prices": [
     {
      "date": "2026-11-07",
@@ -2767,7 +2767,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Isabelle Harrington LLC",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5177418",
@@ -16513,6 +16514,11 @@
   {
    "id": "1a1b652edf8d6abb",
    "date": "2026-11-07T14:04:09.000Z",
+   "found": 2
+  },
+  {
+   "id": "1a1b6a5150c0205a",
+   "date": "2026-11-07T15:33:53.000Z",
    "found": 2
   }
  ]
