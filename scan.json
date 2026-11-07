@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-07T13:20:41.088Z",
+ "updatedAt": "2026-11-07T14:10:04.247Z",
  "listings": [
   {
    "id": "5196324",
@@ -599,16 +599,20 @@
    "id": "5167932",
    "url": "https://streeteasy.com/rental/5167932",
    "address": "420 E 54th Street",
-   "price": 7075,
+   "price": 7009,
    "updates": [
     "Open House"
    ],
    "firstSeen": "2026-11-04T14:03:33.000Z",
-   "lastSeen": "2026-11-04T15:36:59.000Z",
+   "lastSeen": "2026-11-07T14:04:10.000Z",
    "prices": [
     {
      "date": "2026-11-04",
      "price": 7075
+    },
+    {
+     "date": "2026-11-07",
+     "price": 7009
     }
    ],
    "building": "420 e 54 st",
@@ -2715,6 +2719,130 @@
    "beds": 0,
    "baths": 1,
    "broker": "Bond New York",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5198995",
+   "url": "https://streeteasy.com/rental/5198995",
+   "address": "131 Concord Street",
+   "price": 5400,
+   "updates": [],
+   "firstSeen": "2026-11-07T14:04:10.000Z",
+   "lastSeen": "2026-11-07T14:04:10.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 5400
+    }
+   ],
+   "building": "131 concord st",
+   "unit": "3G",
+   "neighborhood": "Downtown Brooklyn",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 2,
+   "broker": "Reavis",
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5188944",
+   "url": "https://streeteasy.com/rental/5188944",
+   "address": "142 East 33rd Street",
+   "price": 5000,
+   "updates": [
+    "Price Drop: $100 Open House"
+   ],
+   "firstSeen": "2026-11-07T14:04:10.000Z",
+   "lastSeen": "2026-11-07T14:04:10.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 5000
+    }
+   ],
+   "building": "142 e 33 st",
+   "unit": "1E",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Isabelle Harrington LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5177418",
+   "url": "https://streeteasy.com/rental/5177418",
+   "address": "30 Halletts Point",
+   "price": 5753,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-07T14:04:10.000Z",
+   "lastSeen": "2026-11-07T14:04:10.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 5753
+    }
+   ],
+   "building": "30 halletts point",
+   "unit": "3-1003",
+   "neighborhood": "Astoria",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 2,
+   "broker": "The Durst Organization",
+   "suggested": true,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5199696",
+   "url": "https://streeteasy.com/rental/5199696",
+   "address": "201 West 16th Street",
+   "price": 2000,
+   "updates": [],
+   "firstSeen": "2026-11-07T14:04:09.000Z",
+   "lastSeen": "2026-11-07T14:04:09.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 2000
+    }
+   ],
+   "building": "201 w 16 st",
+   "unit": "3C",
+   "neighborhood": "Chelsea",
+   "kind": "Coop",
+   "beds": 1,
+   "baths": 1,
+   "sqft": 700,
+   "broker": "Compass",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5177316",
+   "url": "https://streeteasy.com/rental/5177316",
+   "address": "225 East 46th Street",
+   "price": 3450,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-07T14:04:09.000Z",
+   "lastSeen": "2026-11-07T14:04:09.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 3450
+    }
+   ],
+   "building": "225 e 46 st",
+   "unit": "7G",
+   "neighborhood": "Turtle Bay",
+   "kind": "Condo",
+   "beds": 0,
+   "baths": 1,
+   "sqft": 448,
+   "broker": "Douglas Elliman",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
   }
  ],
@@ -14245,8 +14373,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T14:00:11.584Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T14:10:04.247Z",
+    "since": "2021-11-07",
     "records": [
      {
       "source": "hpd-violation",
@@ -14285,9 +14413,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "rat-inspection": "fetch failed"
-    },
+    "errors": {},
     "hpdBuildingId": "805353"
    }
   },
@@ -14307,8 +14433,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T14:00:11.584Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T14:10:04.247Z",
+    "since": "2021-11-07",
     "records": [
      {
       "source": "hpd-violation",
@@ -14329,9 +14455,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    },
+    "errors": {},
     "hpdBuildingId": "13315"
    }
   },
@@ -14351,8 +14475,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T14:00:11.584Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T14:10:04.247Z",
+    "since": "2021-11-07",
     "records": [
      {
       "source": "hpd-violation",
@@ -14434,9 +14558,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "bedbugs": "The operation was aborted due to timeout"
-    },
+    "errors": {},
     "hpdBuildingId": "804096"
    }
   },
@@ -15851,6 +15973,305 @@
      "311": "The operation was aborted due to timeout"
     }
    }
+  },
+  "131 concord st": {
+   "address": "131 Concord Street",
+   "geo": {
+    "lng": -73.98623,
+    "lat": 40.69793,
+    "label": "131 CONCORD STREET, Brooklyn, NY, USA",
+    "bbl": "3001070048",
+    "neighborhood": "Downtown Brooklyn",
+    "borough": "Brooklyn",
+    "zip": "11201",
+    "houseNumber": "131",
+    "street": "CONCORD STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T14:10:04.247Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-29",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-25",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-07-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-24",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4D",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-07-29",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2021-11-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     }
+    ],
+    "errors": {
+     "hpd-violation": "fetch failed"
+    }
+   }
+  },
+  "142 e 33 st": {
+   "address": "142 East 33rd Street",
+   "geo": {
+    "lng": -73.979851,
+    "lat": 40.745325,
+    "label": "142 EAST 33 STREET, New York, NY, USA",
+    "bbl": "1008880055",
+    "bin": "1018490",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "142",
+    "street": "EAST 33 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T14:10:04.247Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13156"
+   }
+  },
+  "30 halletts point": {
+   "address": "30 Halletts Point",
+   "geo": {
+    "lng": -73.93625,
+    "lat": 40.77641,
+    "label": "30 HALLETTS POINT, Astoria, NY, USA",
+    "bbl": "4009160010",
+    "bin": "4618772",
+    "neighborhood": "Astoria",
+    "borough": "Queens",
+    "zip": "11102",
+    "houseNumber": "30",
+    "street": "HALLETTS POINT",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T14:10:04.247Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2026-10-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2026-09-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "1015508"
+   }
+  },
+  "201 w 16 st": {
+   "address": "201 West 16th Street",
+   "geo": {
+    "lng": -73.998862,
+    "lat": 40.740175,
+    "label": "201 WEST 16 STREET, New York, NY, USA",
+    "bbl": "1007660039",
+    "bin": "1013813",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "201",
+    "street": "WEST 16 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T14:10:04.247Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "311",
+      "date": "2023-07-31",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "225 e 46 st": {
+   "address": "225 East 46th Street",
+   "geo": {
+    "lng": -73.971273,
+    "lat": 40.752991,
+    "label": "225 EAST 46 STREET, New York, NY, USA",
+    "bbl": "1013207504",
+    "bin": "1071719",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "225",
+    "street": "EAST 46 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T14:10:04.247Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-06-18",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-11-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "5H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-11-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-06-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "5H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-06-20",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5H",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
   }
  },
  "emails": [
@@ -16078,6 +16499,21 @@
    "id": "1a1b413949c3e02f",
    "date": "2026-11-07T03:35:44.000Z",
    "found": 5
+  },
+  {
+   "id": "1a1b652f2b812e5d",
+   "date": "2026-11-07T14:04:10.000Z",
+   "found": 1
+  },
+  {
+   "id": "1a1b652ec664b0cd",
+   "date": "2026-11-07T14:04:10.000Z",
+   "found": 3
+  },
+  {
+   "id": "1a1b652edf8d6abb",
+   "date": "2026-11-07T14:04:09.000Z",
+   "found": 2
   }
  ]
 }
