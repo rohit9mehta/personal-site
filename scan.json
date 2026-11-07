@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-07T03:40:05.566Z",
+ "updatedAt": "2026-11-07T06:16:05.994Z",
  "listings": [
   {
    "id": "5196324",
@@ -13709,12 +13709,10 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T03:40:07.575Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T06:16:05.994Z",
+    "since": "2021-11-07",
     "records": [],
-    "errors": {
-     "311": "HTTP 429 {\"message\":\"Too many requests\",\"errorCode\":\"too-many-requests\",\"data\":{}}"
-    }
+    "errors": {}
    }
   },
   "247 e 35 st": {
@@ -13802,12 +13800,10 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T03:40:07.575Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T06:16:05.994Z",
+    "since": "2021-11-07",
     "records": [],
-    "errors": {
-     "hpd-violation": "fetch failed"
-    }
+    "errors": {}
    }
   },
   "307 e 44 st": {
@@ -13826,8 +13822,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T03:40:07.575Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T06:16:05.994Z",
+    "since": "2021-11-07",
     "records": [
      {
       "source": "bedbugs",
@@ -13896,9 +13892,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    },
+    "errors": {},
     "hpdBuildingId": "13727"
    }
   },
@@ -13918,12 +13912,11 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T03:40:07.575Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T06:16:05.994Z",
+    "since": "2021-11-07",
     "records": [],
     "errors": {
-     "311": "The operation was aborted due to timeout",
-     "rat-inspection": "fetch failed"
+     "311": "The operation was aborted due to timeout"
     }
    }
   },
@@ -13994,24 +13987,71 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T03:40:07.575Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T06:16:05.994Z",
+    "since": "2021-11-07",
     "records": [
      {
-      "source": "rat-inspection",
-      "date": "2026-10-02",
+      "source": "311",
+      "date": "2026-10-28",
       "kinds": [
        "rodents"
       ],
-      "text": "Health Department inspector found rat activity on the property"
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
      },
      {
-      "source": "rat-inspection",
-      "date": "2026-08-12",
+      "source": "311",
+      "date": "2026-09-23",
       "kinds": [
        "rodents"
       ],
-      "text": "Health Department inspector found rat activity on the property"
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-06-18",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-06-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-06-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-06-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-04-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
      },
      {
       "source": "hpd-complaint",
@@ -14042,20 +14082,31 @@
       "status": "Closed"
      },
      {
-      "source": "rat-inspection",
-      "date": "2025-10-23",
+      "source": "311",
+      "date": "2025-09-11",
       "kinds": [
        "rodents"
       ],
-      "text": "Health Department inspector found rat activity on the property"
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
      },
      {
-      "source": "rat-inspection",
-      "date": "2025-09-15",
+      "source": "311",
+      "date": "2024-11-09",
       "kinds": [
        "rodents"
       ],
-      "text": "Health Department inspector found rat activity on the property"
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-08-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
      },
      {
       "source": "bedbugs",
@@ -14064,6 +14115,33 @@
        "bedbugs"
       ],
       "text": "Landlord reported bedbugs in 1 of 30 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2023-10-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "In Progress"
+     },
+     {
+      "source": "311",
+      "date": "2023-06-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-04-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
      },
      {
       "source": "bedbugs",
@@ -14083,12 +14161,13 @@
       "status": "Closed"
      },
      {
-      "source": "rat-inspection",
-      "date": "2022-12-29",
+      "source": "311",
+      "date": "2022-11-23",
       "kinds": [
        "rodents"
       ],
-      "text": "Health Department inspector found rat activity on the property"
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
      },
      {
       "source": "bedbugs",
@@ -14099,12 +14178,31 @@
       "text": "Landlord reported bedbugs in 1 of 30 apartments that year"
      },
      {
-      "source": "rat-inspection",
+      "source": "311",
+      "date": "2022-11-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-04-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
       "date": "2022-03-25",
       "kinds": [
        "rodents"
       ],
-      "text": "Health Department inspector found rat activity on the property"
+      "text": "311: Rat Sighting",
+      "status": "Closed"
      },
      {
       "source": "hpd-violation",
@@ -14123,18 +14221,10 @@
       ],
       "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
       "status": "Closed"
-     },
-     {
-      "source": "rat-inspection",
-      "date": "2021-12-08",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "Health Department inspector found rat activity on the property"
      }
     ],
     "errors": {
-     "311": "HTTP 429 {\"message\":\"Too many requests\",\"errorCode\":\"too-many-requests\",\"data\":{}}"
+     "rat-inspection": "fetch failed"
     },
     "hpdBuildingId": "3118"
    }
