@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-07T20:10:07.964Z",
+ "updatedAt": "2026-11-07T21:40:04.425Z",
  "listings": [
   {
    "id": "5196324",
@@ -2895,6 +2895,193 @@
    "baths": 1,
    "broker": "Rose Associates, Inc.",
    "suggested": true
+  },
+  {
+   "id": "5199845",
+   "url": "https://streeteasy.com/rental/5199845",
+   "address": "239 West 14th Street",
+   "price": 6950,
+   "updates": [],
+   "firstSeen": "2026-11-07T21:35:19.000Z",
+   "lastSeen": "2026-11-07T21:35:19.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 6950
+    }
+   ],
+   "building": "239 w 14 st",
+   "unit": "THREE",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "REAL New York",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5199773",
+   "url": "https://streeteasy.com/rental/5199773",
+   "address": "26 King Street",
+   "price": 5500,
+   "updates": [],
+   "firstSeen": "2026-11-07T21:35:19.000Z",
+   "lastSeen": "2026-11-07T21:35:19.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 5500
+    }
+   ],
+   "building": "26 king st",
+   "unit": "18",
+   "neighborhood": "Hudson Square",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "City Wide Apartments",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5199040",
+   "url": "https://streeteasy.com/rental/5199040",
+   "address": "127 East 30th Street",
+   "price": 6900,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-07T21:35:19.000Z",
+   "lastSeen": "2026-11-07T21:35:19.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 6900
+    }
+   ],
+   "building": "127 e 30 st",
+   "unit": "1B",
+   "neighborhood": "NoMad",
+   "kind": "Condo",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 1186,
+   "broker": "Yoreevo, LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197542",
+   "url": "https://streeteasy.com/rental/5197542",
+   "address": "348 East 58th Street",
+   "price": 3400,
+   "updates": [],
+   "firstSeen": "2026-11-07T21:35:18.000Z",
+   "lastSeen": "2026-11-07T21:35:18.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 3400
+    }
+   ],
+   "building": "348 e 58 st",
+   "unit": "6C",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "CNYC Apartments",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5199860",
+   "url": "https://streeteasy.com/rental/5199860",
+   "address": "220 East 25th Street",
+   "price": 3695,
+   "updates": [],
+   "firstSeen": "2026-11-07T21:35:18.000Z",
+   "lastSeen": "2026-11-07T21:35:18.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 3695
+    }
+   ],
+   "building": "220 e 25 st",
+   "unit": "4",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Avenues Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5199770",
+   "url": "https://streeteasy.com/rental/5199770",
+   "address": "311 West 29th Street",
+   "price": 2895,
+   "updates": [],
+   "firstSeen": "2026-11-07T21:35:18.000Z",
+   "lastSeen": "2026-11-07T21:35:18.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 2895
+    }
+   ],
+   "building": "311 w 29 st",
+   "unit": "4C",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Michael J Gregg Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5199779",
+   "url": "https://streeteasy.com/rental/5199779",
+   "address": "165 East 35th Street",
+   "price": 3500,
+   "updates": [],
+   "firstSeen": "2026-11-07T21:35:18.000Z",
+   "lastSeen": "2026-11-07T21:35:18.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 3500
+    }
+   ],
+   "building": "165 e 35 st",
+   "unit": "10H",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "City Wide Apartments",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5177036",
+   "url": "https://streeteasy.com/rental/5177036",
+   "address": "25 Tudor City Place",
+   "price": 3495,
+   "updates": [],
+   "firstSeen": "2026-11-07T21:35:18.000Z",
+   "lastSeen": "2026-11-07T21:35:18.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 3495
+    }
+   ],
+   "building": "25 tudor city pl",
+   "unit": "705",
+   "neighborhood": "Murray Hill",
+   "kind": "Coop",
+   "beds": 0,
+   "baths": 1,
+   "broker": "10017)",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -16520,6 +16707,371 @@
     ],
     "errors": {}
    }
+  },
+  "239 w 14 st": {
+   "address": "239 West 14th Street",
+   "geo": {
+    "lng": -74.001149,
+    "lat": 40.73949,
+    "label": "239 WEST 14 STREET, New York, NY, USA",
+    "bbl": "1007640018",
+    "bin": "1013718",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "239",
+    "street": "WEST 14 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T21:40:04.425Z",
+    "since": "2021-11-07",
+    "records": [],
+    "errors": {
+     "311": "The operation was aborted due to timeout"
+    }
+   }
+  },
+  "26 king st": {
+   "address": "26 King Street",
+   "geo": {
+    "lng": -74.003841,
+    "lat": 40.727526,
+    "label": "26 KING STREET, New York, NY, USA",
+    "bbl": "1005190026",
+    "bin": "1008095",
+    "neighborhood": "SoHo",
+    "borough": "Manhattan",
+    "zip": "10014",
+    "houseNumber": "26",
+    "street": "KING STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T21:40:04.425Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2022-03-29",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "127 e 30 st": {
+   "address": "127 East 30th Street",
+   "geo": {
+    "lng": -73.981891,
+    "lat": 40.744252,
+    "label": "127 EAST 30 STREET, New York, NY, USA",
+    "bbl": "1008867503",
+    "bin": "1076154",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "127",
+    "street": "EAST 30 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T21:40:04.425Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2023-06-23",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "17B",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "220 e 25 st": {
+   "address": "220 East 25th Street",
+   "geo": {
+    "lng": -73.981255,
+    "lat": 40.73952,
+    "label": "220 EAST 25 STREET, New York, NY, USA",
+    "bbl": "1009050047",
+    "bin": "1019800",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10010",
+    "houseNumber": "220",
+    "street": "EAST 25 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T21:40:04.425Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1D",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "3B",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-09-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-07-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2025-07-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-05-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-04-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-12-06",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 25 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2024-07-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-03-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "1B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-03-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "12709"
+   }
+  },
+  "311 w 29 st": {
+   "address": "311 West 29th Street",
+   "geo": {
+    "lng": -73.996396,
+    "lat": 40.749538,
+    "label": "311 WEST 29 STREET, New York, NY, USA",
+    "bbl": "1007530030",
+    "bin": "1013481",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "311",
+    "street": "WEST 29 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T21:40:04.425Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-07-31",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-07-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "311": "The operation was aborted due to timeout"
+    },
+    "hpdBuildingId": "32002"
+   }
+  },
+  "25 tudor city pl": {
+   "address": "25 Tudor City Place",
+   "geo": {
+    "lng": -73.970507,
+    "lat": 40.748601,
+    "label": "25 TUDOR CITY PLACE, New York, NY, USA",
+    "bbl": "1013340022",
+    "bin": "1038655",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "25",
+    "street": "TUDOR CITY PLACE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T21:40:04.425Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2025-12-20",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 443 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-10-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "101010",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-08-01",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "1111",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-07-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1111",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "311": "The operation was aborted due to timeout"
+    },
+    "hpdBuildingId": "28787"
+   }
   }
  },
  "emails": [
@@ -16777,6 +17329,21 @@
    "id": "1a1b79b1e769a5ec",
    "date": "2026-11-07T20:02:37.000Z",
    "found": 3
+  },
+  {
+   "id": "1a1b7effba1dc5c2",
+   "date": "2026-11-07T21:35:19.000Z",
+   "found": 3
+  },
+  {
+   "id": "1a1b7eff5fd99cc0",
+   "date": "2026-11-07T21:35:18.000Z",
+   "found": 5
+  },
+  {
+   "id": "1a1b7ebffac4fa67",
+   "date": "2026-11-07T21:30:58.000Z",
+   "found": 4
   }
  ]
 }
