@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-07T21:40:04.425Z",
+ "updatedAt": "2026-11-07T22:04:21.097Z",
  "listings": [
   {
    "id": "5196324",
@@ -15628,9 +15628,17 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T22:04:21.097Z",
+    "since": "2021-11-07",
     "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2026-11-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
      {
       "source": "rat-inspection",
       "date": "2026-09-25",
@@ -15638,6 +15646,15 @@
        "rodents"
       ],
       "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2026-08-31",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
      },
      {
       "source": "rat-inspection",
@@ -15665,9 +15682,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    },
+    "errors": {},
     "hpdBuildingId": "29818"
    }
   },
@@ -15687,8 +15702,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-07T22:04:21.097Z",
+    "since": "2021-11-07",
     "records": [
      {
       "source": "hpd-violation",
@@ -15698,6 +15713,14 @@
       ],
       "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
       "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-04-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
      },
      {
       "source": "hpd-violation",
@@ -15718,9 +15741,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "rat-inspection": "fetch failed"
-    },
+    "errors": {},
     "hpdBuildingId": "339353"
    }
   },
