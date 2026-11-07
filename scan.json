@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-07T16:40:08.391Z",
+ "updatedAt": "2026-11-07T20:10:07.964Z",
  "listings": [
   {
    "id": "5196324",
@@ -1616,11 +1616,9 @@
    "url": "https://streeteasy.com/rental/5198171",
    "address": "237 East 34th Street",
    "price": 6850,
-   "updates": [
-    "Open House"
-   ],
+   "updates": [],
    "firstSeen": "2026-11-05T21:42:20.000Z",
-   "lastSeen": "2026-11-05T21:42:20.000Z",
+   "lastSeen": "2026-11-07T20:02:37.000Z",
    "prices": [
     {
      "date": "2026-11-05",
@@ -1634,7 +1632,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Bond New York",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5198072",
@@ -2845,6 +2844,57 @@
    "sqft": 448,
    "broker": "Douglas Elliman",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5155187",
+   "url": "https://streeteasy.com/rental/5155187",
+   "address": "480 2nd Avenue",
+   "price": 6417,
+   "updates": [
+    "Price Drop: $250"
+   ],
+   "firstSeen": "2026-11-07T20:02:37.000Z",
+   "lastSeen": "2026-11-07T20:02:37.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 6417
+    }
+   ],
+   "building": "480 2 ave",
+   "unit": "23C",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental unit",
+   "noFee": true,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 762,
+   "broker": "Beam Living",
+   "suggested": true
+  },
+  {
+   "id": "5181627",
+   "url": "https://streeteasy.com/rental/5181627",
+   "address": "225 East 39th Street",
+   "price": 7600,
+   "updates": [],
+   "firstSeen": "2026-11-07T20:02:37.000Z",
+   "lastSeen": "2026-11-07T20:02:37.000Z",
+   "prices": [
+    {
+     "date": "2026-11-07",
+     "price": 7600
+    }
+   ],
+   "building": "225 e 39 st",
+   "unit": "32A",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental unit",
+   "noFee": true,
+   "beds": 2,
+   "baths": 1,
+   "broker": "Rose Associates, Inc.",
+   "suggested": true
   }
  ],
  "buildings": {
@@ -16273,6 +16323,203 @@
     ],
     "errors": {}
    }
+  },
+  "480 2 ave": {
+   "address": "480 2nd Avenue",
+   "geo": {
+    "lng": -73.978497,
+    "lat": 40.740357,
+    "label": "480 2 AVENUE, New York, NY, USA",
+    "bbl": "1009340001",
+    "bin": "1082731",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "480",
+    "street": "2 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T20:10:07.964Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-25",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "14B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-06-05",
+      "kinds": [
+       "other"
+      ],
+      "text": "Termites",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-23",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-05-19",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "19F",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-18",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-06-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-06-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "9D",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "311": "The operation was aborted due to timeout"
+    },
+    "hpdBuildingId": "823865"
+   }
+  },
+  "225 e 39 st": {
+   "address": "225 East 39th Street",
+   "geo": {
+    "lng": -73.974502,
+    "lat": 40.748713,
+    "label": "225 EAST 39 STREET, New York, NY, USA",
+    "bbl": "1009200013",
+    "bin": "1082154",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "225",
+    "street": "EAST 39 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-07T20:10:07.964Z",
+    "since": "2021-11-07",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2025-12-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 372 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-12-24",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 2 of 372 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2023-12-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-12-18",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 2 of 372 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2023-06-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2021-12-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 372 apartments that year"
+     }
+    ],
+    "errors": {}
+   }
   }
  },
  "emails": [
@@ -16525,6 +16772,11 @@
    "id": "1a1b6d99bf798205",
    "date": "2026-11-07T16:31:16.000Z",
    "found": 6
+  },
+  {
+   "id": "1a1b79b1e769a5ec",
+   "date": "2026-11-07T20:02:37.000Z",
+   "found": 3
   }
  ]
 }
