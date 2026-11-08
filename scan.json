@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-08T16:40:11.544Z",
+ "updatedAt": "2026-11-08T20:10:07.868Z",
  "listings": [
   {
    "id": "5196324",
@@ -1377,11 +1377,9 @@
    "url": "https://streeteasy.com/rental/5197231",
    "address": "113 West 27th Street",
    "price": 7000,
-   "updates": [
-    "Open House"
-   ],
+   "updates": [],
    "firstSeen": "2026-11-05T15:36:06.000Z",
-   "lastSeen": "2026-11-05T15:36:06.000Z",
+   "lastSeen": "2026-11-08T20:03:41.000Z",
    "prices": [
     {
      "date": "2026-11-05",
@@ -1395,7 +1393,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Compass",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5197569",
@@ -3130,6 +3129,53 @@
    "baths": 1,
    "broker": "Quality Living Village, Inc.",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5175236",
+   "url": "https://streeteasy.com/rental/5175236",
+   "address": "35 West 33rd Street",
+   "price": 6000,
+   "updates": [],
+   "firstSeen": "2026-11-08T20:03:41.000Z",
+   "lastSeen": "2026-11-08T20:03:41.000Z",
+   "prices": [
+    {
+     "date": "2026-11-08",
+     "price": 6000
+    }
+   ],
+   "building": "35 w 33 st",
+   "unit": "5F",
+   "neighborhood": "Midtown South",
+   "kind": "Rental unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Compass",
+   "suggested": true
+  },
+  {
+   "id": "5173074",
+   "url": "https://streeteasy.com/rental/5173074",
+   "address": "311 11th Avenue",
+   "price": 7795,
+   "updates": [],
+   "firstSeen": "2026-11-08T20:03:41.000Z",
+   "lastSeen": "2026-11-08T20:03:41.000Z",
+   "prices": [
+    {
+     "date": "2026-11-08",
+     "price": 7795
+    }
+   ],
+   "building": "311 11 ave",
+   "unit": "1101",
+   "neighborhood": "West Chelsea",
+   "kind": "Rental unit",
+   "noFee": true,
+   "beds": 2,
+   "baths": 1,
+   "broker": "Clinton Management",
+   "suggested": true
   }
  ],
  "buildings": {
@@ -17421,6 +17467,126 @@
     "errors": {},
     "hpdBuildingId": "34226"
    }
+  },
+  "35 w 33 st": {
+   "address": "35 West 33rd Street",
+   "geo": {
+    "lng": -73.986827,
+    "lat": 40.748782,
+    "label": "35 WEST 33 STREET, New York, NY, USA",
+    "bbl": "1008350015",
+    "bin": "1084660",
+    "neighborhood": "Midtown West",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "35",
+    "street": "WEST 33 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-08T20:10:07.868Z",
+    "since": "2021-11-08",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2022-12-02",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 168 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2022-01-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 5 of 168 apartments that year"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "311 11 ave": {
+   "address": "311 11th Avenue",
+   "geo": {
+    "lng": -74.004914,
+    "lat": 40.753165,
+    "label": "311 11 AVENUE, New York, NY, USA",
+    "bbl": "1006750012",
+    "bin": "1091671",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "311",
+    "street": "11 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-08T20:10:07.868Z",
+    "since": "2021-11-08",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2023-04-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "324",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-04-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-04-14",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "324",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-04-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-04-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "47",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-04-20",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "47",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
   }
  },
  "emails": [
@@ -17718,6 +17884,11 @@
    "id": "1a1bbffbbd399c64",
    "date": "2026-11-08T16:31:00.000Z",
    "found": 6
+  },
+  {
+   "id": "1a1bcc27246a89d5",
+   "date": "2026-11-08T20:03:41.000Z",
+   "found": 3
   }
  ]
 }
