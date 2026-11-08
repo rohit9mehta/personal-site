@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-07T22:04:21.097Z",
+ "updatedAt": "2026-11-08T06:22:14.307Z",
  "listings": [
   {
    "id": "5196324",
@@ -14278,8 +14278,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T06:16:05.994Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T06:22:14.307Z",
+    "since": "2021-11-08",
     "records": [],
     "errors": {
      "311": "The operation was aborted due to timeout"
@@ -14353,8 +14353,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T06:16:05.994Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T06:22:14.307Z",
+    "since": "2021-11-08",
     "records": [
      {
       "source": "311",
@@ -14366,6 +14366,14 @@
       "status": "Closed"
      },
      {
+      "source": "rat-inspection",
+      "date": "2026-10-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
       "source": "311",
       "date": "2026-09-23",
       "kinds": [
@@ -14373,6 +14381,14 @@
       ],
       "text": "311: Rat Sighting",
       "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-08-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
      },
      {
       "source": "311",
@@ -14446,6 +14462,22 @@
       "text": "Mice",
       "apartment": "5E",
       "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-10-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-09-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
      },
      {
       "source": "311",
@@ -14527,6 +14559,14 @@
       "status": "Closed"
      },
      {
+      "source": "rat-inspection",
+      "date": "2022-12-29",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
       "source": "311",
       "date": "2022-11-23",
       "kinds": [
@@ -14562,6 +14602,14 @@
       "status": "Closed"
      },
      {
+      "source": "rat-inspection",
+      "date": "2022-03-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
       "source": "311",
       "date": "2022-03-25",
       "kinds": [
@@ -14587,11 +14635,17 @@
       ],
       "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
       "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2021-12-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
      }
     ],
-    "errors": {
-     "rat-inspection": "fetch failed"
-    },
+    "errors": {},
     "hpdBuildingId": "3118"
    }
   },
@@ -15761,8 +15815,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T06:22:14.307Z",
+    "since": "2021-11-08",
     "records": [
      {
       "source": "rat-inspection",
@@ -15793,9 +15847,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    },
+    "errors": {},
     "hpdBuildingId": "6480"
    }
   },
@@ -15925,8 +15977,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T06:22:14.307Z",
+    "since": "2021-11-08",
     "records": [
      {
       "source": "hpd-violation",
@@ -16201,12 +16253,20 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
-    "records": [],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    }
+    "checkedAt": "2026-11-08T06:22:14.307Z",
+    "since": "2021-11-08",
+    "records": [
+     {
+      "source": "311",
+      "date": "2026-09-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "In Progress"
+     }
+    ],
+    "errors": {}
    }
   },
   "246 e 45 st": {
@@ -16225,12 +16285,10 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T06:22:14.307Z",
+    "since": "2021-11-08",
     "records": [],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    }
+    "errors": {}
    }
   },
   "131 concord st": {
