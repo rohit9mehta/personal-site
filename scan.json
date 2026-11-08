@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-08T20:10:07.868Z",
+ "updatedAt": "2026-11-08T21:40:06.871Z",
  "listings": [
   {
    "id": "5196324",
@@ -1377,9 +1377,11 @@
    "url": "https://streeteasy.com/rental/5197231",
    "address": "113 West 27th Street",
    "price": 7000,
-   "updates": [],
+   "updates": [
+    "Open House"
+   ],
    "firstSeen": "2026-11-05T15:36:06.000Z",
-   "lastSeen": "2026-11-08T20:03:41.000Z",
+   "lastSeen": "2026-11-08T21:32:19.000Z",
    "prices": [
     {
      "date": "2026-11-05",
@@ -1813,14 +1815,20 @@
    "id": "5198480",
    "url": "https://streeteasy.com/rental/5198480",
    "address": "243 East 18th Street",
-   "price": 5300,
-   "updates": [],
+   "price": 5195,
+   "updates": [
+    "Price Drop: $105"
+   ],
    "firstSeen": "2026-11-06T03:35:47.000Z",
-   "lastSeen": "2026-11-06T03:35:47.000Z",
+   "lastSeen": "2026-11-08T21:32:19.000Z",
    "prices": [
     {
      "date": "2026-11-06",
      "price": 5300
+    },
+    {
+     "date": "2026-11-08",
+     "price": 5195
     }
    ],
    "building": "243 e 18 st",
@@ -1830,7 +1838,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Living New York",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5195852",
@@ -3176,6 +3185,128 @@
    "baths": 1,
    "broker": "Clinton Management",
    "suggested": true
+  },
+  {
+   "id": "5200109",
+   "url": "https://streeteasy.com/rental/5200109",
+   "address": "315 East 56th Street",
+   "price": 3000,
+   "updates": [],
+   "firstSeen": "2026-11-08T21:32:20.000Z",
+   "lastSeen": "2026-11-08T21:32:20.000Z",
+   "prices": [
+    {
+     "date": "2026-11-08",
+     "price": 3000
+    }
+   ],
+   "building": "315 e 56 st",
+   "unit": "6D",
+   "neighborhood": "Sutton Place",
+   "kind": "Coop",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Compass",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5199142",
+   "url": "https://streeteasy.com/rental/5199142",
+   "address": "21 East 21st Street",
+   "price": 3450,
+   "updates": [],
+   "firstSeen": "2026-11-08T21:32:20.000Z",
+   "lastSeen": "2026-11-08T21:32:20.000Z",
+   "prices": [
+    {
+     "date": "2026-11-08",
+     "price": 3450
+    }
+   ],
+   "building": "21 e 21 st",
+   "unit": "5D",
+   "neighborhood": "Flatiron",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "William Raveis Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5200104",
+   "url": "https://streeteasy.com/rental/5200104",
+   "address": "46 West 14th Street",
+   "price": 7000,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-08T21:32:19.000Z",
+   "lastSeen": "2026-11-08T21:32:19.000Z",
+   "prices": [
+    {
+     "date": "2026-11-08",
+     "price": 7000
+    }
+   ],
+   "building": "46 w 14 st",
+   "unit": "3/F",
+   "neighborhood": "Greenwich Village",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Douglas Elliman",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5194656",
+   "url": "https://streeteasy.com/rental/5194656",
+   "address": "200 East 26th Street",
+   "price": 5800,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-08T21:32:19.000Z",
+   "lastSeen": "2026-11-08T21:32:19.000Z",
+   "prices": [
+    {
+     "date": "2026-11-08",
+     "price": 5800
+    }
+   ],
+   "building": "200 e 26 st",
+   "unit": "2",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Quality Living Village, Inc.",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5185506",
+   "url": "https://streeteasy.com/rental/5185506",
+   "address": "333 East 34th Street",
+   "price": 4999,
+   "updates": [
+    "Open House  Price Drop: $200"
+   ],
+   "firstSeen": "2026-11-08T21:32:19.000Z",
+   "lastSeen": "2026-11-08T21:32:19.000Z",
+   "prices": [
+    {
+     "date": "2026-11-08",
+     "price": 4999
+    }
+   ],
+   "building": "333 e 34 st",
+   "unit": "2N",
+   "neighborhood": "Murray Hill",
+   "kind": "Condo",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 730,
+   "broker": "R New York",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -16748,8 +16879,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T20:10:07.964Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
     "records": [
      {
       "source": "hpd-complaint",
@@ -16945,12 +17076,10 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T21:40:04.425Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
     "records": [],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    }
+    "errors": {}
    }
   },
   "26 king st": {
@@ -17164,8 +17293,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T21:40:04.425Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
     "records": [
      {
       "source": "hpd-complaint",
@@ -17228,8 +17357,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T21:40:04.425Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
     "records": [
      {
       "source": "bedbugs",
@@ -17587,6 +17716,287 @@
     ],
     "errors": {}
    }
+  },
+  "315 e 56 st": {
+   "address": "315 East 56th Street",
+   "geo": {
+    "lng": -73.964813,
+    "lat": 40.758381,
+    "label": "315 EAST 56 STREET, New York, NY, USA",
+    "bbl": "1013490009",
+    "bin": "1039983",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "315",
+    "street": "EAST 56 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2024-08-16",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "1D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-08-16",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "1D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2021-11-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5B",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "14414"
+   }
+  },
+  "21 e 21 st": {
+   "address": "21 East 21st Street",
+   "geo": {
+    "lng": -73.988844,
+    "lat": 40.73979,
+    "label": "21 EAST 21 STREET, New York, NY, USA",
+    "bbl": "1008500019",
+    "bin": "1016246",
+    "neighborhood": "Flatiron District",
+    "borough": "Manhattan",
+    "zip": "10010",
+    "houseNumber": "21",
+    "street": "EAST 21 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "12492"
+   }
+  },
+  "46 w 14 st": {
+   "address": "46 West 14th Street",
+   "geo": {
+    "lng": -73.995972,
+    "lat": 40.736682,
+    "label": "46 WEST 14 STREET, New York, NY, USA",
+    "bbl": "1005770017",
+    "bin": "1009711",
+    "neighborhood": "Greenwich Village",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "46",
+    "street": "WEST 14 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "30361"
+   }
+  },
+  "200 e 26 st": {
+   "address": "200 East 26th Street",
+   "geo": {
+    "lng": -73.981545,
+    "lat": 40.740409,
+    "label": "200 EAST 26 STREET, New York, NY, USA",
+    "bbl": "1009060055",
+    "bin": "1019844",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10010",
+    "houseNumber": "200",
+    "street": "EAST 26 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-06",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-12-11",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2B",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "hpd-violation": "fetch failed"
+    }
+   }
+  },
+  "333 e 34 st": {
+   "address": "333 East 34th Street",
+   "geo": {
+    "lng": -73.974192,
+    "lat": 40.744338,
+    "label": "333 EAST 34 STREET, New York, NY, USA",
+    "bbl": "1009407501",
+    "bin": "1021903",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "333",
+    "street": "EAST 34 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-08T21:40:06.871Z",
+    "since": "2021-11-08",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-01-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "rat-inspection": "fetch failed"
+    },
+    "hpdBuildingId": "13267"
+   }
   }
  },
  "emails": [
@@ -17889,6 +18299,16 @@
    "id": "1a1bcc27246a89d5",
    "date": "2026-11-08T20:03:41.000Z",
    "found": 3
+  },
+  {
+   "id": "1a1bd139be3d539f",
+   "date": "2026-11-08T21:32:20.000Z",
+   "found": 2
+  },
+  {
+   "id": "1a1bd1397700869d",
+   "date": "2026-11-08T21:32:19.000Z",
+   "found": 5
   }
  ]
 }
