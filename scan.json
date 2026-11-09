@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-08T22:16:59.844Z",
+ "updatedAt": "2026-11-09T03:40:11.394Z",
  "listings": [
   {
    "id": "5196324",
@@ -791,7 +791,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-04T21:40:16.000Z",
-   "lastSeen": "2026-11-04T21:40:16.000Z",
+   "lastSeen": "2026-11-09T03:36:16.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -805,7 +805,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "REAL New York",
-   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5195465",
@@ -3291,7 +3292,7 @@
     "Open House  Price Drop: $200"
    ],
    "firstSeen": "2026-11-08T21:32:19.000Z",
-   "lastSeen": "2026-11-08T21:32:19.000Z",
+   "lastSeen": "2026-11-09T03:36:18.000Z",
    "prices": [
     {
      "date": "2026-11-08",
@@ -3306,7 +3307,56 @@
    "baths": 1,
    "sqft": 730,
    "broker": "R New York",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
+  },
+  {
+   "id": "5200143",
+   "url": "https://streeteasy.com/rental/5200143",
+   "address": "119 West 15th Street",
+   "price": 2850,
+   "updates": [],
+   "firstSeen": "2026-11-09T03:36:17.000Z",
+   "lastSeen": "2026-11-09T03:36:17.000Z",
+   "prices": [
+    {
+     "date": "2026-11-09",
+     "price": 2850
+    }
+   ],
+   "building": "119 w 15 st",
+   "unit": "GFW",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Compass",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5182069",
+   "url": "https://streeteasy.com/rental/5182069",
+   "address": "211 West 53rd Street",
+   "price": 3195,
+   "updates": [
+    "Price Drop: $100"
+   ],
+   "firstSeen": "2026-11-09T03:36:17.000Z",
+   "lastSeen": "2026-11-09T03:36:17.000Z",
+   "prices": [
+    {
+     "date": "2026-11-09",
+     "price": 3195
+    }
+   ],
+   "building": "211 w 53 st",
+   "unit": "3A",
+   "neighborhood": "Midtown",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "The Leasing Office",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -17997,6 +18047,225 @@
     },
     "hpdBuildingId": "13267"
    }
+  },
+  "119 w 15 st": {
+   "address": "119 West 15th Street",
+   "geo": {
+    "lng": -73.997117,
+    "lat": 40.738618,
+    "label": "119 WEST 15 STREET, New York, NY, USA",
+    "bbl": "1007910029",
+    "bin": "1014558",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "119",
+    "street": "WEST 15 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-09T03:40:11.394Z",
+    "since": "2021-11-09",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2025-07-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2FE",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-03-29",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2FE",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "rat-inspection": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
+    }
+   }
+  },
+  "211 w 53 st": {
+   "address": "211 West 53rd Street",
+   "geo": {
+    "lng": -73.982974,
+    "lat": 40.763632,
+    "label": "211 WEST 53 STREET, New York, NY, USA",
+    "bbl": "1010250019",
+    "bin": "1024835",
+    "neighborhood": "Midtown West",
+    "borough": "Manhattan",
+    "zip": "10019",
+    "houseNumber": "211",
+    "street": "WEST 53 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-09T03:40:11.394Z",
+    "since": "2021-11-09",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2024-04-08",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-03-18",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-03-18",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-11-19",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-09-29",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-09-22",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-09-21",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-09-11",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "3A",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-07-20",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-07-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-06-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-06-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2023-06-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-08-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "4B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-05-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "2A",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "hpd-violation": "fetch failed"
+    }
+   }
   }
  },
  "emails": [
@@ -18309,6 +18578,21 @@
    "id": "1a1bd1397700869d",
    "date": "2026-11-08T21:32:19.000Z",
    "found": 5
+  },
+  {
+   "id": "1a1be60d24291875",
+   "date": "2026-11-09T03:36:18.000Z",
+   "found": 1
+  },
+  {
+   "id": "1a1be60c9bdb76ec",
+   "date": "2026-11-09T03:36:16.000Z",
+   "found": 1
+  },
+  {
+   "id": "1a1be60cdfce060c",
+   "date": "2026-11-09T03:36:17.000Z",
+   "found": 2
   }
  ]
 }
