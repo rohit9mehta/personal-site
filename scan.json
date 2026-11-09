@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-09T06:55:30.345Z",
+ "updatedAt": "2026-11-09T14:00:05.861Z",
  "listings": [
   {
    "id": "5196324",
@@ -1159,14 +1159,20 @@
    "id": "5196550",
    "url": "https://streeteasy.com/rental/5196550",
    "address": "220 East 36th Street",
-   "price": 3500,
-   "updates": [],
+   "price": 3295,
+   "updates": [
+    "Price Drop: $205"
+   ],
    "firstSeen": "2026-11-05T03:41:32.000Z",
-   "lastSeen": "2026-11-05T03:41:32.000Z",
+   "lastSeen": "2026-11-09T13:53:54.000Z",
    "prices": [
     {
      "date": "2026-11-05",
      "price": 3500
+    },
+    {
+     "date": "2026-11-09",
+     "price": 3295
     }
    ],
    "building": "220 e 36 st",
@@ -1176,7 +1182,8 @@
    "beds": 1,
    "baths": 1,
    "broker": "Douglas Elliman",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5192606",
@@ -3365,7 +3372,7 @@
    "price": 4350,
    "updates": [],
    "firstSeen": "2026-11-09T04:50:09.000Z",
-   "lastSeen": "2026-11-09T04:50:09.000Z",
+   "lastSeen": "2026-11-09T13:53:53.000Z",
    "prices": [
     {
      "date": "2026-11-09",
@@ -3379,7 +3386,31 @@
    "beds": 2,
    "baths": 1,
    "broker": "City Connections Realty",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
+  },
+  {
+   "id": "5200185",
+   "url": "https://streeteasy.com/rental/5200185",
+   "address": "36 East 38th Street",
+   "price": 2650,
+   "updates": [],
+   "firstSeen": "2026-11-09T13:53:54.000Z",
+   "lastSeen": "2026-11-09T13:53:54.000Z",
+   "prices": [
+    {
+     "date": "2026-11-09",
+     "price": 2650
+    }
+   ],
+   "building": "36 e 38 st",
+   "unit": "2C",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "AJ Clarke",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -18323,6 +18354,48 @@
      "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
     }
    }
+  },
+  "36 e 38 st": {
+   "address": "36 East 38th Street",
+   "geo": {
+    "lng": -73.980316,
+    "lat": 40.749699,
+    "label": "36 EAST 38 STREET, New York, NY, USA",
+    "bbl": "1008670045",
+    "bin": "1017214",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "36",
+    "street": "EAST 38 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-09T14:00:05.861Z",
+    "since": "2021-11-09",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13551"
+   }
   }
  },
  "emails": [
@@ -18654,6 +18727,16 @@
   {
    "id": "1a1bea470e2074b2",
    "date": "2026-11-09T04:50:09.000Z",
+   "found": 1
+  },
+  {
+   "id": "1a1c09641375a009",
+   "date": "2026-11-09T13:53:54.000Z",
+   "found": 2
+  },
+  {
+   "id": "1a1c0963d0fa002a",
+   "date": "2026-11-09T13:53:53.000Z",
    "found": 1
   }
  ]
