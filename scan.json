@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-09T05:00:05.460Z",
+ "updatedAt": "2026-11-09T06:55:30.345Z",
  "listings": [
   {
    "id": "5196324",
@@ -14576,11 +14576,11 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T06:22:14.307Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-09T06:55:30.345Z",
+    "since": "2021-11-09",
     "records": [],
     "errors": {
-     "311": "The operation was aborted due to timeout"
+     "rat-inspection": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
     }
    }
   },
@@ -16275,8 +16275,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T06:22:14.307Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-09T06:55:30.345Z",
+    "since": "2021-11-09",
     "records": [
      {
       "source": "hpd-violation",
@@ -16299,7 +16299,7 @@
      }
     ],
     "errors": {
-     "311": "The operation was aborted due to timeout"
+     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
     },
     "hpdBuildingId": "12001"
    }
