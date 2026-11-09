@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-09T22:33:39.836Z",
+ "updatedAt": "2026-11-09T22:40:06.001Z",
  "listings": [
   {
    "id": "5196324",
@@ -1117,11 +1117,9 @@
    "url": "https://streeteasy.com/rental/5195350",
    "address": "145 East 48th Street",
    "price": 3500,
-   "updates": [
-    "Open House"
-   ],
+   "updates": [],
    "firstSeen": "2026-11-05T03:41:32.000Z",
-   "lastSeen": "2026-11-05T03:41:32.000Z",
+   "lastSeen": "2026-11-09T22:39:33.000Z",
    "prices": [
     {
      "date": "2026-11-05",
@@ -1136,7 +1134,8 @@
    "baths": 1,
    "sqft": 465,
    "broker": "Corcoran",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5197639",
@@ -20146,6 +20145,11 @@
   {
    "id": "1a1c258f5acdef08",
    "date": "2026-11-09T22:06:11.000Z",
+   "found": 1
+  },
+  {
+   "id": "1a1c277810a3d2af",
+   "date": "2026-11-09T22:39:33.000Z",
    "found": 1
   }
  ]
