@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-09T14:00:05.861Z",
+ "updatedAt": "2026-11-09T15:50:11.428Z",
  "listings": [
   {
    "id": "5196324",
@@ -3411,6 +3411,56 @@
    "baths": 1,
    "broker": "AJ Clarke",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5162810",
+   "url": "https://streeteasy.com/rental/5162810",
+   "address": "121 Madison Avenue",
+   "price": 5995,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-09T15:40:50.000Z",
+   "lastSeen": "2026-11-09T15:40:50.000Z",
+   "prices": [
+    {
+     "date": "2026-11-09",
+     "price": 5995
+    }
+   ],
+   "building": "121 madison ave",
+   "unit": "7L",
+   "neighborhood": "NoMad",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Harlington",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5194094",
+   "url": "https://streeteasy.com/rental/5194094",
+   "address": "209 East 48th Street",
+   "price": 5250,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-09T15:40:50.000Z",
+   "lastSeen": "2026-11-09T15:40:50.000Z",
+   "prices": [
+    {
+     "date": "2026-11-09",
+     "price": 5250
+    }
+   ],
+   "building": "209 e 48 st",
+   "unit": "1",
+   "neighborhood": "Turtle Bay",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Voro Purple LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -17543,36 +17593,9 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T14:10:09.127Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-09T15:50:11.428Z",
+    "since": "2021-11-09",
     "records": [
-     {
-      "source": "hpd-violation",
-      "date": "2026-04-29",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2023-03-15",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2022-02-15",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     },
      {
       "source": "hpd-complaint",
       "date": "2021-12-12",
@@ -17594,16 +17617,6 @@
       "status": "Closed"
      },
      {
-      "source": "hpd-violation",
-      "date": "2021-12-04",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "4D",
-      "status": "Closed"
-     },
-     {
       "source": "hpd-complaint",
       "date": "2021-11-29",
       "kinds": [
@@ -17615,9 +17628,9 @@
      }
     ],
     "errors": {
-     "311": "The operation was aborted due to timeout"
-    },
-    "hpdBuildingId": "671"
+     "hpd-violation": "The operation was aborted due to timeout",
+     "rat-inspection": "fetch failed"
+    }
    }
   },
   "238 w 56 st": {
@@ -18396,6 +18409,100 @@
     "errors": {},
     "hpdBuildingId": "13551"
    }
+  },
+  "121 madison ave": {
+   "address": "121 Madison Avenue",
+   "geo": {
+    "lng": -73.984491,
+    "lat": 40.74531,
+    "label": "121 MADISON AVENUE, New York, NY, USA",
+    "bbl": "1008600022",
+    "bin": "1016958",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "121",
+    "street": "MADISON AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-09T15:50:11.428Z",
+    "since": "2021-11-09",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-04-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-09-04",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "5R",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-09-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "5R",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-12-27",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 101 apartments that year"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2021-12-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "24593"
+   }
+  },
+  "209 e 48 st": {
+   "address": "209 East 48th Street",
+   "geo": {
+    "lng": -73.970922,
+    "lat": 40.754457,
+    "label": "209 EAST 48 STREET, New York, NY, USA",
+    "bbl": "1013220007",
+    "bin": "1038001",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "209",
+    "street": "EAST 48 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-09T15:50:11.428Z",
+    "since": "2021-11-09",
+    "records": [],
+    "errors": {
+     "311": "The operation was aborted due to timeout"
+    }
+   }
   }
  },
  "emails": [
@@ -18738,6 +18845,11 @@
    "id": "1a1c0963d0fa002a",
    "date": "2026-11-09T13:53:53.000Z",
    "found": 1
+  },
+  {
+   "id": "1a1c0f8294c56aeb",
+   "date": "2026-11-09T15:40:50.000Z",
+   "found": 2
   }
  ]
 }
