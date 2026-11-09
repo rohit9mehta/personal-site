@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-09T16:40:11.242Z",
+ "updatedAt": "2026-11-09T20:10:21.715Z",
  "listings": [
   {
    "id": "5196324",
@@ -510,7 +510,7 @@
    "price": 3495,
    "updates": [],
    "firstSeen": "2026-11-04T14:03:35.000Z",
-   "lastSeen": "2026-11-04T14:03:35.000Z",
+   "lastSeen": "2026-11-09T20:05:18.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -522,7 +522,9 @@
    "kind": "Rental Unit",
    "beds": 1,
    "baths": 1,
-   "broker": "Corcoran"
+   "broker": "Corcoran",
+   "suggested": false,
+   "unit": "3G"
   },
   {
    "id": "5196110",
@@ -709,10 +711,10 @@
    "address": "109 East 29th Street",
    "price": 6200,
    "updates": [
-    "Open House"
+    "Price Drop: $100"
    ],
    "firstSeen": "2026-11-04T20:03:50.000Z",
-   "lastSeen": "2026-11-04T21:40:15.000Z",
+   "lastSeen": "2026-11-09T20:05:18.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -759,16 +761,20 @@
    "id": "5146399",
    "url": "https://streeteasy.com/rental/5146399",
    "address": "510 2nd Avenue",
-   "price": 6357,
+   "price": 6107,
    "updates": [
-    "Price Drop: $103"
+    "Price Drop: $250"
    ],
    "firstSeen": "2026-11-04T20:03:50.000Z",
-   "lastSeen": "2026-11-04T20:03:50.000Z",
+   "lastSeen": "2026-11-09T20:05:18.000Z",
    "prices": [
     {
      "date": "2026-11-04",
      "price": 6357
+    },
+    {
+     "date": "2026-11-09",
+     "price": 6107
     }
    ],
    "building": "510 2 ave",
@@ -3461,6 +3467,79 @@
    "baths": 1,
    "broker": "Voro Purple LLC",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5166256",
+   "url": "https://streeteasy.com/rental/5166256",
+   "address": "520 2nd Avenue",
+   "price": 6282,
+   "updates": [
+    "Price Drop: $250"
+   ],
+   "firstSeen": "2026-11-09T20:05:18.000Z",
+   "lastSeen": "2026-11-09T20:05:18.000Z",
+   "prices": [
+    {
+     "date": "2026-11-09",
+     "price": 6282
+    }
+   ],
+   "building": "520 2 ave",
+   "unit": "16C",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental unit",
+   "noFee": true,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 762,
+   "broker": "Beam Living",
+   "suggested": true
+  },
+  {
+   "id": "5191616",
+   "url": "https://streeteasy.com/rental/5191616",
+   "address": "142 East 49th Street",
+   "price": 3850,
+   "updates": [],
+   "firstSeen": "2026-11-09T20:05:18.000Z",
+   "lastSeen": "2026-11-09T20:05:18.000Z",
+   "prices": [
+    {
+     "date": "2026-11-09",
+     "price": 3850
+    }
+   ],
+   "building": "142 e 49 st",
+   "unit": "9A",
+   "neighborhood": "Turtle Bay",
+   "kind": "Coop unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "SERHANT.",
+   "suggested": true
+  },
+  {
+   "id": "5197505",
+   "url": "https://streeteasy.com/rental/5197505",
+   "address": "348 East 58th Street",
+   "price": 3500,
+   "updates": [],
+   "firstSeen": "2026-11-09T20:05:18.000Z",
+   "lastSeen": "2026-11-09T20:05:18.000Z",
+   "prices": [
+    {
+     "date": "2026-11-09",
+     "price": 3500
+    }
+   ],
+   "building": "348 e 58 st",
+   "unit": "4D",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "CNYC Apartments",
+   "suggested": true
   }
  ],
  "buildings": {
@@ -18503,6 +18582,41 @@
      "311": "The operation was aborted due to timeout"
     }
    }
+  },
+  "142 e 49 st": {
+   "address": "142 East 49th Street",
+   "geo": {
+    "lng": -73.972296,
+    "lat": 40.755443,
+    "label": "142 EAST 49 STREET, New York, NY, USA",
+    "bbl": "1013030046",
+    "bin": "1036231",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "142",
+    "street": "EAST 49 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-09T20:10:21.715Z",
+    "since": "2021-11-09",
+    "records": [
+     {
+      "source": "311",
+      "date": "2026-06-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "hpd-violation": "fetch failed",
+     "hpd-complaint": "The operation was aborted due to timeout"
+    }
+   }
   }
  },
  "emails": [
@@ -18855,6 +18969,16 @@
    "id": "1a1c125a8f05bfd0",
    "date": "2026-11-09T16:30:29.000Z",
    "found": 4
+  },
+  {
+   "id": "1a1c1ea480eb98fb",
+   "date": "2026-11-09T20:05:18.000Z",
+   "found": 3
+  },
+  {
+   "id": "1a1c1ea6b40c9a98",
+   "date": "2026-11-09T20:05:18.000Z",
+   "found": 3
   }
  ]
 }
