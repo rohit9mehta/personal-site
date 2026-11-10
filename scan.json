@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-09T22:40:06.001Z",
+ "updatedAt": "2026-11-10T01:10:08.815Z",
  "listings": [
   {
    "id": "5196324",
@@ -187,7 +187,7 @@
    "price": 3000,
    "updates": [],
    "firstSeen": "2026-11-03T21:32:14.000Z",
-   "lastSeen": "2026-11-03T21:32:14.000Z",
+   "lastSeen": "2026-11-10T01:04:32.000Z",
    "prices": [
     {
      "date": "2026-11-03",
@@ -390,7 +390,7 @@
    "price": 2995,
    "updates": [],
    "firstSeen": "2026-11-04T03:34:14.000Z",
-   "lastSeen": "2026-11-06T20:03:43.000Z",
+   "lastSeen": "2026-11-10T01:04:32.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -404,7 +404,8 @@
    "beds": 0,
    "baths": 1,
    "broker": "Ovation Properties, LLC",
-   "suggested": false
+   "suggested": false,
+   "offMarket": true
   },
   {
    "id": "5195295",
@@ -1119,7 +1120,7 @@
    "price": 3500,
    "updates": [],
    "firstSeen": "2026-11-05T03:41:32.000Z",
-   "lastSeen": "2026-11-09T22:39:33.000Z",
+   "lastSeen": "2026-11-10T01:04:27.000Z",
    "prices": [
     {
      "date": "2026-11-05",
@@ -2181,7 +2182,7 @@
    "price": 2950,
    "updates": [],
    "firstSeen": "2026-11-06T21:41:01.000Z",
-   "lastSeen": "2026-11-06T21:41:01.000Z",
+   "lastSeen": "2026-11-10T01:04:32.000Z",
    "prices": [
     {
      "date": "2026-11-06",
@@ -2195,7 +2196,8 @@
    "beds": 0,
    "baths": 1,
    "broker": "E Hudson Properties",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5199115",
@@ -3845,6 +3847,60 @@
    "baths": 1,
    "broker": "Owner",
    "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5149897",
+   "url": "https://streeteasy.com/rental/5149897",
+   "address": "888 Main Street",
+   "price": 3445,
+   "updates": [
+    "Price Drop: $26"
+   ],
+   "firstSeen": "2026-11-10T01:04:27.000Z",
+   "lastSeen": "2026-11-10T01:04:27.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 3445
+    }
+   ],
+   "building": "888 main st",
+   "unit": "939",
+   "neighborhood": "Roosevelt Island",
+   "kind": "Rental unit",
+   "noFee": true,
+   "beds": 0,
+   "baths": 1,
+   "sqft": 500,
+   "broker": "Greystar",
+   "suggested": true
+  },
+  {
+   "id": "5157220",
+   "url": "https://streeteasy.com/rental/5157220",
+   "address": "888 Main Street",
+   "price": 3555,
+   "updates": [
+    "Price Drop: $26"
+   ],
+   "firstSeen": "2026-11-10T01:04:27.000Z",
+   "lastSeen": "2026-11-10T01:04:27.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 3555
+    }
+   ],
+   "building": "888 main st",
+   "unit": "PH35",
+   "neighborhood": "Roosevelt Island",
+   "kind": "Rental unit",
+   "noFee": true,
+   "beds": 0,
+   "baths": 1,
+   "sqft": 500,
+   "broker": "Greystar",
+   "suggested": true
   }
  ],
  "buildings": {
@@ -19764,6 +19820,361 @@
     "errors": {},
     "hpdBuildingId": "804765"
    }
+  },
+  "888 main st": {
+   "address": "888 Main Street",
+   "geo": {
+    "lng": -73.944025,
+    "lat": 40.768579,
+    "label": "888 MAIN STREET, New York, NY, USA",
+    "bbl": "1013730001",
+    "bin": "1086085",
+    "neighborhood": "Roosevelt Island",
+    "borough": "Manhattan",
+    "zip": "10044",
+    "houseNumber": "888",
+    "street": "MAIN STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T01:10:08.815Z",
+    "since": "2021-11-10",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-11-08",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "14C",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-30",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "PH12",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-09-29",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "8J",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-25",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "8J",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-09-06",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "8J",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-09-06",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "20H",
+      "status": "Open"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 161 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-09-22",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "3M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-24",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-08-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-12",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-12",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-12",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-12",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-12",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-05-21",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3J",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-01-10",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 3 of 361 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2024-12-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-12-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 501 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2024-07-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-05-21",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "6A",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-05-19",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "6A",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-02-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "20G",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-06-07",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5K",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-04-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "8R",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-12-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "8R",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "8R",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-09-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-06-23",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "11G",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-03-08",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "805076"
+   }
   }
  },
  "emails": [
@@ -20151,6 +20562,16 @@
    "id": "1a1c277810a3d2af",
    "date": "2026-11-09T22:39:33.000Z",
    "found": 1
+  },
+  {
+   "id": "1a1c2fc2cd73b014",
+   "date": "2026-11-10T01:04:27.000Z",
+   "found": 3
+  },
+  {
+   "id": "1a1c2fc3e4f474fd",
+   "date": "2026-11-10T01:04:32.000Z",
+   "found": 3
   }
  ]
 }
