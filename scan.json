@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T14:00:06.742Z",
+ "updatedAt": "2026-11-10T15:40:21.597Z",
  "listings": [
   {
    "id": "5196324",
@@ -4341,6 +4341,54 @@
    "baths": 1,
    "broker": "Hot Spot Invest Inc",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5199022",
+   "url": "https://streeteasy.com/rental/5199022",
+   "address": "150 East 56th Street",
+   "price": 4500,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-10T15:35:55.000Z",
+   "lastSeen": "2026-11-10T15:35:55.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 4500
+    }
+   ],
+   "building": "150 e 56 st",
+   "unit": "5F",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Owner",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5198155",
+   "url": "https://streeteasy.com/rental/5198155",
+   "address": "255 East 50th Street",
+   "price": 4750,
+   "updates": [],
+   "firstSeen": "2026-11-10T15:35:55.000Z",
+   "lastSeen": "2026-11-10T15:35:55.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 4750
+    }
+   ],
+   "building": "255 e 50 st",
+   "unit": "3B",
+   "neighborhood": "Turtle Bay",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Brookhaus Capital Inc",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
   }
  ],
  "buildings": {
@@ -21677,6 +21725,99 @@
     "errors": {},
     "hpdBuildingId": "2244"
    }
+  },
+  "150 e 56 st": {
+   "address": "150 East 56th Street",
+   "geo": {
+    "lng": -73.968861,
+    "lat": 40.759752,
+    "label": "150 EAST 56 STREET, New York, NY, USA",
+    "bbl": "1013107503",
+    "bin": "1036787",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "150",
+    "street": "EAST 56 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T15:40:21.597Z",
+    "since": "2021-11-10",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "14400"
+   }
+  },
+  "255 e 50 st": {
+   "address": "255 East 50th Street",
+   "geo": {
+    "lng": -73.968718,
+    "lat": 40.755093,
+    "label": "255 EAST 50 STREET, New York, NY, USA",
+    "bbl": "1013240022",
+    "bin": "1038438",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "255",
+    "street": "EAST 50 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T15:40:21.597Z",
+    "since": "2021-11-10",
+    "records": [
+     {
+      "source": "311",
+      "date": "2026-09-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-07-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "1602"
+   }
   }
  },
  "emails": [
@@ -22114,6 +22255,11 @@
    "id": "1a1c5bdb05e64178",
    "date": "2026-11-10T13:55:04.000Z",
    "found": 3
+  },
+  {
+   "id": "1a1c61a042d189e3",
+   "date": "2026-11-10T15:35:55.000Z",
+   "found": 2
   }
  ]
 }
