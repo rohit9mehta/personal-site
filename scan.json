@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T15:40:21.597Z",
+ "updatedAt": "2026-11-10T16:40:13.816Z",
  "listings": [
   {
    "id": "5196324",
@@ -18557,9 +18557,36 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T15:50:11.428Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-10T16:40:13.816Z",
+    "since": "2021-11-10",
     "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
      {
       "source": "hpd-complaint",
       "date": "2021-12-12",
@@ -18581,6 +18608,16 @@
       "status": "Closed"
      },
      {
+      "source": "hpd-violation",
+      "date": "2021-12-04",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "4D",
+      "status": "Closed"
+     },
+     {
       "source": "hpd-complaint",
       "date": "2021-11-29",
       "kinds": [
@@ -18591,10 +18628,8 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "hpd-violation": "The operation was aborted due to timeout",
-     "rat-inspection": "fetch failed"
-    }
+    "errors": {},
+    "hpdBuildingId": "671"
    }
   },
   "238 w 56 st": {
@@ -19543,12 +19578,10 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T15:50:11.428Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-10T16:40:13.816Z",
+    "since": "2021-11-10",
     "records": [],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    }
+    "errors": {}
    }
   },
   "142 e 49 st": {
@@ -22260,6 +22293,11 @@
    "id": "1a1c61a042d189e3",
    "date": "2026-11-10T15:35:55.000Z",
    "found": 2
+  },
+  {
+   "id": "1a1c64cd278be93f",
+   "date": "2026-11-10T16:31:22.000Z",
+   "found": 4
   }
  ]
 }
