@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T07:31:54.328Z",
+ "updatedAt": "2026-11-10T14:00:06.742Z",
  "listings": [
   {
    "id": "5196324",
@@ -211,7 +211,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-03T21:32:14.000Z",
-   "lastSeen": "2026-11-03T21:32:14.000Z",
+   "lastSeen": "2026-11-10T13:55:04.000Z",
    "prices": [
     {
      "date": "2026-11-03",
@@ -224,7 +224,9 @@
    "kind": "Condo",
    "beds": 0,
    "baths": 1,
-   "broker": "Compass"
+   "broker": "Compass",
+   "suggested": false,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
   },
   {
    "id": "5195981",
@@ -4031,7 +4033,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-10T03:34:51.000Z",
-   "lastSeen": "2026-11-10T04:52:41.000Z",
+   "lastSeen": "2026-11-10T13:55:07.000Z",
    "prices": [
     {
      "date": "2026-11-10",
@@ -4152,7 +4154,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-10T04:52:41.000Z",
-   "lastSeen": "2026-11-10T04:52:41.000Z",
+   "lastSeen": "2026-11-10T13:55:07.000Z",
    "prices": [
     {
      "date": "2026-11-10",
@@ -4166,7 +4168,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "NY 10065)",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5201068",
@@ -4263,6 +4266,81 @@
    "broker": "Buchbinder & Warren",
    "offMarket": true,
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5183143",
+   "url": "https://streeteasy.com/rental/5183143",
+   "address": "153 Norfolk Street",
+   "price": 4650,
+   "updates": [
+    "Open House  Price Drop: $200"
+   ],
+   "firstSeen": "2026-11-10T13:55:05.000Z",
+   "lastSeen": "2026-11-10T13:55:05.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 4650
+    }
+   ],
+   "building": "153 norfolk st",
+   "unit": "2C",
+   "neighborhood": "Lower East Side",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Living New York",
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5139859",
+   "url": "https://streeteasy.com/rental/5139859",
+   "address": "152 East 35th Street",
+   "price": 3000,
+   "updates": [
+    "Open House  Price Drop: $300"
+   ],
+   "firstSeen": "2026-11-10T13:55:04.000Z",
+   "lastSeen": "2026-11-10T13:55:04.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 3000
+    }
+   ],
+   "building": "152 e 35 st",
+   "unit": "3H",
+   "neighborhood": "Murray Hill",
+   "kind": "Coop",
+   "beds": 0,
+   "baths": 1,
+   "broker": "FIND Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197672",
+   "url": "https://streeteasy.com/rental/5197672",
+   "address": "430 3rd Avenue",
+   "price": 3599,
+   "updates": [
+    "Price Drop: $101 Open House"
+   ],
+   "firstSeen": "2026-11-10T13:55:04.000Z",
+   "lastSeen": "2026-11-10T13:55:04.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 3599
+    }
+   ],
+   "building": "430 3 ave",
+   "unit": "2",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Hot Spot Invest Inc",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -21493,6 +21571,112 @@
     "errors": {},
     "hpdBuildingId": "31272"
    }
+  },
+  "153 norfolk st": {
+   "address": "153 Norfolk Street",
+   "geo": {
+    "lng": -73.938659,
+    "lat": 40.579518,
+    "label": "153 NORFOLK STREET, Brooklyn, NY, USA",
+    "bbl": "3087570035",
+    "bin": "3246756",
+    "neighborhood": "Manhattan Beach",
+    "borough": "Brooklyn",
+    "zip": "11235",
+    "houseNumber": "153",
+    "street": "NORFOLK STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T14:00:06.742Z",
+    "since": "2021-11-10",
+    "records": [],
+    "errors": {}
+   }
+  },
+  "430 3 ave": {
+   "address": "430 3rd Avenue",
+   "geo": {
+    "lng": -73.980339,
+    "lat": 40.743238,
+    "label": "430 3 AVENUE, New York, NY, USA",
+    "bbl": "1008850049",
+    "bin": "1018265",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "430",
+    "street": "3 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T14:00:06.742Z",
+    "since": "2021-11-10",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2024-07-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2024-07-22",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-01-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-12-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2023-11-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "2244"
+   }
   }
  },
  "emails": [
@@ -21915,6 +22099,21 @@
    "id": "1a1c3cd2237cccc5",
    "date": "2026-11-10T04:52:42.000Z",
    "found": 5
+  },
+  {
+   "id": "1a1c5bdbb7956ec8",
+   "date": "2026-11-10T13:55:05.000Z",
+   "found": 1
+  },
+  {
+   "id": "1a1c5bdba1f71da6",
+   "date": "2026-11-10T13:55:07.000Z",
+   "found": 2
+  },
+  {
+   "id": "1a1c5bdb05e64178",
+   "date": "2026-11-10T13:55:04.000Z",
+   "found": 3
   }
  ]
 }
