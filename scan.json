@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T05:00:07.577Z",
+ "updatedAt": "2026-11-10T07:31:54.328Z",
  "listings": [
   {
    "id": "5196324",
@@ -15459,12 +15459,10 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T06:55:30.345Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-10T07:31:54.328Z",
+    "since": "2021-11-10",
     "records": [],
-    "errors": {
-     "rat-inspection": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
-    }
+    "errors": {}
    }
   },
   "577 second ave": {
@@ -17158,18 +17156,9 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T06:55:30.345Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-10T07:31:54.328Z",
+    "since": "2021-11-10",
     "records": [
-     {
-      "source": "hpd-violation",
-      "date": "2026-04-29",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     },
      {
       "source": "hpd-complaint",
       "date": "2025-12-15",
@@ -17182,9 +17171,8 @@
      }
     ],
     "errors": {
-     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
-    },
-    "hpdBuildingId": "12001"
+     "hpd-violation": "The operation was aborted due to timeout"
+    }
    }
   },
   "131 thompson st": {
