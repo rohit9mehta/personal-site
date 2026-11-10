@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T03:40:15.646Z",
+ "updatedAt": "2026-11-10T05:00:07.577Z",
  "listings": [
   {
    "id": "5196324",
@@ -3909,7 +3909,7 @@
    "price": 2950,
    "updates": [],
    "firstSeen": "2026-11-10T03:34:51.000Z",
-   "lastSeen": "2026-11-10T03:34:51.000Z",
+   "lastSeen": "2026-11-10T04:52:42.000Z",
    "prices": [
     {
      "date": "2026-11-10",
@@ -3923,7 +3923,8 @@
    "beds": 1,
    "baths": 1,
    "broker": "Douglas Elliman",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5200908",
@@ -4030,7 +4031,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-10T03:34:51.000Z",
-   "lastSeen": "2026-11-10T03:34:51.000Z",
+   "lastSeen": "2026-11-10T04:52:41.000Z",
    "prices": [
     {
      "date": "2026-11-10",
@@ -4044,7 +4045,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Compass",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5201109",
@@ -4055,7 +4057,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-10T03:34:51.000Z",
-   "lastSeen": "2026-11-10T03:34:51.000Z",
+   "lastSeen": "2026-11-10T04:52:41.000Z",
    "prices": [
     {
      "date": "2026-11-10",
@@ -4069,7 +4071,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Corcoran",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5200887",
@@ -4139,6 +4142,127 @@
    "baths": 2,
    "broker": "Twin Group",
    "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5193403",
+   "url": "https://streeteasy.com/rental/5193403",
+   "address": "201 East 36th Street",
+   "price": 6000,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-10T04:52:41.000Z",
+   "lastSeen": "2026-11-10T04:52:41.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 6000
+    }
+   ],
+   "building": "201 e 36 st",
+   "unit": "17D",
+   "neighborhood": "Murray Hill",
+   "kind": "Condo",
+   "beds": 2,
+   "baths": 1,
+   "broker": "NY 10065)",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5201068",
+   "url": "https://streeteasy.com/rental/5201068",
+   "address": "107 East 35th Street",
+   "price": 4000,
+   "updates": [],
+   "firstSeen": "2026-11-10T04:52:42.000Z",
+   "lastSeen": "2026-11-10T04:52:42.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 4000
+    }
+   ],
+   "building": "107 e 35 st",
+   "unit": "2A",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "City Connections Realty",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5200916",
+   "url": "https://streeteasy.com/rental/5200916",
+   "address": "150 West 51st Street",
+   "price": 3900,
+   "updates": [],
+   "firstSeen": "2026-11-10T04:52:42.000Z",
+   "lastSeen": "2026-11-10T04:52:42.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 3900
+    }
+   ],
+   "building": "150 w 51 st",
+   "unit": "1001",
+   "neighborhood": "Midtown",
+   "kind": "Condo",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Manhattan Management Group",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5186146",
+   "url": "https://streeteasy.com/rental/5186146",
+   "address": "226 West 15th Street",
+   "price": 4100,
+   "updates": [
+    "Off-market  Price Drop: $200"
+   ],
+   "firstSeen": "2026-11-10T04:52:42.000Z",
+   "lastSeen": "2026-11-10T04:52:42.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 4100
+    }
+   ],
+   "building": "226 w 15 st",
+   "unit": "1A",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Buchbinder & Warren",
+   "offMarket": true,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5186253",
+   "url": "https://streeteasy.com/rental/5186253",
+   "address": "255 West 22nd Street",
+   "price": 4200,
+   "updates": [],
+   "firstSeen": "2026-11-10T04:52:42.000Z",
+   "lastSeen": "2026-11-10T04:52:42.000Z",
+   "prices": [
+    {
+     "date": "2026-11-10",
+     "price": 4200
+    }
+   ],
+   "building": "255 w 22 st",
+   "unit": "2C",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Buchbinder & Warren",
+   "offMarket": true,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
   }
  ],
  "buildings": {
@@ -19144,9 +19268,27 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T05:00:05.460Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-10T05:00:07.577Z",
+    "since": "2021-11-10",
     "records": [
+     {
+      "source": "311",
+      "date": "2022-02-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-02-09",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
      {
       "source": "rat-inspection",
       "date": "2022-01-12",
@@ -19156,10 +19298,7 @@
       "text": "Health Department inspector found rat activity on the property"
      }
     ],
-    "errors": {
-     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
-     "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
-    }
+    "errors": {}
    }
   },
   "36 e 38 st": {
@@ -21047,6 +21186,325 @@
     "errors": {},
     "hpdBuildingId": "1019254"
    }
+  },
+  "201 e 36 st": {
+   "address": "201 East 36th Street",
+   "geo": {
+    "lng": -73.97673,
+    "lat": 40.747073,
+    "label": "201 EAST 36 STREET, New York, NY, USA",
+    "bbl": "1009177501",
+    "bin": "1020214",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "201",
+    "street": "EAST 36 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T05:00:07.577Z",
+    "since": "2021-11-10",
+    "records": [],
+    "errors": {}
+   }
+  },
+  "107 e 35 st": {
+   "address": "107 East 35th Street",
+   "geo": {
+    "lng": -73.980076,
+    "lat": 40.747677,
+    "label": "107 EAST 35 STREET, New York, NY, USA",
+    "bbl": "1008910007",
+    "bin": "1018887",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "107",
+    "street": "EAST 35 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T05:00:07.577Z",
+    "since": "2021-11-10",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2025-10-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "2B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-10-03",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "2B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-07-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "2B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-07-02",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "2B",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-10-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2024-09-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2024-08-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-08-22",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-10-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13288"
+   }
+  },
+  "150 w 51 st": {
+   "address": "150 West 51st Street",
+   "geo": {
+    "lng": -73.982763,
+    "lat": 40.761278,
+    "label": "150 WEST 51 STREET, New York, NY, USA",
+    "bbl": "1010037501",
+    "bin": "1022710",
+    "neighborhood": "Midtown West",
+    "borough": "Manhattan",
+    "zip": "10020",
+    "houseNumber": "150",
+    "street": "WEST 51 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T05:00:07.577Z",
+    "since": "2021-11-10",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-02-06",
+      "kinds": [
+       "other"
+      ],
+      "text": "Termites",
+      "apartment": "835",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-20",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 445 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2025-12-19",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 445 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-11-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "330",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2024-12-09",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 2 of 445 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-12-21",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 4 of 445 apartments that year"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-09-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2023-09-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Signs of Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2022-12-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 2 of 445 apartments that year"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "226 w 15 st": {
+   "address": "226 West 15th Street",
+   "geo": {
+    "lng": -74.000582,
+    "lat": 40.739653,
+    "label": "226 WEST 15 STREET, New York, NY, USA",
+    "bbl": "1007640053",
+    "bin": "1076134",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "226",
+    "street": "WEST 15 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T05:00:07.577Z",
+    "since": "2021-11-10",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2024-10-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "30421"
+   }
+  },
+  "255 w 22 st": {
+   "address": "255 West 22nd Street",
+   "geo": {
+    "lng": -73.997691,
+    "lat": 40.744285,
+    "label": "255 WEST 22 STREET, New York, NY, USA",
+    "bbl": "1007720016",
+    "bin": "1014110",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "255",
+    "street": "WEST 22 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-10T05:00:07.577Z",
+    "since": "2021-11-10",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2024-07-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-10-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "31272"
+   }
   }
  },
  "emails": [
@@ -21459,6 +21917,16 @@
    "id": "1a1c385d9d418de8",
    "date": "2026-11-10T03:34:51.000Z",
    "found": 1
+  },
+  {
+   "id": "1a1c3cd1fa2a8362",
+   "date": "2026-11-10T04:52:41.000Z",
+   "found": 3
+  },
+  {
+   "id": "1a1c3cd2237cccc5",
+   "date": "2026-11-10T04:52:42.000Z",
+   "found": 5
   }
  ]
 }
