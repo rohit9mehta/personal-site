@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-11T15:40:11.862Z",
+ "updatedAt": "2026-11-11T16:40:06.054Z",
  "listings": [
   {
    "id": "5196324",
@@ -9455,8 +9455,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T15:40:21.350Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T16:40:06.054Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "hpd-violation",
@@ -9506,8 +9506,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T15:40:21.350Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T16:40:06.054Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "hpd-violation",
@@ -9575,8 +9575,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T15:40:21.350Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T16:40:06.054Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "hpd-complaint",
@@ -9635,8 +9635,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T15:40:21.350Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T16:40:06.054Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "hpd-violation",
@@ -9677,18 +9677,18 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T15:40:21.350Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T16:40:06.054Z",
+    "since": "2021-11-11",
     "records": [
      {
-      "source": "hpd-complaint",
-      "date": "2026-09-15",
+      "source": "hpd-violation",
+      "date": "2026-11-07",
       "kinds": [
        "roaches"
       ],
-      "text": "Roaches",
-      "apartment": "3D",
-      "status": "Closed"
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "16L",
+      "status": "Open"
      },
      {
       "source": "hpd-complaint",
@@ -9697,6 +9697,16 @@
        "other"
       ],
       "text": "Flies",
+      "apartment": "3D",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
       "apartment": "3D",
       "status": "Closed"
      },
@@ -10140,9 +10150,9 @@
       "source": "hpd-complaint",
       "date": "2023-10-02",
       "kinds": [
-       "roaches"
+       "other"
       ],
-      "text": "Roaches",
+      "text": "Pests (other)",
       "apartment": "3D",
       "status": "Closed"
      },
@@ -10150,11 +10160,20 @@
       "source": "hpd-complaint",
       "date": "2023-10-02",
       "kinds": [
-       "other"
+       "roaches"
       ],
-      "text": "Pests (other)",
+      "text": "Roaches",
       "apartment": "3D",
       "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-09-13",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at public hall, 24th story",
+      "status": "Open"
      },
      {
       "source": "hpd-violation",
@@ -10164,15 +10183,6 @@
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
       "apartment": "24A",
-      "status": "Open"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2023-09-13",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at public hall, 24th story",
       "status": "Open"
      },
      {
@@ -10470,8 +10480,8 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "4A",
-      "status": "Closed"
+      "apartment": "20K",
+      "status": "Open"
      },
      {
       "source": "hpd-violation",
@@ -10480,8 +10490,8 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "20K",
-      "status": "Open"
+      "apartment": "4A",
+      "status": "Closed"
      },
      {
       "source": "hpd-complaint",
@@ -10602,20 +10612,10 @@
       ],
       "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
       "status": "Closed"
-     },
-     {
-      "source": "hpd-complaint",
-      "date": "2021-11-05",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "Mice",
-      "apartment": "4B",
-      "status": "Closed"
      }
     ],
     "errors": {},
-    "hpdBuildingId": "805447"
+    "hpdBuildingId": "805448"
    }
   },
   "237 e 34 st": {
@@ -10634,8 +10634,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T15:40:21.350Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T16:40:06.054Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "311",
@@ -24935,6 +24935,11 @@
    "id": "1a1cb401d54480d0",
    "date": "2026-11-11T15:35:38.000Z",
    "found": 1
+  },
+  {
+   "id": "1a1cb7292e83b793",
+   "date": "2026-11-11T16:30:43.000Z",
+   "found": 4
   }
  ]
 }
