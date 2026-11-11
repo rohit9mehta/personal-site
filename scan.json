@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-11T03:40:04.782Z",
+ "updatedAt": "2026-11-11T05:00:08.120Z",
  "listings": [
   {
    "id": "5196324",
@@ -2593,7 +2593,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-07T03:35:43.000Z",
-   "lastSeen": "2026-11-11T03:35:21.000Z",
+   "lastSeen": "2026-11-11T04:51:03.000Z",
    "prices": [
     {
      "date": "2026-11-07",
@@ -4806,7 +4806,7 @@
     "Open House  Price Drop: $300"
    ],
    "firstSeen": "2026-11-11T03:35:21.000Z",
-   "lastSeen": "2026-11-11T03:35:21.000Z",
+   "lastSeen": "2026-11-11T04:51:03.000Z",
    "prices": [
     {
      "date": "2026-11-11",
@@ -4819,7 +4819,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Heller Organization",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5201871",
@@ -4866,6 +4867,129 @@
    "baths": 1,
    "broker": "DALLAL",
    "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5201863",
+   "url": "https://streeteasy.com/rental/5201863",
+   "address": "550 Tenth Avenue",
+   "price": 3225,
+   "updates": [],
+   "firstSeen": "2026-11-11T04:51:02.000Z",
+   "lastSeen": "2026-11-11T04:51:02.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 3225
+    }
+   ],
+   "building": "550 tenth ave",
+   "unit": "1010",
+   "neighborhood": "Hudson Yards",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "sqft": 481,
+   "broker": "44th Street Development LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5178767",
+   "url": "https://streeteasy.com/rental/5178767",
+   "address": "254 West 15th Street",
+   "price": 4500,
+   "updates": [
+    "In Contract Open House"
+   ],
+   "firstSeen": "2026-11-11T04:51:02.000Z",
+   "lastSeen": "2026-11-11T04:51:02.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 4500
+    }
+   ],
+   "building": "254 w 15 st",
+   "unit": "3C",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Corcoran",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5201472",
+   "url": "https://streeteasy.com/rental/5201472",
+   "address": "221 Mott Street",
+   "price": 4500,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-11T04:51:02.000Z",
+   "lastSeen": "2026-11-11T04:51:02.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 4500
+    }
+   ],
+   "building": "221 mott st",
+   "unit": "12",
+   "neighborhood": "Nolita",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Canvas Property Group",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5175750",
+   "url": "https://streeteasy.com/rental/5175750",
+   "address": "229 West 15th Street",
+   "price": 4000,
+   "updates": [],
+   "firstSeen": "2026-11-11T04:51:02.000Z",
+   "lastSeen": "2026-11-11T04:51:02.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 4000
+    }
+   ],
+   "building": "229 w 15 st",
+   "unit": "5B",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Bond New York",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5201332",
+   "url": "https://streeteasy.com/rental/5201332",
+   "address": "223 Mott Street",
+   "price": 4500,
+   "updates": [
+    "Rented 11/10/26"
+   ],
+   "firstSeen": "2026-11-11T04:51:02.000Z",
+   "lastSeen": "2026-11-11T04:51:02.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 4500
+    }
+   ],
+   "building": "223 mott st",
+   "unit": "10",
+   "neighborhood": "Nolita",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "REAL New York",
+   "offMarket": true,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
   }
  ],
  "buildings": {
@@ -21307,41 +21431,22 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-11T05:00:08.120Z",
+    "since": "2021-11-11",
     "records": [
      {
-      "source": "hpd-violation",
-      "date": "2025-06-04",
+      "source": "rat-inspection",
+      "date": "2025-02-21",
       "kinds": [
-       "bedbugs"
+       "rodents"
       ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2024-04-01",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2022-02-15",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
+      "text": "Health Department inspector found rat activity on the property"
      }
     ],
     "errors": {
-     "rat-inspection": "The operation was aborted due to timeout"
-    },
-    "hpdBuildingId": "12714"
+     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
+    }
    }
   },
   "110 e 36 st": {
@@ -21360,8 +21465,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-11T05:00:08.120Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "hpd-complaint",
@@ -21411,7 +21516,7 @@
      }
     ],
     "errors": {
-     "hpd-violation": "fetch failed"
+     "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
     }
    }
   },
@@ -21789,23 +21894,14 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
-    "records": [
-     {
-      "source": "hpd-violation",
-      "date": "2026-05-11",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     }
-    ],
+    "checkedAt": "2026-11-11T05:00:08.120Z",
+    "since": "2021-11-11",
+    "records": [],
     "errors": {
-     "rat-inspection": "fetch failed"
-    },
-    "hpdBuildingId": "1020851"
+     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "bedbugs": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
+    }
    }
   },
   "150 lawrence st": {
@@ -23750,6 +23846,124 @@
     "errors": {},
     "hpdBuildingId": "28428"
    }
+  },
+  "550 tenth ave": {
+   "address": "550 Tenth Avenue",
+   "geo": {
+    "lng": -73.99591,
+    "lat": 40.75851,
+    "label": "550 TENTH AVENUE, New York, NY, USA",
+    "bbl": "1010507502",
+    "bin": "1076207",
+    "neighborhood": "Hell's Kitchen",
+    "borough": "Manhattan",
+    "zip": "10018",
+    "houseNumber": "550",
+    "street": "TENTH AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T05:00:08.120Z",
+    "since": "2021-11-11",
+    "records": [],
+    "errors": {
+     "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "hpd-complaint": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "rat-inspection": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
+    }
+   }
+  },
+  "254 w 15 st": {
+   "address": "254 West 15th Street",
+   "geo": {
+    "lng": -74.001501,
+    "lat": 40.74002,
+    "label": "254 WEST 15 STREET, New York, NY, USA",
+    "bbl": "1007640067",
+    "bin": "1013749",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "254",
+    "street": "WEST 15 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T05:00:08.120Z",
+    "since": "2021-11-11",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2023-12-18",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 4 of 24 apartments that year"
+     }
+    ],
+    "errors": {
+     "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
+    }
+   }
+  },
+  "221 mott st": {
+   "address": "221 Mott Street",
+   "geo": {
+    "lng": -73.995408,
+    "lat": 40.722303,
+    "label": "221 MOTT STREET, New York, NY, USA",
+    "bbl": "1004940029",
+    "bin": "1083081",
+    "neighborhood": "Nolita",
+    "borough": "Manhattan",
+    "zip": "10012",
+    "houseNumber": "221",
+    "street": "MOTT STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T05:00:08.120Z",
+    "since": "2021-11-11",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "25684"
+   }
+  },
+  "229 w 15 st": {
+   "address": "229 West 15th Street",
+   "geo": {
+    "lng": -74.00031,
+    "lat": 40.739955,
+    "label": "229 WEST 15 STREET, New York, NY, USA",
+    "bbl": "1007650020",
+    "bin": "1013768",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10011",
+    "houseNumber": "229",
+    "street": "WEST 15 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T05:00:08.120Z",
+    "since": "2021-11-11",
+    "records": [],
+    "errors": {
+     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "hpd-violation": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "rat-inspection": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
+    }
+   }
   }
  },
  "emails": [
@@ -24232,6 +24446,16 @@
    "id": "1a1c8acb426ed34e",
    "date": "2026-11-11T03:35:23.000Z",
    "found": 3
+  },
+  {
+   "id": "1a1c8f1f91701971",
+   "date": "2026-11-11T04:51:02.000Z",
+   "found": 5
+  },
+  {
+   "id": "1a1c8f1fb68e2c70",
+   "date": "2026-11-11T04:51:03.000Z",
+   "found": 2
   }
  ]
 }
