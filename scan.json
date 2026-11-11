@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-11T14:00:46.474Z",
+ "updatedAt": "2026-11-11T15:40:11.862Z",
  "listings": [
   {
    "id": "5196324",
@@ -3468,16 +3468,20 @@
    "id": "5194094",
    "url": "https://streeteasy.com/rental/5194094",
    "address": "209 East 48th Street",
-   "price": 5250,
+   "price": 5000,
    "updates": [
-    "Open House"
+    "Open House  Price Drop: $250"
    ],
    "firstSeen": "2026-11-09T15:40:50.000Z",
-   "lastSeen": "2026-11-09T15:40:50.000Z",
+   "lastSeen": "2026-11-11T15:35:38.000Z",
    "prices": [
     {
      "date": "2026-11-09",
      "price": 5250
+    },
+    {
+     "date": "2026-11-11",
+     "price": 5000
     }
    ],
    "building": "209 e 48 st",
@@ -3487,7 +3491,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Voro Purple LLC",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5166256",
@@ -5052,7 +5057,7 @@
    "price": 3395,
    "updates": [],
    "firstSeen": "2026-11-11T13:55:39.000Z",
-   "lastSeen": "2026-11-11T13:55:39.000Z",
+   "lastSeen": "2026-11-11T15:35:35.000Z",
    "prices": [
     {
      "date": "2026-11-11",
@@ -5066,7 +5071,55 @@
    "beds": 1,
    "baths": 1,
    "broker": "Avenues Real Estate",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
+  },
+  {
+   "id": "5202091",
+   "url": "https://streeteasy.com/rental/5202091",
+   "address": "179 Prince Street",
+   "price": 3800,
+   "updates": [],
+   "firstSeen": "2026-11-11T15:35:35.000Z",
+   "lastSeen": "2026-11-11T15:35:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 3800
+    }
+   ],
+   "building": "179 prince st",
+   "unit": "5",
+   "neighborhood": "Soho",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "GreenVill Real Estate LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5195634",
+   "url": "https://streeteasy.com/rental/5195634",
+   "address": "237 East 53rd Street",
+   "price": 3595,
+   "updates": [],
+   "firstSeen": "2026-11-11T15:35:35.000Z",
+   "lastSeen": "2026-11-11T15:35:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 3595
+    }
+   ],
+   "building": "237 e 53 st",
+   "unit": "U4B",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Avenues Real Estate",
+   "offMarket": true,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
   }
  ],
  "buildings": {
@@ -9122,8 +9175,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T14:10:11.979Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T15:40:11.862Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "hpd-violation",
@@ -9171,8 +9224,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T14:10:11.979Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T15:40:11.862Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "hpd-violation",
@@ -9264,9 +9317,19 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T14:10:11.979Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T15:40:11.862Z",
+    "since": "2021-11-11",
     "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-11-05",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Bed Bugs",
+      "apartment": "303",
+      "status": "Open"
+     },
      {
       "source": "hpd-complaint",
       "date": "2025-09-13",
@@ -24295,6 +24358,76 @@
     "errors": {},
     "hpdBuildingId": "14237"
    }
+  },
+  "179 prince st": {
+   "address": "179 Prince Street",
+   "geo": {
+    "lng": -74.001885,
+    "lat": 40.726468,
+    "label": "179 PRINCE STREET, New York, NY, USA",
+    "bbl": "1005170041",
+    "bin": "1008055",
+    "neighborhood": "SoHo",
+    "borough": "Manhattan",
+    "zip": "10012",
+    "houseNumber": "179",
+    "street": "PRINCE STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T15:40:11.862Z",
+    "since": "2021-11-11",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2026-09-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-15",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "5",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-15",
+      "kinds": [
+       "other"
+      ],
+      "text": "Flies",
+      "apartment": "5",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-09-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
   }
  },
  "emails": [
@@ -24792,6 +24925,16 @@
    "id": "1a1cae495743afc8",
    "date": "2026-11-11T13:55:39.000Z",
    "found": 5
+  },
+  {
+   "id": "1a1cb4016337764d",
+   "date": "2026-11-11T15:35:35.000Z",
+   "found": 3
+  },
+  {
+   "id": "1a1cb401d54480d0",
+   "date": "2026-11-11T15:35:38.000Z",
+   "found": 1
   }
  ]
 }
