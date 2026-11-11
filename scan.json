@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T21:50:12.667Z",
+ "updatedAt": "2026-11-11T01:10:12.947Z",
  "listings": [
   {
    "id": "5196324",
@@ -392,7 +392,7 @@
    "price": 2995,
    "updates": [],
    "firstSeen": "2026-11-04T03:34:14.000Z",
-   "lastSeen": "2026-11-10T01:04:32.000Z",
+   "lastSeen": "2026-11-11T01:01:06.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -2162,7 +2162,7 @@
     "Price Drop: $155"
    ],
    "firstSeen": "2026-11-06T20:03:43.000Z",
-   "lastSeen": "2026-11-06T20:03:44.000Z",
+   "lastSeen": "2026-11-11T01:01:06.000Z",
    "prices": [
     {
      "date": "2026-11-06",
@@ -4604,6 +4604,30 @@
    "sqft": 750,
    "broker": "Cheryl Rodrigues Real Estate LLC",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5190256",
+   "url": "https://streeteasy.com/rental/5190256",
+   "address": "330 East 49th Street",
+   "price": 3250,
+   "updates": [],
+   "firstSeen": "2026-11-11T01:01:06.000Z",
+   "lastSeen": "2026-11-11T01:01:06.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 3250
+    }
+   ],
+   "building": "330 e 49 st",
+   "unit": "7B",
+   "neighborhood": "Turtle Bay",
+   "kind": "Condo unit",
+   "beds": 0,
+   "baths": 1,
+   "sqft": 460,
+   "broker": "Noble Realty",
+   "suggested": true
   }
  ],
  "buildings": {
@@ -7822,8 +7846,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T01:10:11.259Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T01:10:12.947Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "rat-inspection",
@@ -8056,8 +8080,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-04T01:10:11.259Z",
-    "since": "2021-11-04",
+    "checkedAt": "2026-11-11T01:10:12.947Z",
+    "since": "2021-11-11",
     "records": [
      {
       "source": "hpd-violation",
@@ -22985,6 +23009,47 @@
     "records": [],
     "errors": {}
    }
+  },
+  "330 e 49 st": {
+   "address": "330 East 49th Street",
+   "geo": {
+    "lng": -73.967774,
+    "lat": 40.753525,
+    "label": "330 EAST 49 STREET, New York, NY, USA",
+    "bbl": "1013417501",
+    "bin": "1038935",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "330",
+    "street": "EAST 49 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T01:10:12.947Z",
+    "since": "2021-11-11",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2024-12-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 141 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13953"
+   }
   }
  },
  "emails": [
@@ -23447,6 +23512,11 @@
    "id": "1a1c76743529dc37",
    "date": "2026-11-10T21:39:55.000Z",
    "found": 1
+  },
+  {
+   "id": "1a1c81f76d76d400",
+   "date": "2026-11-11T01:01:06.000Z",
+   "found": 3
   }
  ]
 }
