@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-11T06:49:25.153Z",
+ "updatedAt": "2026-11-11T14:00:46.474Z",
  "listings": [
   {
    "id": "5196324",
@@ -3413,14 +3413,20 @@
    "id": "5200185",
    "url": "https://streeteasy.com/rental/5200185",
    "address": "36 East 38th Street",
-   "price": 2650,
-   "updates": [],
+   "price": 2595,
+   "updates": [
+    "Price Drop: $55"
+   ],
    "firstSeen": "2026-11-09T13:53:54.000Z",
-   "lastSeen": "2026-11-09T13:53:54.000Z",
+   "lastSeen": "2026-11-11T13:55:39.000Z",
    "prices": [
     {
      "date": "2026-11-09",
      "price": 2650
+    },
+    {
+     "date": "2026-11-11",
+     "price": 2595
     }
    ],
    "building": "36 e 38 st",
@@ -3430,7 +3436,8 @@
    "beds": 0,
    "baths": 1,
    "broker": "AJ Clarke",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5162810",
@@ -4640,7 +4647,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-11T03:35:22.000Z",
-   "lastSeen": "2026-11-11T03:35:22.000Z",
+   "lastSeen": "2026-11-11T13:55:39.000Z",
    "prices": [
     {
      "date": "2026-11-11",
@@ -4654,7 +4661,8 @@
    "beds": 0,
    "baths": 1,
    "broker": "Taichi Fudosan",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5201832",
@@ -4990,6 +4998,75 @@
    "broker": "REAL New York",
    "offMarket": true,
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5202005",
+   "url": "https://streeteasy.com/rental/5202005",
+   "address": "221 East 33rd Street",
+   "price": 3500,
+   "updates": [],
+   "firstSeen": "2026-11-11T13:55:39.000Z",
+   "lastSeen": "2026-11-11T13:55:39.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 3500
+    }
+   ],
+   "building": "221 e 33 st",
+   "unit": "U4E",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Avenues Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5202014",
+   "url": "https://streeteasy.com/rental/5202014",
+   "address": "239 East 53rd Street",
+   "price": 3300,
+   "updates": [],
+   "firstSeen": "2026-11-11T13:55:39.000Z",
+   "lastSeen": "2026-11-11T13:55:39.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 3300
+    }
+   ],
+   "building": "239 e 53 st",
+   "unit": "R5C",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Avenues Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5202012",
+   "url": "https://streeteasy.com/rental/5202012",
+   "address": "237 East 53rd Street",
+   "price": 3395,
+   "updates": [],
+   "firstSeen": "2026-11-11T13:55:39.000Z",
+   "lastSeen": "2026-11-11T13:55:39.000Z",
+   "prices": [
+    {
+     "date": "2026-11-11",
+     "price": 3395
+    }
+   ],
+   "building": "237 e 53 st",
+   "unit": "3B",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Avenues Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -17883,9 +17960,18 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T07:31:54.328Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-11T14:00:46.474Z",
+    "since": "2021-11-11",
     "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
      {
       "source": "hpd-complaint",
       "date": "2025-12-15",
@@ -17897,9 +17983,8 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "hpd-violation": "The operation was aborted due to timeout"
-    }
+    "errors": {},
+    "hpdBuildingId": "12001"
    }
   },
   "131 thompson st": {
@@ -23964,6 +24049,252 @@
      "rat-inspection": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
     }
    }
+  },
+  "221 e 33 st": {
+   "address": "221 East 33rd Street",
+   "geo": {
+    "lng": -73.977402,
+    "lat": 40.744863,
+    "label": "221 EAST 33 STREET, New York, NY, USA",
+    "bbl": "1009140011",
+    "bin": "1020111",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "221",
+    "street": "EAST 33 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T14:00:46.474Z",
+    "since": "2021-11-11",
+    "records": [
+     {
+      "source": "311",
+      "date": "2026-09-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2026-09-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2026-09-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-09-05",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2024-11-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-09-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4E",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13182"
+   }
+  },
+  "239 e 53 st": {
+   "address": "239 East 53rd Street",
+   "geo": {
+    "lng": -73.967754,
+    "lat": 40.757243,
+    "label": "239 EAST 53 STREET, New York, NY, USA",
+    "bbl": "1013270017",
+    "bin": "1038556",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "239",
+    "street": "EAST 53 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T14:00:46.474Z",
+    "since": "2021-11-11",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2022-06-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-04-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-01-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2021-12-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2021-11-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "14238"
+   }
+  },
+  "237 e 53 st": {
+   "address": "237 East 53rd Street",
+   "geo": {
+    "lng": -73.967839,
+    "lat": 40.757278,
+    "label": "237 EAST 53 STREET, New York, NY, USA",
+    "bbl": "1013270016",
+    "bin": "1038555",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "237",
+    "street": "EAST 53 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-11T14:00:46.474Z",
+    "since": "2021-11-11",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "6C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-08-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "6C",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-03-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2025-01-30",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-01-10",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2021-12-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "14237"
+   }
   }
  },
  "emails": [
@@ -24456,6 +24787,11 @@
    "id": "1a1c8f1fb68e2c70",
    "date": "2026-11-11T04:51:03.000Z",
    "found": 2
+  },
+  {
+   "id": "1a1cae495743afc8",
+   "date": "2026-11-11T13:55:39.000Z",
+   "found": 5
   }
  ]
 }
