@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-12T07:26:39.483Z",
+ "updatedAt": "2026-11-12T14:00:09.030Z",
  "listings": [
   {
    "id": "5196324",
@@ -5528,6 +5528,78 @@
    "beds": 2,
    "baths": 1,
    "broker": "Dalan Rentals",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5202779",
+   "url": "https://streeteasy.com/rental/5202779",
+   "address": "342 9th Avenue",
+   "price": 5600,
+   "updates": [],
+   "firstSeen": "2026-11-12T13:58:13.000Z",
+   "lastSeen": "2026-11-12T13:58:13.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 5600
+    }
+   ],
+   "building": "342 9 ave",
+   "unit": "4",
+   "neighborhood": "Chelsea",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Corcoran",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5202762",
+   "url": "https://streeteasy.com/rental/5202762",
+   "address": "15 Park Avenue",
+   "price": 6600,
+   "updates": [],
+   "firstSeen": "2026-11-12T13:58:13.000Z",
+   "lastSeen": "2026-11-12T13:58:13.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 6600
+    }
+   ],
+   "building": "15 park ave",
+   "unit": "1602",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 2,
+   "sqft": 950,
+   "broker": "Brown Harris Stevens",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5184104",
+   "url": "https://streeteasy.com/rental/5184104",
+   "address": "200 East 30th Street",
+   "price": 5100,
+   "updates": [
+    "Price Drop: $100"
+   ],
+   "firstSeen": "2026-11-12T13:58:13.000Z",
+   "lastSeen": "2026-11-12T13:58:13.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 5100
+    }
+   ],
+   "building": "200 e 30 st",
+   "unit": "4K",
+   "neighborhood": "Kips Bay",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "RMR Apartments LLC",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   }
  ],
@@ -26125,6 +26197,422 @@
      "hpd-violation": "fetch failed"
     }
    }
+  },
+  "342 9 ave": {
+   "address": "342 9th Avenue",
+   "geo": {
+    "lng": -73.997974,
+    "lat": 40.75058,
+    "label": "342 9 AVENUE, New York, NY, USA",
+    "bbl": "1007530078",
+    "bin": "1068013",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "342",
+    "street": "9 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T14:00:09.030Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-11-09",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "2C",
+      "status": "Open"
+     },
+     {
+      "source": "311",
+      "date": "2023-08-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Mouse Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-04-28",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "7B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-01-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "3E",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "hpd-violation": "fetch failed"
+    }
+   }
+  },
+  "15 park ave": {
+   "address": "15 Park Avenue",
+   "geo": {
+    "lng": -73.980677,
+    "lat": 40.747382,
+    "label": "15 PARK AVENUE, New York, NY, USA",
+    "bbl": "1008900005",
+    "bin": "1018516",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "15",
+    "street": "PARK AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T14:00:09.030Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2023-12-27",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 67 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2022-12-19",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 67 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2021-12-14",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "10C",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "200 e 30 st": {
+   "address": "200 East 30th Street",
+   "geo": {
+    "lng": -73.979737,
+    "lat": 40.742931,
+    "label": "200 EAST 30 STREET, New York, NY, USA",
+    "bbl": "1009100061",
+    "bin": "1019945",
+    "neighborhood": "Kips Bay",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "200",
+    "street": "EAST 30 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T14:00:09.030Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-10-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at laundry room, 6th story",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-10-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "6M",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "6M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-28",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "6M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-22",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "6M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-09-15",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-07-17",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "4H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-06-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "3H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-06-25",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-02-27",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "COMMON",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-02-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "COMMON",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "4A",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "4H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-15",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "4H",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-09-29",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3J",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2024-02-13",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "5M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-10-25",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-10-02",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2022-12-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 101 apartments that year"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-09-27",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-07-05",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-07-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "9M",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-07-02",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-06-29",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-06-26",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-06-17",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-06-06",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-03-19",
+      "kinds": [
+       "other"
+      ],
+      "text": "Pests (other)",
+      "apartment": "9M",
+      "status": "Closed"
+     }
+    ],
+    "errors": {
+     "311": "The operation was aborted due to timeout"
+    },
+    "hpdBuildingId": "2242"
+   }
   }
  },
  "emails": [
@@ -26667,6 +27155,11 @@
    "id": "1a1cdd267ef6c52e",
    "date": "2026-11-12T03:34:39.000Z",
    "found": 5
+  },
+  {
+   "id": "1a1d00d485e6fd70",
+   "date": "2026-11-12T13:58:13.000Z",
+   "found": 3
   }
  ]
 }
