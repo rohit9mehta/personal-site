@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-12T14:00:09.030Z",
+ "updatedAt": "2026-11-12T15:40:14.451Z",
  "listings": [
   {
    "id": "5196324",
@@ -1946,9 +1946,11 @@
    "url": "https://streeteasy.com/rental/5198578",
    "address": "62 West 56th Street",
    "price": 3600,
-   "updates": [],
+   "updates": [
+    "Open House"
+   ],
    "firstSeen": "2026-11-06T03:35:48.000Z",
-   "lastSeen": "2026-11-06T03:35:48.000Z",
+   "lastSeen": "2026-11-12T15:35:38.000Z",
    "prices": [
     {
      "date": "2026-11-06",
@@ -1962,7 +1964,8 @@
    "beds": 1,
    "baths": 1,
    "broker": "DALLAL",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5198472",
@@ -3726,7 +3729,7 @@
     "Open House"
    ],
    "firstSeen": "2026-11-09T21:39:59.000Z",
-   "lastSeen": "2026-11-09T21:39:59.000Z",
+   "lastSeen": "2026-11-12T15:35:39.000Z",
    "prices": [
     {
      "date": "2026-11-09",
@@ -3741,7 +3744,8 @@
    "baths": 2,
    "sqft": 1100,
    "broker": "FIND Real Estate",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5200308",
@@ -4414,7 +4418,7 @@
    "price": 3500,
    "updates": [],
    "firstSeen": "2026-11-10T21:39:56.000Z",
-   "lastSeen": "2026-11-10T21:39:56.000Z",
+   "lastSeen": "2026-11-12T15:35:38.000Z",
    "prices": [
     {
      "date": "2026-11-10",
@@ -4428,7 +4432,9 @@
    "beds": 1,
    "baths": 1,
    "broker": "FIND Real Estate",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false,
+   "offMarket": true
   },
   {
    "id": "5201681",
@@ -5487,14 +5493,20 @@
    "id": "5202526",
    "url": "https://streeteasy.com/rental/5202526",
    "address": "30 Waterside Plaza",
-   "price": 5695,
-   "updates": [],
+   "price": 5545,
+   "updates": [
+    "Price Drop: $150"
+   ],
    "firstSeen": "2026-11-12T03:34:39.000Z",
-   "lastSeen": "2026-11-12T03:34:39.000Z",
+   "lastSeen": "2026-11-12T15:35:39.000Z",
    "prices": [
     {
      "date": "2026-11-12",
      "price": 5695
+    },
+    {
+     "date": "2026-11-12",
+     "price": 5545
     }
    ],
    "building": "30 waterside plaza",
@@ -5505,7 +5517,8 @@
    "baths": 1,
    "sqft": 812,
    "broker": "LyvWell Apartments NYC",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5194687",
@@ -5537,7 +5550,7 @@
    "price": 5600,
    "updates": [],
    "firstSeen": "2026-11-12T13:58:13.000Z",
-   "lastSeen": "2026-11-12T13:58:13.000Z",
+   "lastSeen": "2026-11-12T15:35:39.000Z",
    "prices": [
     {
      "date": "2026-11-12",
@@ -5551,7 +5564,8 @@
    "beds": 2,
    "baths": 1,
    "broker": "Corcoran",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5202762",
@@ -5560,7 +5574,7 @@
    "price": 6600,
    "updates": [],
    "firstSeen": "2026-11-12T13:58:13.000Z",
-   "lastSeen": "2026-11-12T13:58:13.000Z",
+   "lastSeen": "2026-11-12T15:35:39.000Z",
    "prices": [
     {
      "date": "2026-11-12",
@@ -5575,7 +5589,8 @@
    "baths": 2,
    "sqft": 950,
    "broker": "Brown Harris Stevens",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5184104",
@@ -5601,6 +5616,104 @@
    "baths": 1,
    "broker": "RMR Apartments LLC",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5197709",
+   "url": "https://streeteasy.com/rental/5197709",
+   "address": "330 East 39th Street",
+   "price": 4300,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-12T15:35:38.000Z",
+   "lastSeen": "2026-11-12T15:35:38.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 4300
+    }
+   ],
+   "building": "330 e 39 st",
+   "unit": "4P",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Mirador Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5183428",
+   "url": "https://streeteasy.com/rental/5183428",
+   "address": "212 Lafayette Street",
+   "price": 4500,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-12T15:35:38.000Z",
+   "lastSeen": "2026-11-12T15:35:38.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 4500
+    }
+   ],
+   "building": "212 lafayette st",
+   "unit": "1A",
+   "neighborhood": "Soho",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Platinum Forbes Global Properties",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5191822",
+   "url": "https://streeteasy.com/rental/5191822",
+   "address": "212 East 47th Street",
+   "price": 4475,
+   "updates": [],
+   "firstSeen": "2026-11-12T15:35:38.000Z",
+   "lastSeen": "2026-11-12T15:35:38.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 4475
+    }
+   ],
+   "building": "212 e 47 st",
+   "unit": "8C",
+   "neighborhood": "Turtle Bay",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "sqft": 621,
+   "broker": "Owner",
+   "offMarket": true,
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C120%2C123%2C146%2C158%2C162%7Cbeds%3A1%7Cprice%3C%3D4500"
+  },
+  {
+   "id": "5202815",
+   "url": "https://streeteasy.com/rental/5202815",
+   "address": "535 Third Avenue",
+   "price": 5000,
+   "updates": [],
+   "firstSeen": "2026-11-12T15:35:39.000Z",
+   "lastSeen": "2026-11-12T15:35:39.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 5000
+    }
+   ],
+   "building": "535 third ave",
+   "unit": "6D",
+   "neighborhood": "Murray Hill",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 2,
+   "broker": "City Connections Realty",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -13348,8 +13461,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-05T14:00:13.945Z",
-    "since": "2021-11-05",
+    "checkedAt": "2026-11-12T15:40:14.451Z",
+    "since": "2021-11-12",
     "records": [
      {
       "source": "rat-inspection",
@@ -13463,15 +13576,6 @@
        "rodents"
       ],
       "text": "Health Department inspector found rat activity on the property"
-     },
-     {
-      "source": "311",
-      "date": "2021-11-09",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "311: Condition Attracting Rodents",
-      "status": "Closed"
      }
     ],
     "errors": {}
@@ -13493,8 +13597,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-05T15:40:08.341Z",
-    "since": "2021-11-05",
+    "checkedAt": "2026-11-12T15:40:14.451Z",
+    "since": "2021-11-12",
     "records": [
      {
       "source": "bedbugs",
@@ -13554,16 +13658,6 @@
       "source": "hpd-complaint",
       "date": "2023-01-12",
       "kinds": [
-       "rodents"
-      ],
-      "text": "Mice",
-      "apartment": "30C",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-complaint",
-      "date": "2023-01-12",
-      "kinds": [
        "roaches"
       ],
       "text": "Roaches",
@@ -13587,6 +13681,16 @@
        "roaches"
       ],
       "text": "Roaches",
+      "apartment": "30C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2023-01-12",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
       "apartment": "30C",
       "status": "Closed"
      },
@@ -13637,8 +13741,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-05T15:40:08.341Z",
-    "since": "2021-11-05",
+    "checkedAt": "2026-11-12T15:40:14.451Z",
+    "since": "2021-11-12",
     "records": [],
     "errors": {}
    }
@@ -26613,6 +26717,99 @@
     },
     "hpdBuildingId": "2242"
    }
+  },
+  "212 lafayette st": {
+   "address": "212 Lafayette Street",
+   "geo": {
+    "lng": -73.997919,
+    "lat": 40.721818,
+    "label": "212 LAFAYETTE STREET, New York, NY, USA",
+    "bbl": "1004820031",
+    "bin": "1007222",
+    "neighborhood": "SoHo",
+    "borough": "Manhattan",
+    "zip": "10012",
+    "houseNumber": "212",
+    "street": "LAFAYETTE STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T15:40:14.451Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-07-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "23334"
+   }
+  },
+  "535 third ave": {
+   "address": "535 Third Avenue",
+   "geo": {
+    "lng": -73.977052,
+    "lat": 40.746592,
+    "label": "535 THIRD AVENUE, New York, NY, USA",
+    "bbl": "1009160064",
+    "bin": "1020202",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "535",
+    "street": "THIRD AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T15:40:14.451Z",
+    "since": "2021-11-12",
+    "records": [],
+    "errors": {
+     "rat-inspection": "The operation was aborted due to timeout"
+    }
+   }
   }
  },
  "emails": [
@@ -27160,6 +27357,16 @@
    "id": "1a1d00d485e6fd70",
    "date": "2026-11-12T13:58:13.000Z",
    "found": 3
+  },
+  {
+   "id": "1a1d0667aa1aac8b",
+   "date": "2026-11-12T15:35:38.000Z",
+   "found": 5
+  },
+  {
+   "id": "1a1d0667f8474397",
+   "date": "2026-11-12T15:35:39.000Z",
+   "found": 5
   }
  ]
 }
