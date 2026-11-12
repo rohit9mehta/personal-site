@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-12T20:10:38.385Z",
+ "updatedAt": "2026-11-12T21:40:05.288Z",
  "listings": [
   {
    "id": "5196324",
@@ -636,16 +636,20 @@
    "id": "5167647",
    "url": "https://streeteasy.com/rental/5167647",
    "address": "420 E 54th Street",
-   "price": 7060,
+   "price": 6994,
    "updates": [
     "Open House"
    ],
    "firstSeen": "2026-11-04T14:03:33.000Z",
-   "lastSeen": "2026-11-04T15:36:59.000Z",
+   "lastSeen": "2026-11-12T21:38:33.000Z",
    "prices": [
     {
      "date": "2026-11-04",
      "price": 7060
+    },
+    {
+     "date": "2026-11-12",
+     "price": 6994
     }
    ],
    "building": "420 e 54 st",
@@ -4024,16 +4028,20 @@
    "id": "5157573",
    "url": "https://streeteasy.com/rental/5157573",
    "address": "240 East 55th Street",
-   "price": 3500,
+   "price": 3250,
    "updates": [
-    "Open House"
+    "Open House  Price Drop: $250"
    ],
    "firstSeen": "2026-11-10T03:34:51.000Z",
-   "lastSeen": "2026-11-10T03:34:51.000Z",
+   "lastSeen": "2026-11-12T21:38:35.000Z",
    "prices": [
     {
      "date": "2026-11-10",
      "price": 3500
+    },
+    {
+     "date": "2026-11-12",
+     "price": 3250
     }
    ],
    "building": "240 e 55 st",
@@ -4043,7 +4051,8 @@
    "beds": 0,
    "baths": 1,
    "broker": "R New York",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen",
+   "suggested": false
   },
   {
    "id": "5201093",
@@ -5699,7 +5708,7 @@
    "price": 5000,
    "updates": [],
    "firstSeen": "2026-11-12T15:35:39.000Z",
-   "lastSeen": "2026-11-12T15:35:39.000Z",
+   "lastSeen": "2026-11-12T21:38:33.000Z",
    "prices": [
     {
      "date": "2026-11-12",
@@ -5713,7 +5722,9 @@
    "beds": 2,
    "baths": 2,
    "broker": "City Connections Realty",
-   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen",
+   "suggested": false,
+   "offMarket": true
   },
   {
    "id": "5201691",
@@ -5760,6 +5771,197 @@
    "beds": 1,
    "baths": 1,
    "broker": "Dalan Rentals"
+  },
+  {
+   "id": "5203018",
+   "url": "https://streeteasy.com/rental/5203018",
+   "address": "226 East 59th Street",
+   "price": 3550,
+   "updates": [],
+   "firstSeen": "2026-11-12T21:38:35.000Z",
+   "lastSeen": "2026-11-12T21:38:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 3550
+    }
+   ],
+   "building": "226 e 59 st",
+   "unit": "5F",
+   "neighborhood": "Sutton Place",
+   "kind": "Rental Unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Taichi Fudosan",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5202937",
+   "url": "https://streeteasy.com/rental/5202937",
+   "address": "321 East 48th Street",
+   "price": 3200,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-12T21:38:35.000Z",
+   "lastSeen": "2026-11-12T21:38:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 3200
+    }
+   ],
+   "building": "321 e 48 st",
+   "unit": "10K",
+   "neighborhood": "Turtle Bay",
+   "kind": "Condo",
+   "beds": 0,
+   "baths": 1,
+   "broker": "R New York",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5202950",
+   "url": "https://streeteasy.com/rental/5202950",
+   "address": "246 East 45th Street",
+   "price": 2890,
+   "updates": [],
+   "firstSeen": "2026-11-12T21:38:35.000Z",
+   "lastSeen": "2026-11-12T21:38:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 2890
+    }
+   ],
+   "building": "246 e 45 st",
+   "unit": "2M",
+   "neighborhood": "Turtle Bay",
+   "kind": "Rental Unit",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Bond New York",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5195898",
+   "url": "https://streeteasy.com/rental/5195898",
+   "address": "211 East 35th Street",
+   "price": 2750,
+   "updates": [
+    "Open House"
+   ],
+   "firstSeen": "2026-11-12T21:38:35.000Z",
+   "lastSeen": "2026-11-12T21:38:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 2750
+    }
+   ],
+   "building": "211 e 35 st",
+   "unit": "1F",
+   "neighborhood": "Murray Hill",
+   "kind": "Coop",
+   "beds": 0,
+   "baths": 1,
+   "broker": "Corcoran",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3E%3D0%7Cprice%3C%3D3750%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5203145",
+   "url": "https://streeteasy.com/rental/5203145",
+   "address": "249 Front Street",
+   "price": 3965,
+   "updates": [],
+   "firstSeen": "2026-11-12T21:38:35.000Z",
+   "lastSeen": "2026-11-12T21:38:35.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 3965
+    }
+   ],
+   "building": "249 front st",
+   "unit": "2",
+   "neighborhood": "Vinegar Hill",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Affordable Living NYC LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/amenities%3Awasher_dryer%7Carea%3A103%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C113%2C116%2C117%2C157%2C162%2C303%2C305%2C307%7Cbeds%3A2%7Cprice%3C%3D5500%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5203023",
+   "url": "https://streeteasy.com/rental/5203023",
+   "address": "250 10th Avenue",
+   "price": 4850,
+   "updates": [],
+   "firstSeen": "2026-11-12T21:38:33.000Z",
+   "lastSeen": "2026-11-12T21:38:33.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 4850
+    }
+   ],
+   "building": "250 10 ave",
+   "unit": "3",
+   "neighborhood": "West Chelsea",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "sqft": 900,
+   "broker": "Compass",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5202342",
+   "url": "https://streeteasy.com/rental/5202342",
+   "address": "260 West 54th Street",
+   "price": 5395,
+   "updates": [],
+   "firstSeen": "2026-11-12T21:38:33.000Z",
+   "lastSeen": "2026-11-12T21:38:33.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 5395
+    }
+   ],
+   "building": "260 w 54 st",
+   "unit": "19G",
+   "neighborhood": "Midtown",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Aura NYC LLC",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5202909",
+   "url": "https://streeteasy.com/rental/5202909",
+   "address": "226 Thompson Street",
+   "price": 5300,
+   "updates": [
+    "In Contract"
+   ],
+   "firstSeen": "2026-11-12T21:38:33.000Z",
+   "lastSeen": "2026-11-12T21:38:33.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 5300
+    }
+   ],
+   "building": "226 thompson st",
+   "unit": "15",
+   "neighborhood": "Greenwich Village",
+   "kind": "Rental Unit",
+   "beds": 2,
+   "baths": 1,
+   "broker": "Landmark Real Estate",
+   "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cprice%3C%3D7000%7Cstatus%3Aopen"
   }
  ],
  "buildings": {
@@ -26915,6 +27117,315 @@
     "errors": {},
     "hpdBuildingId": "37"
    }
+  },
+  "226 e 59 st": {
+   "address": "226 East 59th Street",
+   "geo": {
+    "lng": -73.965455,
+    "lat": 40.76086,
+    "label": "226 EAST 59 STREET, New York, NY, USA",
+    "bbl": "1013320035",
+    "bin": "1038637",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10022",
+    "houseNumber": "226",
+    "street": "EAST 59 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T21:40:05.288Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2023-04-03",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
+      "apartment": "3FE",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "14602"
+   }
+  },
+  "321 e 48 st": {
+   "address": "321 East 48th Street",
+   "geo": {
+    "lng": -73.968278,
+    "lat": 40.753363,
+    "label": "321 EAST 48 STREET, New York, NY, USA",
+    "bbl": "1013417502",
+    "bin": "1039077",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "zip": "10017",
+    "houseNumber": "321",
+    "street": "EAST 48 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T21:40:05.288Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13883"
+   }
+  },
+  "211 e 35 st": {
+   "address": "211 East 35th Street",
+   "geo": {
+    "lng": -73.976857,
+    "lat": 40.746285,
+    "label": "211 EAST 35 STREET, New York, NY, USA",
+    "bbl": "1009160009",
+    "bin": "1020180",
+    "neighborhood": "Murray Hill",
+    "borough": "Manhattan",
+    "zip": "10016",
+    "houseNumber": "211",
+    "street": "EAST 35 STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T21:40:05.288Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "311",
+      "date": "2023-02-16",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "249 front st": {
+   "address": "249 Front Street",
+   "geo": {
+    "lng": -74.000763,
+    "lat": 40.707916,
+    "label": "249 FRONT STREET, New York, NY, USA",
+    "bbl": "1001070002",
+    "bin": "1078984",
+    "neighborhood": "Financial District",
+    "borough": "Manhattan",
+    "zip": "10038",
+    "houseNumber": "249",
+    "street": "FRONT STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T21:40:05.288Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "rat-inspection",
+      "date": "2023-07-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-05-25",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2023-05-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2023-01-24",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-12-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-11-23",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "rat-inspection",
+      "date": "2022-10-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2022-10-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-09-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2022-07-26",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     }
+    ],
+    "errors": {}
+   }
+  },
+  "250 10 ave": {
+   "address": "250 10th Avenue",
+   "geo": {
+    "lng": -74.003213,
+    "lat": 40.748598,
+    "label": "250 10 AVENUE, New York, NY, USA",
+    "bbl": "1007220078",
+    "bin": "1012825",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "zip": "10001",
+    "houseNumber": "250",
+    "street": "10 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T21:40:05.288Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-29",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "4987"
+   }
+  },
+  "226 thompson st": {
+   "address": "226 Thompson Street",
+   "geo": {
+    "lng": -73.998747,
+    "lat": 40.729184,
+    "label": "226 THOMPSON STREET, New York, NY, USA",
+    "bbl": "1005370010",
+    "bin": "1008634",
+    "neighborhood": "Greenwich Village",
+    "borough": "Manhattan",
+    "zip": "10012",
+    "houseNumber": "226",
+    "street": "THOMPSON STREET",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T21:40:05.288Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2025-10-01",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "B",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "28741"
+   }
   }
  },
  "emails": [
@@ -27487,6 +27998,21 @@
    "id": "1a1d15e4e77ad413",
    "date": "2026-11-12T20:06:19.000Z",
    "found": 3
+  },
+  {
+   "id": "1a1d1b2c7f0130c3",
+   "date": "2026-11-12T21:38:35.000Z",
+   "found": 5
+  },
+  {
+   "id": "1a1d1b2c220a21d1",
+   "date": "2026-11-12T21:38:35.000Z",
+   "found": 1
+  },
+  {
+   "id": "1a1d1b2bf7721a9e",
+   "date": "2026-11-12T21:38:33.000Z",
+   "found": 5
   }
  ]
 }
