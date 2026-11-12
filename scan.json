@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-12T17:30:06.666Z",
+ "updatedAt": "2026-11-12T20:10:08.338Z",
  "listings": [
   {
    "id": "5196324",
@@ -514,7 +514,7 @@
    "price": 3495,
    "updates": [],
    "firstSeen": "2026-11-04T14:03:35.000Z",
-   "lastSeen": "2026-11-09T20:05:18.000Z",
+   "lastSeen": "2026-11-12T20:06:19.000Z",
    "prices": [
     {
      "date": "2026-11-04",
@@ -5714,6 +5714,52 @@
    "baths": 2,
    "broker": "City Connections Realty",
    "search": "https://streeteasy.com/for-rent/nyc/area%3A107%2C113%2C115%2C116%2C118%2C120%2C123%2C158%2C159%2C162%7Cbeds%3A2%7Cin_rect%3A40.707%2C40.78%2C-74.02%2C-73.889%7Cprice%3C%3D7000%7Cstatus%3Aopen"
+  },
+  {
+   "id": "5201691",
+   "url": "https://streeteasy.com/rental/5201691",
+   "address": "1107 1st Avenue",
+   "price": 3250,
+   "updates": [],
+   "firstSeen": "2026-11-12T20:06:19.000Z",
+   "lastSeen": "2026-11-12T20:06:19.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 3250
+    }
+   ],
+   "building": "1107 1 ave",
+   "unit": "4B",
+   "neighborhood": "Lenox Hill",
+   "kind": "Rental unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Peter R. Hungerford, LREB"
+  },
+  {
+   "id": "5172369",
+   "url": "https://streeteasy.com/rental/5172369",
+   "address": "230 East 44th Street",
+   "price": 3800,
+   "updates": [
+    "Price Drop: $100"
+   ],
+   "firstSeen": "2026-11-12T20:06:19.000Z",
+   "lastSeen": "2026-11-12T20:06:19.000Z",
+   "prices": [
+    {
+     "date": "2026-11-12",
+     "price": 3800
+    }
+   ],
+   "building": "230 e 44 st",
+   "unit": "2E",
+   "neighborhood": "Turtle Bay",
+   "kind": "Rental unit",
+   "beds": 1,
+   "baths": 1,
+   "broker": "Dalan Rentals"
   }
  ],
  "buildings": {
@@ -26810,6 +26856,65 @@
      "rat-inspection": "The operation was aborted due to timeout"
     }
    }
+  },
+  "1107 1 ave": {
+   "address": "1107 1st Avenue",
+   "geo": {
+    "lng": -73.961494,
+    "lat": 40.760757,
+    "label": "1107 1 AVENUE, New York, NY, USA",
+    "bbl": "1014350028",
+    "bin": "1044209",
+    "neighborhood": "Upper East Side",
+    "borough": "Manhattan",
+    "zip": "10065",
+    "houseNumber": "1107",
+    "street": "1 AVENUE",
+    "source": "geosearch"
+   },
+   "records": {
+    "checkedAt": "2026-11-12T20:10:08.338Z",
+    "since": "2021-11-12",
+    "records": [
+     {
+      "source": "bedbugs",
+      "date": "2025-07-02",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 15 apartments that year"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "37"
+   }
   }
  },
  "emails": [
@@ -27377,6 +27482,11 @@
    "id": "1a1d0c6e6c8a3d35",
    "date": "2026-11-12T17:20:58.000Z",
    "found": 1
+  },
+  {
+   "id": "1a1d15e4e77ad413",
+   "date": "2026-11-12T20:06:19.000Z",
+   "found": 3
   }
  ]
 }
