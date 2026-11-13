@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-13T06:58:27.968Z",
+ "updatedAt": "2026-11-13T19:53:39.456Z",
  "listings": [
   {
    "id": "5196324",
@@ -12768,8 +12768,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T07:03:50.997Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-13T19:53:39.456Z",
+    "since": "2021-11-13",
     "records": [
      {
       "source": "hpd-violation",
@@ -17757,8 +17757,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T15:50:04.684Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-13T19:53:39.456Z",
+    "since": "2021-11-13",
     "records": [
      {
       "source": "hpd-violation",
@@ -24901,8 +24901,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T07:26:39.483Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-13T19:53:39.456Z",
+    "since": "2021-11-13",
     "records": [
      {
       "source": "hpd-complaint",
@@ -24923,11 +24923,19 @@
       "text": "Roaches",
       "apartment": "3409",
       "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
      }
     ],
-    "errors": {
-     "hpd-violation": "fetch failed"
-    }
+    "errors": {},
+    "hpdBuildingId": "1000496"
    }
   },
   "254 w 15 st": {
@@ -26617,8 +26625,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T14:00:09.030Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-13T19:53:39.456Z",
+    "since": "2021-11-13",
     "records": [
      {
       "source": "hpd-complaint",
@@ -26629,6 +26637,15 @@
       "text": "Roaches",
       "apartment": "2C",
       "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-04-01",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
      },
      {
       "source": "311",
@@ -26650,6 +26667,34 @@
       "status": "Closed"
      },
      {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2022-02-13",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "3E",
+      "status": "Open"
+     },
+     {
       "source": "hpd-complaint",
       "date": "2022-01-25",
       "kinds": [
@@ -26660,9 +26705,8 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "hpd-violation": "fetch failed"
-    }
+    "errors": {},
+    "hpdBuildingId": "4647"
    }
   },
   "15 park ave": {
@@ -26730,18 +26774,9 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T14:00:09.030Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-13T19:53:39.456Z",
+    "since": "2021-11-13",
     "records": [
-     {
-      "source": "hpd-violation",
-      "date": "2026-10-12",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at laundry room, 6th story",
-      "status": "Open"
-     },
      {
       "source": "hpd-violation",
       "date": "2026-10-12",
@@ -26750,6 +26785,15 @@
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
       "apartment": "6M",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-10-12",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at laundry room, 6th story",
       "status": "Open"
      },
      {
@@ -27001,6 +27045,15 @@
       "status": "Closed"
      },
      {
+      "source": "311",
+      "date": "2022-05-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
       "source": "hpd-complaint",
       "date": "2022-03-19",
       "kinds": [
@@ -27011,9 +27064,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "311": "The operation was aborted due to timeout"
-    },
+    "errors": {},
     "hpdBuildingId": "2242"
    }
   },
@@ -27102,12 +27153,10 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T15:40:14.451Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-13T19:53:39.456Z",
+    "since": "2021-11-13",
     "records": [],
-    "errors": {
-     "rat-inspection": "The operation was aborted due to timeout"
-    }
+    "errors": {}
    }
   },
   "1107 1 ave": {
