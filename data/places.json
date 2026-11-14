@@ -1667,6 +1667,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "felix-roasting-co-soho--new-york-ny": {
+    "name": "Felix Roasting Co (SoHo)",
+    "city": "New York, NY",
+    "address": "104 Greene Street"
+  },
   "fermata-coffee--geyserville-ca": {
     "name": "Fermata Coffee",
     "city": "Geyserville, CA",
