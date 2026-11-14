@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-14T18:19:51.872Z",
+ "updatedAt": "2026-11-14T22:38:11.655Z",
  "listings": [
   {
    "id": "5196324",
@@ -18532,8 +18532,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T22:04:21.097Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T22:38:11.655Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "rat-inspection",
@@ -18606,8 +18606,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T22:04:21.097Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T22:38:11.655Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -19653,8 +19653,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T20:10:07.964Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T22:38:11.655Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "bedbugs",
@@ -19748,8 +19748,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T21:40:04.425Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T22:38:11.655Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "rat-inspection",
@@ -19779,8 +19779,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T21:40:04.425Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T22:38:11.655Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-complaint",
@@ -19812,8 +19812,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T21:40:04.425Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T22:38:11.655Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-complaint",
