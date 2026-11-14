@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-14T06:46:55.975Z",
+ "updatedAt": "2026-11-14T18:19:51.872Z",
  "listings": [
   {
    "id": "5196324",
@@ -17554,8 +17554,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T14:10:04.247Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T18:19:51.872Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -17614,8 +17614,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T14:10:04.247Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T18:19:51.872Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -17656,8 +17656,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T14:10:04.247Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T18:19:51.872Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -19307,8 +19307,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T14:10:04.247Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T18:19:51.872Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -19340,8 +19340,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T14:10:04.247Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T18:19:51.872Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "rat-inspection",
@@ -19390,8 +19390,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T14:10:04.247Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T18:19:51.872Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "311",
@@ -19422,8 +19422,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T14:10:04.247Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T18:19:51.872Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-complaint",
