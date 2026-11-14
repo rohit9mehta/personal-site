@@ -1670,7 +1670,20 @@
   "felix-roasting-co-soho--new-york-ny": {
     "name": "Felix Roasting Co (SoHo)",
     "city": "New York, NY",
-    "address": "104 Greene Street"
+    "address": "104 Greene Street",
+    "lat": 40.7243279,
+    "lng": -73.9997894,
+    "precision": "address",
+    "street": "104 Greene Street",
+    "postcode": "10012",
+    "neighborhood": "University Village",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/5672871",
+    "source": "nominatim",
+    "checked": "2026-11-14"
   },
   "fermata-coffee--geyserville-ca": {
     "name": "Fermata Coffee",
@@ -2713,7 +2726,20 @@
   "no-nazar-cafe--new-york-ny": {
     "name": "No Nazar Cafe",
     "city": "New York, NY",
-    "address": "280 East 10th Street"
+    "address": "280 East 10th Street",
+    "lat": 40.7279825,
+    "lng": -73.9830627,
+    "precision": "address",
+    "street": "280 East 10th Street",
+    "postcode": "10009",
+    "neighborhood": "East Village",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "way/248142912",
+    "source": "nominatim",
+    "checked": "2026-11-14"
   },
   "nook--san-francisco-ca": {
     "name": "Nook",
