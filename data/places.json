@@ -2705,6 +2705,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "no-nazar-cafe--new-york-ny": {
+    "name": "No Nazar Cafe",
+    "city": "New York, NY",
+    "address": "280 East 10th Street"
+  },
   "nook--san-francisco-ca": {
     "name": "Nook",
     "city": "San Francisco, CA",
