@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-13T19:53:39.456Z",
+ "updatedAt": "2026-11-14T06:46:55.975Z",
  "listings": [
   {
    "id": "5196324",
@@ -16964,8 +16964,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T06:16:05.994Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [],
     "errors": {}
    }
@@ -17055,8 +17055,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T06:16:05.994Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [],
     "errors": {}
    }
@@ -17077,8 +17077,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T06:16:05.994Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "bedbugs",
@@ -17147,7 +17147,9 @@
       "status": "Closed"
      }
     ],
-    "errors": {},
+    "errors": {
+     "rat-inspection": "fetch failed"
+    },
     "hpdBuildingId": "13727"
    }
   },
@@ -17828,8 +17830,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T20:10:23.699Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -17871,8 +17873,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "311",
@@ -17949,17 +17951,17 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
-      "source": "hpd-violation",
-      "date": "2026-10-27",
+      "source": "hpd-complaint",
+      "date": "2026-11-06",
       "kinds": [
-       "roaches"
+       "other"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "502",
+      "text": "Flies",
+      "apartment": "1001",
       "status": "Open"
      },
      {
@@ -17979,16 +17981,6 @@
        "rodents"
       ],
       "text": "Health Department inspector found rat activity on the property"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2026-04-25",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "902",
-      "status": "Closed"
      },
      {
       "source": "311",
@@ -18023,26 +18015,6 @@
        "rodents"
       ],
       "text": "311: Condition Attracting Rodents",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2025-11-19",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "506",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2025-08-22",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "808",
       "status": "Closed"
      },
      {
@@ -18091,16 +18063,6 @@
       "status": "Closed"
      },
      {
-      "source": "hpd-violation",
-      "date": "2023-04-25",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "606",
-      "status": "Open"
-     },
-     {
       "source": "311",
       "date": "2023-03-29",
       "kinds": [
@@ -18130,8 +18092,9 @@
       "status": "Closed"
      }
     ],
-    "errors": {},
-    "hpdBuildingId": "33856"
+    "errors": {
+     "hpd-violation": "The operation was aborted due to timeout"
+    }
    }
   },
   "236 e 36 st": {
@@ -18150,8 +18113,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-complaint",
@@ -18193,8 +18156,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [],
     "errors": {}
    }
@@ -18215,8 +18178,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "311",
@@ -18247,8 +18210,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-complaint",
@@ -18327,8 +18290,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -18418,8 +18381,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-06T21:50:12.173Z",
-    "since": "2021-11-06",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-complaint",
@@ -18754,8 +18717,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -18787,8 +18750,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "rat-inspection",
@@ -18907,8 +18870,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-violation",
@@ -18940,8 +18903,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [],
     "errors": {}
    }
@@ -18962,8 +18925,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "hpd-complaint",
@@ -19037,8 +19000,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "311",
@@ -19080,8 +19043,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-07T03:40:05.566Z",
-    "since": "2021-11-07",
+    "checkedAt": "2026-11-14T06:46:55.975Z",
+    "since": "2021-11-14",
     "records": [
      {
       "source": "rat-inspection",
@@ -19090,15 +19053,6 @@
        "rodents"
       ],
       "text": "Health Department inspector found rat activity on the property"
-     },
-     {
-      "source": "311",
-      "date": "2025-01-14",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "311: Rat Sighting",
-      "status": "Closed"
      },
      {
       "source": "bedbugs",
@@ -19118,7 +19072,9 @@
       "status": "Closed"
      }
     ],
-    "errors": {},
+    "errors": {
+     "311": "fetch failed"
+    },
     "hpdBuildingId": "24177"
    }
   },
