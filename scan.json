@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-15T06:51:19.617Z",
+ "updatedAt": "2026-11-15T18:59:01.323Z",
  "listings": [
   {
    "id": "5196324",
@@ -19201,8 +19201,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T14:10:09.127Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-15T18:59:01.323Z",
+    "since": "2021-11-15",
     "records": [
      {
       "source": "hpd-complaint",
@@ -19331,14 +19331,6 @@
       ],
       "text": "311: Rat Sighting",
       "status": "Closed"
-     },
-     {
-      "source": "rat-inspection",
-      "date": "2021-11-08",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "Health Department inspector found rat activity on the property"
      }
     ],
     "errors": {},
@@ -20248,8 +20240,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T14:10:09.127Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-15T18:59:01.323Z",
+    "since": "2021-11-15",
     "records": [
      {
       "source": "hpd-violation",
@@ -20309,7 +20301,9 @@
       "status": "Closed"
      }
     ],
-    "errors": {},
+    "errors": {
+     "rat-inspection": "fetch failed"
+    },
     "hpdBuildingId": "34226"
    }
   },
