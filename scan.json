@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-14T22:38:11.655Z",
+ "updatedAt": "2026-11-15T06:51:19.617Z",
  "listings": [
   {
    "id": "5196324",
@@ -17077,8 +17077,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T06:46:55.975Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-15T06:51:19.617Z",
+    "since": "2021-11-15",
     "records": [
      {
       "source": "bedbugs",
@@ -17147,9 +17147,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "rat-inspection": "fetch failed"
-    },
+    "errors": {},
     "hpdBuildingId": "13727"
    }
   },
@@ -17242,8 +17240,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T06:22:14.307Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-15T06:51:19.617Z",
+    "since": "2021-11-15",
     "records": [
      {
       "source": "311",
@@ -17951,8 +17949,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T06:46:55.975Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-15T06:51:19.617Z",
+    "since": "2021-11-15",
     "records": [
      {
       "source": "hpd-complaint",
@@ -17962,6 +17960,16 @@
       ],
       "text": "Flies",
       "apartment": "1001",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-10-27",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "502",
       "status": "Open"
      },
      {
@@ -17981,6 +17989,16 @@
        "rodents"
       ],
       "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2026-04-25",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "902",
+      "status": "Closed"
      },
      {
       "source": "311",
@@ -18015,6 +18033,26 @@
        "rodents"
       ],
       "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-11-19",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "506",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-08-22",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "808",
       "status": "Closed"
      },
      {
@@ -18063,6 +18101,16 @@
       "status": "Closed"
      },
      {
+      "source": "hpd-violation",
+      "date": "2023-04-25",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "606",
+      "status": "Open"
+     },
+     {
       "source": "311",
       "date": "2023-03-29",
       "kinds": [
@@ -18092,9 +18140,8 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "hpd-violation": "The operation was aborted due to timeout"
-    }
+    "errors": {},
+    "hpdBuildingId": "33856"
    }
   },
   "236 e 36 st": {
@@ -18665,8 +18712,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T06:22:14.307Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-15T06:51:19.617Z",
+    "since": "2021-11-15",
     "records": [
      {
       "source": "rat-inspection",
@@ -19043,8 +19090,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T06:46:55.975Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-15T06:51:19.617Z",
+    "since": "2021-11-15",
     "records": [
      {
       "source": "rat-inspection",
@@ -19053,6 +19100,15 @@
        "rodents"
       ],
       "text": "Health Department inspector found rat activity on the property"
+     },
+     {
+      "source": "311",
+      "date": "2025-01-14",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
      },
      {
       "source": "bedbugs",
@@ -19072,9 +19128,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "311": "fetch failed"
-    },
+    "errors": {},
     "hpdBuildingId": "24177"
    }
   },
@@ -19094,8 +19148,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T06:22:14.307Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-15T06:51:19.617Z",
+    "since": "2021-11-15",
     "records": [
      {
       "source": "311",
@@ -19126,8 +19180,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T06:22:14.307Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-15T06:51:19.617Z",
+    "since": "2021-11-15",
     "records": [],
     "errors": {}
    }
