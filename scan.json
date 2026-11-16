@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-16T06:50:47.780Z",
+ "updatedAt": "2026-11-16T22:22:12.413Z",
  "listings": [
   {
    "id": "5196324",
@@ -19541,8 +19541,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-complaint",
@@ -19661,6 +19661,14 @@
       "status": "Closed"
      },
      {
+      "source": "bedbugs",
+      "date": "2023-12-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
+     },
+     {
       "source": "311",
       "date": "2023-11-19",
       "kinds": [
@@ -19668,6 +19676,38 @@
       ],
       "text": "311: Rat Sighting",
       "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2022-12-16",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 3 of 156 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2021-12-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 66 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2021-12-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 156 apartments that year"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2021-12-13",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 108 apartments that year"
      },
      {
       "source": "311",
@@ -19989,8 +20029,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20051,8 +20091,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "bedbugs",
@@ -20240,8 +20280,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-15T18:59:01.323Z",
-    "since": "2021-11-15",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -20301,9 +20341,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "rat-inspection": "fetch failed"
-    },
+    "errors": {},
     "hpdBuildingId": "34226"
    }
   },
@@ -20627,8 +20665,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -20698,8 +20736,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -21052,8 +21090,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T14:00:05.861Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -21094,8 +21132,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T15:50:11.428Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-complaint",
@@ -21258,8 +21296,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [],
     "errors": {}
    }
@@ -21280,8 +21318,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -21349,8 +21387,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-complaint",
@@ -21386,8 +21424,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "rat-inspection",
@@ -21513,7 +21551,9 @@
       "status": "Closed"
      }
     ],
-    "errors": {}
+    "errors": {
+     "hpd-violation": "The operation was aborted due to timeout"
+    }
    }
   },
   "235 e 40 st": {
@@ -21532,8 +21572,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "rat-inspection",
@@ -21580,8 +21620,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -21631,8 +21671,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -21692,8 +21732,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -21729,8 +21769,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-09T21:50:07.993Z",
-    "since": "2021-11-09",
+    "checkedAt": "2026-11-16T22:22:12.413Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "rat-inspection",
