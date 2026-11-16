@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-15T18:59:01.323Z",
+ "updatedAt": "2026-11-16T06:50:47.780Z",
  "listings": [
   {
    "id": "5196324",
@@ -19772,8 +19772,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T21:40:06.871Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-16T06:50:47.780Z",
+    "since": "2021-11-16",
     "records": [],
     "errors": {}
    }
@@ -20323,8 +20323,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T20:10:07.868Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-16T06:50:47.780Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "bedbugs",
@@ -20362,8 +20362,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T20:10:07.868Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-16T06:50:47.780Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20443,8 +20443,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T21:40:06.871Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-16T06:50:47.780Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20467,15 +20467,6 @@
       "status": "Closed"
      },
      {
-      "source": "hpd-violation",
-      "date": "2023-03-15",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     },
-     {
       "source": "hpd-complaint",
       "date": "2021-11-27",
       "kinds": [
@@ -20486,8 +20477,9 @@
       "status": "Closed"
      }
     ],
-    "errors": {},
-    "hpdBuildingId": "14414"
+    "errors": {
+     "hpd-violation": "fetch failed"
+    }
    }
   },
   "21 e 21 st": {
@@ -20506,8 +20498,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T21:40:06.871Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-16T06:50:47.780Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
@@ -20575,8 +20567,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-08T21:40:06.871Z",
-    "since": "2021-11-08",
+    "checkedAt": "2026-11-16T06:50:47.780Z",
+    "since": "2021-11-16",
     "records": [
      {
       "source": "hpd-violation",
