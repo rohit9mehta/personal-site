@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-16T22:22:12.413Z",
+ "updatedAt": "2026-11-17T08:10:30.692Z",
  "listings": [
   {
    "id": "5196324",
@@ -17167,8 +17167,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T07:31:54.328Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [],
     "errors": {}
    }
@@ -20481,8 +20481,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T06:50:47.780Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20505,6 +20505,15 @@
       "status": "Closed"
      },
      {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
       "source": "hpd-complaint",
       "date": "2021-11-27",
       "kinds": [
@@ -20515,9 +20524,8 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "hpd-violation": "fetch failed"
-    }
+    "errors": {},
+    "hpdBuildingId": "14414"
    }
   },
   "21 e 21 st": {
@@ -20778,8 +20786,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20840,8 +20848,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-complaint",
@@ -21041,8 +21049,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T05:00:07.577Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "311",
@@ -22068,8 +22076,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T01:10:08.815Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-complaint",
@@ -22423,8 +22431,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-violation",
@@ -22605,8 +22613,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-complaint",
@@ -22657,8 +22665,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-violation",
@@ -22842,8 +22850,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-violation",
@@ -22921,8 +22929,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-violation",
@@ -22995,8 +23003,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T03:40:15.646Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-violation",
@@ -23036,8 +23044,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T05:00:07.577Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [],
     "errors": {}
    }
@@ -23058,8 +23066,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T05:00:07.577Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-violation",
@@ -23165,8 +23173,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T05:00:07.577Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-complaint",
@@ -23265,8 +23273,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T05:00:07.577Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "rat-inspection",
@@ -23306,8 +23314,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T05:00:07.577Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T08:10:30.692Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "rat-inspection",
