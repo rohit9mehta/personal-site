@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-17T08:10:30.692Z",
+ "updatedAt": "2026-11-17T21:07:27.450Z",
  "listings": [
   {
    "id": "5196324",
@@ -20189,8 +20189,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T16:40:13.816Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T21:07:27.450Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-violation",
@@ -21210,8 +21210,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T16:40:13.816Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T21:07:27.450Z",
+    "since": "2021-11-17",
     "records": [],
     "errors": {}
    }
@@ -23363,8 +23363,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T14:00:06.742Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T21:07:27.450Z",
+    "since": "2021-11-17",
     "records": [],
     "errors": {}
    }
@@ -23385,8 +23385,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T14:00:06.742Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T21:07:27.450Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "rat-inspection",
@@ -23469,8 +23469,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T15:40:21.597Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T21:07:27.450Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "hpd-violation",
@@ -23502,8 +23502,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-10T15:40:21.597Z",
-    "since": "2021-11-10",
+    "checkedAt": "2026-11-17T21:07:27.450Z",
+    "since": "2021-11-17",
     "records": [
      {
       "source": "311",
