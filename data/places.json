@@ -4070,6 +4070,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "the-station-cafe--new-york-ny": {
+    "name": "The Station Cafe",
+    "city": "New York, NY",
+    "address": "623 2nd Avenue, Manhattan, NY 10016"
+  },
   "the-table--mumbai-india": {
     "name": "The Table",
     "city": "Mumbai, India",
