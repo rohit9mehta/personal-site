@@ -4073,7 +4073,20 @@
   "the-station-cafe--new-york-ny": {
     "name": "The Station Cafe",
     "city": "New York, NY",
-    "address": "623 2nd Avenue, Manhattan, NY 10016"
+    "address": "623 2nd Avenue, Manhattan, NY 10016",
+    "lat": 40.7449995,
+    "lng": -73.9759586,
+    "precision": "address",
+    "street": "623 2nd Avenue",
+    "postcode": "10016",
+    "neighborhood": "Murray Hill",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/2710842173",
+    "source": "nominatim",
+    "checked": "2026-11-18"
   },
   "the-table--mumbai-india": {
     "name": "The Table",
