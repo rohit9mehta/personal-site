@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-19T07:40:29.279Z",
+ "updatedAt": "2026-11-19T20:49:57.952Z",
  "listings": [
   {
    "id": "5196324",
@@ -13756,8 +13756,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T15:40:14.451Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-19T20:49:57.952Z",
+    "since": "2021-11-19",
     "records": [
      {
       "source": "rat-inspection",
@@ -13892,8 +13892,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T15:40:14.451Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-19T20:49:57.952Z",
+    "since": "2021-11-19",
     "records": [
      {
       "source": "bedbugs",
@@ -14036,8 +14036,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T15:40:14.451Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-19T20:49:57.952Z",
+    "since": "2021-11-19",
     "records": [],
     "errors": {}
    }
@@ -24511,8 +24511,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-19T20:49:57.952Z",
+    "since": "2021-11-19",
     "records": [
      {
       "source": "hpd-complaint",
@@ -24541,9 +24541,7 @@
       "text": "Landlord reported bedbugs in 1 of 22 apartments that year"
      }
     ],
-    "errors": {
-     "hpd-violation": "fetch failed"
-    }
+    "errors": {}
    }
   },
   "113 sullivan st": {
@@ -26799,8 +26797,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T14:00:09.030Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-19T20:49:57.952Z",
+    "since": "2021-11-19",
     "records": [
      {
       "source": "bedbugs",
@@ -27158,8 +27156,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T15:40:14.451Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-19T20:49:57.952Z",
+    "since": "2021-11-19",
     "records": [
      {
       "source": "hpd-violation",
@@ -27249,8 +27247,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-12T20:10:08.338Z",
-    "since": "2021-11-12",
+    "checkedAt": "2026-11-19T20:49:57.952Z",
+    "since": "2021-11-19",
     "records": [
      {
       "source": "bedbugs",
