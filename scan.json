@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-20T07:31:20.585Z",
+ "updatedAt": "2026-11-20T20:34:35.210Z",
  "listings": [
   {
    "id": "5196324",
@@ -12790,8 +12790,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-13T19:53:39.456Z",
-    "since": "2021-11-13",
+    "checkedAt": "2026-11-20T20:34:35.210Z",
+    "since": "2021-11-20",
     "records": [
      {
       "source": "hpd-violation",
@@ -17779,8 +17779,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-13T19:53:39.456Z",
-    "since": "2021-11-13",
+    "checkedAt": "2026-11-20T20:34:35.210Z",
+    "since": "2021-11-20",
     "records": [
      {
       "source": "hpd-violation",
@@ -24965,8 +24965,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-13T19:53:39.456Z",
-    "since": "2021-11-13",
+    "checkedAt": "2026-11-20T20:34:35.210Z",
+    "since": "2021-11-20",
     "records": [
      {
       "source": "hpd-complaint",
@@ -26689,8 +26689,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-13T19:53:39.456Z",
-    "since": "2021-11-13",
+    "checkedAt": "2026-11-20T20:34:35.210Z",
+    "since": "2021-11-20",
     "records": [
      {
       "source": "hpd-complaint",
@@ -26838,8 +26838,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-13T19:53:39.456Z",
-    "since": "2021-11-13",
+    "checkedAt": "2026-11-20T20:34:35.210Z",
+    "since": "2021-11-20",
     "records": [
      {
       "source": "hpd-violation",
@@ -26847,8 +26847,7 @@
       "kinds": [
        "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "6M",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at laundry room, 6th story",
       "status": "Open"
      },
      {
@@ -26857,7 +26856,8 @@
       "kinds": [
        "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at laundry room, 6th story",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "6M",
       "status": "Open"
      },
      {
@@ -27217,8 +27217,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-13T19:53:39.456Z",
-    "since": "2021-11-13",
+    "checkedAt": "2026-11-20T20:34:35.210Z",
+    "since": "2021-11-20",
     "records": [],
     "errors": {}
    }
