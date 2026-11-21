@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-21T07:27:09.996Z",
+ "updatedAt": "2026-11-21T19:32:33.349Z",
  "listings": [
   {
    "id": "5196324",
@@ -17574,8 +17574,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T18:19:51.872Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-21T19:32:33.349Z",
+    "since": "2021-11-21",
     "records": [
      {
       "source": "hpd-violation",
@@ -17634,30 +17634,12 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T18:19:51.872Z",
-    "since": "2021-11-14",
-    "records": [
-     {
-      "source": "hpd-violation",
-      "date": "2025-06-04",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2023-03-15",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     }
-    ],
-    "errors": {},
-    "hpdBuildingId": "13315"
+    "checkedAt": "2026-11-21T19:32:33.349Z",
+    "since": "2021-11-21",
+    "records": [],
+    "errors": {
+     "hpd-violation": "fetch failed"
+    }
    }
   },
   "119 baxter st": {
@@ -17676,8 +17658,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T18:19:51.872Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-21T19:32:33.349Z",
+    "since": "2021-11-21",
     "records": [
      {
       "source": "hpd-violation",
@@ -19367,8 +19349,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T18:19:51.872Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-21T19:32:33.349Z",
+    "since": "2021-11-21",
     "records": [
      {
       "source": "hpd-violation",
@@ -19400,8 +19382,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T18:19:51.872Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-21T19:32:33.349Z",
+    "since": "2021-11-21",
     "records": [
      {
       "source": "rat-inspection",
@@ -19450,8 +19432,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T18:19:51.872Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-21T19:32:33.349Z",
+    "since": "2021-11-21",
     "records": [
      {
       "source": "311",
@@ -19482,8 +19464,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-14T18:19:51.872Z",
-    "since": "2021-11-14",
+    "checkedAt": "2026-11-21T19:32:33.349Z",
+    "since": "2021-11-21",
     "records": [
      {
       "source": "hpd-complaint",
