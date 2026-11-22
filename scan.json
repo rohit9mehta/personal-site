@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-22T07:08:35.765Z",
+ "updatedAt": "2026-11-22T19:52:15.856Z",
  "listings": [
   {
    "id": "5196324",
@@ -17634,12 +17634,30 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-21T19:32:33.349Z",
-    "since": "2021-11-21",
-    "records": [],
-    "errors": {
-     "hpd-violation": "fetch failed"
-    }
+    "checkedAt": "2026-11-22T19:52:15.856Z",
+    "since": "2021-11-22",
+    "records": [
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-04",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2023-03-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "status": "Closed"
+     }
+    ],
+    "errors": {},
+    "hpdBuildingId": "13315"
    }
   },
   "119 baxter st": {
@@ -19207,8 +19225,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-15T18:59:01.323Z",
-    "since": "2021-11-15",
+    "checkedAt": "2026-11-22T19:52:15.856Z",
+    "since": "2021-11-22",
     "records": [
      {
       "source": "hpd-complaint",
