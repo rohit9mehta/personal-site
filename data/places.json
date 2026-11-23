@@ -2744,7 +2744,20 @@
   "noa-a-bakery--new-york-ny": {
     "name": "Noa, a Bakery",
     "city": "New York, NY",
-    "address": "92 Greenwich Avenue"
+    "address": "92 Greenwich Avenue",
+    "lat": 40.737852,
+    "lng": -74.0016708,
+    "precision": "exact",
+    "street": "92 Greenwich Avenue",
+    "postcode": "10011",
+    "neighborhood": "West Village",
+    "locality": "New York",
+    "region": "New York",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/13602784701",
+    "source": "nominatim",
+    "checked": "2026-11-23"
   },
   "nook--san-francisco-ca": {
     "name": "Nook",
