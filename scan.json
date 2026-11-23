@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-22T19:52:15.856Z",
+ "updatedAt": "2026-11-23T07:55:07.731Z",
  "listings": [
   {
    "id": "5196324",
@@ -19836,8 +19836,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T06:50:47.780Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-23T07:55:07.731Z",
+    "since": "2021-11-23",
     "records": [],
     "errors": {}
    }
@@ -20385,8 +20385,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T06:50:47.780Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-23T07:55:07.731Z",
+    "since": "2021-11-23",
     "records": [
      {
       "source": "bedbugs",
@@ -20424,8 +20424,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T06:50:47.780Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-23T07:55:07.731Z",
+    "since": "2021-11-23",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20568,8 +20568,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T06:50:47.780Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-23T07:55:07.731Z",
+    "since": "2021-11-23",
     "records": [
      {
       "source": "hpd-violation",
@@ -20617,7 +20617,9 @@
       "status": "Closed"
      }
     ],
-    "errors": {},
+    "errors": {
+     "rat-inspection": "fetch failed"
+    },
     "hpdBuildingId": "12492"
    }
   },
@@ -20637,8 +20639,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T06:50:47.780Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-23T07:55:07.731Z",
+    "since": "2021-11-23",
     "records": [
      {
       "source": "hpd-violation",
