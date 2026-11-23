@@ -2741,6 +2741,11 @@
     "source": "nominatim",
     "checked": "2026-11-14"
   },
+  "noa-a-bakery--new-york-ny": {
+    "name": "Noa, a Bakery",
+    "city": "New York, NY",
+    "address": "92 Greenwich Avenue"
+  },
   "nook--san-francisco-ca": {
     "name": "Nook",
     "city": "San Francisco, CA",
