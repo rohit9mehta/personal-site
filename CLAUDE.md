@@ -36,6 +36,8 @@ Rohit's personal site plus **One Sip**, a map of coffee shops he has rated out o
   newest first) and posts would go under `WRITING`. Don't put One Sip data or stats on it.
 - The intro in `index.html` (comment `INTRO`) is Rohit's to write. Don't write it for him; when he sends the text, put it
   in and drop the `is-draft` class and the draft note.
+- The hero name and the header mark are set in the same type so one can shrink into the other (`src/home/name.ts`); change
+  them together.
 - `public/og-home.png` is a 1200×630 render of the hero; re-render it if the hero changes a lot.
 
 ## Shortlist (apartments)

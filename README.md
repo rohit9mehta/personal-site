@@ -110,9 +110,9 @@ npm run build                            # static site in dist/
 
 ### How it's put together
 
-- **The homepage** (`index.html`, `src/home`) is plain TypeScript, no React: an intro, a list of projects, writing
-  (empty for now) and links. The hero is an artboard, like a frame in a design tool, with rulers, a grid and guides that
-  follow the cursor; clicking leaves a coffee ring (`src/home/artboard.ts`). Two themes, milk (light) and espresso
+- **The homepage** (`index.html`, `src/home`) is plain TypeScript, no React: the name, an intro, a list of projects and
+  links. The name is set big in a variable font; letters get heavier near the cursor (a tap sends a ripple through
+  them), and as you scroll it shrinks into the header (`src/home/name.ts`). Two themes, milk (light) and espresso
   (dark); the switch overrides the system setting. Set in Instrument Sans, Instrument Serif and JetBrains Mono.
 - **Vite + React + TypeScript**, three pages: `/` (`index.html`, `src/home`), `/onesip/` (`onesip/index.html`,
   `src/coffee`; the old `/coffee/` address redirects there from `public/coffee/`) and `/apartments/`
