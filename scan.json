@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T10:08:32.139Z",
+ "updatedAt": "2026-11-24T22:38:21.025Z",
  "listings": [
   {
    "id": "5196324",
@@ -20119,8 +20119,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T21:07:27.450Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T22:38:21.025Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -21131,8 +21131,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T21:07:27.450Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T22:38:21.025Z",
+    "since": "2021-11-24",
     "records": [],
     "errors": {}
    }
@@ -23282,8 +23282,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T21:07:27.450Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T22:38:21.025Z",
+    "since": "2021-11-24",
     "records": [],
     "errors": {}
    }
@@ -23304,8 +23304,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T21:07:27.450Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T22:38:21.025Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "rat-inspection",
@@ -23388,21 +23388,12 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T21:07:27.450Z",
-    "since": "2021-11-17",
-    "records": [
-     {
-      "source": "hpd-violation",
-      "date": "2024-04-01",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
-      "status": "Closed"
-     }
-    ],
-    "errors": {},
-    "hpdBuildingId": "14400"
+    "checkedAt": "2026-11-24T22:38:21.025Z",
+    "since": "2021-11-24",
+    "records": [],
+    "errors": {
+     "hpd-violation": "fetch failed"
+    }
    }
   },
   "255 e 50 st": {
@@ -23421,8 +23412,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T21:07:27.450Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T22:38:21.025Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "311",
