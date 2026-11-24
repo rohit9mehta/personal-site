@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-23T07:55:07.731Z",
+ "updatedAt": "2026-11-24T00:06:42.199Z",
  "listings": [
   {
    "id": "5196324",
@@ -19565,8 +19565,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -19576,15 +19576,6 @@
       ],
       "text": "Bed Bugs",
       "apartment": "14B",
-      "status": "Closed"
-     },
-     {
-      "source": "311",
-      "date": "2026-08-07",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "311: Condition Attracting Rodents",
       "status": "Closed"
      },
      {
@@ -19638,31 +19629,12 @@
       "status": "Closed"
      },
      {
-      "source": "hpd-violation",
-      "date": "2026-04-17",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "19F",
-      "status": "Closed"
-     },
-     {
       "source": "bedbugs",
       "date": "2025-12-18",
       "kinds": [
        "bedbugs"
       ],
       "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
-     },
-     {
-      "source": "311",
-      "date": "2025-12-08",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "311: Rat Sighting",
-      "status": "Closed"
      },
      {
       "source": "hpd-complaint",
@@ -19673,78 +19645,12 @@
       "text": "Roaches",
       "apartment": "2B",
       "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2024-06-05",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "9D",
-      "status": "Closed"
-     },
-     {
-      "source": "bedbugs",
-      "date": "2023-12-15",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
-     },
-     {
-      "source": "311",
-      "date": "2023-11-19",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "311: Rat Sighting",
-      "status": "Closed"
-     },
-     {
-      "source": "bedbugs",
-      "date": "2022-12-16",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "Landlord reported bedbugs in 3 of 156 apartments that year"
-     },
-     {
-      "source": "bedbugs",
-      "date": "2021-12-13",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "Landlord reported bedbugs in 1 of 66 apartments that year"
-     },
-     {
-      "source": "bedbugs",
-      "date": "2021-12-13",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "Landlord reported bedbugs in 1 of 156 apartments that year"
-     },
-     {
-      "source": "bedbugs",
-      "date": "2021-12-13",
-      "kinds": [
-       "bedbugs"
-      ],
-      "text": "Landlord reported bedbugs in 1 of 108 apartments that year"
-     },
-     {
-      "source": "311",
-      "date": "2021-12-11",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "311: Condition Attracting Rodents",
-      "status": "Closed"
      }
     ],
-    "errors": {},
-    "hpdBuildingId": "823865"
+    "errors": {
+     "311": "fetch failed",
+     "hpd-violation": "fetch failed"
+    }
    }
   },
   "225 e 39 st": {
@@ -20053,8 +19959,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20115,8 +20021,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "bedbugs",
@@ -20304,8 +20210,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -20699,8 +20605,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -20770,8 +20676,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -21124,8 +21030,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -21166,8 +21072,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -21177,16 +21083,6 @@
       ],
       "text": "Roaches",
       "apartment": "5C",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2024-09-04",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
-      "apartment": "5R",
       "status": "Closed"
      },
      {
@@ -21216,8 +21112,9 @@
       "text": "Health Department inspector found rat activity on the property"
      }
     ],
-    "errors": {},
-    "hpdBuildingId": "24593"
+    "errors": {
+     "hpd-violation": "fetch failed"
+    }
    }
   },
   "209 e 48 st": {
@@ -21330,8 +21227,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [],
     "errors": {}
    }
@@ -21352,8 +21249,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -21421,8 +21318,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -21604,8 +21501,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "rat-inspection",
@@ -21652,8 +21549,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -21703,8 +21600,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -21764,8 +21661,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -21801,8 +21698,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-16T22:22:12.413Z",
-    "since": "2021-11-16",
+    "checkedAt": "2026-11-24T00:06:42.199Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "rat-inspection",
@@ -22081,7 +21978,7 @@
      }
     ],
     "errors": {},
-    "hpdBuildingId": "804765"
+    "hpdBuildingId": "804766"
    }
   },
   "888 main st": {
