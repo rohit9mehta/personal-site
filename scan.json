@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T00:06:42.199Z",
+ "updatedAt": "2026-11-24T10:08:32.139Z",
  "listings": [
   {
    "id": "5196324",
@@ -17189,8 +17189,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [],
     "errors": {}
    }
@@ -20411,8 +20411,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20474,8 +20474,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-23T07:55:07.731Z",
-    "since": "2021-11-23",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -20523,9 +20523,7 @@
       "status": "Closed"
      }
     ],
-    "errors": {
-     "rat-inspection": "fetch failed"
-    },
+    "errors": {},
     "hpdBuildingId": "12492"
    }
   },
@@ -20718,8 +20716,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20780,8 +20778,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -20981,8 +20979,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "311",
@@ -21997,8 +21995,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -22352,8 +22350,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -22534,8 +22532,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -22586,8 +22584,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -22771,8 +22769,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -22850,8 +22848,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -22924,8 +22922,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -22965,8 +22963,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [],
     "errors": {}
    }
@@ -22987,8 +22985,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-violation",
@@ -23094,8 +23092,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "hpd-complaint",
@@ -23194,8 +23192,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "rat-inspection",
@@ -23235,8 +23233,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-17T08:10:30.692Z",
-    "since": "2021-11-17",
+    "checkedAt": "2026-11-24T10:08:32.139Z",
+    "since": "2021-11-24",
     "records": [
      {
       "source": "rat-inspection",
