@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T22:38:21.025Z",
+ "updatedAt": "2026-11-25T08:53:52.859Z",
  "listings": [
   {
    "id": "5196324",
@@ -5981,8 +5981,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-complaint",
@@ -6018,16 +6018,6 @@
       "source": "hpd-complaint",
       "date": "2026-10-07",
       "kinds": [
-       "roaches"
-      ],
-      "text": "Roaches",
-      "apartment": "5",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-complaint",
-      "date": "2026-10-07",
-      "kinds": [
        "bedbugs"
       ],
       "text": "Bed Bugs",
@@ -6041,7 +6031,7 @@
        "roaches"
       ],
       "text": "Roaches",
-      "apartment": "9",
+      "apartment": "5",
       "status": "Closed"
      },
      {
@@ -6061,6 +6051,16 @@
        "rodents"
       ],
       "text": "Mice",
+      "apartment": "9",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2026-10-07",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
       "apartment": "9",
       "status": "Closed"
      },
@@ -6224,8 +6224,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "311",
@@ -6256,8 +6256,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -6307,8 +6307,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "bedbugs",
@@ -6348,8 +6348,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "bedbugs",
@@ -6379,8 +6379,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -6416,9 +6416,9 @@
       "source": "hpd-violation",
       "date": "2026-10-08",
       "kinds": [
-       "roaches"
+       "rodents"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from north",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the 1st room from north",
       "apartment": "819",
       "status": "Open"
      },
@@ -6426,9 +6426,9 @@
       "source": "hpd-violation",
       "date": "2026-10-08",
       "kinds": [
-       "rodents"
+       "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the 1st room from north",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from north",
       "apartment": "819",
       "status": "Open"
      },
@@ -6466,9 +6466,9 @@
       "source": "hpd-complaint",
       "date": "2026-09-17",
       "kinds": [
-       "roaches"
+       "rodents"
       ],
-      "text": "Roaches",
+      "text": "Mice",
       "apartment": "608",
       "status": "Closed"
      },
@@ -6476,9 +6476,9 @@
       "source": "hpd-complaint",
       "date": "2026-09-17",
       "kinds": [
-       "rodents"
+       "roaches"
       ],
-      "text": "Mice",
+      "text": "Roaches",
       "apartment": "608",
       "status": "Closed"
      },
@@ -6525,9 +6525,9 @@
       "source": "hpd-complaint",
       "date": "2026-08-20",
       "kinds": [
-       "rodents"
+       "roaches"
       ],
-      "text": "Mice",
+      "text": "Roaches",
       "apartment": "919",
       "status": "Closed"
      },
@@ -6535,9 +6535,9 @@
       "source": "hpd-complaint",
       "date": "2026-08-20",
       "kinds": [
-       "roaches"
+       "rodents"
       ],
-      "text": "Roaches",
+      "text": "Mice",
       "apartment": "919",
       "status": "Closed"
      },
@@ -6663,9 +6663,9 @@
       "source": "hpd-complaint",
       "date": "2026-04-17",
       "kinds": [
-       "rodents"
+       "roaches"
       ],
-      "text": "Mice",
+      "text": "Roaches",
       "apartment": "1003",
       "status": "Closed"
      },
@@ -6673,9 +6673,9 @@
       "source": "hpd-complaint",
       "date": "2026-04-17",
       "kinds": [
-       "roaches"
+       "rodents"
       ],
-      "text": "Roaches",
+      "text": "Mice",
       "apartment": "1003",
       "status": "Closed"
      },
@@ -6712,9 +6712,9 @@
       "source": "hpd-complaint",
       "date": "2026-03-17",
       "kinds": [
-       "roaches"
+       "rodents"
       ],
-      "text": "Roaches",
+      "text": "Mice",
       "apartment": "913",
       "status": "Closed"
      },
@@ -6722,9 +6722,9 @@
       "source": "hpd-complaint",
       "date": "2026-03-17",
       "kinds": [
-       "rodents"
+       "roaches"
       ],
-      "text": "Mice",
+      "text": "Roaches",
       "apartment": "913",
       "status": "Closed"
      },
@@ -6917,20 +6917,20 @@
       "source": "hpd-violation",
       "date": "2025-09-25",
       "kinds": [
-       "rodents"
+       "other"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
-      "apartment": "234",
-      "status": "Open"
+      "text": "566 (b) 27-2021.4 hmc: abate the nuisance consisting of pests. evidence of flies at basement",
+      "status": "Closed"
      },
      {
       "source": "hpd-violation",
       "date": "2025-09-25",
       "kinds": [
-       "other"
+       "rodents"
       ],
-      "text": "566 (b) 27-2021.4 hmc: abate the nuisance consisting of pests. evidence of flies at basement",
-      "status": "Closed"
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "234",
+      "status": "Open"
      },
      {
       "source": "hpd-complaint",
@@ -7026,19 +7026,10 @@
       "source": "hpd-violation",
       "date": "2025-06-02",
       "kinds": [
-       "rodents"
+       "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice at cellar",
-      "status": "Open"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2025-06-02",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice",
-      "apartment": "327",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "827",
       "status": "Open"
      },
      {
@@ -7055,10 +7046,19 @@
       "source": "hpd-violation",
       "date": "2025-06-02",
       "kinds": [
-       "roaches"
+       "rodents"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
-      "apartment": "827",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice",
+      "apartment": "327",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2025-06-02",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice at cellar",
       "status": "Open"
      },
      {
@@ -7094,9 +7094,9 @@
       "source": "hpd-complaint",
       "date": "2025-03-17",
       "kinds": [
-       "roaches"
+       "other"
       ],
-      "text": "Roaches",
+      "text": "Pests (other)",
       "apartment": "3283RD",
       "status": "Closed"
      },
@@ -7104,9 +7104,9 @@
       "source": "hpd-complaint",
       "date": "2025-03-17",
       "kinds": [
-       "other"
+       "roaches"
       ],
-      "text": "Pests (other)",
+      "text": "Roaches",
       "apartment": "3283RD",
       "status": "Closed"
      },
@@ -7184,6 +7184,16 @@
       "source": "hpd-complaint",
       "date": "2025-01-24",
       "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2025-01-24",
+      "kinds": [
        "bedbugs"
       ],
       "text": "Bed Bugs",
@@ -7197,16 +7207,6 @@
        "roaches"
       ],
       "text": "Roaches",
-      "apartment": "606",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-complaint",
-      "date": "2025-01-24",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "Mice",
       "apartment": "606",
       "status": "Closed"
      },
@@ -7254,9 +7254,9 @@
       "source": "hpd-complaint",
       "date": "2024-12-27",
       "kinds": [
-       "roaches"
+       "rodents"
       ],
-      "text": "Roaches",
+      "text": "Mice",
       "apartment": "608",
       "status": "Closed"
      },
@@ -7264,9 +7264,9 @@
       "source": "hpd-complaint",
       "date": "2024-12-27",
       "kinds": [
-       "rodents"
+       "roaches"
       ],
-      "text": "Mice",
+      "text": "Roaches",
       "apartment": "608",
       "status": "Closed"
      },
@@ -7411,16 +7411,6 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
-      "apartment": "507",
-      "status": "Open"
-     },
-     {
-      "source": "hpd-violation",
-      "date": "2024-09-30",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
       "apartment": "827",
       "status": "Open"
      },
@@ -7452,6 +7442,16 @@
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
       "apartment": "926",
+      "status": "Open"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-09-30",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "507",
       "status": "Open"
      },
      {
@@ -7642,8 +7642,8 @@
       "kinds": [
        "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from east",
-      "apartment": "818",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from north",
+      "apartment": "327",
       "status": "Open"
      },
      {
@@ -7662,8 +7662,8 @@
       "kinds": [
        "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from north",
-      "apartment": "327",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the 1st room from east",
+      "apartment": "818",
       "status": "Open"
      },
      {
@@ -7776,18 +7776,18 @@
       "source": "hpd-violation",
       "date": "2023-03-15",
       "kinds": [
-       "other"
+       "bedbugs"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of vermin flies at compactor closet, 6th story",
+      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
       "status": "Closed"
      },
      {
       "source": "hpd-violation",
       "date": "2023-03-15",
       "kinds": [
-       "bedbugs"
+       "other"
       ],
-      "text": "(a) § hmc:file annual bedbug report in accordance with hpd rule as described on the back of this notice of violation or as described on hpd\u001as website, www.nyc.gov\\hpd, search bed bugs.",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of vermin flies at compactor closet, 6th story",
       "status": "Closed"
      },
      {
@@ -7872,9 +7872,9 @@
       "source": "hpd-complaint",
       "date": "2022-12-16",
       "kinds": [
-       "rodents"
+       "other"
       ],
-      "text": "Mice",
+      "text": "Flies",
       "apartment": "818",
       "status": "Closed"
      },
@@ -7882,9 +7882,9 @@
       "source": "hpd-complaint",
       "date": "2022-12-16",
       "kinds": [
-       "other"
+       "rodents"
       ],
-      "text": "Flies",
+      "text": "Mice",
       "apartment": "818",
       "status": "Closed"
      },
@@ -7914,8 +7914,8 @@
       "kinds": [
        "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "305",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
+      "apartment": "727",
       "status": "Closed"
      },
      {
@@ -7924,8 +7924,8 @@
       "kinds": [
        "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches",
-      "apartment": "727",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "305",
       "status": "Closed"
      },
      {
@@ -7955,7 +7955,7 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "217",
+      "apartment": "327",
       "status": "Closed"
      },
      {
@@ -7965,7 +7965,7 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "327",
+      "apartment": "217",
       "status": "Closed"
      },
      {
@@ -7977,16 +7977,6 @@
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
       "apartment": "535",
       "status": "Open"
-     },
-     {
-      "source": "hpd-complaint",
-      "date": "2022-11-26",
-      "kinds": [
-       "roaches"
-      ],
-      "text": "Roaches",
-      "apartment": "606",
-      "status": "Closed"
      },
      {
       "source": "hpd-complaint",
@@ -8005,6 +7995,16 @@
        "other"
       ],
       "text": "Pests (other)",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-11-26",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Roaches",
       "apartment": "606",
       "status": "Closed"
      },
@@ -8032,9 +8032,9 @@
       "source": "hpd-complaint",
       "date": "2022-11-08",
       "kinds": [
-       "other"
+       "roaches"
       ],
-      "text": "Pests (other)",
+      "text": "Roaches",
       "apartment": "606",
       "status": "Closed"
      },
@@ -8042,9 +8042,9 @@
       "source": "hpd-complaint",
       "date": "2022-11-08",
       "kinds": [
-       "roaches"
+       "other"
       ],
-      "text": "Roaches",
+      "text": "Pests (other)",
       "apartment": "606",
       "status": "Closed"
      },
@@ -8142,6 +8142,16 @@
       "source": "hpd-complaint",
       "date": "2022-10-08",
       "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "606",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-complaint",
+      "date": "2022-10-08",
+      "kinds": [
        "roaches"
       ],
       "text": "Roaches",
@@ -8155,16 +8165,6 @@
        "bedbugs"
       ],
       "text": "Bed Bugs",
-      "apartment": "606",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-complaint",
-      "date": "2022-10-08",
-      "kinds": [
-       "rodents"
-      ],
-      "text": "Mice",
       "apartment": "606",
       "status": "Closed"
      },
@@ -8204,7 +8204,7 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "615",
+      "apartment": "328",
       "status": "Closed"
      },
      {
@@ -8214,7 +8214,7 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "328",
+      "apartment": "615",
       "status": "Closed"
      },
      {
@@ -8260,9 +8260,9 @@
       "source": "hpd-complaint",
       "date": "2022-07-25",
       "kinds": [
-       "other"
+       "rodents"
       ],
-      "text": "Flies",
+      "text": "Mice",
       "apartment": "818",
       "status": "Closed"
      },
@@ -8270,9 +8270,9 @@
       "source": "hpd-complaint",
       "date": "2022-07-25",
       "kinds": [
-       "rodents"
+       "other"
       ],
-      "text": "Mice",
+      "text": "Flies",
       "apartment": "818",
       "status": "Closed"
      },
@@ -8293,8 +8293,8 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the room",
-      "apartment": "833",
-      "status": "Closed"
+      "apartment": "327",
+      "status": "Open"
      },
      {
       "source": "hpd-violation",
@@ -8303,8 +8303,8 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the room",
-      "apartment": "327",
-      "status": "Open"
+      "apartment": "833",
+      "status": "Closed"
      },
      {
       "source": "hpd-complaint",
@@ -8425,9 +8425,9 @@
       "source": "hpd-complaint",
       "date": "2021-12-16",
       "kinds": [
-       "rodents"
+       "roaches"
       ],
-      "text": "Mice",
+      "text": "Roaches",
       "apartment": "928",
       "status": "Closed"
      },
@@ -8435,9 +8435,9 @@
       "source": "hpd-complaint",
       "date": "2021-12-16",
       "kinds": [
-       "roaches"
+       "rodents"
       ],
-      "text": "Roaches",
+      "text": "Mice",
       "apartment": "928",
       "status": "Closed"
      },
@@ -8472,8 +8472,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -8485,7 +8485,10 @@
       "status": "Open"
      }
     ],
-    "errors": {},
+    "errors": {
+     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
+     "rat-inspection": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
+    },
     "hpdBuildingId": "13827"
    }
   },
@@ -8505,8 +8508,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -8524,16 +8527,6 @@
        "rodents"
       ],
       "text": "311: Rat Sighting",
-      "status": "Closed"
-     },
-     {
-      "source": "hpd-complaint",
-      "date": "2021-11-22",
-      "kinds": [
-       "other"
-      ],
-      "text": "Pests (other)",
-      "apartment": "9L",
       "status": "Closed"
      }
     ],
@@ -8557,9 +8550,18 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
+     {
+      "source": "311",
+      "date": "2026-11-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "In Progress"
+     },
      {
       "source": "hpd-complaint",
       "date": "2026-09-26",
@@ -8883,8 +8885,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -8988,8 +8990,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -9200,8 +9202,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -9434,9 +9436,18 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
+     {
+      "source": "311",
+      "date": "2026-11-21",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "In Progress"
+     },
      {
       "source": "hpd-violation",
       "date": "2024-04-16",
@@ -9622,8 +9633,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [],
     "errors": {}
    }
@@ -9644,8 +9655,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "311",
@@ -9676,8 +9687,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -9852,8 +9863,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "bedbugs",
@@ -9926,8 +9937,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -19565,8 +19576,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-24T00:06:42.199Z",
-    "since": "2021-11-24",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-complaint",
@@ -19576,6 +19587,15 @@
       ],
       "text": "Bed Bugs",
       "apartment": "14B",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2026-08-07",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
       "status": "Closed"
      },
      {
@@ -19629,12 +19649,31 @@
       "status": "Closed"
      },
      {
+      "source": "hpd-violation",
+      "date": "2026-04-17",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "19F",
+      "status": "Closed"
+     },
+     {
       "source": "bedbugs",
       "date": "2025-12-18",
       "kinds": [
        "bedbugs"
       ],
       "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2025-12-08",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
      },
      {
       "source": "hpd-complaint",
@@ -19645,12 +19684,46 @@
       "text": "Roaches",
       "apartment": "2B",
       "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-06-05",
+      "kinds": [
+       "roaches"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "9D",
+      "status": "Closed"
+     },
+     {
+      "source": "bedbugs",
+      "date": "2023-12-15",
+      "kinds": [
+       "bedbugs"
+      ],
+      "text": "Landlord reported bedbugs in 1 of 90 apartments that year"
+     },
+     {
+      "source": "311",
+      "date": "2023-11-19",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Rat Sighting",
+      "status": "Closed"
+     },
+     {
+      "source": "311",
+      "date": "2021-12-11",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "311: Condition Attracting Rodents",
+      "status": "Closed"
      }
     ],
-    "errors": {
-     "311": "fetch failed",
-     "hpd-violation": "fetch failed"
-    }
+    "errors": {},
+    "hpdBuildingId": "823865"
    }
   },
   "225 e 39 st": {
@@ -21070,8 +21143,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-24T00:06:42.199Z",
-    "since": "2021-11-24",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-complaint",
@@ -21081,6 +21154,16 @@
       ],
       "text": "Roaches",
       "apartment": "5C",
+      "status": "Closed"
+     },
+     {
+      "source": "hpd-violation",
+      "date": "2024-09-04",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of mice in the entire apartment",
+      "apartment": "5R",
       "status": "Closed"
      },
      {
@@ -21110,9 +21193,8 @@
       "text": "Health Department inspector found rat activity on the property"
      }
     ],
-    "errors": {
-     "hpd-violation": "fetch failed"
-    }
+    "errors": {},
+    "hpdBuildingId": "24593"
    }
   },
   "209 e 48 st": {
@@ -21153,8 +21235,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -21353,8 +21435,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -23472,8 +23554,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -23620,8 +23702,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "bedbugs",
@@ -23677,8 +23759,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -23710,8 +23792,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [],
     "errors": {}
    }
@@ -23754,8 +23836,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-complaint",
@@ -23886,8 +23968,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -24330,8 +24412,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [],
     "errors": {}
    }
@@ -24352,8 +24434,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "bedbugs",
@@ -24442,8 +24524,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -24611,8 +24693,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -24660,8 +24742,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -24739,8 +24821,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -24814,8 +24896,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -24958,8 +25040,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T07:44:14.127Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T08:53:52.859Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
