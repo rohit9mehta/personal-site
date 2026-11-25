@@ -1015,6 +1015,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "captain-daveys-coffee-and-ice-cream--bodega-bay-ca": {
+    "name": "Captain Davey’s Coffee and Ice Cream",
+    "city": "Bodega Bay, CA",
+    "address": "537 Smith Brothers Road"
+  },
   "captain-stoker--monterey-ca": {
     "name": "Captain + Stoker",
     "city": "Monterey, CA",
