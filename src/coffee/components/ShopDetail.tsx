@@ -15,7 +15,8 @@ const DAY = new Intl.DateTimeFormat('en', { month: 'short', day: 'numeric', year
 
 export function formatVisitDate(date: string): string {
   const [y, m, d] = date.split('-').map(Number);
-  const when = new Date(Date.UTC(y!, (m ?? 1) - 1, d ?? 1));
+  if (m === undefined) return String(y);
+  const when = new Date(Date.UTC(y!, m - 1, d ?? 1));
   return d ? DAY.format(when) : MONTH.format(when);
 }
 

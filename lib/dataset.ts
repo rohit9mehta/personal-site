@@ -67,10 +67,10 @@ export interface Shop {
   /** 1 = best. Ties share a rank. */
   rank: number;
   /**
-   * Line of the latest rating in data/coffee.csv, which is in the order cafés
-   * were rated. Unset for the early rows whose order isn't known.
+   * Place in the order cafés were last rated: higher is more recent. Unset for
+   * the early rows whose order isn't known.
    */
-  logged?: number;
+  recency?: number;
   /** Oldest first. */
   visits: Visit[];
   note?: string;
@@ -142,9 +142,10 @@ export function parseScore(raw: string): number | null {
   return score >= 0 && score <= 10 ? score : null;
 }
 
-/** Accepts 2024-03-05, 2024-03, or US-style 3/5/2024. Returns ISO or null. */
+/** Accepts 2024-03-05, 2024-03, 2024, or US-style 3/5/2024. Returns ISO or null. */
 export function parseDate(raw: string): string | null {
   const value = raw.trim();
+  if (/^\d{4}$/.test(value)) return Number(value) >= 1900 && Number(value) <= 2200 ? value : null;
   let year: number;
   let month: number;
   let day: number | undefined;
@@ -262,7 +263,17 @@ export function buildDataset(
     else byKey.set(key, [row]);
   }
 
+  // When each row was rated, as far as the file says: its date, or for an
+  // undated row, no later than the next dated one, since the file is a log.
+  const ratedBy = new Map<RatingRow, string>();
+  let next = '9999';
+  for (const row of [...rows].reverse()) {
+    if (row.date) next = row.date;
+    ratedBy.set(row, row.date ?? next);
+  }
+
   const inOrderFrom = rows.find((row) => placeKey(row.name, row.city) === FIRST_IN_ORDER)?.line ?? 0;
+  const latestRows = new Map<Shop, RatingRow>();
   const shops: Shop[] = [];
   const unlocated: string[] = [];
   for (const [id, visitsRows] of byKey) {
@@ -280,7 +291,7 @@ export function buildDataset(
     const note = [...visitsRows].reverse().find((r) => r.note)?.note;
     if (note) shop.note = note;
     if (latest.date) shop.date = latest.date;
-    if (latest.line >= inOrderFrom) shop.logged = latest.line;
+    latestRows.set(shop, latest);
     if (isMultiLocation(latest.city)) {
       shop.multiLocation = true;
     } else if (place && typeof place.lat === 'number' && typeof place.lng === 'number') {
@@ -299,6 +310,16 @@ export function buildDataset(
     if (place?.osm) shop.osm = place.osm;
     shops.push(shop);
   }
+
+  // Rated earlier first; ties (an undated stretch of the log) keep file order.
+  const ordered = shops
+    .map((shop) => ({ shop, row: latestRows.get(shop)! }))
+    .filter(({ row }) => row.line >= inOrderFrom)
+    .sort((a, b) => {
+      const [x, y] = [ratedBy.get(a.row)!, ratedBy.get(b.row)!];
+      return x === y ? a.row.line - b.row.line : x < y ? -1 : 1;
+    });
+  ordered.forEach(({ shop }, i) => (shop.recency = i + 1));
 
   shops.sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
   shops.forEach((shop, i) => {

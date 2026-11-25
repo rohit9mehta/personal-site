@@ -54,8 +54,8 @@ describe('sortShops', () => {
     const log = [
       shop('Old good', 'X', 9),
       shop('Old bad', 'X', 6),
-      shop('First logged', 'X', 7, { logged: 10 }),
-      shop('Last logged', 'X', 8, { logged: 12 }),
+      shop('First logged', 'X', 7, { recency: 1 }),
+      shop('Last logged', 'X', 8, { recency: 2 }),
     ];
     expect(sortShops(log, 'recent').map((s) => s.name)).toEqual(['Last logged', 'First logged', 'Old good', 'Old bad']);
   });

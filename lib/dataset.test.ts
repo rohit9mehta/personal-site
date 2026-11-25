@@ -42,6 +42,7 @@ describe('parseDate', () => {
     expect(parseDate('2026-03')).toBe('2026-03');
     expect(parseDate('3/5/2024')).toBe('2024-03-05');
     expect(parseDate('3/5/24')).toBe('2024-03-05');
+    expect(parseDate('2024')).toBe('2024');
   });
 
   it('rejects impossible dates', () => {
@@ -167,10 +168,22 @@ describe('buildDataset', () => {
     expect(unlocated).toEqual([]);
   });
 
-  it('records where each café last appears in the log', () => {
+  it('orders cafés by when they were last rated', () => {
     const { dataset } = buildDataset(csv, places);
-    const logged = Object.fromEntries(dataset.shops.map((s) => [s.name, s.logged]));
-    expect(logged).toEqual({ Fuglen: 4, 'sightglass coffee': 5, Ritual: 3, 'Unknown Spot': 6 });
+    const recency = Object.fromEntries(dataset.shops.map((s) => [s.name, s.recency]));
+    expect(recency).toEqual({ Ritual: 1, Fuglen: 2, 'sightglass coffee': 3, 'Unknown Spot': 4 });
+  });
+
+  it('places a remembered old visit by its date, not where it was logged', () => {
+    const log = [
+      'name,city,score,date',
+      'From the sheet,X,7,',
+      'Logged,X,8,2026-10-21',
+      'Today,X,8,2026-11-25',
+      'Remembered,X,6,2024',
+    ].join('\n');
+    const recency = Object.fromEntries(buildDataset(log, {}).dataset.shops.map((s) => [s.name, s.recency]));
+    expect(recency).toEqual({ Remembered: 1, 'From the sheet': 2, Logged: 3, Today: 4 });
   });
 
   it('leaves the rows from the score-sorted spreadsheet out of the log order', () => {
@@ -182,8 +195,8 @@ describe('buildDataset', () => {
       'Newest,Oakland,8',
       'Worst,Oakland,6.5',
     ].join('\n');
-    const logged = Object.fromEntries(buildDataset(log, {}).dataset.shops.map((s) => [s.name, s.logged]));
-    expect(logged).toEqual({ Best: undefined, 'Pixlcat Coffee': 4, Newest: 5, Worst: 6 });
+    const recency = Object.fromEntries(buildDataset(log, {}).dataset.shops.map((s) => [s.name, s.recency]));
+    expect(recency).toEqual({ Best: undefined, 'Pixlcat Coffee': 1, Newest: 2, Worst: 3 });
   });
 
   it('lists cafés that have no coordinates yet', () => {

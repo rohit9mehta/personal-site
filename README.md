@@ -17,8 +17,10 @@ name,city,score,date,note
 Sightglass Coffee,San Francisco,8.5,2026-10-21,
 ```
 
-- `name`, `city`, `score` (0–10, decimals fine) are required. `date` (YYYY-MM-DD) and `note` are optional — leave
-  them off entirely if you like: `Sightglass Coffee,San Francisco,8.5`
+- `name`, `city`, `score` (0–10, decimals fine) are required. `date` (YYYY-MM-DD, or just YYYY-MM or YYYY for an old
+  visit you only roughly remember) and `note` are optional — leave them off entirely if you like:
+  `Sightglass Coffee,San Francisco,8.5`. "Most recent" goes by the date, so a remembered old visit doesn't jump to the
+  top.
 - If a value contains a comma, wrap it in double quotes: `"Coffee, Etc.","Portland, OR",7`
 - Went back? Add another line with the same name and city. The newest line is the current score; the map shows the
   history.

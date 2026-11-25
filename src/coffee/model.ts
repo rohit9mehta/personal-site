@@ -97,7 +97,7 @@ export function sortShops(shops: Shop[], key: SortKey): Shop[] {
       );
     case 'recent':
       // Latest rated first; cafés from before the log kept its order come last, best first.
-      return list.sort((a, b) => (b.logged ?? 0) - (a.logged ?? 0) || b.score - a.score || byName(a, b));
+      return list.sort((a, b) => (b.recency ?? 0) - (a.recency ?? 0) || b.score - a.score || byName(a, b));
   }
 }
 
@@ -163,5 +163,5 @@ export function histogram(shops: Shop[], step = 0.25, floor = 6): Bucket[] {
 
 /** Whether "Most recent" means anything: some café's place in the log is known. */
 export function hasRecency(shops: Shop[]): boolean {
-  return shops.some((s) => s.logged);
+  return shops.some((s) => s.recency);
 }
