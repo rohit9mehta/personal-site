@@ -1018,7 +1018,19 @@
   "captain-daveys-coffee-and-ice-cream--bodega-bay-ca": {
     "name": "Captain Davey’s Coffee and Ice Cream",
     "city": "Bodega Bay, CA",
-    "address": "537 Smith Brothers Road"
+    "address": "537 Smith Brothers Road",
+    "lat": 38.3244512,
+    "lng": -123.0388412,
+    "precision": "exact",
+    "street": "537 Smith Brother Road",
+    "postcode": "94923",
+    "locality": "Bodega Bay",
+    "region": "California",
+    "country": "United States",
+    "countryCode": "us",
+    "osm": "node/10864766087",
+    "source": "nominatim",
+    "checked": "2026-11-25"
   },
   "captain-stoker--monterey-ca": {
     "name": "Captain + Stoker",
