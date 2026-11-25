@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-25T08:53:52.859Z",
+ "updatedAt": "2026-11-25T21:51:20.248Z",
  "listings": [
   {
    "id": "5196324",
@@ -10048,8 +10048,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -10097,8 +10097,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -10190,8 +10190,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-complaint",
@@ -10328,8 +10328,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -10379,8 +10379,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -10448,8 +10448,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-complaint",
@@ -10508,8 +10508,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -10550,8 +10550,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -11045,7 +11045,8 @@
       "kinds": [
        "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at public hall, 24th story",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
+      "apartment": "24A",
       "status": "Open"
      },
      {
@@ -11054,8 +11055,7 @@
       "kinds": [
        "roaches"
       ],
-      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "24A",
+      "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches at public hall, 24th story",
       "status": "Open"
      },
      {
@@ -11353,8 +11353,8 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "20K",
-      "status": "Open"
+      "apartment": "4A",
+      "status": "Closed"
      },
      {
       "source": "hpd-violation",
@@ -11363,8 +11363,8 @@
        "roaches"
       ],
       "text": "Hmc adm code: § 27-2017.4 abate the infestation consisting of roaches in the entire apartment",
-      "apartment": "4A",
-      "status": "Closed"
+      "apartment": "20K",
+      "status": "Open"
      },
      {
       "source": "hpd-complaint",
@@ -11507,8 +11507,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "311",
@@ -18909,8 +18909,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-violation",
@@ -25150,8 +25150,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "311",
@@ -25237,8 +25237,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
@@ -25311,8 +25311,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "hpd-complaint",
@@ -25396,8 +25396,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-18T20:44:12.366Z",
-    "since": "2021-11-18",
+    "checkedAt": "2026-11-25T21:51:20.248Z",
+    "since": "2021-11-25",
     "records": [
      {
       "source": "rat-inspection",
