@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-26T08:39:10.657Z",
+ "updatedAt": "2026-11-26T21:45:10.789Z",
  "listings": [
   {
    "id": "5196324",
@@ -8472,8 +8472,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-25T08:53:52.859Z",
-    "since": "2021-11-25",
+    "checkedAt": "2026-11-26T21:45:10.789Z",
+    "since": "2021-11-26",
     "records": [
      {
       "source": "hpd-violation",
@@ -8485,10 +8485,7 @@
       "status": "Open"
      }
     ],
-    "errors": {
-     "311": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
-     "rat-inspection": "HTTP 503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}"
-    },
+    "errors": {},
     "hpdBuildingId": "13827"
    }
   },
@@ -13770,8 +13767,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-19T20:49:57.952Z",
-    "since": "2021-11-19",
+    "checkedAt": "2026-11-26T21:45:10.789Z",
+    "since": "2021-11-26",
     "records": [
      {
       "source": "rat-inspection",
@@ -13906,9 +13903,19 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-19T20:49:57.952Z",
-    "since": "2021-11-19",
+    "checkedAt": "2026-11-26T21:45:10.789Z",
+    "since": "2021-11-26",
     "records": [
+     {
+      "source": "hpd-complaint",
+      "date": "2026-11-20",
+      "kinds": [
+       "rodents"
+      ],
+      "text": "Mice",
+      "apartment": "5A",
+      "status": "Open"
+     },
      {
       "source": "bedbugs",
       "date": "2025-12-01",
@@ -14050,8 +14057,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-19T20:49:57.952Z",
-    "since": "2021-11-19",
+    "checkedAt": "2026-11-26T21:45:10.789Z",
+    "since": "2021-11-26",
     "records": [],
     "errors": {}
    }
@@ -24495,8 +24502,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-19T20:49:57.952Z",
-    "since": "2021-11-19",
+    "checkedAt": "2026-11-26T21:45:10.789Z",
+    "since": "2021-11-26",
     "records": [
      {
       "source": "hpd-complaint",
@@ -26781,8 +26788,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-19T20:49:57.952Z",
-    "since": "2021-11-19",
+    "checkedAt": "2026-11-26T21:45:10.789Z",
+    "since": "2021-11-26",
     "records": [
      {
       "source": "bedbugs",
@@ -27140,8 +27147,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-19T20:49:57.952Z",
-    "since": "2021-11-19",
+    "checkedAt": "2026-11-26T21:45:10.789Z",
+    "since": "2021-11-26",
     "records": [
      {
       "source": "hpd-violation",
@@ -27231,8 +27238,8 @@
     "source": "geosearch"
    },
    "records": {
-    "checkedAt": "2026-11-19T20:49:57.952Z",
-    "since": "2021-11-19",
+    "checkedAt": "2026-11-26T21:45:10.789Z",
+    "since": "2021-11-26",
     "records": [
      {
       "source": "bedbugs",
