@@ -1473,7 +1473,20 @@
   "derissa-coffee--paris-france": {
     "name": "Derissa Coffee",
     "city": "Paris, France",
-    "address": "40 Rue Chapon"
+    "address": "40 Rue Chapon",
+    "lat": 48.8638904,
+    "lng": 2.3546239,
+    "precision": "exact",
+    "street": "40 Rue Chapon",
+    "postcode": "75003",
+    "neighborhood": "3rd Arrondissement",
+    "locality": "Paris",
+    "region": "Ile-de-France",
+    "country": "France",
+    "countryCode": "fr",
+    "osm": "node/3280902261",
+    "source": "nominatim",
+    "checked": "2026-11-27"
   },
   "devocion--new-york-ny": {
     "name": "Devoción",
