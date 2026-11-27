@@ -1470,6 +1470,11 @@
     "source": "nominatim",
     "checked": "2026-10-21"
   },
+  "derissa-coffee--paris-france": {
+    "name": "Derissa Coffee",
+    "city": "Paris, France",
+    "address": "40 Rue Chapon"
+  },
   "devocion--new-york-ny": {
     "name": "Devoción",
     "city": "New York, NY",
